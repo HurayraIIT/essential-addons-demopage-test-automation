@@ -1,14 +1,16 @@
 // @ts-check
 import { defineConfig, devices } from '@playwright/test';
 import { config } from 'dotenv';
+import { test } from './global-setup';
 
 config();
 
 export default defineConfig({
   testDir: "./tests",
   fullyParallel: true,
-  retries: process.env.CI ? 2 : 1,
+  retries: process.env.CI ? 2 : 0,
   workers: process.env.CI ? 1 : 4,
+  timeout: 30 * 1000,
 
   reporter: process.env.CI
     ? [
@@ -32,6 +34,7 @@ export default defineConfig({
 
   use: {
     baseURL: process.env.BASE_URL,
+    testIdAttribute: "data-id",
 
     screenshot: "on",
     trace: "retain-on-failure",
@@ -44,18 +47,17 @@ export default defineConfig({
   projects: [
     {
       name: "chromium",
-      use: { ...devices["Desktop Chrome"] },
+      use: { ...devices["Desktop Chrome"], ...test },
     },
 
     {
       name: "firefox",
-      use: { ...devices["Desktop Firefox"] },
+      use: { ...devices["Desktop Firefox"], ...test },
     },
 
     {
       name: "webkit",
-      use: { ...devices["Desktop Safari"] },
+      use: { ...devices["Desktop Safari"], ...test },
     },
   ],
 });
-
