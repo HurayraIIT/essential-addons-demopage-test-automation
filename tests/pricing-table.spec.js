@@ -14,9 +14,7 @@ test.describe("Pricing Table", () => {
     });
 
     test("Test Section: Pricing Table Style 01", async ({ page }) => {
-        await page.getByRole("heading", {
-            name: "Pricing Table Style 01"
-        }).scrollIntoViewIfNeeded();
+        await page.getByRole("heading", { name: "Pricing Table Style 01" }).scrollIntoViewIfNeeded();
         await expect(page.getByRole("heading", { name: "Pricing Table Style 01" })).toBeVisible();
         await expect(page.getByText("Display product pricing table using default style")).toBeVisible();
     });
