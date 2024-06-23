@@ -5,10 +5,9 @@ let slug = "/tooltip";
 let heading = "Tooltip";
 
 test.describe("Tooltip", () => {
-  // Setup
   test.beforeEach(async ({ page }) => {
     await page.goto(slug);
-    await expect.soft(page.getByRole("heading", { name: heading, exact: true })).toBeVisible();
+    await expect(page.getByRole("heading", { name: heading, exact: true })).toBeVisible();
     await expect(page.getByRole("link", { name: "Documentation" })).toBeVisible();
     await expect(page.getByRole("link", { name: "Documentation" })).toHaveAttribute("href", /docs\/tooltip/);
   });
