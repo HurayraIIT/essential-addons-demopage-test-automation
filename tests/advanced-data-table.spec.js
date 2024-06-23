@@ -128,16 +128,20 @@ test.describe("Advanced Data Table Style 01", () => {
 
     await expect(adt01.getByRole("cell", { name: "21", exact: true })).not.toBeVisible();
     await expect(adt01.getByRole("cell", { name: "Unity", exact: true })).not.toBeVisible();
+    await expect(adt01.getByRole("cell", { name: "Tajikistan", exact: true })).not.toBeVisible();
 
     await expect(adt01.getByRole("cell", { name: "41", exact: true })).not.toBeVisible();
     await expect(adt01.getByRole("cell", { name: "Elvis", exact: true })).not.toBeVisible();
+    await expect(adt01.getByRole("cell", { name: "Belize", exact: true })).not.toBeVisible();
 
     // For Page 3
     await adt01.getByRole("link", { name: "3", exact: true }).click();
     await page.waitForTimeout(200);
+    await page.waitForTimeout(200);
 
     await expect(adt01.getByRole("cell", { name: "1", exact: true }).first()).not.toBeVisible();
     await expect(adt01.getByRole("cell", { name: "Lars", exact: true })).not.toBeVisible();
+    await expect(adt01.getByRole("cell", { name: "Mongolia", exact: true })).not.toBeVisible();
 
     await expect(adt01.getByRole("cell", { name: "21", exact: true })).toBeVisible();
     await expect(adt01.getByRole("cell", { name: "Unity", exact: true })).toBeVisible();
@@ -145,10 +149,19 @@ test.describe("Advanced Data Table Style 01", () => {
 
     await expect(adt01.getByRole("cell", { name: "41", exact: true })).not.toBeVisible();
     await expect(adt01.getByRole("cell", { name: "Elvis", exact: true })).not.toBeVisible();
+    await expect(adt01.getByRole("cell", { name: "Belize", exact: true })).not.toBeVisible();
 
     // For page 5, (go to last page)
     await adt01.getByRole("link", { name: "»" }).click();
     await page.waitForTimeout(200);
+
+    await expect(adt01.getByRole("cell", { name: "1", exact: true }).first()).not.toBeVisible();
+    await expect(adt01.getByRole("cell", { name: "Lars", exact: true })).not.toBeVisible();
+    await expect(adt01.getByRole("cell", { name: "Mongolia", exact: true })).not.toBeVisible();
+
+    await expect(adt01.getByRole("cell", { name: "21", exact: true })).not.toBeVisible();
+    await expect(adt01.getByRole("cell", { name: "Unity", exact: true })).not.toBeVisible();
+    await expect(adt01.getByRole("cell", { name: "Tajikistan", exact: true })).not.toBeVisible();
 
     await expect(adt01.getByRole("cell", { name: "41", exact: true })).toBeVisible();
     await expect(adt01.getByRole("cell", { name: "Elvis", exact: true })).toBeVisible();
@@ -157,9 +170,18 @@ test.describe("Advanced Data Table Style 01", () => {
     // Back to first page
     await adt01.getByRole("link", { name: "«" }).click();
     await page.waitForTimeout(200);
+    await page.waitForTimeout(200);
 
     await expect(adt01.getByRole("cell", { name: "1", exact: true }).first()).toBeVisible();
     await expect(adt01.getByRole("cell", { name: "Lars", exact: true })).toBeVisible();
     await expect(adt01.getByRole("cell", { name: "Mongolia", exact: true })).toBeVisible();
+
+    await expect(adt01.getByRole("cell", { name: "21", exact: true })).not.toBeVisible();
+    await expect(adt01.getByRole("cell", { name: "Unity", exact: true })).not.toBeVisible();
+    await expect(adt01.getByRole("cell", { name: "Tajikistan", exact: true })).not.toBeVisible();
+
+    await expect(adt01.getByRole("cell", { name: "41", exact: true })).not.toBeVisible();
+    await expect(adt01.getByRole("cell", { name: "Elvis", exact: true })).not.toBeVisible();
+    await expect(adt01.getByRole("cell", { name: "Belize", exact: true })).not.toBeVisible();
   });
 });
