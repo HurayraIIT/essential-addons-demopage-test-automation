@@ -23,7 +23,7 @@ export default defineConfig({
             meta: [
               {
                 key: "Essential Addons Demo - Test Results",
-                value: "<https://hurayraiit.github.io/essential-addons-demopage-test-automation/ | 🔗 Click Me!>",
+                value: "<https://hurayraiit.github.io/essential-addons-demopage-test-automation/ | 📂 Click Here!>",
               },
             ],
           },
