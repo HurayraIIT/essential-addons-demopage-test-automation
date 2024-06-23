@@ -4,7 +4,7 @@ import { test, expect } from "../global-setup";
 let slug = "/post-timeline";
 let heading = "Post Timeline";
 
-test.describe("Tooltip", () => {
+test.describe("Post Timeline", () => {
   test.beforeEach(async ({ page }) => {
     await page.goto(slug);
     await expect(page.getByRole("heading", { name: heading, exact: true })).toBeVisible();
