@@ -137,7 +137,6 @@ test.describe("Advanced Data Table Style 01", () => {
     // For Page 3
     await adt01.getByRole("link", { name: "3", exact: true }).click();
     await page.waitForTimeout(200);
-    await page.waitForTimeout(200);
 
     await expect(adt01.getByRole("cell", { name: "1", exact: true }).first()).not.toBeVisible();
     await expect(adt01.getByRole("cell", { name: "Lars", exact: true })).not.toBeVisible();
@@ -169,7 +168,6 @@ test.describe("Advanced Data Table Style 01", () => {
 
     // Back to first page
     await adt01.getByRole("link", { name: "«" }).click();
-    await page.waitForTimeout(200);
     await page.waitForTimeout(200);
 
     await expect(adt01.getByRole("cell", { name: "1", exact: true }).first()).toBeVisible();
