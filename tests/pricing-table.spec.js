@@ -32,4 +32,44 @@ test.describe("Pricing Table", () => {
         await expect(price_table_1_basic.locator('.eael-pricing-button')).toBeVisible();
 
     });
+
+    // Pricing Table Style 02
+    test("Test Section: Pricing Table Style 02", async ({ page }) => {
+        await page.getByRole("heading", { name: "Pricing Table Style 02" }).scrollIntoViewIfNeeded();
+        await expect(page.getByRole("heading", { name: "Pricing Table Style 02" })).toBeVisible();
+        await expect(page.getByText("Choose your product pricing style")).toBeVisible();
+
+        await expect(page.getByTestId('4f5840d9')).toBeVisible()
+
+    });
+
+    // Pricing Table Style 03
+    test("Test Section: Pricing Table Style 03", async ({ page }) => {
+        await page.getByRole("heading", { name: "Pricing Table Style 03" }).scrollIntoViewIfNeeded();
+        await expect(page.getByRole("heading", { name: "Pricing Table Style 03" })).toBeVisible();
+        await expect(page.getByText("Use call to action button")).toBeVisible();
+
+        await expect(page.getByTestId('10296ce2')).toBeVisible()
+
+    });
+
+    // Pricing Table Style 04
+    test("Test Section: Pricing Table Style 04", async ({ page }) => {
+        await page.getByRole("heading", { name: "Pricing Table Style 04" }).scrollIntoViewIfNeeded();
+        await expect(page.getByRole("heading", { name: "Pricing Table Style 04" })).toBeVisible();
+        await expect(page.getByText("You can add header image")).toBeVisible();
+
+        await expect(page.getByTestId('533cbb2b')).toBeVisible()
+
+    });
+
+    // Pricing Table Style 05
+    test("Test Section: Pricing Table Style 05", async ({ page }) => {
+        await page.getByRole("heading", { name: "Pricing Table Style 05" }).scrollIntoViewIfNeeded();
+        await expect(page.getByRole("heading", { name: "Pricing Table Style 05" })).toBeVisible();
+        await expect(page.getByText("You can add effects ")).toBeVisible();
+
+        await expect(page.getByTestId('2e34ab74')).toBeVisible()
+
+    });
 });
