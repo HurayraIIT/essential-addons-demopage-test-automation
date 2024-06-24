@@ -38,7 +38,7 @@ export default defineConfig({
 
     screenshot: "on",
     trace: "retain-on-failure",
-    video: "on",
+    video: "retain-on-failure",
 
     ignoreHTTPSErrors: true,
   },
