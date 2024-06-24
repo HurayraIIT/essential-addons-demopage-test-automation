@@ -21,8 +21,12 @@ export const test = base.extend({
     // Wrap the goto method to include waitUntil: 'domcontentloaded'
     const originalGoto = page.goto.bind(page);
     page.goto = async (url, options = {}) => {
-        options.waitUntil = "domcontentloaded";
-        return await originalGoto(url, options);
+      options.waitUntil = "domcontentloaded";
+
+      // Adding query param to bypass server cache
+      url += "?foo=bar";
+
+      return await originalGoto(url, options);
     };
     await use(page);
   },
