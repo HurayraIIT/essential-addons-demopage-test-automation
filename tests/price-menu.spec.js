@@ -28,4 +28,16 @@ test.describe("Price Menu", () => {
         const isAnyVisible = await connectors.evaluateAll(elements => elements.some(element => element.offsetParent !== null));
         expect(isAnyVisible).toBe(true);
     });
+
+    // Preset 2
+    test("Test Section: Full Customization Freedom", async ({ page }) => {
+
+        const section_root = page.getByTestId('33048ed7')
+
+        await page.getByRole("heading", { name: "Full Customization Freedom" }).scrollIntoViewIfNeeded();
+        await expect(page.getByRole("heading", { name: "Full Customization Freedom" })).toBeVisible();
+        await expect(page.getByText("Customize your Price Menu any ")).toBeVisible();
+
+        // await expect(page.getByTestId('20a131d9').locator('section:nth-child(2) > .elementor-container > div > .elementor-widget-wrap > .elementor-element > .elementor-widget-container > .eael-restaurant-menu > .eael-restaurant-menu-items > div > .eael-restaurant-menu-item')).toBeVisible();
+    });
 });
