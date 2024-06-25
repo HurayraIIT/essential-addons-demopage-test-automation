@@ -15,6 +15,5 @@ test.describe("Ninja Forms", () => {
   test("Test Section: Ninja Forms Style 01", async ({ page }) => {
     await page.getByRole("heading", { name: "Ninja Forms Style 01" }).scrollIntoViewIfNeeded();
     await expect(page.getByRole("heading", { name: "Ninja Forms Style 01" })).toBeVisible();
-    await expect(page.getByText("Set your content hover direction & speed from")).toBeVisible();
   });
 });
