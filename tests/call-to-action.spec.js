@@ -28,4 +28,35 @@ test.describe("Call To Action", () => {
 		await expect(section_root.getByRole("link", { name: "Purchase Now" })).toBeVisible();
 		await expect(section_root.getByRole("img", { name: "Call To Action 102" })).toBeVisible();
 	});
+
+	// Preset 2
+	test("Test Section: Preset 2", async ({ page }) => {
+		await expect(page.getByTestId("d3ab026")).toBeVisible();
+	});
+
+	// Preset 3
+	test("Test Section: Preset 3", async ({ page }) => {
+		await expect(page.getByTestId("6d4cf7bf")).toBeVisible();
+	});
+
+	// Preset 4
+	test("Test Section: Preset 4", async ({ page }) => {
+		await expect(page.getByTestId("7292933")).toBeVisible();
+	});
+
+	// Preset 5
+	test("Test Section: Preset 5", async ({ page }) => {
+		await expect(page.getByTestId("1b6127")).toBeVisible();
+	});
+
+	// Preset 6
+	test("Test Section: Preset 6", async ({ page }) => {
+		await expect(page.getByTestId("20af5722")).toBeVisible();
+	});
+
+	// Preset 7
+	test("Test Section: Preset 7", async ({ page }) => {
+		await expect(page.getByTestId("4a012174")).toBeVisible();
+	});
+
 });
