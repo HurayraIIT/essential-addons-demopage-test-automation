@@ -4,7 +4,11 @@ import { test, expect } from "../global-setup";
 let slug = "/advanced-tooltip";
 let heading = "Advanced Tooltip";
 
-test.describe("Advanced Tooltip", () => {
+test.describe("Advanced Tooltips Style 01", () => {
+  let tooltip = "";
+  let outside = "";
+  let inside = "";
+
   test.beforeEach(async ({ page }) => {
     await page.goto(slug);
     await expect(page.getByRole("heading", { name: heading, exact: true })).toBeVisible();
@@ -13,10 +17,25 @@ test.describe("Advanced Tooltip", () => {
       "href",
       /docs\/extensions\/ea-advanced-tooltip/
     );
+
+    tooltip = page.getByText("Save 10% in Basic Plan");
+    outside = page.getByRole("heading", { name: "Advanced Tooltips Style 01" });
+    inside = page.locator("#eael-section-tooltip-4b0da25c");
+
+    await outside.scrollIntoViewIfNeeded();
   });
 
-  test("Test Section: Advanced Tooltips Style 01", async ({ page }) => {
-    await page.getByRole("heading", { name: "Advanced Tooltips Style 01" }).scrollIntoViewIfNeeded();
-    await expect(page.getByRole("heading", { name: "Advanced Tooltips Style 01" })).toBeVisible();
+  test("Tooltip should appear on hover", async ({ page }) => {
+    await expect(outside).toBeVisible();
+
+    // Hover inside and verify tooltip
+    await inside.hover();
+    await page.waitForTimeout(200);
+    await expect(tooltip).toBeVisible();
+
+    // Hover outside and verify tooltip is hidden
+    await outside.hover();
+    await page.waitForTimeout(200);
+    await expect(tooltip).toBeHidden();
   });
 });
