@@ -18,6 +18,16 @@ export const test = base.extend({
     await page.route("**/play.google.com/**", async (route) => await route.fulfill({}));
     await page.route("**/www.googletagmanager.com/**", async (route) => await route.fulfill({}));
 
+    // Add global lightbox close button handler
+    page.on("popup", async () => {
+      const closeButton = page.locator(
+        ".dialog-lightbox-widget-content > .dialog-lightbox-close-button > .eicon-close"
+      );
+      if (await closeButton.isVisible()) {
+        await closeButton.click();
+      }
+    });
+
     // Wrap the goto method to include waitUntil: 'domcontentloaded'
     const originalGoto = page.goto.bind(page);
     page.goto = async (url, options = {}) => {
