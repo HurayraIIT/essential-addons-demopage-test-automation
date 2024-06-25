@@ -24,6 +24,7 @@ test.describe("Parallax Effect - Scroll & Zoom Parallax Effect", () => {
   });
 
   test("The sections should load", async ({ page }) => {
+    test.slow();
     await expect(parallax_section).toBeVisible();
 
     await expect(parallax_section).toHaveAttribute(
@@ -37,6 +38,7 @@ test.describe("Parallax Effect - Scroll & Zoom Parallax Effect", () => {
   });
 
   test("Page Scroll should trigger parallax effect", async ({ page }) => {
+    test.slow();
     await expect(parallax_section).toBeVisible();
 
     // Scroll to page top
