@@ -23,6 +23,7 @@ test.describe("Call To Action", () => {
 
 		const section_root = page.getByTestId("514ccb5e");
 
+		await section_root.getByRole("heading", { name: "Essential Addons for Elementor" }).scrollIntoViewIfNeeded();
 		await expect(section_root.getByRole("heading", { name: "Essential Addons for Elementor", })).toBeVisible();
 		await expect(section_root.locator(".cta-preset-1")).toContainText("Enhance your Elementor page building experience with 57+ creative ");
 		await expect(section_root.getByRole("link", { name: "Purchase Now" })).toBeVisible();
