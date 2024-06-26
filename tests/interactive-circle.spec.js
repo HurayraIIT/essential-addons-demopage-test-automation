@@ -56,7 +56,7 @@ test.describe("Interactive Circle", () => {
   });
 
   // Item 2 
-  test.only("Test Section: Item 2", async ({ page }) => {
+  test("Test Section: Item 2", async ({ page }) => {
     // Stop TimeOut Issue 
     test.setTimeout(0);
 
