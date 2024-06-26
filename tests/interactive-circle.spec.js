@@ -13,8 +13,11 @@ test.describe("Interactive Circle", () => {
     await expect(page.getByRole("link", { name: "Documentation" })).toHaveAttribute("href", /docs\/interactive-circle/);
   });
 
+  // Item 1 
   test("Test Section: Choose From Multiple Different Style Layouts", async ({ page }) => {
+    // Stop TimeOut Issue 
     test.setTimeout(0);
+
     const section_root = page.getByTestId('8caf97c')
     const eael_circle_item_1 = page.getByTestId('e1d6ade');
 
@@ -22,15 +25,20 @@ test.describe("Interactive Circle", () => {
     await page.pause();
     await expect(section_root.getByRole("heading", { name: "Choose From Multiple Different Style Layouts" })).toBeVisible();
     await expect(section_root.getByText("Beautifully present your content in an attractive ")).toBeVisible();
-    // Click Circle Item to Visibile Content 
+    // Circle icon & Text Visibility Check 
     await expect(section_root.locator('.fas.fa-leaf')).toBeVisible();
+    await expect(section_root.locator('.fas.fa-comment')).toBeVisible();
+    await expect(section_root.locator('.fas.fa-map-marker-alt')).toBeVisible();
+    await expect(section_root.locator('.fas.fa-rocket')).toBeVisible();
+    await expect(section_root.locator('.fas.fa-hourglass-half')).toBeVisible();
+    await expect(section_root.locator('.fas.fa-tag')).toBeVisible();
     await expect(eael_circle_item_1.locator('.eael-circle-btn-icon').getByText('Item 1')).toBeVisible();
     await expect(eael_circle_item_1.locator('.eael-circle-btn-icon').getByText('Item 2')).toBeVisible();
     await expect(eael_circle_item_1.locator('.eael-circle-btn-icon').getByText('Item 3')).toBeVisible();
     await expect(eael_circle_item_1.locator('.eael-circle-btn-icon').getByText('Item 4')).toBeVisible();
     await expect(eael_circle_item_1.locator('.eael-circle-btn-icon').getByText('Item 5')).toBeVisible();
     await expect(eael_circle_item_1.locator('.eael-circle-btn-icon').getByText('Item 6')).toBeVisible();
-    // await section_root.locator('.fas.fa-leaf').click();
+    // Circle Item Click And Visibility check 
     await eael_circle_item_1.locator('.fas.fa-leaf').click();
     await expect(eael_circle_item_1.locator('.eael-interactive-circle').getByText('item 1. You can highlight')).toBeVisible();
     await eael_circle_item_1.locator('.fas.fa-comment').click();
@@ -43,7 +51,5 @@ test.describe("Interactive Circle", () => {
     await expect(eael_circle_item_1.locator('.eael-interactive-circle').getByText('item 5. You can highlight')).toBeVisible();
     await eael_circle_item_1.locator('.fas.fa-tag').click();
     await expect(eael_circle_item_1.locator('.eael-interactive-circle').getByText('item 6. You can highlight')).toBeVisible();
-
-
   });
 });
