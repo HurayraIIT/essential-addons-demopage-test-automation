@@ -54,4 +54,46 @@ test.describe("Interactive Circle", () => {
     await eael_circle_item_1.locator('.fas.fa-tag').click();
     await expect(eael_circle_item_1.locator('.eael-interactive-circle').getByText('item 6. You can highlight')).toBeVisible();
   });
+
+  // Item 2 
+  test.only("Test Section: Item 2", async ({ page }) => {
+    // Stop TimeOut Issue 
+    test.setTimeout(0);
+
+    const section_root = page.getByTestId('ff42189')
+    const eael_circle_item_1 = page.getByTestId('fc91e08');
+
+    await section_root.getByRole("heading", { name: "Display Content In Semi Circular Layout" }).scrollIntoViewIfNeeded();
+    await page.pause();
+    await expect(section_root.getByRole("heading", { name: "Display Content In Semi Circular Layout" })).toBeVisible();
+    await expect(section_root.getByText("Use EA Interactive Circle widget")).toBeVisible();
+    // Circle Inner Border Visibility Check 
+    await expect(section_root.locator('.eael-circle-inner')).toBeVisible();
+    // Circle icon & Text Visibility Check
+    await expect(section_root.locator('.fas.fa-leaf')).toBeVisible();
+    await expect(section_root.locator('.fas.fa-comment')).toBeVisible();
+    await expect(section_root.locator('.fas.fa-map-marker-alt')).toBeVisible();
+    await expect(section_root.locator('.fas.fa-rocket')).toBeVisible();
+    await expect(section_root.locator('.fas.fa-hourglass-half')).toBeVisible();
+    await expect(section_root.locator('.fas.fa-tag')).toBeVisible();
+    await expect(eael_circle_item_1.locator('.eael-circle-btn-icon').getByText('Item 1')).toBeVisible();
+    await expect(eael_circle_item_1.locator('.eael-circle-btn-icon').getByText('Item 2')).toBeVisible();
+    await expect(eael_circle_item_1.locator('.eael-circle-btn-icon').getByText('Item 3')).toBeVisible();
+    await expect(eael_circle_item_1.locator('.eael-circle-btn-icon').getByText('Item 4')).toBeVisible();
+    await expect(eael_circle_item_1.locator('.eael-circle-btn-icon').getByText('Item 5')).toBeVisible();
+    await expect(eael_circle_item_1.locator('.eael-circle-btn-icon').getByText('Item 6')).toBeVisible();
+    // Circle Item Click And Visibility check 
+    await eael_circle_item_1.locator('.fas.fa-leaf').hover();
+    await expect(eael_circle_item_1.locator('.eael-interactive-circle').getByText('item 1. You can highlight')).toBeVisible();
+    await eael_circle_item_1.locator('.fas.fa-comment').hover();
+    await expect(eael_circle_item_1.locator('.eael-interactive-circle').getByText('item 2. You can highlight')).toBeVisible();
+    await eael_circle_item_1.locator('.fas.fa-map-marker-alt').hover();
+    await expect(eael_circle_item_1.locator('.eael-interactive-circle').getByText('item 3. You can highlight')).toBeVisible();
+    await eael_circle_item_1.locator('.fas.fa-rocket').hover();
+    await expect(eael_circle_item_1.locator('.eael-interactive-circle').getByText('item 4. You can highlight')).toBeVisible();
+    await eael_circle_item_1.locator('.fas.fa-hourglass-half').hover();
+    await expect(eael_circle_item_1.locator('.eael-interactive-circle').getByText('item 5. You can highlight')).toBeVisible();
+    await eael_circle_item_1.locator('.fas.fa-tag').hover();
+    await expect(eael_circle_item_1.locator('.eael-interactive-circle').getByText('item 6. You can highlight')).toBeVisible();
+  });
 });
