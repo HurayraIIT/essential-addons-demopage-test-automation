@@ -25,7 +25,9 @@ test.describe("Interactive Circle", () => {
     await page.pause();
     await expect(section_root.getByRole("heading", { name: "Choose From Multiple Different Style Layouts" })).toBeVisible();
     await expect(section_root.getByText("Beautifully present your content in an attractive ")).toBeVisible();
-    // Circle icon & Text Visibility Check 
+    // Circle Inner Border Visibility Check 
+    await expect(section_root.locator('.eael-circle-inner')).toBeVisible();
+    // Circle icon & Text Visibility Check
     await expect(section_root.locator('.fas.fa-leaf')).toBeVisible();
     await expect(section_root.locator('.fas.fa-comment')).toBeVisible();
     await expect(section_root.locator('.fas.fa-map-marker-alt')).toBeVisible();
