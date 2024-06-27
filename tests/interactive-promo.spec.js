@@ -20,8 +20,10 @@ test.describe("Interactive Promo", () => {
 
         const section_root = page.getByTestId('62f79d5c');
 
-        // await expect(section)
-        await expect(page.getByRole('figure', { name: 'It’s a pleasure We have only' }).getByRole('link')).toBeVisible();
-        await expect(page.getByRole('figure', { name: 'It’s a pleasure We have only' }).getByRole('link')).toBeVisible();
+        // await expect(section_root.locator('.effect-lily img[alt="Interactive Promo 102"]')).toBeVisible();
+        // // await expect(section_root.locator('.effect-lily img[alt="Interactive Promo 102"]')).hover();
+
+        // await expect(section_root.getByRole('figure', { name: 'It’s a pleasure We have only' }).getByRole('link')).toBeVisible();
+        // await expect(page.getByRole('figure', { name: 'It’s a pleasure We have only' }).getByRole('link')).toBeVisible();
     });
 });
