@@ -32,3 +32,10 @@ Usually after Playwright update, browsers need to be updated with command:
 ```
 npx playwright install --with-deps
 ```
+
+Install WordPress e2e test Utils For Playwright
+Documentation: https://github.com/WordPress/gutenberg/tree/trunk/packages/e2e-test-utils-playwright
+
+```
+npm install @wordpress/e2e-test-utils-playwright
+```
