@@ -7,15 +7,19 @@ let heading = "Filterable Gallery";
 test.describe("Filterable Gallery", () => {
     // Page Heading
     test.beforeEach(async ({ page }) => {
-        await page.goto(slug);
+        await page.goto(slug, {
+            waitUntil: 'networkidle2',
+        });
+
         await expect.soft(page.getByRole("heading", { name: heading, exact: true })).toBeVisible();
         await expect(page.getByRole("link", { name: "Documentation" })).toBeVisible();
         await expect(page.getByRole("link", { name: "Documentation" })).toHaveAttribute("href", /docs\/filterable-gallery/);
     });
     // Section 1
     test("Test Section: Filter Images With Gallery Layout", async ({ page }) => {
-        
+
         test.setTimeout(0)
+
         const section_root = page.getByTestId('2a706842');
 
         await page.getByRole("heading", { name: "Filter Images With Gallery Layout" }).scrollIntoViewIfNeeded();
@@ -68,7 +72,12 @@ test.describe("Filterable Gallery", () => {
 
         // Click Search Icon And Open Image to check everyting works fine
 
-        await page.locator('div:nth-child(2) > .eael-gallery-grid-item > .gallery-item-caption-wrap > .gallery-item-caption-over > .gallery-item-buttons').click();
+
+
+
+
+        // await page.locator('div:nth-child(2) > .eael-gallery-grid-item > .gallery-item-caption-wrap > .gallery-item-caption-over > .gallery-item-buttons').click();
+        await page.locator("xpath=/html/body/div[3]/div[1]/div/div/div/main/article/div/div/section[2]/div/div/div/div/div/div/div[2]/div[1]/div/div[2]/div[2]/div/a/span/i").click();
 
         await expect(page.getByRole('figure', { name: 'of 8' }).getByRole('img')).toBeVisible();
         await expect(page.getByRole('button', { name: 'Next (Right arrow key)' })).toBeVisible();
