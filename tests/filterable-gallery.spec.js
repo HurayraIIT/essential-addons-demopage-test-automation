@@ -14,6 +14,7 @@ test.describe("Filterable Gallery", () => {
     });
     // Section 1
     test("Test Section: Filter Images With Gallery Layout", async ({ page }) => {
+        
         test.setTimeout(0)
         const section_root = page.getByTestId('2a706842');
 
@@ -37,14 +38,6 @@ test.describe("Filterable Gallery", () => {
         await expect(section_root.getByRole('link', { name: '' })).toBeVisible();
 
         // Gallery Functionality Check
-        await section_root.locator('#eael-filter-gallery-wrapper-66fe3cdd').getByText('NEWS').click();
-        await section_root.locator('.eael-filterable-gallery-item-wrap.eael-cf-news').first().waitFor();
-
-        const allItems = section_root.locator('.eael-filterable-gallery-item-wrap.eael-cf-news .eael-cf-updates .eael-cf-events .eael-cf-masonry');
-        const allCount = await allItems.count();
-        for (let i = 0; i < allCount; i++) {
-            await expect(newsItems.nth(i)).toBeVisible();
-        }
 
         await section_root.locator('#eael-filter-gallery-wrapper-66fe3cdd').getByText('NEWS').click();
         await section_root.locator('.eael-filterable-gallery-item-wrap.eael-cf-news').first().waitFor();
@@ -63,5 +56,33 @@ test.describe("Filterable Gallery", () => {
         for (let i = 0; i < updatesCount; i++) {
             await expect(updatesItems.nth(i)).toBeVisible();
         }
+
+        await section_root.locator('#eael-filter-gallery-wrapper-66fe3cdd').getByText('ALL').click();
+        await section_root.locator('.eael-filterable-gallery-item-wrap.eael-cf-news').first().waitFor();
+
+        const allItems = section_root.locator('.eael-filterable-gallery-item-wrap.eael-cf-news .eael-cf-updates .eael-cf-events .eael-cf-masonry');
+        const allCount = await allItems.count();
+        for (let i = 0; i < allCount; i++) {
+            await expect(newsItems.nth(i)).toBeVisible();
+        }
+
+        // Click Search Icon And Open Image to check everyting works fine
+
+        await page.locator('div:nth-child(2) > .eael-gallery-grid-item > .gallery-item-caption-wrap > .gallery-item-caption-over > .gallery-item-buttons').click();
+
+        await expect(page.getByRole('figure', { name: 'of 8' }).getByRole('img')).toBeVisible();
+        await expect(page.getByRole('button', { name: 'Next (Right arrow key)' })).toBeVisible();
+        await expect(page.getByRole('button', { name: 'Previous (Left arrow key)' })).toBeVisible();
+        await expect(page.getByText('of 8')).toBeVisible();
+        await expect(page.getByRole('button', { name: '×' })).toBeVisible();
+        await expect(page.getByText('of 8')).toBeVisible();
+
+        await page.getByRole('button', { name: 'Next (Right arrow key)' }).click();
+        await expect(page.getByRole('figure', { name: 'of 8' }).getByRole('img')).toBeVisible();
+        await expect(page.getByText('of 8')).toBeVisible();
+        await page.getByRole('button', { name: 'Previous (Left arrow key)' }).click();
+        await expect(page.getByRole('figure', { name: 'of 8' }).getByRole('img')).toBeVisible();
+        await expect(page.getByText('of 8')).toBeVisible();
+        await page.getByRole('button', { name: '×' }).click();
     });
 });
