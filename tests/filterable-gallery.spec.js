@@ -34,8 +34,7 @@ test.describe("Filterable Gallery", () => {
 
         await section_root.locator('.eael-gallery-grid-item').first().hover();
         await expect(section_root.getByRole('heading', { name: 'Highly Delighted Present' })).toBeVisible();
-        await expect(section_root.locator('.gallery-item-buttons .fas.fa-search')).toBeVisible();
-
+        await expect(section_root.getByRole('link', { name: '' })).toBeVisible();
 
         // Gallery Functionality Check
         await section_root.locator('#eael-filter-gallery-wrapper-66fe3cdd').getByText('NEWS').click();
