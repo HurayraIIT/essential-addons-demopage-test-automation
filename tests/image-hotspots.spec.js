@@ -28,6 +28,5 @@ test.describe("Filterable Gallery", () => {
         await expect(page.locator('a:nth-child(5)').first()).toBeVisible();
         await page.locator('a:nth-child(5)').first().hover();
         await expect(page.locator('div').filter({ hasText: 'T-shirt' }).nth(1)).toBeVisible();
-
     });
 });
