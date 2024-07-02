@@ -77,7 +77,8 @@ test.describe("Filterable Gallery", () => {
 
 
         // await page.locator('div:nth-child(2) > .eael-gallery-grid-item > .gallery-item-caption-wrap > .gallery-item-caption-over > .gallery-item-buttons').click();
-        await page.locator("xpath=/html/body/div[3]/div[1]/div/div/div/main/article/div/div/section[2]/div/div/div/div/div/div/div[2]/div[1]/div/div[2]/div[2]/div/a/span/i").click();
+        await page.locator("//body/div[@class='eael-offcanvas-container eael-offcanvas-container-3eb106b']/div[@id='page']/div[@id='content']/div[@class='flexia-wrapper flexia-blank-container']/div[@id='primary']/main[@id='main']/article[@id='post-1925']/div[@class='entry-content']/div[@class='elementor elementor-1925 elementor-motion-effects-parent']/section[@class='elementor-section elementor-top-section elementor-element elementor-element-2a706842 elementor-section-content-middle elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default']/div[@class='elementor-container elementor-column-gap-default']/div[@class='elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-93dda78']/div[@class='elementor-widget-wrap elementor-element-populated']/div[@class='elementor-element elementor-element-66fe3cdd eael-fg-hoverer-content-align-center elementor-widget elementor-widget-eael-filterable-gallery']/div[@class='elementor-widget-container']/div[@id='eael-filter-gallery-wrapper-66fe3cdd']/div[@class='eael-filter-gallery-container masonry']/div[1]/div[1]").hover();
+        await page.locator("//div[@id='eael-filter-gallery-wrapper-66fe3cdd']//div[1]//div[1]//div[2]//div[2]//div[1]//a[1]//span[1]//i[1]").click();
 
         await expect(page.getByRole('figure', { name: 'of 8' }).getByRole('img')).toBeVisible();
         await expect(page.getByRole('button', { name: 'Next (Right arrow key)' })).toBeVisible();
