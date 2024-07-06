@@ -17,5 +17,13 @@ test.describe("Image Comparison", () => {
         await page.getByRole("heading", { name: "Create Perfect Product Comparison" }).scrollIntoViewIfNeeded();
         await expect(page.getByRole("heading", { name: "Create Perfect Product Comparison" })).toBeVisible();
         await expect(page.getByText("Instantly upload preferred  ")).toBeVisible();
+
+
+        await page.locator('#eael-image-comparison-23558b85 div').nth(2).click();
+        await expect(page.locator('#eael-image-comparison-23558b85 div').nth(3)).toBeVisible();
+        await expect(page.locator('#eael-image-comparison-23558b85 span').nth(1)).toBeVisible();
+        await expect(page.locator('#eael-image-comparison-23558b85 span').first()).toBeVisible();
+        await page.locator('#eael-image-comparison-23558b85 div').nth(3).click();
+
     });
 });
