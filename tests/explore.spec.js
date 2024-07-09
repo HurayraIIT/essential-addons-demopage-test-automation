@@ -4,12 +4,12 @@ import fs from "fs";
 import path from "path";
 import { test, expect } from "../global-setup";
 
-let slug = "/flip-box";
+let slug = "/advanced-tabs";
 
 test("Test Section", async ({ page, browserName }) => {
   let browser_name = browserName.toLowerCase();
   await page.goto(slug);
-  const selector = ".elementor-element-6dded39"; // Replace with your actual selector
+  const selector = ".elementor-element-73ca6f31"; // Replace with your actual selector
   await page.waitForSelector(selector);
 
   // Define the combined function to evaluate on the page
@@ -32,15 +32,43 @@ test("Test Section", async ({ page, browserName }) => {
           }
           return style;
         }, {});
-      }
+      };
+
+      const getAttributes = (node) => {
+        return Array.from(node.attributes).reduce((attrs, attr) => {
+          const attrName = attr.name;
+          const attrValue = attr.value;
+          // List of attributes that should not be split
+          const noSplitAttrs = [
+            "name",
+            "title",
+            "alt",
+            "placeholder",
+            "label",
+            "content",
+            "style",
+            "value",
+            "type",
+            "src",
+            "href",
+            "xmlns",
+            "data-*",
+            "d",
+            "srcset",
+            "sizes"
+          ];
+          // Check if attribute is in the noSplitAttrs list or is a data-* attribute
+          const shouldNotSplit = noSplitAttrs.includes(attrName) || attrName.startsWith("data-");
+          // Split the attribute values into an array if not in the noSplitAttrs list
+          attrs[attrName] = shouldNotSplit ? attrValue : attrValue.split(/\s+/);
+          return attrs;
+        }, {});
+      };
 
       const structure = {
         tag: node.tagName.toLowerCase(),
-        attributes: Array.from(node.attributes).reduce((attrs, attr) => {
-          attrs[attr.name] = attr.value;
-          return attrs;
-        }, {}),
-        computedStyle: getComputedStyleProperties(node),
+        attributes: getAttributes(node),
+        //computedStyle: getComputedStyleProperties(node),
         children: Array.from(node.childNodes).map(getNodeStructure).filter(Boolean),
       };
 
