@@ -15,8 +15,14 @@ export function evaluateNodeStructure(selector) {
 
     const getAttributes = (node) => {
       return Array.from(node.attributes).reduce((attrs, attr) => {
-        const attrName = attr.name;
-        const attrValue = attr.value;
+        let attrName = attr.name;
+        let attrValue = attr.value;
+
+        // Replace attribute value with an empty string if it contains "wpnonce" or "nonce"
+        if (/wpnonce|nonce|quantity_|cart.*qty|eael_quick_view_/i.test(attrValue)) {
+          attrValue = "";
+        }
+
         // List of attributes that should not be split
         const noSplitAttrs = [
           "name",

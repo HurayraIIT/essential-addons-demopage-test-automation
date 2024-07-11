@@ -1,0 +1,2187 @@
+{
+  "tag": "section",
+  "attributes": {
+    "data-particle_enable": "false",
+    "data-particle-mobile-disabled": "false",
+    "class": [
+      "elementor-section",
+      "elementor-inner-section",
+      "elementor-element",
+      "elementor-element-55a248d",
+      "elementor-section-full_width",
+      "elementor-section-height-default",
+      "elementor-section-height-default"
+    ],
+    "data-id": "55a248d",
+    "data-element_type": "section",
+    "data-settings": "{\"background_background\":\"classic\"}"
+  },
+  "children": [
+    {
+      "tag": "div",
+      "attributes": {
+        "class": [
+          "elementor-container",
+          "elementor-column-gap-no"
+        ]
+      },
+      "children": [
+        {
+          "tag": "div",
+          "attributes": {
+            "class": [
+              "elementor-column",
+              "elementor-col-100",
+              "elementor-inner-column",
+              "elementor-element",
+              "elementor-element-522879b"
+            ],
+            "data-id": "522879b",
+            "data-element_type": "column"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "attributes": {
+                "class": [
+                  "elementor-widget-wrap",
+                  "elementor-element-populated"
+                ]
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "attributes": {
+                    "class": [
+                      "elementor-element",
+                      "elementor-element-204b264",
+                      "elementor-widget",
+                      "elementor-widget-eael-woo-product-list"
+                    ],
+                    "data-id": "204b264",
+                    "data-element_type": "widget",
+                    "data-widget_type": "eael-woo-product-list.default"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "attributes": {
+                        "class": [
+                          "elementor-widget-container"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "attributes": {
+                            "class": [
+                              "eael-product-list-wrapper",
+                              "preset-3"
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "eael-product-list-body",
+                                  "woocommerce"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "eael-product-list-container"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "div",
+                                      "attributes": {
+                                        "class": [
+                                          "eael-post-appender"
+                                        ]
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "div",
+                                          "attributes": {
+                                            "class": [
+                                              "product",
+                                              "post-280149",
+                                              "type-product",
+                                              "status-publish",
+                                              "has-post-thumbnail",
+                                              "product_cat-chair",
+                                              "first",
+                                              "instock",
+                                              "sale",
+                                              "shipping-taxable",
+                                              "purchasable",
+                                              "product-type-simple"
+                                            ]
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "div",
+                                              "attributes": {
+                                                "class": [
+                                                  "eael-product-list-item",
+                                                  ""
+                                                ]
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "div",
+                                                  "attributes": {
+                                                    "class": [
+                                                      "eael-product-list-image-wrap"
+                                                    ]
+                                                  },
+                                                  "children": [
+                                                    {
+                                                      "tag": "div",
+                                                      "attributes": {
+                                                        "class": [
+                                                          "eael-product-list-badge-wrap",
+                                                          "badge-preset-3",
+                                                          "badge-alignment-left",
+                                                          "is-on-sale",
+                                                          ""
+                                                        ]
+                                                      },
+                                                      "children": [
+                                                        {
+                                                          "tag": "p",
+                                                          "attributes": {},
+                                                          "children": [
+                                                            {
+                                                              "text": "Sale"
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "tag": "a",
+                                                      "attributes": {
+                                                        "href": "https://essential-addons.com/product/naturesway-wooden-accent-chair/",
+                                                        "class": [
+                                                          "woocommerce-LoopProduct-link",
+                                                          "woocommerce-loop-product__link"
+                                                        ]
+                                                      },
+                                                      "children": [
+                                                        {
+                                                          "tag": "img",
+                                                          "attributes": {
+                                                            "decoding": [
+                                                              "async"
+                                                            ],
+                                                            "width": [
+                                                              "375"
+                                                            ],
+                                                            "height": [
+                                                              "375"
+                                                            ],
+                                                            "src": "https://essential-addons.com/wp-content/uploads/2023/11/product-img-08.png",
+                                                            "class": [
+                                                              "attachment-full",
+                                                              "size-full"
+                                                            ],
+                                                            "alt": "Woo Product List 108",
+                                                            "loading": [
+                                                              "eager"
+                                                            ],
+                                                            "title": "Woo Product List 108"
+                                                          },
+                                                          "children": []
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "tag": "ul",
+                                                      "attributes": {
+                                                        "class": [
+                                                          "eael-product-list-buttons-on-hover"
+                                                        ]
+                                                      },
+                                                      "children": [
+                                                        {
+                                                          "tag": "li",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "eael-product-list-add-to-cart-button",
+                                                              "eael-m-0"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "tag": "a",
+                                                              "attributes": {
+                                                                "href": "?add-to-cart=280149",
+                                                                "aria-describedby": [
+                                                                  "woocommerce_loop_add_to_cart_link_describedby_280149"
+                                                                ],
+                                                                "data-quantity": "1",
+                                                                "class": [
+                                                                  "button",
+                                                                  "product_type_simple",
+                                                                  "add_to_cart_button",
+                                                                  "ajax_add_to_cart"
+                                                                ],
+                                                                "data-product_id": "280149",
+                                                                "data-product_sku": "",
+                                                                "aria-label": [
+                                                                  "Add",
+                                                                  "to",
+                                                                  "cart:",
+                                                                  "“NatureSway",
+                                                                  "Wooden",
+                                                                  "Accent",
+                                                                  "Chair”"
+                                                                ],
+                                                                "rel": [
+                                                                  "nofollow"
+                                                                ]
+                                                              },
+                                                              "children": [
+                                                                {
+                                                                  "text": "Add to cart"
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "tag": "span",
+                                                              "attributes": {
+                                                                "id": [
+                                                                  "woocommerce_loop_add_to_cart_link_describedby_280149"
+                                                                ],
+                                                                "class": [
+                                                                  "screen-reader-text"
+                                                                ]
+                                                              },
+                                                              "children": []
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "tag": "li",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "eael-product-list-quick-view-button",
+                                                              "eael-m-0"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "tag": "a",
+                                                              "attributes": {
+                                                                "id": [
+                                                                  ""
+                                                                ],
+                                                                "data-quickview-setting": "{\"widget_id\":\"204b264\",\"product_id\":280149,\"page_id\":280169}",
+                                                                "class": [
+                                                                  "open-popup-link"
+                                                                ]
+                                                              },
+                                                              "children": [
+                                                                {
+                                                                  "tag": "i",
+                                                                  "attributes": {
+                                                                    "class": [
+                                                                      "fas",
+                                                                      "fa-eye"
+                                                                    ]
+                                                                  },
+                                                                  "children": []
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "tag": "li",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "eael-product-list-link-button",
+                                                              "eael-m-0"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "tag": "a",
+                                                              "attributes": {
+                                                                "href": "https://essential-addons.com/product/naturesway-wooden-accent-chair/"
+                                                              },
+                                                              "children": [
+                                                                {
+                                                                  "tag": "i",
+                                                                  "attributes": {
+                                                                    "class": [
+                                                                      "fas",
+                                                                      "fa-link"
+                                                                    ]
+                                                                  },
+                                                                  "children": []
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "tag": "div",
+                                                  "attributes": {
+                                                    "class": [
+                                                      "eael-product-list-content-wrap"
+                                                    ]
+                                                  },
+                                                  "children": [
+                                                    {
+                                                      "tag": "h2",
+                                                      "attributes": {
+                                                        "class": [
+                                                          "eael-product-list-title"
+                                                        ]
+                                                      },
+                                                      "children": [
+                                                        {
+                                                          "tag": "a",
+                                                          "attributes": {
+                                                            "href": "https://essential-addons.com/product/naturesway-wooden-accent-chair/",
+                                                            "class": [
+                                                              "woocommerce-LoopProduct-link",
+                                                              "woocommerce-loop-product__link"
+                                                            ],
+                                                            "target": [
+                                                              "_blank"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "text": "NatureSway Wooden Accent Chair"
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "tag": "div",
+                                                      "attributes": {
+                                                        "class": [
+                                                          "eael-product-list-content-header",
+                                                          ""
+                                                        ]
+                                                      },
+                                                      "children": [
+                                                        {
+                                                          "tag": "div",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "eael-product-list-rating"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "tag": "div",
+                                                              "attributes": {
+                                                                "class": [
+                                                                  "star-rating"
+                                                                ],
+                                                                "role": [
+                                                                  "img"
+                                                                ],
+                                                                "aria-label": [
+                                                                  "Rated",
+                                                                  "4.5",
+                                                                  "out",
+                                                                  "of",
+                                                                  "5"
+                                                                ]
+                                                              },
+                                                              "children": [
+                                                                {
+                                                                  "tag": "span",
+                                                                  "attributes": {
+                                                                    "style": "width:90%"
+                                                                  },
+                                                                  "children": [
+                                                                    {
+                                                                      "text": "Rated"
+                                                                    },
+                                                                    {
+                                                                      "tag": "strong",
+                                                                      "attributes": {
+                                                                        "class": [
+                                                                          "rating"
+                                                                        ]
+                                                                      },
+                                                                      "children": [
+                                                                        {
+                                                                          "text": "4.5"
+                                                                        }
+                                                                      ]
+                                                                    },
+                                                                    {
+                                                                      "text": "out of 5 based on"
+                                                                    },
+                                                                    {
+                                                                      "tag": "span",
+                                                                      "attributes": {
+                                                                        "class": [
+                                                                          "rating"
+                                                                        ]
+                                                                      },
+                                                                      "children": [
+                                                                        {
+                                                                          "text": "59"
+                                                                        }
+                                                                      ]
+                                                                    },
+                                                                    {
+                                                                      "text": "customer ratings"
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "tag": "a",
+                                                              "attributes": {
+                                                                "href": "https://essential-addons.com/product/naturesway-wooden-accent-chair/#reviews",
+                                                                "class": [
+                                                                  "woocommerce-review-link",
+                                                                  "eael-product-list-review-count"
+                                                                ],
+                                                                "rel": [
+                                                                  "nofollow"
+                                                                ]
+                                                              },
+                                                              "children": [
+                                                                {
+                                                                  "text": "(60)"
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "tag": "div",
+                                                      "attributes": {
+                                                        "class": [
+                                                          "eael-product-list-content-body"
+                                                        ]
+                                                      },
+                                                      "children": [
+                                                        {
+                                                          "tag": "div",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "eael-product-list-excerpt"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "text": "Immerse yourself in the epitome of modern luxury as the Sway chair transforms any space into a haven of sophistication and comfort. This meticulously crafted piece seamlessly blends the clean lines of contemporary design…"
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "tag": "h3",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "eael-product-list-price"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "tag": "del",
+                                                              "attributes": {
+                                                                "aria-hidden": [
+                                                                  "true"
+                                                                ]
+                                                              },
+                                                              "children": [
+                                                                {
+                                                                  "tag": "span",
+                                                                  "attributes": {
+                                                                    "class": [
+                                                                      "woocommerce-Price-amount",
+                                                                      "amount"
+                                                                    ]
+                                                                  },
+                                                                  "children": [
+                                                                    {
+                                                                      "tag": "span",
+                                                                      "attributes": {
+                                                                        "class": [
+                                                                          "woocommerce-Price-currencySymbol"
+                                                                        ]
+                                                                      },
+                                                                      "children": [
+                                                                        {
+                                                                          "text": "£"
+                                                                        }
+                                                                      ]
+                                                                    },
+                                                                    {
+                                                                      "text": "287.00"
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "tag": "span",
+                                                              "attributes": {
+                                                                "class": [
+                                                                  "screen-reader-text"
+                                                                ]
+                                                              },
+                                                              "children": [
+                                                                {
+                                                                  "text": "Original price was: £287.00."
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "tag": "ins",
+                                                              "attributes": {
+                                                                "aria-hidden": [
+                                                                  "true"
+                                                                ]
+                                                              },
+                                                              "children": [
+                                                                {
+                                                                  "tag": "span",
+                                                                  "attributes": {
+                                                                    "class": [
+                                                                      "woocommerce-Price-amount",
+                                                                      "amount"
+                                                                    ]
+                                                                  },
+                                                                  "children": [
+                                                                    {
+                                                                      "tag": "span",
+                                                                      "attributes": {
+                                                                        "class": [
+                                                                          "woocommerce-Price-currencySymbol"
+                                                                        ]
+                                                                      },
+                                                                      "children": [
+                                                                        {
+                                                                          "text": "£"
+                                                                        }
+                                                                      ]
+                                                                    },
+                                                                    {
+                                                                      "text": "180.00"
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "tag": "span",
+                                                              "attributes": {
+                                                                "class": [
+                                                                  "screen-reader-text"
+                                                                ]
+                                                              },
+                                                              "children": [
+                                                                {
+                                                                  "text": "Current price is: £180.00."
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "tag": "div",
+                                                      "attributes": {
+                                                        "class": [
+                                                          "eael-product-list-content-footer"
+                                                        ]
+                                                      },
+                                                      "children": [
+                                                        {
+                                                          "tag": "div",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "eael-product-list-buttons"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "tag": "p",
+                                                              "attributes": {
+                                                                "class": [
+                                                                  "eael-product-list-add-to-cart-button",
+                                                                  "eael-m-0"
+                                                                ]
+                                                              },
+                                                              "children": [
+                                                                {
+                                                                  "tag": "a",
+                                                                  "attributes": {
+                                                                    "href": "?add-to-cart=280149",
+                                                                    "aria-describedby": [
+                                                                      "woocommerce_loop_add_to_cart_link_describedby_280149"
+                                                                    ],
+                                                                    "data-quantity": "1",
+                                                                    "class": [
+                                                                      "button",
+                                                                      "product_type_simple",
+                                                                      "add_to_cart_button",
+                                                                      "ajax_add_to_cart"
+                                                                    ],
+                                                                    "data-product_id": "280149",
+                                                                    "data-product_sku": "",
+                                                                    "aria-label": [
+                                                                      "Add",
+                                                                      "to",
+                                                                      "cart:",
+                                                                      "“NatureSway",
+                                                                      "Wooden",
+                                                                      "Accent",
+                                                                      "Chair”"
+                                                                    ],
+                                                                    "rel": [
+                                                                      "nofollow"
+                                                                    ]
+                                                                  },
+                                                                  "children": [
+                                                                    {
+                                                                      "text": "Add to cart"
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "tag": "span",
+                                                                  "attributes": {
+                                                                    "id": [
+                                                                      "woocommerce_loop_add_to_cart_link_describedby_280149"
+                                                                    ],
+                                                                    "class": [
+                                                                      "screen-reader-text"
+                                                                    ]
+                                                                  },
+                                                                  "children": []
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "tag": "div",
+                                                              "attributes": {
+                                                                "class": [
+                                                                  "eael-product-list-progress"
+                                                                ]
+                                                              },
+                                                              "children": [
+                                                                {
+                                                                  "tag": "div",
+                                                                  "attributes": {
+                                                                    "class": [
+                                                                      "eael-product-list-progress-info"
+                                                                    ]
+                                                                  },
+                                                                  "children": [
+                                                                    {
+                                                                      "tag": "h4",
+                                                                      "attributes": {
+                                                                        "class": [
+                                                                          "eael-product-list-progress-count"
+                                                                        ]
+                                                                      },
+                                                                      "children": [
+                                                                        {
+                                                                          "text": "Total Sold:"
+                                                                        },
+                                                                        {
+                                                                          "tag": "span",
+                                                                          "attributes": {},
+                                                                          "children": [
+                                                                            {
+                                                                              "text": "300"
+                                                                            }
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "text": "Item"
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "tag": "div",
+                                                                  "attributes": {
+                                                                    "class": [
+                                                                      "eael-product-list-progress-bar-outer"
+                                                                    ]
+                                                                  },
+                                                                  "children": [
+                                                                    {
+                                                                      "tag": "div",
+                                                                      "attributes": {
+                                                                        "style": "width: 42%;",
+                                                                        "class": [
+                                                                          "eael-product-list-progress-bar-inner"
+                                                                        ]
+                                                                      },
+                                                                      "children": []
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "tag": "div",
+                                                              "attributes": {
+                                                                "class": [
+                                                                  "eael-product-list-notice",
+                                                                  "eael-product-list-notice-shiping-free"
+                                                                ]
+                                                              },
+                                                              "children": [
+                                                                {
+                                                                  "tag": "p",
+                                                                  "attributes": {},
+                                                                  "children": [
+                                                                    {
+                                                                      "tag": "i",
+                                                                      "attributes": {
+                                                                        "class": [
+                                                                          "fas",
+                                                                          "fa-box"
+                                                                        ]
+                                                                      },
+                                                                      "children": []
+                                                                    },
+                                                                    {
+                                                                      "text": "Chair"
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "attributes": {
+                    "class": [
+                      "elementor-element",
+                      "elementor-element-255fc8a",
+                      "elementor-widget",
+                      "elementor-widget-eael-woo-product-list"
+                    ],
+                    "data-id": "255fc8a",
+                    "data-element_type": "widget",
+                    "data-widget_type": "eael-woo-product-list.default"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "attributes": {
+                        "class": [
+                          "elementor-widget-container"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "attributes": {
+                            "class": [
+                              "eael-product-list-wrapper",
+                              "preset-3"
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "eael-product-list-body",
+                                  "woocommerce"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "eael-product-list-container"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "div",
+                                      "attributes": {
+                                        "class": [
+                                          "eael-post-appender"
+                                        ]
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "div",
+                                          "attributes": {
+                                            "class": [
+                                              "product",
+                                              "post-280148",
+                                              "type-product",
+                                              "status-publish",
+                                              "has-post-thumbnail",
+                                              "product_cat-chair",
+                                              "instock",
+                                              "sale",
+                                              "shipping-taxable",
+                                              "purchasable",
+                                              "product-type-simple"
+                                            ]
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "div",
+                                              "attributes": {
+                                                "class": [
+                                                  "eael-product-list-item",
+                                                  ""
+                                                ]
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "div",
+                                                  "attributes": {
+                                                    "class": [
+                                                      "eael-product-list-image-wrap"
+                                                    ]
+                                                  },
+                                                  "children": [
+                                                    {
+                                                      "tag": "div",
+                                                      "attributes": {
+                                                        "class": [
+                                                          "eael-product-list-badge-wrap",
+                                                          "badge-preset-3",
+                                                          "badge-alignment-right",
+                                                          "is-on-sale",
+                                                          ""
+                                                        ]
+                                                      },
+                                                      "children": [
+                                                        {
+                                                          "tag": "p",
+                                                          "attributes": {},
+                                                          "children": [
+                                                            {
+                                                              "text": "Sale"
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "tag": "a",
+                                                      "attributes": {
+                                                        "href": "https://essential-addons.com/product/harmony-haven-sectional-sofa/",
+                                                        "class": [
+                                                          "woocommerce-LoopProduct-link",
+                                                          "woocommerce-loop-product__link"
+                                                        ]
+                                                      },
+                                                      "children": [
+                                                        {
+                                                          "tag": "img",
+                                                          "attributes": {
+                                                            "decoding": [
+                                                              "async"
+                                                            ],
+                                                            "width": [
+                                                              "375"
+                                                            ],
+                                                            "height": [
+                                                              "375"
+                                                            ],
+                                                            "src": "https://essential-addons.com/wp-content/uploads/2023/11/product-img-09.png",
+                                                            "class": [
+                                                              "attachment-full",
+                                                              "size-full"
+                                                            ],
+                                                            "alt": "Woo Product List 109",
+                                                            "loading": [
+                                                              "eager"
+                                                            ],
+                                                            "title": "Woo Product List 109"
+                                                          },
+                                                          "children": []
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "tag": "ul",
+                                                      "attributes": {
+                                                        "class": [
+                                                          "eael-product-list-buttons-on-hover"
+                                                        ]
+                                                      },
+                                                      "children": [
+                                                        {
+                                                          "tag": "li",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "eael-product-list-add-to-cart-button",
+                                                              "eael-m-0"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "tag": "a",
+                                                              "attributes": {
+                                                                "href": "?add-to-cart=280148",
+                                                                "aria-describedby": [
+                                                                  "woocommerce_loop_add_to_cart_link_describedby_280148"
+                                                                ],
+                                                                "data-quantity": "1",
+                                                                "class": [
+                                                                  "button",
+                                                                  "product_type_simple",
+                                                                  "add_to_cart_button",
+                                                                  "ajax_add_to_cart"
+                                                                ],
+                                                                "data-product_id": "280148",
+                                                                "data-product_sku": "",
+                                                                "aria-label": [
+                                                                  "Add",
+                                                                  "to",
+                                                                  "cart:",
+                                                                  "“Harmony",
+                                                                  "Haven",
+                                                                  "Sectional",
+                                                                  "Sofa”"
+                                                                ],
+                                                                "rel": [
+                                                                  "nofollow"
+                                                                ]
+                                                              },
+                                                              "children": [
+                                                                {
+                                                                  "text": "Add to cart"
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "tag": "span",
+                                                              "attributes": {
+                                                                "id": [
+                                                                  "woocommerce_loop_add_to_cart_link_describedby_280148"
+                                                                ],
+                                                                "class": [
+                                                                  "screen-reader-text"
+                                                                ]
+                                                              },
+                                                              "children": []
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "tag": "li",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "eael-product-list-quick-view-button",
+                                                              "eael-m-0"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "tag": "a",
+                                                              "attributes": {
+                                                                "id": [
+                                                                  ""
+                                                                ],
+                                                                "data-quickview-setting": "{\"widget_id\":\"255fc8a\",\"product_id\":280148,\"page_id\":280169}",
+                                                                "class": [
+                                                                  "open-popup-link"
+                                                                ]
+                                                              },
+                                                              "children": [
+                                                                {
+                                                                  "tag": "i",
+                                                                  "attributes": {
+                                                                    "class": [
+                                                                      "fas",
+                                                                      "fa-eye"
+                                                                    ]
+                                                                  },
+                                                                  "children": []
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "tag": "li",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "eael-product-list-link-button",
+                                                              "eael-m-0"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "tag": "a",
+                                                              "attributes": {
+                                                                "href": "https://essential-addons.com/product/harmony-haven-sectional-sofa/"
+                                                              },
+                                                              "children": [
+                                                                {
+                                                                  "tag": "i",
+                                                                  "attributes": {
+                                                                    "class": [
+                                                                      "fas",
+                                                                      "fa-link"
+                                                                    ]
+                                                                  },
+                                                                  "children": []
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "tag": "div",
+                                                  "attributes": {
+                                                    "class": [
+                                                      "eael-product-list-content-wrap"
+                                                    ]
+                                                  },
+                                                  "children": [
+                                                    {
+                                                      "tag": "h2",
+                                                      "attributes": {
+                                                        "class": [
+                                                          "eael-product-list-title"
+                                                        ]
+                                                      },
+                                                      "children": [
+                                                        {
+                                                          "tag": "a",
+                                                          "attributes": {
+                                                            "href": "https://essential-addons.com/product/harmony-haven-sectional-sofa/",
+                                                            "class": [
+                                                              "woocommerce-LoopProduct-link",
+                                                              "woocommerce-loop-product__link"
+                                                            ],
+                                                            "target": [
+                                                              "_blank"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "text": "Harmony Haven Sectional Sofa"
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "tag": "div",
+                                                      "attributes": {
+                                                        "class": [
+                                                          "eael-product-list-content-header",
+                                                          "eael-direction-rtl"
+                                                        ]
+                                                      },
+                                                      "children": [
+                                                        {
+                                                          "tag": "div",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "eael-product-list-rating"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "tag": "div",
+                                                              "attributes": {
+                                                                "class": [
+                                                                  "star-rating"
+                                                                ],
+                                                                "role": [
+                                                                  "img"
+                                                                ],
+                                                                "aria-label": [
+                                                                  "Rated",
+                                                                  "4.5",
+                                                                  "out",
+                                                                  "of",
+                                                                  "5"
+                                                                ]
+                                                              },
+                                                              "children": [
+                                                                {
+                                                                  "tag": "span",
+                                                                  "attributes": {
+                                                                    "style": "width:90%"
+                                                                  },
+                                                                  "children": [
+                                                                    {
+                                                                      "text": "Rated"
+                                                                    },
+                                                                    {
+                                                                      "tag": "strong",
+                                                                      "attributes": {
+                                                                        "class": [
+                                                                          "rating"
+                                                                        ]
+                                                                      },
+                                                                      "children": [
+                                                                        {
+                                                                          "text": "4.5"
+                                                                        }
+                                                                      ]
+                                                                    },
+                                                                    {
+                                                                      "text": "out of 5 based on"
+                                                                    },
+                                                                    {
+                                                                      "tag": "span",
+                                                                      "attributes": {
+                                                                        "class": [
+                                                                          "rating"
+                                                                        ]
+                                                                      },
+                                                                      "children": [
+                                                                        {
+                                                                          "text": "59"
+                                                                        }
+                                                                      ]
+                                                                    },
+                                                                    {
+                                                                      "text": "customer ratings"
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "tag": "a",
+                                                              "attributes": {
+                                                                "href": "https://essential-addons.com/product/harmony-haven-sectional-sofa/#reviews",
+                                                                "class": [
+                                                                  "woocommerce-review-link",
+                                                                  "eael-product-list-review-count"
+                                                                ],
+                                                                "rel": [
+                                                                  "nofollow"
+                                                                ]
+                                                              },
+                                                              "children": [
+                                                                {
+                                                                  "text": "(60)"
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "tag": "div",
+                                                      "attributes": {
+                                                        "class": [
+                                                          "eael-product-list-content-body"
+                                                        ]
+                                                      },
+                                                      "children": [
+                                                        {
+                                                          "tag": "div",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "eael-product-list-excerpt"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "text": "Transform your living space into a haven of unparalleled comfort and style with the Harmony Haven sectional sofa. This exquisite piece seamlessly blends modern aesthetics with the indulgent embrace of plush relaxation…"
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "tag": "h3",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "eael-product-list-price"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "tag": "del",
+                                                              "attributes": {
+                                                                "aria-hidden": [
+                                                                  "true"
+                                                                ]
+                                                              },
+                                                              "children": [
+                                                                {
+                                                                  "tag": "span",
+                                                                  "attributes": {
+                                                                    "class": [
+                                                                      "woocommerce-Price-amount",
+                                                                      "amount"
+                                                                    ]
+                                                                  },
+                                                                  "children": [
+                                                                    {
+                                                                      "tag": "span",
+                                                                      "attributes": {
+                                                                        "class": [
+                                                                          "woocommerce-Price-currencySymbol"
+                                                                        ]
+                                                                      },
+                                                                      "children": [
+                                                                        {
+                                                                          "text": "£"
+                                                                        }
+                                                                      ]
+                                                                    },
+                                                                    {
+                                                                      "text": "300.00"
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "tag": "span",
+                                                              "attributes": {
+                                                                "class": [
+                                                                  "screen-reader-text"
+                                                                ]
+                                                              },
+                                                              "children": [
+                                                                {
+                                                                  "text": "Original price was: £300.00."
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "tag": "ins",
+                                                              "attributes": {
+                                                                "aria-hidden": [
+                                                                  "true"
+                                                                ]
+                                                              },
+                                                              "children": [
+                                                                {
+                                                                  "tag": "span",
+                                                                  "attributes": {
+                                                                    "class": [
+                                                                      "woocommerce-Price-amount",
+                                                                      "amount"
+                                                                    ]
+                                                                  },
+                                                                  "children": [
+                                                                    {
+                                                                      "tag": "span",
+                                                                      "attributes": {
+                                                                        "class": [
+                                                                          "woocommerce-Price-currencySymbol"
+                                                                        ]
+                                                                      },
+                                                                      "children": [
+                                                                        {
+                                                                          "text": "£"
+                                                                        }
+                                                                      ]
+                                                                    },
+                                                                    {
+                                                                      "text": "210.00"
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "tag": "span",
+                                                              "attributes": {
+                                                                "class": [
+                                                                  "screen-reader-text"
+                                                                ]
+                                                              },
+                                                              "children": [
+                                                                {
+                                                                  "text": "Current price is: £210.00."
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "tag": "div",
+                                                      "attributes": {
+                                                        "class": [
+                                                          "eael-product-list-content-footer"
+                                                        ]
+                                                      },
+                                                      "children": [
+                                                        {
+                                                          "tag": "div",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "eael-product-list-buttons"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "tag": "p",
+                                                              "attributes": {
+                                                                "class": [
+                                                                  "eael-product-list-add-to-cart-button",
+                                                                  "eael-m-0"
+                                                                ]
+                                                              },
+                                                              "children": [
+                                                                {
+                                                                  "tag": "a",
+                                                                  "attributes": {
+                                                                    "href": "?add-to-cart=280148",
+                                                                    "aria-describedby": [
+                                                                      "woocommerce_loop_add_to_cart_link_describedby_280148"
+                                                                    ],
+                                                                    "data-quantity": "1",
+                                                                    "class": [
+                                                                      "button",
+                                                                      "product_type_simple",
+                                                                      "add_to_cart_button",
+                                                                      "ajax_add_to_cart"
+                                                                    ],
+                                                                    "data-product_id": "280148",
+                                                                    "data-product_sku": "",
+                                                                    "aria-label": [
+                                                                      "Add",
+                                                                      "to",
+                                                                      "cart:",
+                                                                      "“Harmony",
+                                                                      "Haven",
+                                                                      "Sectional",
+                                                                      "Sofa”"
+                                                                    ],
+                                                                    "rel": [
+                                                                      "nofollow"
+                                                                    ]
+                                                                  },
+                                                                  "children": [
+                                                                    {
+                                                                      "text": "Add to cart"
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "tag": "span",
+                                                                  "attributes": {
+                                                                    "id": [
+                                                                      "woocommerce_loop_add_to_cart_link_describedby_280148"
+                                                                    ],
+                                                                    "class": [
+                                                                      "screen-reader-text"
+                                                                    ]
+                                                                  },
+                                                                  "children": []
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "tag": "div",
+                                                              "attributes": {
+                                                                "class": [
+                                                                  "eael-product-list-progress"
+                                                                ]
+                                                              },
+                                                              "children": [
+                                                                {
+                                                                  "tag": "div",
+                                                                  "attributes": {
+                                                                    "class": [
+                                                                      "eael-product-list-progress-info"
+                                                                    ]
+                                                                  },
+                                                                  "children": [
+                                                                    {
+                                                                      "tag": "h4",
+                                                                      "attributes": {
+                                                                        "class": [
+                                                                          "eael-product-list-progress-count"
+                                                                        ]
+                                                                      },
+                                                                      "children": [
+                                                                        {
+                                                                          "text": "Total Sold:"
+                                                                        },
+                                                                        {
+                                                                          "tag": "span",
+                                                                          "attributes": {},
+                                                                          "children": [
+                                                                            {
+                                                                              "text": "300"
+                                                                            }
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "text": "Item"
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "tag": "div",
+                                                                  "attributes": {
+                                                                    "class": [
+                                                                      "eael-product-list-progress-bar-outer"
+                                                                    ]
+                                                                  },
+                                                                  "children": [
+                                                                    {
+                                                                      "tag": "div",
+                                                                      "attributes": {
+                                                                        "style": "width: 20%;",
+                                                                        "class": [
+                                                                          "eael-product-list-progress-bar-inner"
+                                                                        ]
+                                                                      },
+                                                                      "children": []
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "tag": "div",
+                                                              "attributes": {
+                                                                "class": [
+                                                                  "eael-product-list-notice",
+                                                                  "eael-product-list-notice-shiping-free"
+                                                                ]
+                                                              },
+                                                              "children": [
+                                                                {
+                                                                  "tag": "p",
+                                                                  "attributes": {},
+                                                                  "children": [
+                                                                    {
+                                                                      "tag": "i",
+                                                                      "attributes": {
+                                                                        "class": [
+                                                                          "fas",
+                                                                          "fa-box"
+                                                                        ]
+                                                                      },
+                                                                      "children": []
+                                                                    },
+                                                                    {
+                                                                      "text": "Chair"
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "attributes": {
+                    "class": [
+                      "elementor-element",
+                      "elementor-element-a8e6375",
+                      "elementor-widget",
+                      "elementor-widget-eael-woo-product-list"
+                    ],
+                    "data-id": "a8e6375",
+                    "data-element_type": "widget",
+                    "data-widget_type": "eael-woo-product-list.default"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "attributes": {
+                        "class": [
+                          "elementor-widget-container"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "attributes": {
+                            "class": [
+                              "eael-product-list-wrapper",
+                              "preset-3"
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "eael-product-list-body",
+                                  "woocommerce"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "eael-product-list-container"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "div",
+                                      "attributes": {
+                                        "class": [
+                                          "eael-post-appender"
+                                        ]
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "div",
+                                          "attributes": {
+                                            "class": [
+                                              "product",
+                                              "post-280147",
+                                              "type-product",
+                                              "status-publish",
+                                              "has-post-thumbnail",
+                                              "product_cat-chair",
+                                              "last",
+                                              "instock",
+                                              "sale",
+                                              "shipping-taxable",
+                                              "purchasable",
+                                              "product-type-simple"
+                                            ]
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "div",
+                                              "attributes": {
+                                                "class": [
+                                                  "eael-product-list-item",
+                                                  ""
+                                                ]
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "div",
+                                                  "attributes": {
+                                                    "class": [
+                                                      "eael-product-list-image-wrap"
+                                                    ]
+                                                  },
+                                                  "children": [
+                                                    {
+                                                      "tag": "a",
+                                                      "attributes": {
+                                                        "href": "https://essential-addons.com/product/blossom-bloom-glass-vase/",
+                                                        "class": [
+                                                          "woocommerce-LoopProduct-link",
+                                                          "woocommerce-loop-product__link"
+                                                        ]
+                                                      },
+                                                      "children": [
+                                                        {
+                                                          "tag": "img",
+                                                          "attributes": {
+                                                            "decoding": [
+                                                              "async"
+                                                            ],
+                                                            "width": [
+                                                              "375"
+                                                            ],
+                                                            "height": [
+                                                              "375"
+                                                            ],
+                                                            "src": "https://essential-addons.com/wp-content/uploads/2023/11/product-img-007.png",
+                                                            "class": [
+                                                              "attachment-full",
+                                                              "size-full"
+                                                            ],
+                                                            "alt": "Woo Product List 110",
+                                                            "loading": [
+                                                              "eager"
+                                                            ],
+                                                            "title": "Woo Product List 110"
+                                                          },
+                                                          "children": []
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "tag": "ul",
+                                                      "attributes": {
+                                                        "class": [
+                                                          "eael-product-list-buttons-on-hover"
+                                                        ]
+                                                      },
+                                                      "children": [
+                                                        {
+                                                          "tag": "li",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "eael-product-list-add-to-cart-button",
+                                                              "eael-m-0"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "tag": "a",
+                                                              "attributes": {
+                                                                "href": "?add-to-cart=280147",
+                                                                "aria-describedby": [
+                                                                  "woocommerce_loop_add_to_cart_link_describedby_280147"
+                                                                ],
+                                                                "data-quantity": "1",
+                                                                "class": [
+                                                                  "button",
+                                                                  "product_type_simple",
+                                                                  "add_to_cart_button",
+                                                                  "ajax_add_to_cart"
+                                                                ],
+                                                                "data-product_id": "280147",
+                                                                "data-product_sku": "",
+                                                                "aria-label": [
+                                                                  "Add",
+                                                                  "to",
+                                                                  "cart:",
+                                                                  "“Blossom",
+                                                                  "Bloom",
+                                                                  "Glass",
+                                                                  "Vase”"
+                                                                ],
+                                                                "rel": [
+                                                                  "nofollow"
+                                                                ]
+                                                              },
+                                                              "children": [
+                                                                {
+                                                                  "text": "Add to cart"
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "tag": "span",
+                                                              "attributes": {
+                                                                "id": [
+                                                                  "woocommerce_loop_add_to_cart_link_describedby_280147"
+                                                                ],
+                                                                "class": [
+                                                                  "screen-reader-text"
+                                                                ]
+                                                              },
+                                                              "children": []
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "tag": "li",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "eael-product-list-quick-view-button",
+                                                              "eael-m-0"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "tag": "a",
+                                                              "attributes": {
+                                                                "id": [
+                                                                  ""
+                                                                ],
+                                                                "data-quickview-setting": "{\"widget_id\":\"a8e6375\",\"product_id\":280147,\"page_id\":280169}",
+                                                                "class": [
+                                                                  "open-popup-link"
+                                                                ]
+                                                              },
+                                                              "children": [
+                                                                {
+                                                                  "tag": "i",
+                                                                  "attributes": {
+                                                                    "class": [
+                                                                      "fas",
+                                                                      "fa-eye"
+                                                                    ]
+                                                                  },
+                                                                  "children": []
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "tag": "li",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "eael-product-list-link-button",
+                                                              "eael-m-0"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "tag": "a",
+                                                              "attributes": {
+                                                                "href": "https://essential-addons.com/product/blossom-bloom-glass-vase/"
+                                                              },
+                                                              "children": [
+                                                                {
+                                                                  "tag": "i",
+                                                                  "attributes": {
+                                                                    "class": [
+                                                                      "fas",
+                                                                      "fa-link"
+                                                                    ]
+                                                                  },
+                                                                  "children": []
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "tag": "div",
+                                                  "attributes": {
+                                                    "class": [
+                                                      "eael-product-list-content-wrap"
+                                                    ]
+                                                  },
+                                                  "children": [
+                                                    {
+                                                      "tag": "h2",
+                                                      "attributes": {
+                                                        "class": [
+                                                          "eael-product-list-title"
+                                                        ]
+                                                      },
+                                                      "children": [
+                                                        {
+                                                          "tag": "a",
+                                                          "attributes": {
+                                                            "href": "https://essential-addons.com/product/blossom-bloom-glass-vase/",
+                                                            "class": [
+                                                              "woocommerce-LoopProduct-link",
+                                                              "woocommerce-loop-product__link"
+                                                            ],
+                                                            "target": [
+                                                              "_blank"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "text": "Blossom Bloom Glass Vase"
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "tag": "div",
+                                                      "attributes": {
+                                                        "class": [
+                                                          "eael-product-list-content-header",
+                                                          ""
+                                                        ]
+                                                      },
+                                                      "children": []
+                                                    },
+                                                    {
+                                                      "tag": "div",
+                                                      "attributes": {
+                                                        "class": [
+                                                          "eael-product-list-content-body"
+                                                        ]
+                                                      },
+                                                      "children": [
+                                                        {
+                                                          "tag": "div",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "eael-product-list-excerpt"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "text": "Bring the beauty of nature indoors with Nature’s Embrace, a ceramic bloom glass vase vase that complements your blooms and designed to showcase your flowers in a cascade of style…"
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "tag": "h3",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "eael-product-list-price"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "tag": "del",
+                                                              "attributes": {
+                                                                "aria-hidden": [
+                                                                  "true"
+                                                                ]
+                                                              },
+                                                              "children": [
+                                                                {
+                                                                  "tag": "span",
+                                                                  "attributes": {
+                                                                    "class": [
+                                                                      "woocommerce-Price-amount",
+                                                                      "amount"
+                                                                    ]
+                                                                  },
+                                                                  "children": [
+                                                                    {
+                                                                      "tag": "span",
+                                                                      "attributes": {
+                                                                        "class": [
+                                                                          "woocommerce-Price-currencySymbol"
+                                                                        ]
+                                                                      },
+                                                                      "children": [
+                                                                        {
+                                                                          "text": "£"
+                                                                        }
+                                                                      ]
+                                                                    },
+                                                                    {
+                                                                      "text": "200.00"
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "tag": "span",
+                                                              "attributes": {
+                                                                "class": [
+                                                                  "screen-reader-text"
+                                                                ]
+                                                              },
+                                                              "children": [
+                                                                {
+                                                                  "text": "Original price was: £200.00."
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "tag": "ins",
+                                                              "attributes": {
+                                                                "aria-hidden": [
+                                                                  "true"
+                                                                ]
+                                                              },
+                                                              "children": [
+                                                                {
+                                                                  "tag": "span",
+                                                                  "attributes": {
+                                                                    "class": [
+                                                                      "woocommerce-Price-amount",
+                                                                      "amount"
+                                                                    ]
+                                                                  },
+                                                                  "children": [
+                                                                    {
+                                                                      "tag": "span",
+                                                                      "attributes": {
+                                                                        "class": [
+                                                                          "woocommerce-Price-currencySymbol"
+                                                                        ]
+                                                                      },
+                                                                      "children": [
+                                                                        {
+                                                                          "text": "£"
+                                                                        }
+                                                                      ]
+                                                                    },
+                                                                    {
+                                                                      "text": "130.00"
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "tag": "span",
+                                                              "attributes": {
+                                                                "class": [
+                                                                  "screen-reader-text"
+                                                                ]
+                                                              },
+                                                              "children": [
+                                                                {
+                                                                  "text": "Current price is: £130.00."
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "tag": "div",
+                                                      "attributes": {
+                                                        "class": [
+                                                          "eael-product-list-content-footer"
+                                                        ]
+                                                      },
+                                                      "children": [
+                                                        {
+                                                          "tag": "div",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "eael-product-list-buttons"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "tag": "p",
+                                                              "attributes": {
+                                                                "class": [
+                                                                  "eael-product-list-add-to-cart-button",
+                                                                  "eael-m-0"
+                                                                ]
+                                                              },
+                                                              "children": [
+                                                                {
+                                                                  "tag": "a",
+                                                                  "attributes": {
+                                                                    "href": "?add-to-cart=280147",
+                                                                    "aria-describedby": [
+                                                                      "woocommerce_loop_add_to_cart_link_describedby_280147"
+                                                                    ],
+                                                                    "data-quantity": "1",
+                                                                    "class": [
+                                                                      "button",
+                                                                      "product_type_simple",
+                                                                      "add_to_cart_button",
+                                                                      "ajax_add_to_cart"
+                                                                    ],
+                                                                    "data-product_id": "280147",
+                                                                    "data-product_sku": "",
+                                                                    "aria-label": [
+                                                                      "Add",
+                                                                      "to",
+                                                                      "cart:",
+                                                                      "“Blossom",
+                                                                      "Bloom",
+                                                                      "Glass",
+                                                                      "Vase”"
+                                                                    ],
+                                                                    "rel": [
+                                                                      "nofollow"
+                                                                    ]
+                                                                  },
+                                                                  "children": [
+                                                                    {
+                                                                      "text": "Add to cart"
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "tag": "span",
+                                                                  "attributes": {
+                                                                    "id": [
+                                                                      "woocommerce_loop_add_to_cart_link_describedby_280147"
+                                                                    ],
+                                                                    "class": [
+                                                                      "screen-reader-text"
+                                                                    ]
+                                                                  },
+                                                                  "children": []
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "tag": "div",
+                                                              "attributes": {
+                                                                "class": [
+                                                                  "eael-product-list-progress"
+                                                                ]
+                                                              },
+                                                              "children": [
+                                                                {
+                                                                  "tag": "div",
+                                                                  "attributes": {
+                                                                    "class": [
+                                                                      "eael-product-list-progress-info"
+                                                                    ]
+                                                                  },
+                                                                  "children": [
+                                                                    {
+                                                                      "tag": "h4",
+                                                                      "attributes": {
+                                                                        "class": [
+                                                                          "eael-product-list-progress-count"
+                                                                        ]
+                                                                      },
+                                                                      "children": [
+                                                                        {
+                                                                          "text": "Total Sold:"
+                                                                        },
+                                                                        {
+                                                                          "tag": "span",
+                                                                          "attributes": {},
+                                                                          "children": [
+                                                                            {
+                                                                              "text": "300"
+                                                                            }
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "text": "Item"
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "tag": "div",
+                                                                  "attributes": {
+                                                                    "class": [
+                                                                      "eael-product-list-progress-bar-outer"
+                                                                    ]
+                                                                  },
+                                                                  "children": [
+                                                                    {
+                                                                      "tag": "div",
+                                                                      "attributes": {
+                                                                        "style": "width: 23%;",
+                                                                        "class": [
+                                                                          "eael-product-list-progress-bar-inner"
+                                                                        ]
+                                                                      },
+                                                                      "children": []
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "tag": "div",
+                                                              "attributes": {
+                                                                "class": [
+                                                                  "eael-product-list-notice",
+                                                                  "eael-product-list-notice-shiping-free"
+                                                                ]
+                                                              },
+                                                              "children": [
+                                                                {
+                                                                  "tag": "p",
+                                                                  "attributes": {},
+                                                                  "children": [
+                                                                    {
+                                                                      "tag": "i",
+                                                                      "attributes": {
+                                                                        "class": [
+                                                                          "fas",
+                                                                          "fa-box"
+                                                                        ]
+                                                                      },
+                                                                      "children": []
+                                                                    },
+                                                                    {
+                                                                      "text": "Chair"
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
