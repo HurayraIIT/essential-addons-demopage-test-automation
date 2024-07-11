@@ -22,3 +22,69 @@ test.describe("Content Toggle", () => {
     await expect(page.getByText("Choose your save template designs & set")).toBeVisible();
   });
 });
+
+test.describe("Content Toggle - Structure Tests", () => {
+  test.beforeEach(async ({ page }) => {
+    await page.goto(slug);
+  });
+
+  test("Style 1", async ({ page }) => {
+    const selector = ".elementor-element-a815d9a"; // Replace with your actual selector
+    await page.waitForSelector(selector);
+    await page.locator(selector).scrollIntoViewIfNeeded();
+    await page.waitForTimeout(300);
+
+    const filePath = path.join(__dirname, `../snapshots/${slug.substring(1)}-${selector.substring(1)}.json`);
+
+    const nodeStructure = await page.evaluate(evaluateNodeStructure, selector);
+    saveStructure(nodeStructure, filePath);
+
+    const existingNodeStructure = getStructure(filePath);
+    expect(nodeStructure).toEqual(existingNodeStructure);
+  });
+
+  test("Style 2", async ({ page }) => {
+    const selector = ".elementor-element-373dbd4c"; // Replace with your actual selector
+    await page.waitForSelector(selector);
+    await page.locator(selector).scrollIntoViewIfNeeded();
+    await page.waitForTimeout(300);
+
+    const filePath = path.join(__dirname, `../snapshots/${slug.substring(1)}-${selector.substring(1)}.json`);
+
+    const nodeStructure = await page.evaluate(evaluateNodeStructure, selector);
+    saveStructure(nodeStructure, filePath);
+
+    const existingNodeStructure = getStructure(filePath);
+    expect(nodeStructure).toEqual(existingNodeStructure);
+  });
+
+  test("Style 3", async ({ page }) => {
+    const selector = ".elementor-element-3eddd514"; // Replace with your actual selector
+    await page.waitForSelector(selector);
+    await page.locator(selector).scrollIntoViewIfNeeded();
+    await page.waitForTimeout(300);
+
+    const filePath = path.join(__dirname, `../snapshots/${slug.substring(1)}-${selector.substring(1)}.json`);
+
+    const nodeStructure = await page.evaluate(evaluateNodeStructure, selector);
+    saveStructure(nodeStructure, filePath);
+
+    const existingNodeStructure = getStructure(filePath);
+    expect(nodeStructure).toEqual(existingNodeStructure);
+  });
+
+  test("Style 4", async ({ page }) => {
+    const selector = ".elementor-element-22081b76"; // Replace with your actual selector
+    await page.waitForSelector(selector);
+    await page.locator(selector).scrollIntoViewIfNeeded();
+    await page.waitForTimeout(300);
+
+    const filePath = path.join(__dirname, `../snapshots/${slug.substring(1)}-${selector.substring(1)}.json`);
+
+    const nodeStructure = await page.evaluate(evaluateNodeStructure, selector);
+    saveStructure(nodeStructure, filePath);
+
+    const existingNodeStructure = getStructure(filePath);
+    expect(nodeStructure).toEqual(existingNodeStructure);
+  });
+});
