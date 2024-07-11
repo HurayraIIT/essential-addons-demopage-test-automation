@@ -1,5 +1,8 @@
 "use strict";
+
+import path from "path";
 import { test, expect } from "../global-setup";
+import { evaluateNodeStructure, saveStructure, getStructure } from "../helpers/snapshot";
 
 let slug = "/post-list";
 let heading = "Smart Post List";

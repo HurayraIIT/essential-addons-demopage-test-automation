@@ -1,5 +1,8 @@
 "use strict";
+
+import path from "path";
 import { test, expect } from "../global-setup";
+import { evaluateNodeStructure, saveStructure, getStructure } from "../helpers/snapshot";
 
 let slug = "/contact-form-7";
 let heading = "Contact Form 7";

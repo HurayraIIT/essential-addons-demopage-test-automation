@@ -1,5 +1,8 @@
 "use strict";
+
+import path from "path";
 import { test, expect } from "../global-setup";
+import { evaluateNodeStructure, saveStructure, getStructure } from "../helpers/snapshot";
 
 let slug = "/woo-cart";
 let heading = "Woo Cart";
@@ -13,7 +16,11 @@ test.describe("Woo Cart", () => {
   });
 
   test("Test Section: Design An Attractive Cart Page With Ready Layouts", async ({ page }) => {
-    await page.getByRole("heading", { name: "Design An Attractive Cart Page With Ready Layouts" }).scrollIntoViewIfNeeded();
-    await expect(page.getByRole("heading", { name: "Design An Attractive Cart Page With Ready Layouts" })).toBeVisible();
+    await page
+      .getByRole("heading", { name: "Design An Attractive Cart Page With Ready Layouts" })
+      .scrollIntoViewIfNeeded();
+    await expect(
+      page.getByRole("heading", { name: "Design An Attractive Cart Page With Ready Layouts" })
+    ).toBeVisible();
   });
 });

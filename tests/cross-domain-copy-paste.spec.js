@@ -1,5 +1,8 @@
 "use strict";
+
+import path from "path";
 import { test, expect } from "../global-setup";
+import { evaluateNodeStructure, saveStructure, getStructure } from "../helpers/snapshot";
 
 let slug = "/cross-domain-copy-paste";
 let heading = "Cross-Domain Copy Paste";
