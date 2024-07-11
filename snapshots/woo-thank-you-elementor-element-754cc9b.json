@@ -2,11 +2,11 @@
   "tag": "div",
   "attributes": {
     "class": [
-      "elementor-column",
       "elementor-col-100",
-      "elementor-inner-column",
+      "elementor-column",
       "elementor-element",
-      "elementor-element-754cc9b"
+      "elementor-element-754cc9b",
+      "elementor-inner-column"
     ],
     "data-id": "754cc9b",
     "data-element_type": "column"
@@ -16,8 +16,8 @@
       "tag": "div",
       "attributes": {
         "class": [
-          "elementor-widget-wrap",
-          "elementor-element-populated"
+          "elementor-element-populated",
+          "elementor-widget-wrap"
         ]
       },
       "children": [
@@ -92,8 +92,8 @@
                                         ],
                                         "class": [
                                           "eael-thankyou-icon",
-                                          "fas",
-                                          "fa-check"
+                                          "fa-check",
+                                          "fas"
                                         ]
                                       },
                                       "children": []
@@ -163,8 +163,8 @@
                                   "tag": "ul",
                                   "attributes": {
                                     "class": [
-                                      "woocommerce-order-overview",
-                                      "order_details"
+                                      "order_details",
+                                      "woocommerce-order-overview"
                                     ]
                                   },
                                   "children": [
@@ -172,8 +172,8 @@
                                       "tag": "li",
                                       "attributes": {
                                         "class": [
-                                          "woocommerce-order-overview__order",
-                                          "order"
+                                          "order",
+                                          "woocommerce-order-overview__order"
                                         ]
                                       },
                                       "children": [
@@ -209,8 +209,8 @@
                                       "tag": "li",
                                       "attributes": {
                                         "class": [
-                                          "woocommerce-order-overview__date",
-                                          "date"
+                                          "date",
+                                          "woocommerce-order-overview__date"
                                         ]
                                       },
                                       "children": [
@@ -246,8 +246,8 @@
                                       "tag": "li",
                                       "attributes": {
                                         "class": [
-                                          "woocommerce-order-overview__total",
-                                          "total"
+                                          "total",
+                                          "woocommerce-order-overview__total"
                                         ]
                                       },
                                       "children": [
@@ -276,8 +276,8 @@
                                               "tag": "span",
                                               "attributes": {
                                                 "class": [
-                                                  "woocommerce-Price-amount",
-                                                  "amount"
+                                                  "amount",
+                                                  "woocommerce-Price-amount"
                                                 ]
                                               },
                                               "children": [
@@ -313,8 +313,8 @@
                                       "tag": "li",
                                       "attributes": {
                                         "class": [
-                                          "woocommerce-order-overview__payment-method",
-                                          "method"
+                                          "method",
+                                          "woocommerce-order-overview__payment-method"
                                         ]
                                       },
                                       "children": [
@@ -459,8 +459,8 @@
                                             "class": [
                                               "eael-thankyou-billing-cell-icon",
                                               "eael-thankyou-icon",
-                                              "fas",
-                                              "fa-phone"
+                                              "fa-phone",
+                                              "fas"
                                             ]
                                           },
                                           "children": []
@@ -487,8 +487,8 @@
                                             "class": [
                                               "eael-thankyou-billing-email-icon",
                                               "eael-thankyou-icon",
-                                              "fas",
-                                              "fa-envelope"
+                                              "fa-envelope",
+                                              "fas"
                                             ]
                                           },
                                           "children": []
@@ -763,8 +763,8 @@
                                                       "tag": "span",
                                                       "attributes": {
                                                         "class": [
-                                                          "woocommerce-Price-amount",
-                                                          "amount"
+                                                          "amount",
+                                                          "woocommerce-Price-amount"
                                                         ]
                                                       },
                                                       "children": [
@@ -905,8 +905,8 @@
                                                       "tag": "span",
                                                       "attributes": {
                                                         "class": [
-                                                          "woocommerce-Price-amount",
-                                                          "amount"
+                                                          "amount",
+                                                          "woocommerce-Price-amount"
                                                         ]
                                                       },
                                                       "children": [
@@ -993,8 +993,8 @@
                                                       "tag": "span",
                                                       "attributes": {
                                                         "class": [
-                                                          "woocommerce-Price-amount",
-                                                          "amount"
+                                                          "amount",
+                                                          "woocommerce-Price-amount"
                                                         ]
                                                       },
                                                       "children": [
@@ -1049,8 +1049,8 @@
                                                       "tag": "span",
                                                       "attributes": {
                                                         "class": [
-                                                          "woocommerce-Price-amount",
-                                                          "amount"
+                                                          "amount",
+                                                          "woocommerce-Price-amount"
                                                         ]
                                                       },
                                                       "children": [
@@ -1150,8 +1150,8 @@
                                                       "tag": "span",
                                                       "attributes": {
                                                         "class": [
-                                                          "woocommerce-Price-amount",
-                                                          "amount"
+                                                          "amount",
+                                                          "woocommerce-Price-amount"
                                                         ]
                                                       },
                                                       "children": [
@@ -1285,8 +1285,8 @@
                                             "class": [
                                               "eael-thankyou-billing-cell-icon",
                                               "eael-thankyou-icon",
-                                              "fas",
-                                              "fa-phone"
+                                              "fa-phone",
+                                              "fas"
                                             ]
                                           },
                                           "children": []
@@ -1313,8 +1313,8 @@
                                             "class": [
                                               "eael-thankyou-billing-email-icon",
                                               "eael-thankyou-icon",
-                                              "fas",
-                                              "fa-envelope"
+                                              "fa-envelope",
+                                              "fas"
                                             ]
                                           },
                                           "children": []

@@ -1,0 +1,1928 @@
+{
+  "tag": "section",
+  "attributes": {
+    "data-particle_enable": "false",
+    "data-particle-mobile-disabled": "false",
+    "class": [
+      "elementor-element",
+      "elementor-element-e2905fd",
+      "elementor-section",
+      "elementor-section-boxed",
+      "elementor-section-height-default",
+      "elementor-section-height-default",
+      "elementor-top-section"
+    ],
+    "data-id": "e2905fd",
+    "data-element_type": "section",
+    "data-settings": "{\"background_background\":\"classic\"}"
+  },
+  "children": [
+    {
+      "tag": "div",
+      "attributes": {
+        "class": [
+          "elementor-column-gap-default",
+          "elementor-container"
+        ]
+      },
+      "children": [
+        {
+          "tag": "div",
+          "attributes": {
+            "class": [
+              "elementor-col-100",
+              "elementor-column",
+              "elementor-element",
+              "elementor-element-6898c94",
+              "elementor-top-column"
+            ],
+            "data-id": "6898c94",
+            "data-element_type": "column"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "attributes": {
+                "class": [
+                  "elementor-element-populated",
+                  "elementor-widget-wrap"
+                ]
+              },
+              "children": [
+                {
+                  "tag": "section",
+                  "attributes": {
+                    "data-particle_enable": "false",
+                    "data-particle-mobile-disabled": "false",
+                    "class": [
+                      "elementor-element",
+                      "elementor-element-d19b52b",
+                      "elementor-inner-section",
+                      "elementor-section",
+                      "elementor-section-boxed",
+                      "elementor-section-height-default",
+                      "elementor-section-height-default"
+                    ],
+                    "data-id": "d19b52b",
+                    "data-element_type": "section"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "attributes": {
+                        "class": [
+                          "elementor-column-gap-default",
+                          "elementor-container"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "attributes": {
+                            "class": [
+                              "elementor-col-100",
+                              "elementor-column",
+                              "elementor-element",
+                              "elementor-element-1928b14",
+                              "elementor-inner-column"
+                            ],
+                            "data-id": "1928b14",
+                            "data-element_type": "column"
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "elementor-element-populated",
+                                  "elementor-widget-wrap"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "elementor-element",
+                                      "elementor-element-8ada8c8",
+                                      "elementor-widget",
+                                      "elementor-widget-heading"
+                                    ],
+                                    "data-id": "8ada8c8",
+                                    "data-element_type": "widget",
+                                    "data-widget_type": "heading.default"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "div",
+                                      "attributes": {
+                                        "class": [
+                                          "elementor-widget-container"
+                                        ]
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "h3",
+                                          "attributes": {
+                                            "class": [
+                                              "elementor-heading-title",
+                                              "elementor-size-default"
+                                            ]
+                                          },
+                                          "children": [
+                                            {
+                                              "text": "Add & Style Your Theme 6 Ready Layouts"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "elementor-element",
+                                      "elementor-element-22b65f6",
+                                      "elementor-widget",
+                                      "elementor-widget-text-editor"
+                                    ],
+                                    "data-id": "22b65f6",
+                                    "data-element_type": "widget",
+                                    "data-widget_type": "text-editor.default"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "div",
+                                      "attributes": {
+                                        "class": [
+                                          "elementor-widget-container"
+                                        ]
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "p",
+                                          "attributes": {},
+                                          "children": [
+                                            {
+                                              "text": "Choose Theme 6 to make your product comparison section interactive than others and style it interactively as per your wish"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "section",
+                  "attributes": {
+                    "data-particle_enable": "false",
+                    "data-particle-mobile-disabled": "false",
+                    "class": [
+                      "elementor-element",
+                      "elementor-element-8c4c5a4",
+                      "elementor-inner-section",
+                      "elementor-section",
+                      "elementor-section-boxed",
+                      "elementor-section-height-default",
+                      "elementor-section-height-default"
+                    ],
+                    "data-id": "8c4c5a4",
+                    "data-element_type": "section"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "attributes": {
+                        "class": [
+                          "elementor-column-gap-default",
+                          "elementor-container"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "attributes": {
+                            "class": [
+                              "elementor-col-100",
+                              "elementor-column",
+                              "elementor-element",
+                              "elementor-element-d8c572e",
+                              "elementor-inner-column"
+                            ],
+                            "data-id": "d8c572e",
+                            "data-element_type": "column"
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "elementor-element-populated",
+                                  "elementor-widget-wrap"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "elementor-element",
+                                      "elementor-element-be32335",
+                                      "elementor-widget",
+                                      "elementor-widget-eael-woo-product-compare"
+                                    ],
+                                    "data-id": "be32335",
+                                    "data-element_type": "widget",
+                                    "data-widget_type": "eael-woo-product-compare.default"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "div",
+                                      "attributes": {
+                                        "class": [
+                                          "elementor-widget-container"
+                                        ]
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "div",
+                                          "attributes": {
+                                            "class": [
+                                              "custom",
+                                              "eael-wcpc-wrapper",
+                                              "theme-6",
+                                              "woocommerce"
+                                            ]
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "table",
+                                              "attributes": {
+                                                "class": [
+                                                  "eael-wcpc-table",
+                                                  "table-responsive"
+                                                ]
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "tbody",
+                                                  "attributes": {},
+                                                  "children": [
+                                                    {
+                                                      "tag": "tr",
+                                                      "attributes": {
+                                                        "class": [
+                                                          "image"
+                                                        ]
+                                                      },
+                                                      "children": [
+                                                        {
+                                                          "tag": "th",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "first-th",
+                                                              "thead"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "tag": "div",
+                                                              "attributes": {
+                                                                "class": [
+                                                                  "wcpc-table-header"
+                                                                ]
+                                                              },
+                                                              "children": [
+                                                                {
+                                                                  "tag": "h1",
+                                                                  "attributes": {
+                                                                    "class": [
+                                                                      "wcpc-title"
+                                                                    ]
+                                                                  },
+                                                                  "children": [
+                                                                    {
+                                                                      "text": "Compare Products"
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "tag": "td",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "",
+                                                              "col_0",
+                                                              "odd",
+                                                              "product_558"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "tag": "span",
+                                                              "attributes": {},
+                                                              "children": [
+                                                                {
+                                                                  "tag": "span",
+                                                                  "attributes": {
+                                                                    "class": [
+                                                                      "img-inner"
+                                                                    ]
+                                                                  },
+                                                                  "children": [
+                                                                    {
+                                                                      "tag": "img",
+                                                                      "attributes": {
+                                                                        "loading": [
+                                                                          "lazy"
+                                                                        ],
+                                                                        "decoding": [
+                                                                          "async"
+                                                                        ],
+                                                                        "width": [
+                                                                          "250"
+                                                                        ],
+                                                                        "height": [
+                                                                          "275"
+                                                                        ],
+                                                                        "src": "https://essential-addons.com/wp-content/uploads/2017/01/2-250x275.png",
+                                                                        "class": [
+                                                                          "attachment-woocommerce_thumbnail",
+                                                                          "size-woocommerce_thumbnail"
+                                                                        ],
+                                                                        "alt": "Woo Product Compare 117",
+                                                                        "title": "Woo Product Compare 117"
+                                                                      },
+                                                                      "children": []
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "tag": "td",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "",
+                                                              "col_1",
+                                                              "even",
+                                                              "product_559"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "tag": "span",
+                                                              "attributes": {},
+                                                              "children": [
+                                                                {
+                                                                  "tag": "span",
+                                                                  "attributes": {
+                                                                    "class": [
+                                                                      "img-inner"
+                                                                    ]
+                                                                  },
+                                                                  "children": [
+                                                                    {
+                                                                      "tag": "img",
+                                                                      "attributes": {
+                                                                        "loading": [
+                                                                          "lazy"
+                                                                        ],
+                                                                        "decoding": [
+                                                                          "async"
+                                                                        ],
+                                                                        "width": [
+                                                                          "250"
+                                                                        ],
+                                                                        "height": [
+                                                                          "275"
+                                                                        ],
+                                                                        "src": "https://essential-addons.com/wp-content/uploads/2017/01/3-250x275.png",
+                                                                        "class": [
+                                                                          "attachment-woocommerce_thumbnail",
+                                                                          "size-woocommerce_thumbnail"
+                                                                        ],
+                                                                        "alt": "Woo Product Compare 104",
+                                                                        "title": "Woo Product Compare 104"
+                                                                      },
+                                                                      "children": []
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "tag": "td",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "",
+                                                              "col_2",
+                                                              "odd",
+                                                              "product_560"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "tag": "span",
+                                                              "attributes": {},
+                                                              "children": [
+                                                                {
+                                                                  "tag": "span",
+                                                                  "attributes": {
+                                                                    "class": [
+                                                                      "img-inner"
+                                                                    ]
+                                                                  },
+                                                                  "children": [
+                                                                    {
+                                                                      "tag": "img",
+                                                                      "attributes": {
+                                                                        "loading": [
+                                                                          "lazy"
+                                                                        ],
+                                                                        "decoding": [
+                                                                          "async"
+                                                                        ],
+                                                                        "width": [
+                                                                          "250"
+                                                                        ],
+                                                                        "height": [
+                                                                          "275"
+                                                                        ],
+                                                                        "src": "https://essential-addons.com/wp-content/uploads/2017/01/4-250x275.png",
+                                                                        "class": [
+                                                                          "attachment-woocommerce_thumbnail",
+                                                                          "size-woocommerce_thumbnail"
+                                                                        ],
+                                                                        "alt": "Woo Product Compare 119",
+                                                                        "title": "Woo Product Compare 119"
+                                                                      },
+                                                                      "children": []
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "tag": "tr",
+                                                      "attributes": {
+                                                        "class": [
+                                                          "title"
+                                                        ]
+                                                      },
+                                                      "children": [
+                                                        {
+                                                          "tag": "th",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "",
+                                                              "thead"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "tag": "div",
+                                                              "attributes": {
+                                                                "class": [
+                                                                  "wcpc-table-header"
+                                                                ]
+                                                              },
+                                                              "children": [
+                                                                {
+                                                                  "tag": "span",
+                                                                  "attributes": {
+                                                                    "class": [
+                                                                      "field-name"
+                                                                    ]
+                                                                  },
+                                                                  "children": [
+                                                                    {
+                                                                      "text": "Title"
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "tag": "td",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "",
+                                                              "col_0",
+                                                              "odd",
+                                                              "product_558"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "tag": "span",
+                                                              "attributes": {},
+                                                              "children": [
+                                                                {
+                                                                  "text": "Mens Running Shoe"
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "tag": "td",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "",
+                                                              "col_1",
+                                                              "even",
+                                                              "product_559"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "tag": "span",
+                                                              "attributes": {},
+                                                              "children": [
+                                                                {
+                                                                  "text": "Super Running Shoe"
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "tag": "td",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "",
+                                                              "col_2",
+                                                              "odd",
+                                                              "product_560"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "tag": "span",
+                                                              "attributes": {},
+                                                              "children": [
+                                                                {
+                                                                  "text": "Colorful Shoe for men"
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "tag": "tr",
+                                                      "attributes": {
+                                                        "class": [
+                                                          "price"
+                                                        ]
+                                                      },
+                                                      "children": [
+                                                        {
+                                                          "tag": "th",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "",
+                                                              "thead"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "tag": "div",
+                                                              "attributes": {
+                                                                "class": [
+                                                                  "wcpc-table-header"
+                                                                ]
+                                                              },
+                                                              "children": [
+                                                                {
+                                                                  "tag": "span",
+                                                                  "attributes": {
+                                                                    "class": [
+                                                                      "field-name"
+                                                                    ]
+                                                                  },
+                                                                  "children": [
+                                                                    {
+                                                                      "text": "Price"
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "tag": "td",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "",
+                                                              "col_0",
+                                                              "odd",
+                                                              "product_558"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "tag": "span",
+                                                              "attributes": {},
+                                                              "children": [
+                                                                {
+                                                                  "tag": "span",
+                                                                  "attributes": {
+                                                                    "class": [
+                                                                      "amount",
+                                                                      "woocommerce-Price-amount"
+                                                                    ]
+                                                                  },
+                                                                  "children": [
+                                                                    {
+                                                                      "tag": "bdi",
+                                                                      "attributes": {},
+                                                                      "children": [
+                                                                        {
+                                                                          "tag": "span",
+                                                                          "attributes": {
+                                                                            "class": [
+                                                                              "woocommerce-Price-currencySymbol"
+                                                                            ]
+                                                                          },
+                                                                          "children": [
+                                                                            {
+                                                                              "text": "£"
+                                                                            }
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "text": "50.00"
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "tag": "td",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "",
+                                                              "col_1",
+                                                              "even",
+                                                              "product_559"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "tag": "span",
+                                                              "attributes": {},
+                                                              "children": [
+                                                                {
+                                                                  "tag": "span",
+                                                                  "attributes": {
+                                                                    "class": [
+                                                                      "amount",
+                                                                      "woocommerce-Price-amount"
+                                                                    ]
+                                                                  },
+                                                                  "children": [
+                                                                    {
+                                                                      "tag": "bdi",
+                                                                      "attributes": {},
+                                                                      "children": [
+                                                                        {
+                                                                          "tag": "span",
+                                                                          "attributes": {
+                                                                            "class": [
+                                                                              "woocommerce-Price-currencySymbol"
+                                                                            ]
+                                                                          },
+                                                                          "children": [
+                                                                            {
+                                                                              "text": "£"
+                                                                            }
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "text": "60.00"
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "tag": "td",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "",
+                                                              "col_2",
+                                                              "odd",
+                                                              "product_560"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "tag": "span",
+                                                              "attributes": {},
+                                                              "children": [
+                                                                {
+                                                                  "tag": "span",
+                                                                  "attributes": {
+                                                                    "class": [
+                                                                      "amount",
+                                                                      "woocommerce-Price-amount"
+                                                                    ]
+                                                                  },
+                                                                  "children": [
+                                                                    {
+                                                                      "tag": "bdi",
+                                                                      "attributes": {},
+                                                                      "children": [
+                                                                        {
+                                                                          "tag": "span",
+                                                                          "attributes": {
+                                                                            "class": [
+                                                                              "woocommerce-Price-currencySymbol"
+                                                                            ]
+                                                                          },
+                                                                          "children": [
+                                                                            {
+                                                                              "text": "£"
+                                                                            }
+                                                                          ]
+                                                                        },
+                                                                        {
+                                                                          "text": "75.00"
+                                                                        }
+                                                                      ]
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "tag": "tr",
+                                                      "attributes": {
+                                                        "class": [
+                                                          "description"
+                                                        ]
+                                                      },
+                                                      "children": [
+                                                        {
+                                                          "tag": "th",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "",
+                                                              "thead"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "tag": "div",
+                                                              "attributes": {
+                                                                "class": [
+                                                                  "wcpc-table-header"
+                                                                ]
+                                                              },
+                                                              "children": [
+                                                                {
+                                                                  "tag": "span",
+                                                                  "attributes": {
+                                                                    "class": [
+                                                                      "field-name"
+                                                                    ]
+                                                                  },
+                                                                  "children": [
+                                                                    {
+                                                                      "text": "Description"
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "tag": "td",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "",
+                                                              "col_0",
+                                                              "odd",
+                                                              "product_558"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "tag": "span",
+                                                              "attributes": {},
+                                                              "children": []
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "tag": "td",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "",
+                                                              "col_1",
+                                                              "even",
+                                                              "product_559"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "tag": "span",
+                                                              "attributes": {},
+                                                              "children": []
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "tag": "td",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "",
+                                                              "col_2",
+                                                              "odd",
+                                                              "product_560"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "tag": "span",
+                                                              "attributes": {},
+                                                              "children": []
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "tag": "tr",
+                                                      "attributes": {
+                                                        "class": [
+                                                          "add-to-cart"
+                                                        ]
+                                                      },
+                                                      "children": [
+                                                        {
+                                                          "tag": "th",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "",
+                                                              "thead"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "tag": "div",
+                                                              "attributes": {
+                                                                "class": [
+                                                                  "wcpc-table-header"
+                                                                ]
+                                                              },
+                                                              "children": [
+                                                                {
+                                                                  "tag": "span",
+                                                                  "attributes": {
+                                                                    "class": [
+                                                                      "field-name"
+                                                                    ]
+                                                                  },
+                                                                  "children": [
+                                                                    {
+                                                                      "text": "Add to cart"
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "tag": "td",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "",
+                                                              "col_0",
+                                                              "odd",
+                                                              "product_558"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "tag": "span",
+                                                              "attributes": {},
+                                                              "children": [
+                                                                {
+                                                                  "tag": "a",
+                                                                  "attributes": {
+                                                                    "href": "?add-to-cart=558",
+                                                                    "aria-describedby": [
+                                                                      "woocommerce_loop_add_to_cart_link_describedby_558"
+                                                                    ],
+                                                                    "data-quantity": "1",
+                                                                    "class": [
+                                                                      "add_to_cart_button",
+                                                                      "ajax_add_to_cart",
+                                                                      "button",
+                                                                      "product_type_simple"
+                                                                    ],
+                                                                    "data-product_id": "558",
+                                                                    "data-product_sku": "",
+                                                                    "aria-label": [
+                                                                      "Add",
+                                                                      "Running",
+                                                                      "Shoe”",
+                                                                      "cart:",
+                                                                      "to",
+                                                                      "“Mens"
+                                                                    ],
+                                                                    "rel": [
+                                                                      "nofollow"
+                                                                    ]
+                                                                  },
+                                                                  "children": [
+                                                                    {
+                                                                      "text": "Add to cart"
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "tag": "span",
+                                                                  "attributes": {
+                                                                    "id": [
+                                                                      "woocommerce_loop_add_to_cart_link_describedby_558"
+                                                                    ],
+                                                                    "class": [
+                                                                      "screen-reader-text"
+                                                                    ]
+                                                                  },
+                                                                  "children": []
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "tag": "td",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "",
+                                                              "col_1",
+                                                              "even",
+                                                              "product_559"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "tag": "span",
+                                                              "attributes": {},
+                                                              "children": [
+                                                                {
+                                                                  "tag": "a",
+                                                                  "attributes": {
+                                                                    "href": "?add-to-cart=559",
+                                                                    "aria-describedby": [
+                                                                      "woocommerce_loop_add_to_cart_link_describedby_559"
+                                                                    ],
+                                                                    "data-quantity": "1",
+                                                                    "class": [
+                                                                      "add_to_cart_button",
+                                                                      "ajax_add_to_cart",
+                                                                      "button",
+                                                                      "product_type_simple"
+                                                                    ],
+                                                                    "data-product_id": "559",
+                                                                    "data-product_sku": "",
+                                                                    "aria-label": [
+                                                                      "Add",
+                                                                      "Running",
+                                                                      "Shoe”",
+                                                                      "cart:",
+                                                                      "to",
+                                                                      "“Super"
+                                                                    ],
+                                                                    "rel": [
+                                                                      "nofollow"
+                                                                    ]
+                                                                  },
+                                                                  "children": [
+                                                                    {
+                                                                      "text": "Add to cart"
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "tag": "span",
+                                                                  "attributes": {
+                                                                    "id": [
+                                                                      "woocommerce_loop_add_to_cart_link_describedby_559"
+                                                                    ],
+                                                                    "class": [
+                                                                      "screen-reader-text"
+                                                                    ]
+                                                                  },
+                                                                  "children": []
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "tag": "td",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "",
+                                                              "col_2",
+                                                              "odd",
+                                                              "product_560"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "tag": "span",
+                                                              "attributes": {},
+                                                              "children": [
+                                                                {
+                                                                  "tag": "a",
+                                                                  "attributes": {
+                                                                    "href": "?add-to-cart=560",
+                                                                    "aria-describedby": [
+                                                                      "woocommerce_loop_add_to_cart_link_describedby_560"
+                                                                    ],
+                                                                    "data-quantity": "1",
+                                                                    "class": [
+                                                                      "add_to_cart_button",
+                                                                      "ajax_add_to_cart",
+                                                                      "button",
+                                                                      "product_type_simple"
+                                                                    ],
+                                                                    "data-product_id": "560",
+                                                                    "data-product_sku": "",
+                                                                    "aria-label": [
+                                                                      "Add",
+                                                                      "Shoe",
+                                                                      "cart:",
+                                                                      "for",
+                                                                      "men”",
+                                                                      "to",
+                                                                      "“Colorful"
+                                                                    ],
+                                                                    "rel": [
+                                                                      "nofollow"
+                                                                    ]
+                                                                  },
+                                                                  "children": [
+                                                                    {
+                                                                      "text": "Add to cart"
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "tag": "span",
+                                                                  "attributes": {
+                                                                    "id": [
+                                                                      "woocommerce_loop_add_to_cart_link_describedby_560"
+                                                                    ],
+                                                                    "class": [
+                                                                      "screen-reader-text"
+                                                                    ]
+                                                                  },
+                                                                  "children": []
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "tag": "tr",
+                                                      "attributes": {
+                                                        "class": [
+                                                          "sku"
+                                                        ]
+                                                      },
+                                                      "children": [
+                                                        {
+                                                          "tag": "th",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "",
+                                                              "thead"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "tag": "div",
+                                                              "attributes": {
+                                                                "class": [
+                                                                  "wcpc-table-header"
+                                                                ]
+                                                              },
+                                                              "children": [
+                                                                {
+                                                                  "tag": "span",
+                                                                  "attributes": {
+                                                                    "class": [
+                                                                      "field-name"
+                                                                    ]
+                                                                  },
+                                                                  "children": [
+                                                                    {
+                                                                      "text": "SKU"
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "tag": "td",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "",
+                                                              "col_0",
+                                                              "odd",
+                                                              "product_558"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "tag": "span",
+                                                              "attributes": {},
+                                                              "children": [
+                                                                {
+                                                                  "text": "-"
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "tag": "td",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "",
+                                                              "col_1",
+                                                              "even",
+                                                              "product_559"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "tag": "span",
+                                                              "attributes": {},
+                                                              "children": [
+                                                                {
+                                                                  "text": "-"
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "tag": "td",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "",
+                                                              "col_2",
+                                                              "odd",
+                                                              "product_560"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "tag": "span",
+                                                              "attributes": {},
+                                                              "children": [
+                                                                {
+                                                                  "text": "-"
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "tag": "tr",
+                                                      "attributes": {
+                                                        "class": [
+                                                          "stock"
+                                                        ]
+                                                      },
+                                                      "children": [
+                                                        {
+                                                          "tag": "th",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "",
+                                                              "thead"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "tag": "div",
+                                                              "attributes": {
+                                                                "class": [
+                                                                  "wcpc-table-header"
+                                                                ]
+                                                              },
+                                                              "children": [
+                                                                {
+                                                                  "tag": "span",
+                                                                  "attributes": {
+                                                                    "class": [
+                                                                      "field-name"
+                                                                    ]
+                                                                  },
+                                                                  "children": [
+                                                                    {
+                                                                      "text": "Availability"
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "tag": "td",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "",
+                                                              "col_0",
+                                                              "odd",
+                                                              "product_558"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "tag": "span",
+                                                              "attributes": {},
+                                                              "children": [
+                                                                {
+                                                                  "tag": "span",
+                                                                  "attributes": {},
+                                                                  "children": [
+                                                                    {
+                                                                      "text": "In stock"
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "tag": "td",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "",
+                                                              "col_1",
+                                                              "even",
+                                                              "product_559"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "tag": "span",
+                                                              "attributes": {},
+                                                              "children": [
+                                                                {
+                                                                  "tag": "span",
+                                                                  "attributes": {},
+                                                                  "children": [
+                                                                    {
+                                                                      "text": "In stock"
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "tag": "td",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "",
+                                                              "col_2",
+                                                              "odd",
+                                                              "product_560"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "tag": "span",
+                                                              "attributes": {},
+                                                              "children": [
+                                                                {
+                                                                  "tag": "span",
+                                                                  "attributes": {},
+                                                                  "children": [
+                                                                    {
+                                                                      "text": "In stock"
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "tag": "tr",
+                                                      "attributes": {
+                                                        "class": [
+                                                          "weight"
+                                                        ]
+                                                      },
+                                                      "children": [
+                                                        {
+                                                          "tag": "th",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "",
+                                                              "thead"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "tag": "div",
+                                                              "attributes": {
+                                                                "class": [
+                                                                  "wcpc-table-header"
+                                                                ]
+                                                              },
+                                                              "children": [
+                                                                {
+                                                                  "tag": "span",
+                                                                  "attributes": {
+                                                                    "class": [
+                                                                      "field-name"
+                                                                    ]
+                                                                  },
+                                                                  "children": [
+                                                                    {
+                                                                      "text": "Weight"
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "tag": "td",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "",
+                                                              "col_0",
+                                                              "odd",
+                                                              "product_558"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "tag": "span",
+                                                              "attributes": {},
+                                                              "children": [
+                                                                {
+                                                                  "tag": "span",
+                                                                  "attributes": {},
+                                                                  "children": [
+                                                                    {
+                                                                      "text": "-"
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "tag": "td",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "",
+                                                              "col_1",
+                                                              "even",
+                                                              "product_559"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "tag": "span",
+                                                              "attributes": {},
+                                                              "children": [
+                                                                {
+                                                                  "tag": "span",
+                                                                  "attributes": {},
+                                                                  "children": [
+                                                                    {
+                                                                      "text": "-"
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "tag": "td",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "",
+                                                              "col_2",
+                                                              "odd",
+                                                              "product_560"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "tag": "span",
+                                                              "attributes": {},
+                                                              "children": [
+                                                                {
+                                                                  "tag": "span",
+                                                                  "attributes": {},
+                                                                  "children": [
+                                                                    {
+                                                                      "text": "-"
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "tag": "tr",
+                                                      "attributes": {
+                                                        "class": [
+                                                          "dimension"
+                                                        ]
+                                                      },
+                                                      "children": [
+                                                        {
+                                                          "tag": "th",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "",
+                                                              "thead"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "tag": "div",
+                                                              "attributes": {
+                                                                "class": [
+                                                                  "wcpc-table-header"
+                                                                ]
+                                                              },
+                                                              "children": [
+                                                                {
+                                                                  "tag": "span",
+                                                                  "attributes": {
+                                                                    "class": [
+                                                                      "field-name"
+                                                                    ]
+                                                                  },
+                                                                  "children": [
+                                                                    {
+                                                                      "text": "Dimension"
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "tag": "td",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "",
+                                                              "col_0",
+                                                              "odd",
+                                                              "product_558"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "tag": "span",
+                                                              "attributes": {},
+                                                              "children": [
+                                                                {
+                                                                  "tag": "span",
+                                                                  "attributes": {},
+                                                                  "children": [
+                                                                    {
+                                                                      "text": "N/A"
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "tag": "td",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "",
+                                                              "col_1",
+                                                              "even",
+                                                              "product_559"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "tag": "span",
+                                                              "attributes": {},
+                                                              "children": [
+                                                                {
+                                                                  "tag": "span",
+                                                                  "attributes": {},
+                                                                  "children": [
+                                                                    {
+                                                                      "text": "N/A"
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "tag": "td",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "",
+                                                              "col_2",
+                                                              "odd",
+                                                              "product_560"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "tag": "span",
+                                                              "attributes": {},
+                                                              "children": [
+                                                                {
+                                                                  "tag": "span",
+                                                                  "attributes": {},
+                                                                  "children": [
+                                                                    {
+                                                                      "text": "N/A"
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "tag": "tr",
+                                                      "attributes": {
+                                                        "class": [
+                                                          "pa_color"
+                                                        ]
+                                                      },
+                                                      "children": [
+                                                        {
+                                                          "tag": "th",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "",
+                                                              "thead"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "tag": "div",
+                                                              "attributes": {
+                                                                "class": [
+                                                                  "wcpc-table-header"
+                                                                ]
+                                                              },
+                                                              "children": [
+                                                                {
+                                                                  "tag": "span",
+                                                                  "attributes": {
+                                                                    "class": [
+                                                                      "field-name"
+                                                                    ]
+                                                                  },
+                                                                  "children": [
+                                                                    {
+                                                                      "text": "Color"
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "tag": "td",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "",
+                                                              "col_0",
+                                                              "odd",
+                                                              "product_558"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "tag": "span",
+                                                              "attributes": {},
+                                                              "children": [
+                                                                {
+                                                                  "text": "Colourful, White"
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "tag": "td",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "",
+                                                              "col_1",
+                                                              "even",
+                                                              "product_559"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "tag": "span",
+                                                              "attributes": {},
+                                                              "children": [
+                                                                {
+                                                                  "text": "Colourful"
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "tag": "td",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "",
+                                                              "col_2",
+                                                              "odd",
+                                                              "product_560"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "tag": "span",
+                                                              "attributes": {},
+                                                              "children": [
+                                                                {
+                                                                  "text": "Colourful"
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "tag": "tr",
+                                                      "attributes": {
+                                                        "class": [
+                                                          "price",
+                                                          "repeated"
+                                                        ]
+                                                      },
+                                                      "children": [
+                                                        {
+                                                          "tag": "th",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "thead"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "tag": "div",
+                                                              "attributes": {
+                                                                "class": [
+                                                                  "wcpc-table-header"
+                                                                ]
+                                                              },
+                                                              "children": [
+                                                                {
+                                                                  "tag": "span",
+                                                                  "attributes": {
+                                                                    "class": [
+                                                                      "field-name"
+                                                                    ]
+                                                                  },
+                                                                  "children": [
+                                                                    {
+                                                                      "text": "Price"
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "tag": "td",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "",
+                                                              "col_0",
+                                                              "odd",
+                                                              "product_558"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "tag": "span",
+                                                              "attributes": {
+                                                                "class": [
+                                                                  "amount",
+                                                                  "woocommerce-Price-amount"
+                                                                ]
+                                                              },
+                                                              "children": [
+                                                                {
+                                                                  "tag": "span",
+                                                                  "attributes": {
+                                                                    "class": [
+                                                                      "woocommerce-Price-currencySymbol"
+                                                                    ]
+                                                                  },
+                                                                  "children": [
+                                                                    {
+                                                                      "text": "£"
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "text": "50.00"
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "tag": "td",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "",
+                                                              "col_1",
+                                                              "even",
+                                                              "product_559"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "tag": "span",
+                                                              "attributes": {
+                                                                "class": [
+                                                                  "amount",
+                                                                  "woocommerce-Price-amount"
+                                                                ]
+                                                              },
+                                                              "children": [
+                                                                {
+                                                                  "tag": "span",
+                                                                  "attributes": {
+                                                                    "class": [
+                                                                      "woocommerce-Price-currencySymbol"
+                                                                    ]
+                                                                  },
+                                                                  "children": [
+                                                                    {
+                                                                      "text": "£"
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "text": "60.00"
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "tag": "td",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "",
+                                                              "col_2",
+                                                              "odd",
+                                                              "product_560"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "tag": "span",
+                                                              "attributes": {
+                                                                "class": [
+                                                                  "amount",
+                                                                  "woocommerce-Price-amount"
+                                                                ]
+                                                              },
+                                                              "children": [
+                                                                {
+                                                                  "tag": "span",
+                                                                  "attributes": {
+                                                                    "class": [
+                                                                      "woocommerce-Price-currencySymbol"
+                                                                    ]
+                                                                  },
+                                                                  "children": [
+                                                                    {
+                                                                      "text": "£"
+                                                                    }
+                                                                  ]
+                                                                },
+                                                                {
+                                                                  "text": "75.00"
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

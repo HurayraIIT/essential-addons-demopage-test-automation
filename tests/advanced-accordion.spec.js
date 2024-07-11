@@ -1,5 +1,8 @@
 "use strict";
+
+import path from "path";
 import { test, expect } from "../global-setup";
+import { evaluateNodeStructure, saveStructure, getStructure } from "../helpers/snapshot";
 
 let slug = "/advanced-accordion";
 let heading = "Advanced Accordion";
@@ -111,5 +114,71 @@ test.describe("Advanced Accordion - 73d0d346", () => {
     await expect(item3_title).toBeVisible();
     await expect(item3_angle).toBeVisible();
     await expect(item3_content).toBeHidden();
+  });
+});
+
+test.describe("Advanced Accordion - Structure Tests", () => {
+  test.beforeEach(async ({ page }) => {
+    await page.goto(slug);
+  });
+
+  test("Style 1", async ({ page }) => {
+    const selector = ".elementor-element-62209eb9"; // Replace with your actual selector
+    await page.waitForSelector(selector);
+    await page.locator(selector).scrollIntoViewIfNeeded();
+    await page.waitForTimeout(300);
+
+    const filePath = path.join(__dirname, `../snapshots/${slug.substring(1)}-${selector.substring(1)}.json`);
+
+    const nodeStructure = await page.evaluate(evaluateNodeStructure, selector);
+    saveStructure(nodeStructure, filePath);
+
+    const existingNodeStructure = getStructure(filePath);
+    expect(nodeStructure).toEqual(existingNodeStructure);
+  });
+
+  test("Style 2", async ({ page }) => {
+    const selector = ".elementor-element-5caaa7ed"; // Replace with your actual selector
+    await page.waitForSelector(selector);
+    await page.locator(selector).scrollIntoViewIfNeeded();
+    await page.waitForTimeout(300);
+
+    const filePath = path.join(__dirname, `../snapshots/${slug.substring(1)}-${selector.substring(1)}.json`);
+
+    const nodeStructure = await page.evaluate(evaluateNodeStructure, selector);
+    saveStructure(nodeStructure, filePath);
+
+    const existingNodeStructure = getStructure(filePath);
+    expect(nodeStructure).toEqual(existingNodeStructure);
+  });
+
+  test("Style 3", async ({ page }) => {
+    const selector = ".elementor-element-592d5521"; // Replace with your actual selector
+    await page.waitForSelector(selector);
+    await page.locator(selector).scrollIntoViewIfNeeded();
+    await page.waitForTimeout(300);
+
+    const filePath = path.join(__dirname, `../snapshots/${slug.substring(1)}-${selector.substring(1)}.json`);
+
+    const nodeStructure = await page.evaluate(evaluateNodeStructure, selector);
+    saveStructure(nodeStructure, filePath);
+
+    const existingNodeStructure = getStructure(filePath);
+    expect(nodeStructure).toEqual(existingNodeStructure);
+  });
+
+  test("Style 4", async ({ page }) => {
+    const selector = ".elementor-element-5c7d5236"; // Replace with your actual selector
+    await page.waitForSelector(selector);
+    await page.locator(selector).scrollIntoViewIfNeeded();
+    await page.waitForTimeout(300);
+
+    const filePath = path.join(__dirname, `../snapshots/${slug.substring(1)}-${selector.substring(1)}.json`);
+
+    const nodeStructure = await page.evaluate(evaluateNodeStructure, selector);
+    saveStructure(nodeStructure, filePath);
+
+    const existingNodeStructure = getStructure(filePath);
+    expect(nodeStructure).toEqual(existingNodeStructure);
   });
 });

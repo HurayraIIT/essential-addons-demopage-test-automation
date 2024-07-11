@@ -1,0 +1,1049 @@
+{
+  "tag": "section",
+  "attributes": {
+    "data-particle_enable": "false",
+    "data-particle-mobile-disabled": "false",
+    "class": [
+      "elementor-element",
+      "elementor-element-466afb7b",
+      "elementor-reverse-mobile",
+      "elementor-section",
+      "elementor-section-boxed",
+      "elementor-section-content-middle",
+      "elementor-section-height-default",
+      "elementor-section-height-default",
+      "elementor-top-section"
+    ],
+    "data-id": "466afb7b",
+    "data-element_type": "section",
+    "data-settings": "{\"background_background\":\"classic\"}"
+  },
+  "children": [
+    {
+      "tag": "div",
+      "attributes": {
+        "class": [
+          "elementor-column-gap-default",
+          "elementor-container"
+        ]
+      },
+      "children": [
+        {
+          "tag": "div",
+          "attributes": {
+            "class": [
+              "elementor-col-100",
+              "elementor-column",
+              "elementor-element",
+              "elementor-element-614584ea",
+              "elementor-top-column"
+            ],
+            "data-id": "614584ea",
+            "data-element_type": "column"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "attributes": {
+                "class": [
+                  "elementor-element-populated",
+                  "elementor-widget-wrap"
+                ]
+              },
+              "children": [
+                {
+                  "tag": "section",
+                  "attributes": {
+                    "data-particle_enable": "false",
+                    "data-particle-mobile-disabled": "false",
+                    "class": [
+                      "elementor-element",
+                      "elementor-element-6a882db",
+                      "elementor-inner-section",
+                      "elementor-section",
+                      "elementor-section-boxed",
+                      "elementor-section-height-default",
+                      "elementor-section-height-default"
+                    ],
+                    "data-id": "6a882db",
+                    "data-element_type": "section"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "attributes": {
+                        "class": [
+                          "elementor-column-gap-default",
+                          "elementor-container"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "attributes": {
+                            "class": [
+                              "elementor-col-100",
+                              "elementor-column",
+                              "elementor-element",
+                              "elementor-element-4e2f6a46",
+                              "elementor-inner-column"
+                            ],
+                            "data-id": "4e2f6a46",
+                            "data-element_type": "column"
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "elementor-element-populated",
+                                  "elementor-widget-wrap"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "elementor-element",
+                                      "elementor-element-53cc5657",
+                                      "elementor-widget",
+                                      "elementor-widget-heading"
+                                    ],
+                                    "data-id": "53cc5657",
+                                    "data-element_type": "widget",
+                                    "data-widget_type": "heading.default"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "div",
+                                      "attributes": {
+                                        "class": [
+                                          "elementor-widget-container"
+                                        ]
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "h3",
+                                          "attributes": {
+                                            "class": [
+                                              "elementor-heading-title",
+                                              "elementor-size-default"
+                                            ]
+                                          },
+                                          "children": [
+                                            {
+                                              "text": "Data Table Style 02"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "elementor-element",
+                                      "elementor-element-6dabab4c",
+                                      "elementor-widget",
+                                      "elementor-widget-heading"
+                                    ],
+                                    "data-id": "6dabab4c",
+                                    "data-element_type": "widget",
+                                    "data-widget_type": "heading.default"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "div",
+                                      "attributes": {
+                                        "class": [
+                                          "elementor-widget-container"
+                                        ]
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "h6",
+                                          "attributes": {
+                                            "class": [
+                                              "elementor-heading-title",
+                                              "elementor-size-default"
+                                            ]
+                                          },
+                                          "children": [
+                                            {
+                                              "text": "Sort your Data in Real-time along side Pagination & Live Search"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "attributes": {
+                    "class": [
+                      "elementor-element",
+                      "elementor-element-2fd41aa1",
+                      "elementor-widget",
+                      "elementor-widget-eael-advanced-data-table"
+                    ],
+                    "data-id": "2fd41aa1",
+                    "data-element_type": "widget",
+                    "data-widget_type": "eael-advanced-data-table.default"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "attributes": {
+                        "class": [
+                          "elementor-widget-container"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "attributes": {
+                            "class": [
+                              "ea-advanced-data-table-wrap"
+                            ],
+                            "data-id": "2fd41aa1"
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "ea-advanced-data-table-wrap-inner"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "table",
+                                  "attributes": {
+                                    "class": [
+                                      "ea-advanced-data-table",
+                                      "ea-advanced-data-table-2fd41aa1",
+                                      "ea-advanced-data-table-paginated",
+                                      "ea-advanced-data-table-sortable",
+                                      "ea-advanced-data-table-static"
+                                    ],
+                                    "data-id": "2fd41aa1",
+                                    "data-items-per-page": "7"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "thead",
+                                      "attributes": {},
+                                      "children": [
+                                        {
+                                          "tag": "tr",
+                                          "attributes": {
+                                            "style": "display: table-row;"
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "th",
+                                              "attributes": {
+                                                "style": "width: 79px"
+                                              },
+                                              "children": [
+                                                {
+                                                  "text": "#"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "th",
+                                              "attributes": {
+                                                "style": "width: 465px"
+                                              },
+                                              "children": [
+                                                {
+                                                  "text": "Employee"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "th",
+                                              "attributes": {
+                                                "style": "width: 444px"
+                                              },
+                                              "children": [
+                                                {
+                                                  "text": "Working Days"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "th",
+                                              "attributes": {
+                                                "style": "width: 272px"
+                                              },
+                                              "children": [
+                                                {
+                                                  "text": "Hours"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "th",
+                                              "attributes": {
+                                                "style": "width: 214px"
+                                              },
+                                              "children": [
+                                                {
+                                                  "text": "Rate"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "th",
+                                              "attributes": {
+                                                "style": "width: 202px"
+                                              },
+                                              "children": [
+                                                {
+                                                  "text": "PAY"
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "tag": "tbody",
+                                      "attributes": {},
+                                      "children": [
+                                        {
+                                          "tag": "tr",
+                                          "attributes": {
+                                            "style": "display: table-row;"
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "1"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "Garrett Winters"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "Attend"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "7:59:00"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "$25.15"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "$1,483.85"
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "tag": "tr",
+                                          "attributes": {
+                                            "style": "display: table-row;"
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "2"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "Brielle Williamson"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "Attend"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "9:39:00"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "$18.15"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "$4,483.85"
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "tag": "tr",
+                                          "attributes": {
+                                            "style": "display: table-row;"
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "3"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "Haley Kennedy"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "Attend"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "6:35:00"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "$25.15"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "$3,483.85"
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "tag": "tr",
+                                          "attributes": {
+                                            "style": "display: table-row;"
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "4"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "Garrett Winters"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "1 Day Absent"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "6:35:00"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "$18.15"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "$2,483.85"
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "tag": "tr",
+                                          "attributes": {
+                                            "style": "display: table-row;"
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "5"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "Brielle Williamson"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "Attend"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "9:39:00"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "$18.15"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "$1,483.85"
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "tag": "tr",
+                                          "attributes": {
+                                            "style": "display: table-row;"
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "6"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "Garrett Winters"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "Attend"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "7:59:00"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "$25.15"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "$2,483.85"
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "tag": "tr",
+                                          "attributes": {
+                                            "style": "display: table-row;"
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "7"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "Brielle Williamson"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "3 Day Absent"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "6:35:00"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "$18.15"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "$3,483.85"
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "tag": "tr",
+                                          "attributes": {},
+                                          "children": [
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "8"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "Haley Kennedy"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "Attend"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "6:35:00"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "$25.15"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "$1,483.85"
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "tag": "tr",
+                                          "attributes": {},
+                                          "children": [
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "9"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "Brielle Williamson"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "Attend"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "9:39:00"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "$18.15"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "$2,483.85"
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "tag": "tr",
+                                          "attributes": {},
+                                          "children": [
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "10"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "Garrett Winters"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "1 Day Absent"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "7:59:00"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "$25.15"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "$1,483.85"
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "clearfix",
+                                  "ea-advanced-data-table-pagination",
+                                  "ea-advanced-data-table-pagination-button"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "a",
+                                  "attributes": {
+                                    "href": "#",
+                                    "data-page": "1",
+                                    "class": [
+                                      "ea-adtp-1st"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "«"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "a",
+                                  "attributes": {
+                                    "href": "#",
+                                    "data-page": "1",
+                                    "class": [
+                                      "ea-adtp-current",
+                                      "ea-adtp-show"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "1"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "a",
+                                  "attributes": {
+                                    "class": [
+                                      "dots-1st",
+                                      "ea-adtp-hide"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "..."
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "a",
+                                  "attributes": {
+                                    "href": "#",
+                                    "data-page": "2",
+                                    "class": [
+                                      "ea-adtp-show"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "2"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "a",
+                                  "attributes": {
+                                    "href": "#",
+                                    "data-page": "2",
+                                    "class": [
+                                      "ea-adtp-last"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "»"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

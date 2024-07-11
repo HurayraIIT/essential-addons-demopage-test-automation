@@ -1,0 +1,1687 @@
+{
+  "tag": "section",
+  "attributes": {
+    "data-particle_enable": "false",
+    "data-particle-mobile-disabled": "false",
+    "class": [
+      "elementor-element",
+      "elementor-element-88e53fc",
+      "elementor-inner-section",
+      "elementor-section",
+      "elementor-section-boxed",
+      "elementor-section-height-default",
+      "elementor-section-height-default"
+    ],
+    "data-id": "88e53fc",
+    "data-element_type": "section"
+  },
+  "children": [
+    {
+      "tag": "div",
+      "attributes": {
+        "class": [
+          "elementor-column-gap-extended",
+          "elementor-container"
+        ]
+      },
+      "children": [
+        {
+          "tag": "div",
+          "attributes": {
+            "class": [
+              "elementor-col-25",
+              "elementor-column",
+              "elementor-element",
+              "elementor-element-720543ee",
+              "elementor-inner-column"
+            ],
+            "data-id": "720543ee",
+            "data-element_type": "column"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "attributes": {
+                "class": [
+                  "elementor-element-populated",
+                  "elementor-widget-wrap"
+                ]
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "attributes": {
+                    "class": [
+                      "eael-pricing-button-align-left",
+                      "eael-pricing-content-align-left",
+                      "elementor-element",
+                      "elementor-element-10296ce2",
+                      "elementor-widget",
+                      "elementor-widget-eael-pricing-table"
+                    ],
+                    "data-id": "10296ce2",
+                    "data-element_type": "widget",
+                    "data-widget_type": "eael-pricing-table.default"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "attributes": {
+                        "class": [
+                          "elementor-widget-container"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "attributes": {
+                            "class": [
+                              "eael-pricing",
+                              "style-1"
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "",
+                                  "eael-pricing-item"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "header"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "h2",
+                                      "attributes": {
+                                        "class": [
+                                          "title"
+                                        ]
+                                      },
+                                      "children": [
+                                        {
+                                          "text": "Free plan"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "eael-pricing-tag"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "attributes": {
+                                        "class": [
+                                          "price-tag"
+                                        ]
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "span",
+                                          "attributes": {
+                                            "class": [
+                                              "original-price"
+                                            ]
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": [
+                                                  "price-currency"
+                                                ]
+                                              },
+                                              "children": [
+                                                {
+                                                  "text": "$"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "text": "00"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "tag": "span",
+                                      "attributes": {
+                                        "class": [
+                                          "price-period"
+                                        ]
+                                      },
+                                      "children": [
+                                        {
+                                          "text": "/Month"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "body"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "ul",
+                                      "attributes": {},
+                                      "children": [
+                                        {
+                                          "tag": "li",
+                                          "attributes": {
+                                            "class": [
+                                              "elementor-repeater-item-479f0ff"
+                                            ]
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": [
+                                                  "li-icon"
+                                                ],
+                                                "style": "color:#06DA98;fill:#06DA98;"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "i",
+                                                  "attributes": {
+                                                    "aria-hidden": [
+                                                      "true"
+                                                    ],
+                                                    "class": [
+                                                      "fa-check",
+                                                      "fas"
+                                                    ]
+                                                  },
+                                                  "children": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "Unlimited calls"
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "tag": "li",
+                                          "attributes": {
+                                            "class": [
+                                              "elementor-repeater-item-ae01199"
+                                            ]
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": [
+                                                  "li-icon"
+                                                ],
+                                                "style": "color:#06DA98;fill:#06DA98;"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "i",
+                                                  "attributes": {
+                                                    "aria-hidden": [
+                                                      "true"
+                                                    ],
+                                                    "class": [
+                                                      "fa-check",
+                                                      "fas"
+                                                    ]
+                                                  },
+                                                  "children": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "Free hosting"
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "tag": "li",
+                                          "attributes": {
+                                            "class": [
+                                              "elementor-repeater-item-e478261"
+                                            ]
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": [
+                                                  "li-icon"
+                                                ],
+                                                "style": "color:#06DA98;fill:#06DA98;"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "i",
+                                                  "attributes": {
+                                                    "aria-hidden": [
+                                                      "true"
+                                                    ],
+                                                    "class": [
+                                                      "fa-check",
+                                                      "fas"
+                                                    ]
+                                                  },
+                                                  "children": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "500 MB of storage"
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "tag": "li",
+                                          "attributes": {
+                                            "class": [
+                                              "elementor-repeater-item-6264dc5"
+                                            ]
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": [
+                                                  "li-icon"
+                                                ],
+                                                "style": "color:#F05D7B;fill:#F05D7B;"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "i",
+                                                  "attributes": {
+                                                    "aria-hidden": [
+                                                      "true"
+                                                    ],
+                                                    "class": [
+                                                      "fa-times",
+                                                      "fas"
+                                                    ]
+                                                  },
+                                                  "children": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "500 MB Bandwidth"
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "tag": "li",
+                                          "attributes": {
+                                            "class": [
+                                              "elementor-repeater-item-6a0977d"
+                                            ]
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": [
+                                                  "li-icon"
+                                                ],
+                                                "style": "color:#F05D7B;fill:#F05D7B;"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "i",
+                                                  "attributes": {
+                                                    "aria-hidden": [
+                                                      "true"
+                                                    ],
+                                                    "class": [
+                                                      "fa-times",
+                                                      "fas"
+                                                    ]
+                                                  },
+                                                  "children": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "24/7 support"
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "footer"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "a",
+                                      "attributes": {
+                                        "class": [
+                                          "eael-pricing-button"
+                                        ],
+                                        "href": "#"
+                                      },
+                                      "children": [
+                                        {
+                                          "text": "Start Now"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "attributes": {
+            "class": [
+              "elementor-col-25",
+              "elementor-column",
+              "elementor-element",
+              "elementor-element-4b836a89",
+              "elementor-inner-column"
+            ],
+            "data-id": "4b836a89",
+            "data-element_type": "column"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "attributes": {
+                "class": [
+                  "elementor-element-populated",
+                  "elementor-widget-wrap"
+                ]
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "attributes": {
+                    "class": [
+                      "eael-pricing-button-align-left",
+                      "eael-pricing-content-align-left",
+                      "elementor-element",
+                      "elementor-element-578bd150",
+                      "elementor-widget",
+                      "elementor-widget-eael-pricing-table"
+                    ],
+                    "data-id": "578bd150",
+                    "data-element_type": "widget",
+                    "data-widget_type": "eael-pricing-table.default"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "attributes": {
+                        "class": [
+                          "elementor-widget-container"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "attributes": {
+                            "class": [
+                              "eael-pricing",
+                              "style-1"
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "",
+                                  "eael-pricing-item"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "header"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "h2",
+                                      "attributes": {
+                                        "class": [
+                                          "title"
+                                        ]
+                                      },
+                                      "children": [
+                                        {
+                                          "text": "Basic plan"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "eael-pricing-tag"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "attributes": {
+                                        "class": [
+                                          "price-tag"
+                                        ]
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "span",
+                                          "attributes": {
+                                            "class": [
+                                              "original-price"
+                                            ]
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": [
+                                                  "price-currency"
+                                                ]
+                                              },
+                                              "children": [
+                                                {
+                                                  "text": "$"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "text": "49"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "tag": "span",
+                                      "attributes": {
+                                        "class": [
+                                          "price-period"
+                                        ]
+                                      },
+                                      "children": [
+                                        {
+                                          "text": "/Month"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "body"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "ul",
+                                      "attributes": {},
+                                      "children": [
+                                        {
+                                          "tag": "li",
+                                          "attributes": {
+                                            "class": [
+                                              "elementor-repeater-item-479f0ff"
+                                            ]
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": [
+                                                  "li-icon"
+                                                ],
+                                                "style": "color:#06DA98;fill:#06DA98;"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "i",
+                                                  "attributes": {
+                                                    "aria-hidden": [
+                                                      "true"
+                                                    ],
+                                                    "class": [
+                                                      "fa-check",
+                                                      "fas"
+                                                    ]
+                                                  },
+                                                  "children": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "Unlimited calls"
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "tag": "li",
+                                          "attributes": {
+                                            "class": [
+                                              "elementor-repeater-item-ae01199"
+                                            ]
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": [
+                                                  "li-icon"
+                                                ],
+                                                "style": "color:#06DA98;fill:#06DA98;"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "i",
+                                                  "attributes": {
+                                                    "aria-hidden": [
+                                                      "true"
+                                                    ],
+                                                    "class": [
+                                                      "fa-check",
+                                                      "fas"
+                                                    ]
+                                                  },
+                                                  "children": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "Free hosting"
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "tag": "li",
+                                          "attributes": {
+                                            "class": [
+                                              "elementor-repeater-item-e478261"
+                                            ]
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": [
+                                                  "li-icon"
+                                                ],
+                                                "style": "color:#06DA98;fill:#06DA98;"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "i",
+                                                  "attributes": {
+                                                    "aria-hidden": [
+                                                      "true"
+                                                    ],
+                                                    "class": [
+                                                      "fa-check",
+                                                      "fas"
+                                                    ]
+                                                  },
+                                                  "children": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "500 MB of storage"
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "tag": "li",
+                                          "attributes": {
+                                            "class": [
+                                              "elementor-repeater-item-6264dc5"
+                                            ]
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": [
+                                                  "li-icon"
+                                                ],
+                                                "style": "color:#F05D7B;fill:#F05D7B;"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "i",
+                                                  "attributes": {
+                                                    "aria-hidden": [
+                                                      "true"
+                                                    ],
+                                                    "class": [
+                                                      "fa-times",
+                                                      "fas"
+                                                    ]
+                                                  },
+                                                  "children": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "500 MB Bandwidth"
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "tag": "li",
+                                          "attributes": {
+                                            "class": [
+                                              "elementor-repeater-item-6a0977d"
+                                            ]
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": [
+                                                  "li-icon"
+                                                ],
+                                                "style": "color:#F05D7B;fill:#F05D7B;"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "i",
+                                                  "attributes": {
+                                                    "aria-hidden": [
+                                                      "true"
+                                                    ],
+                                                    "class": [
+                                                      "fa-times",
+                                                      "fas"
+                                                    ]
+                                                  },
+                                                  "children": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "24/7 support"
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "footer"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "a",
+                                      "attributes": {
+                                        "class": [
+                                          "eael-pricing-button"
+                                        ],
+                                        "href": "#"
+                                      },
+                                      "children": [
+                                        {
+                                          "text": "Start Now"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "attributes": {
+            "class": [
+              "elementor-col-25",
+              "elementor-column",
+              "elementor-element",
+              "elementor-element-7780aeae",
+              "elementor-inner-column"
+            ],
+            "data-id": "7780aeae",
+            "data-element_type": "column"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "attributes": {
+                "class": [
+                  "elementor-element-populated",
+                  "elementor-widget-wrap"
+                ]
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "attributes": {
+                    "class": [
+                      "eael-pricing-button-align-left",
+                      "eael-pricing-content-align-left",
+                      "elementor-element",
+                      "elementor-element-3a414382",
+                      "elementor-widget",
+                      "elementor-widget-eael-pricing-table"
+                    ],
+                    "data-id": "3a414382",
+                    "data-element_type": "widget",
+                    "data-widget_type": "eael-pricing-table.default"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "attributes": {
+                        "class": [
+                          "elementor-widget-container"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "attributes": {
+                            "class": [
+                              "eael-pricing",
+                              "style-1"
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "",
+                                  "eael-pricing-item"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "header"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "h2",
+                                      "attributes": {
+                                        "class": [
+                                          "title"
+                                        ]
+                                      },
+                                      "children": [
+                                        {
+                                          "text": "Standard plan"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "eael-pricing-tag"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "attributes": {
+                                        "class": [
+                                          "price-tag"
+                                        ]
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "span",
+                                          "attributes": {
+                                            "class": [
+                                              "original-price"
+                                            ]
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": [
+                                                  "price-currency"
+                                                ]
+                                              },
+                                              "children": [
+                                                {
+                                                  "text": "$"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "text": "79"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "tag": "span",
+                                      "attributes": {
+                                        "class": [
+                                          "price-period"
+                                        ]
+                                      },
+                                      "children": [
+                                        {
+                                          "text": "/Month"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "body"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "ul",
+                                      "attributes": {},
+                                      "children": [
+                                        {
+                                          "tag": "li",
+                                          "attributes": {
+                                            "class": [
+                                              "elementor-repeater-item-479f0ff"
+                                            ]
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": [
+                                                  "li-icon"
+                                                ],
+                                                "style": "color:#06DA98;fill:#06DA98;"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "i",
+                                                  "attributes": {
+                                                    "aria-hidden": [
+                                                      "true"
+                                                    ],
+                                                    "class": [
+                                                      "fa-check",
+                                                      "fas"
+                                                    ]
+                                                  },
+                                                  "children": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "Unlimited calls"
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "tag": "li",
+                                          "attributes": {
+                                            "class": [
+                                              "elementor-repeater-item-ae01199"
+                                            ]
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": [
+                                                  "li-icon"
+                                                ],
+                                                "style": "color:#06DA98;fill:#06DA98;"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "i",
+                                                  "attributes": {
+                                                    "aria-hidden": [
+                                                      "true"
+                                                    ],
+                                                    "class": [
+                                                      "fa-check",
+                                                      "fas"
+                                                    ]
+                                                  },
+                                                  "children": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "Free hosting"
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "tag": "li",
+                                          "attributes": {
+                                            "class": [
+                                              "elementor-repeater-item-e478261"
+                                            ]
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": [
+                                                  "li-icon"
+                                                ],
+                                                "style": "color:#06DA98;fill:#06DA98;"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "i",
+                                                  "attributes": {
+                                                    "aria-hidden": [
+                                                      "true"
+                                                    ],
+                                                    "class": [
+                                                      "fa-check",
+                                                      "fas"
+                                                    ]
+                                                  },
+                                                  "children": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "500 MB of storage"
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "tag": "li",
+                                          "attributes": {
+                                            "class": [
+                                              "elementor-repeater-item-6264dc5"
+                                            ]
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": [
+                                                  "li-icon"
+                                                ],
+                                                "style": "color:#F05D7B;fill:#F05D7B;"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "i",
+                                                  "attributes": {
+                                                    "aria-hidden": [
+                                                      "true"
+                                                    ],
+                                                    "class": [
+                                                      "fa-times",
+                                                      "fas"
+                                                    ]
+                                                  },
+                                                  "children": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "500 MB Bandwidth"
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "tag": "li",
+                                          "attributes": {
+                                            "class": [
+                                              "elementor-repeater-item-6a0977d"
+                                            ]
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": [
+                                                  "li-icon"
+                                                ],
+                                                "style": "color:#F05D7B;fill:#F05D7B;"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "i",
+                                                  "attributes": {
+                                                    "aria-hidden": [
+                                                      "true"
+                                                    ],
+                                                    "class": [
+                                                      "fa-times",
+                                                      "fas"
+                                                    ]
+                                                  },
+                                                  "children": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "24/7 support"
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "footer"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "a",
+                                      "attributes": {
+                                        "class": [
+                                          "eael-pricing-button"
+                                        ],
+                                        "href": "#"
+                                      },
+                                      "children": [
+                                        {
+                                          "text": "Start Now"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "attributes": {
+            "class": [
+              "elementor-col-25",
+              "elementor-column",
+              "elementor-element",
+              "elementor-element-5b56ba65",
+              "elementor-inner-column"
+            ],
+            "data-id": "5b56ba65",
+            "data-element_type": "column"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "attributes": {
+                "class": [
+                  "elementor-element-populated",
+                  "elementor-widget-wrap"
+                ]
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "attributes": {
+                    "class": [
+                      "eael-pricing-button-align-left",
+                      "eael-pricing-content-align-left",
+                      "elementor-element",
+                      "elementor-element-56456288",
+                      "elementor-widget",
+                      "elementor-widget-eael-pricing-table"
+                    ],
+                    "data-id": "56456288",
+                    "data-element_type": "widget",
+                    "data-widget_type": "eael-pricing-table.default"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "attributes": {
+                        "class": [
+                          "elementor-widget-container"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "attributes": {
+                            "class": [
+                              "eael-pricing",
+                              "style-1"
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "",
+                                  "eael-pricing-item"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "header"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "h2",
+                                      "attributes": {
+                                        "class": [
+                                          "title"
+                                        ]
+                                      },
+                                      "children": [
+                                        {
+                                          "text": "Premium plan"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "eael-pricing-tag"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "attributes": {
+                                        "class": [
+                                          "price-tag"
+                                        ]
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "span",
+                                          "attributes": {
+                                            "class": [
+                                              "original-price"
+                                            ]
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": [
+                                                  "price-currency"
+                                                ]
+                                              },
+                                              "children": [
+                                                {
+                                                  "text": "$"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "text": "99"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "tag": "span",
+                                      "attributes": {
+                                        "class": [
+                                          "price-period"
+                                        ]
+                                      },
+                                      "children": [
+                                        {
+                                          "text": "/Month"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "body"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "ul",
+                                      "attributes": {},
+                                      "children": [
+                                        {
+                                          "tag": "li",
+                                          "attributes": {
+                                            "class": [
+                                              "elementor-repeater-item-479f0ff"
+                                            ]
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": [
+                                                  "li-icon"
+                                                ],
+                                                "style": "color:#06DA98;fill:#06DA98;"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "i",
+                                                  "attributes": {
+                                                    "aria-hidden": [
+                                                      "true"
+                                                    ],
+                                                    "class": [
+                                                      "fa-check",
+                                                      "fas"
+                                                    ]
+                                                  },
+                                                  "children": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "Unlimited calls"
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "tag": "li",
+                                          "attributes": {
+                                            "class": [
+                                              "elementor-repeater-item-ae01199"
+                                            ]
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": [
+                                                  "li-icon"
+                                                ],
+                                                "style": "color:#06DA98;fill:#06DA98;"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "i",
+                                                  "attributes": {
+                                                    "aria-hidden": [
+                                                      "true"
+                                                    ],
+                                                    "class": [
+                                                      "fa-check",
+                                                      "fas"
+                                                    ]
+                                                  },
+                                                  "children": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "Free hosting"
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "tag": "li",
+                                          "attributes": {
+                                            "class": [
+                                              "elementor-repeater-item-e478261"
+                                            ]
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": [
+                                                  "li-icon"
+                                                ],
+                                                "style": "color:#06DA98;fill:#06DA98;"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "i",
+                                                  "attributes": {
+                                                    "aria-hidden": [
+                                                      "true"
+                                                    ],
+                                                    "class": [
+                                                      "fa-check",
+                                                      "fas"
+                                                    ]
+                                                  },
+                                                  "children": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "500 MB of storage"
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "tag": "li",
+                                          "attributes": {
+                                            "class": [
+                                              "elementor-repeater-item-6264dc5"
+                                            ]
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": [
+                                                  "li-icon"
+                                                ],
+                                                "style": "color:#F05D7B;fill:#F05D7B;"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "i",
+                                                  "attributes": {
+                                                    "aria-hidden": [
+                                                      "true"
+                                                    ],
+                                                    "class": [
+                                                      "fa-times",
+                                                      "fas"
+                                                    ]
+                                                  },
+                                                  "children": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "500 MB Bandwidth"
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "tag": "li",
+                                          "attributes": {
+                                            "class": [
+                                              "elementor-repeater-item-6a0977d"
+                                            ]
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "span",
+                                              "attributes": {
+                                                "class": [
+                                                  "li-icon"
+                                                ],
+                                                "style": "color:#F05D7B;fill:#F05D7B;"
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "i",
+                                                  "attributes": {
+                                                    "aria-hidden": [
+                                                      "true"
+                                                    ],
+                                                    "class": [
+                                                      "fa-times",
+                                                      "fas"
+                                                    ]
+                                                  },
+                                                  "children": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "span",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "24/7 support"
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "footer"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "a",
+                                      "attributes": {
+                                        "class": [
+                                          "eael-pricing-button"
+                                        ],
+                                        "href": "#"
+                                      },
+                                      "children": [
+                                        {
+                                          "text": "Start Now"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
