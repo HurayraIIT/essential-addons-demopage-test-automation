@@ -1,0 +1,1238 @@
+{
+  "tag": "section",
+  "attributes": {
+    "data-particle_enable": "false",
+    "data-particle-mobile-disabled": "false",
+    "class": [
+      "elementor-element",
+      "elementor-element-70184f78",
+      "elementor-reverse-mobile",
+      "elementor-section",
+      "elementor-section-boxed",
+      "elementor-section-content-middle",
+      "elementor-section-height-default",
+      "elementor-section-height-default",
+      "elementor-top-section"
+    ],
+    "data-id": "70184f78",
+    "data-element_type": "section"
+  },
+  "children": [
+    {
+      "tag": "div",
+      "attributes": {
+        "class": [
+          "elementor-column-gap-default",
+          "elementor-container"
+        ]
+      },
+      "children": [
+        {
+          "tag": "div",
+          "attributes": {
+            "class": [
+              "elementor-col-100",
+              "elementor-column",
+              "elementor-element",
+              "elementor-element-545783d4",
+              "elementor-top-column"
+            ],
+            "data-id": "545783d4",
+            "data-element_type": "column"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "attributes": {
+                "class": [
+                  "elementor-element-populated",
+                  "elementor-widget-wrap"
+                ]
+              },
+              "children": [
+                {
+                  "tag": "section",
+                  "attributes": {
+                    "data-particle_enable": "false",
+                    "data-particle-mobile-disabled": "false",
+                    "class": [
+                      "elementor-element",
+                      "elementor-element-66170a15",
+                      "elementor-inner-section",
+                      "elementor-section",
+                      "elementor-section-boxed",
+                      "elementor-section-height-default",
+                      "elementor-section-height-default"
+                    ],
+                    "data-id": "66170a15",
+                    "data-element_type": "section"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "attributes": {
+                        "class": [
+                          "elementor-column-gap-default",
+                          "elementor-container"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "attributes": {
+                            "class": [
+                              "elementor-col-16",
+                              "elementor-column",
+                              "elementor-element",
+                              "elementor-element-6215362f",
+                              "elementor-inner-column"
+                            ],
+                            "data-id": "6215362f",
+                            "data-element_type": "column"
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "elementor-widget-wrap"
+                                ]
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "attributes": {
+                            "class": [
+                              "elementor-col-66",
+                              "elementor-column",
+                              "elementor-element",
+                              "elementor-element-23b3658d",
+                              "elementor-inner-column"
+                            ],
+                            "data-id": "23b3658d",
+                            "data-element_type": "column"
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "elementor-element-populated",
+                                  "elementor-widget-wrap"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "elementor-element",
+                                      "elementor-element-71edee9d",
+                                      "elementor-widget",
+                                      "elementor-widget-heading"
+                                    ],
+                                    "data-id": "71edee9d",
+                                    "data-element_type": "widget",
+                                    "data-widget_type": "heading.default"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "div",
+                                      "attributes": {
+                                        "class": [
+                                          "elementor-widget-container"
+                                        ]
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "h3",
+                                          "attributes": {
+                                            "class": [
+                                              "elementor-heading-title",
+                                              "elementor-size-default"
+                                            ]
+                                          },
+                                          "children": [
+                                            {
+                                              "text": "Feature List Style 03"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "elementor-element",
+                                      "elementor-element-2b331d3",
+                                      "elementor-widget",
+                                      "elementor-widget-text-editor",
+                                      "elementor-widget__width-initial"
+                                    ],
+                                    "data-id": "2b331d3",
+                                    "data-element_type": "widget",
+                                    "data-widget_type": "text-editor.default"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "div",
+                                      "attributes": {
+                                        "class": [
+                                          "elementor-widget-container"
+                                        ]
+                                      },
+                                      "children": [
+                                        {
+                                          "text": "Choose the feature list icon shape to Circular, change icon alignment and style it in advance to make it look outstanding and more engaging for buyers"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "attributes": {
+                            "class": [
+                              "elementor-col-16",
+                              "elementor-column",
+                              "elementor-element",
+                              "elementor-element-3d23e233",
+                              "elementor-inner-column"
+                            ],
+                            "data-id": "3d23e233",
+                            "data-element_type": "column"
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "elementor-widget-wrap"
+                                ]
+                              },
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "section",
+                  "attributes": {
+                    "data-particle_enable": "false",
+                    "data-particle-mobile-disabled": "false",
+                    "class": [
+                      "elementor-element",
+                      "elementor-element-2a812777",
+                      "elementor-inner-section",
+                      "elementor-section",
+                      "elementor-section-boxed",
+                      "elementor-section-height-default",
+                      "elementor-section-height-default"
+                    ],
+                    "data-id": "2a812777",
+                    "data-element_type": "section"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "attributes": {
+                        "class": [
+                          "elementor-column-gap-default",
+                          "elementor-container"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "attributes": {
+                            "class": [
+                              "elementor-col-33",
+                              "elementor-column",
+                              "elementor-element",
+                              "elementor-element-511d2b4",
+                              "elementor-inner-column"
+                            ],
+                            "data-id": "511d2b4",
+                            "data-element_type": "column"
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "elementor-element-populated",
+                                  "elementor-widget-wrap"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "elementor-element",
+                                      "elementor-element-a1fdea6",
+                                      "elementor-widget",
+                                      "elementor-widget-eael-feature-list"
+                                    ],
+                                    "data-id": "a1fdea6",
+                                    "data-element_type": "widget",
+                                    "data-widget_type": "eael-feature-list.default"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "div",
+                                      "attributes": {
+                                        "class": [
+                                          "elementor-widget-container"
+                                        ]
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "div",
+                                          "attributes": {
+                                            "class": [
+                                              "-icon-position-right",
+                                              "-mobile-icon-position-left",
+                                              "-tablet-icon-position-left"
+                                            ]
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "ul",
+                                              "attributes": {
+                                                "id": [
+                                                  "eael-feature-list-a1fdea6"
+                                                ],
+                                                "class": [
+                                                  "circle",
+                                                  "eael-feature-list-items",
+                                                  "eael-feature-list-vertical",
+                                                  "stacked"
+                                                ]
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "li",
+                                                  "attributes": {
+                                                    "class": [
+                                                      "eael-feature-list-item",
+                                                      "elementor-repeater-item-4cf840a"
+                                                    ]
+                                                  },
+                                                  "children": [
+                                                    {
+                                                      "tag": "div",
+                                                      "attributes": {
+                                                        "class": [
+                                                          "eael-feature-list-icon-box"
+                                                        ]
+                                                      },
+                                                      "children": [
+                                                        {
+                                                          "tag": "div",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "eael-feature-list-icon-inner"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "tag": "span",
+                                                              "attributes": {
+                                                                "class": [
+                                                                  "eael-feature-list-icon",
+                                                                  "fl-icon-0"
+                                                                ]
+                                                              },
+                                                              "children": [
+                                                                {
+                                                                  "tag": "i",
+                                                                  "attributes": {
+                                                                    "aria-hidden": [
+                                                                      "true"
+                                                                    ],
+                                                                    "class": [
+                                                                      "fa-tags",
+                                                                      "fas"
+                                                                    ]
+                                                                  },
+                                                                  "children": []
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "tag": "div",
+                                                      "attributes": {
+                                                        "class": [
+                                                          "eael-feature-list-content-box"
+                                                        ]
+                                                      },
+                                                      "children": [
+                                                        {
+                                                          "tag": "h2",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "eael-feature-list-title"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "text": "Get to know where we live"
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "tag": "p",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "eael-feature-list-content"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "text": "A simplified version of Info but comes with powerful features."
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "tag": "li",
+                                                  "attributes": {
+                                                    "class": [
+                                                      "eael-feature-list-item",
+                                                      "elementor-repeater-item-230a432"
+                                                    ]
+                                                  },
+                                                  "children": [
+                                                    {
+                                                      "tag": "div",
+                                                      "attributes": {
+                                                        "class": [
+                                                          "eael-feature-list-icon-box"
+                                                        ]
+                                                      },
+                                                      "children": [
+                                                        {
+                                                          "tag": "div",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "eael-feature-list-icon-inner"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "tag": "span",
+                                                              "attributes": {
+                                                                "class": [
+                                                                  "eael-feature-list-icon",
+                                                                  "fl-icon-1"
+                                                                ]
+                                                              },
+                                                              "children": [
+                                                                {
+                                                                  "tag": "i",
+                                                                  "attributes": {
+                                                                    "aria-hidden": [
+                                                                      "true"
+                                                                    ],
+                                                                    "class": [
+                                                                      "fa-camera",
+                                                                      "fas"
+                                                                    ]
+                                                                  },
+                                                                  "children": []
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "tag": "div",
+                                                      "attributes": {
+                                                        "class": [
+                                                          "eael-feature-list-content-box"
+                                                        ]
+                                                      },
+                                                      "children": [
+                                                        {
+                                                          "tag": "h2",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "eael-feature-list-title"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "text": "Experience The Huge Difference"
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "tag": "p",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "eael-feature-list-content"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "text": "A simplified version of Info but comes with powerful features."
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "tag": "li",
+                                                  "attributes": {
+                                                    "class": [
+                                                      "eael-feature-list-item",
+                                                      "elementor-repeater-item-0629475"
+                                                    ]
+                                                  },
+                                                  "children": [
+                                                    {
+                                                      "tag": "div",
+                                                      "attributes": {
+                                                        "class": [
+                                                          "eael-feature-list-icon-box"
+                                                        ]
+                                                      },
+                                                      "children": [
+                                                        {
+                                                          "tag": "div",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "eael-feature-list-icon-inner"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "tag": "span",
+                                                              "attributes": {
+                                                                "class": [
+                                                                  "eael-feature-list-icon",
+                                                                  "fl-icon-2"
+                                                                ]
+                                                              },
+                                                              "children": [
+                                                                {
+                                                                  "tag": "i",
+                                                                  "attributes": {
+                                                                    "aria-hidden": [
+                                                                      "true"
+                                                                    ],
+                                                                    "class": [
+                                                                      "fa-camera",
+                                                                      "fas"
+                                                                    ]
+                                                                  },
+                                                                  "children": []
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "tag": "div",
+                                                      "attributes": {
+                                                        "class": [
+                                                          "eael-feature-list-content-box"
+                                                        ]
+                                                      },
+                                                      "children": [
+                                                        {
+                                                          "tag": "h2",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "eael-feature-list-title"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "text": "Experience The Huge Difference"
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "tag": "p",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "eael-feature-list-content"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "text": "A simplified version of Info but comes with powerful features."
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "tag": "li",
+                                                  "attributes": {
+                                                    "class": [
+                                                      "eael-feature-list-item",
+                                                      "elementor-repeater-item-0f6b4d0"
+                                                    ]
+                                                  },
+                                                  "children": [
+                                                    {
+                                                      "tag": "div",
+                                                      "attributes": {
+                                                        "class": [
+                                                          "eael-feature-list-icon-box"
+                                                        ]
+                                                      },
+                                                      "children": [
+                                                        {
+                                                          "tag": "div",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "eael-feature-list-icon-inner"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "tag": "span",
+                                                              "attributes": {
+                                                                "class": [
+                                                                  "eael-feature-list-icon",
+                                                                  "fl-icon-3"
+                                                                ]
+                                                              },
+                                                              "children": [
+                                                                {
+                                                                  "tag": "i",
+                                                                  "attributes": {
+                                                                    "aria-hidden": [
+                                                                      "true"
+                                                                    ],
+                                                                    "class": [
+                                                                      "fa-bug",
+                                                                      "fas"
+                                                                    ]
+                                                                  },
+                                                                  "children": []
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "tag": "div",
+                                                      "attributes": {
+                                                        "class": [
+                                                          "eael-feature-list-content-box"
+                                                        ]
+                                                      },
+                                                      "children": [
+                                                        {
+                                                          "tag": "h2",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "eael-feature-list-title"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "text": "Voted Best of 2020"
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "tag": "p",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "eael-feature-list-content"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "text": "A simplified version of Info but comes with powerful features."
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "attributes": {
+                            "class": [
+                              "elementor-col-33",
+                              "elementor-column",
+                              "elementor-element",
+                              "elementor-element-5b6f6274",
+                              "elementor-inner-column"
+                            ],
+                            "data-id": "5b6f6274",
+                            "data-element_type": "column"
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "elementor-element-populated",
+                                  "elementor-widget-wrap"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "elementor-element",
+                                      "elementor-element-3ac54065",
+                                      "elementor-widget",
+                                      "elementor-widget-image"
+                                    ],
+                                    "data-id": "3ac54065",
+                                    "data-element_type": "widget",
+                                    "data-widget_type": "image.default"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "div",
+                                      "attributes": {
+                                        "class": [
+                                          "elementor-widget-container"
+                                        ]
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "img",
+                                          "attributes": {
+                                            "loading": [
+                                              "lazy"
+                                            ],
+                                            "decoding": [
+                                              "async"
+                                            ],
+                                            "width": [
+                                              "1"
+                                            ],
+                                            "height": [
+                                              "1"
+                                            ],
+                                            "src": "https://essential-addons.com/wp-content/uploads/2020/03/Vector-3.svg",
+                                            "class": [
+                                              "attachment-full",
+                                              "size-full",
+                                              "wp-image-259182"
+                                            ],
+                                            "alt": "Feature List 104",
+                                            "title": "Feature List 104"
+                                          },
+                                          "children": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "attributes": {
+                            "class": [
+                              "elementor-col-33",
+                              "elementor-column",
+                              "elementor-element",
+                              "elementor-element-15182e87",
+                              "elementor-inner-column"
+                            ],
+                            "data-id": "15182e87",
+                            "data-element_type": "column"
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "elementor-element-populated",
+                                  "elementor-widget-wrap"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "elementor-element",
+                                      "elementor-element-7646592",
+                                      "elementor-widget",
+                                      "elementor-widget-eael-feature-list"
+                                    ],
+                                    "data-id": "7646592",
+                                    "data-element_type": "widget",
+                                    "data-widget_type": "eael-feature-list.default"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "div",
+                                      "attributes": {
+                                        "class": [
+                                          "elementor-widget-container"
+                                        ]
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "div",
+                                          "attributes": {
+                                            "class": [
+                                              "-icon-position-left",
+                                              "-mobile-icon-position-left",
+                                              "-tablet-icon-position-left"
+                                            ]
+                                          },
+                                          "children": [
+                                            {
+                                              "tag": "ul",
+                                              "attributes": {
+                                                "id": [
+                                                  "eael-feature-list-7646592"
+                                                ],
+                                                "class": [
+                                                  "circle",
+                                                  "eael-feature-list-items",
+                                                  "eael-feature-list-vertical",
+                                                  "stacked"
+                                                ]
+                                              },
+                                              "children": [
+                                                {
+                                                  "tag": "li",
+                                                  "attributes": {
+                                                    "class": [
+                                                      "eael-feature-list-item",
+                                                      "elementor-repeater-item-4cf840a"
+                                                    ]
+                                                  },
+                                                  "children": [
+                                                    {
+                                                      "tag": "div",
+                                                      "attributes": {
+                                                        "class": [
+                                                          "eael-feature-list-icon-box"
+                                                        ]
+                                                      },
+                                                      "children": [
+                                                        {
+                                                          "tag": "div",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "eael-feature-list-icon-inner"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "tag": "span",
+                                                              "attributes": {
+                                                                "class": [
+                                                                  "eael-feature-list-icon",
+                                                                  "fl-icon-0"
+                                                                ]
+                                                              },
+                                                              "children": [
+                                                                {
+                                                                  "tag": "i",
+                                                                  "attributes": {
+                                                                    "aria-hidden": [
+                                                                      "true"
+                                                                    ],
+                                                                    "class": [
+                                                                      "fa-tags",
+                                                                      "fas"
+                                                                    ]
+                                                                  },
+                                                                  "children": []
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "tag": "div",
+                                                      "attributes": {
+                                                        "class": [
+                                                          "eael-feature-list-content-box"
+                                                        ]
+                                                      },
+                                                      "children": [
+                                                        {
+                                                          "tag": "h2",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "eael-feature-list-title"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "text": "Get to know where we live"
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "tag": "p",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "eael-feature-list-content"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "text": "A simplified version of Info but comes with powerful features."
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "tag": "li",
+                                                  "attributes": {
+                                                    "class": [
+                                                      "eael-feature-list-item",
+                                                      "elementor-repeater-item-230a432"
+                                                    ]
+                                                  },
+                                                  "children": [
+                                                    {
+                                                      "tag": "div",
+                                                      "attributes": {
+                                                        "class": [
+                                                          "eael-feature-list-icon-box"
+                                                        ]
+                                                      },
+                                                      "children": [
+                                                        {
+                                                          "tag": "div",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "eael-feature-list-icon-inner"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "tag": "span",
+                                                              "attributes": {
+                                                                "class": [
+                                                                  "eael-feature-list-icon",
+                                                                  "fl-icon-1"
+                                                                ]
+                                                              },
+                                                              "children": [
+                                                                {
+                                                                  "tag": "i",
+                                                                  "attributes": {
+                                                                    "aria-hidden": [
+                                                                      "true"
+                                                                    ],
+                                                                    "class": [
+                                                                      "fa-camera",
+                                                                      "fas"
+                                                                    ]
+                                                                  },
+                                                                  "children": []
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "tag": "div",
+                                                      "attributes": {
+                                                        "class": [
+                                                          "eael-feature-list-content-box"
+                                                        ]
+                                                      },
+                                                      "children": [
+                                                        {
+                                                          "tag": "h2",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "eael-feature-list-title"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "text": "Experience The Huge Difference"
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "tag": "p",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "eael-feature-list-content"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "text": "A simplified version of Info but comes with powerful features."
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "tag": "li",
+                                                  "attributes": {
+                                                    "class": [
+                                                      "eael-feature-list-item",
+                                                      "elementor-repeater-item-0629475"
+                                                    ]
+                                                  },
+                                                  "children": [
+                                                    {
+                                                      "tag": "div",
+                                                      "attributes": {
+                                                        "class": [
+                                                          "eael-feature-list-icon-box"
+                                                        ]
+                                                      },
+                                                      "children": [
+                                                        {
+                                                          "tag": "div",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "eael-feature-list-icon-inner"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "tag": "span",
+                                                              "attributes": {
+                                                                "class": [
+                                                                  "eael-feature-list-icon",
+                                                                  "fl-icon-2"
+                                                                ]
+                                                              },
+                                                              "children": [
+                                                                {
+                                                                  "tag": "i",
+                                                                  "attributes": {
+                                                                    "aria-hidden": [
+                                                                      "true"
+                                                                    ],
+                                                                    "class": [
+                                                                      "fa-camera",
+                                                                      "fas"
+                                                                    ]
+                                                                  },
+                                                                  "children": []
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "tag": "div",
+                                                      "attributes": {
+                                                        "class": [
+                                                          "eael-feature-list-content-box"
+                                                        ]
+                                                      },
+                                                      "children": [
+                                                        {
+                                                          "tag": "h2",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "eael-feature-list-title"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "text": "Experience The Huge Difference"
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "tag": "p",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "eael-feature-list-content"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "text": "A simplified version of Info but comes with powerful features."
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "tag": "li",
+                                                  "attributes": {
+                                                    "class": [
+                                                      "eael-feature-list-item",
+                                                      "elementor-repeater-item-0f6b4d0"
+                                                    ]
+                                                  },
+                                                  "children": [
+                                                    {
+                                                      "tag": "div",
+                                                      "attributes": {
+                                                        "class": [
+                                                          "eael-feature-list-icon-box"
+                                                        ]
+                                                      },
+                                                      "children": [
+                                                        {
+                                                          "tag": "div",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "eael-feature-list-icon-inner"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "tag": "span",
+                                                              "attributes": {
+                                                                "class": [
+                                                                  "eael-feature-list-icon",
+                                                                  "fl-icon-3"
+                                                                ]
+                                                              },
+                                                              "children": [
+                                                                {
+                                                                  "tag": "i",
+                                                                  "attributes": {
+                                                                    "aria-hidden": [
+                                                                      "true"
+                                                                    ],
+                                                                    "class": [
+                                                                      "fa-bug",
+                                                                      "fas"
+                                                                    ]
+                                                                  },
+                                                                  "children": []
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "tag": "div",
+                                                      "attributes": {
+                                                        "class": [
+                                                          "eael-feature-list-content-box"
+                                                        ]
+                                                      },
+                                                      "children": [
+                                                        {
+                                                          "tag": "h2",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "eael-feature-list-title"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "text": "Voted Best of 2020"
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "tag": "p",
+                                                          "attributes": {
+                                                            "class": [
+                                                              "eael-feature-list-content"
+                                                            ]
+                                                          },
+                                                          "children": [
+                                                            {
+                                                              "text": "A simplified version of Info but comes with powerful features."
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

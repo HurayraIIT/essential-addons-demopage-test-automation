@@ -1,5 +1,8 @@
 "use strict";
+
+import path from "path";
 import { test, expect } from "../global-setup";
+import { evaluateNodeStructure, saveStructure, getStructure } from "../helpers/snapshot";
 
 let slug = "/twitter-feed-carousel";
 let heading = "Twitter Feed Carousel";
@@ -9,7 +12,10 @@ test.describe("Twitter Feed Carousel", () => {
     await page.goto(slug);
     await expect(page.getByRole("heading", { name: heading, exact: true })).toBeVisible();
     await expect(page.getByRole("link", { name: "Documentation" })).toBeVisible();
-    await expect(page.getByRole("link", { name: "Documentation" })).toHaveAttribute("href", /docs\/social-elements\/twitter-feed-carousel/);
+    await expect(page.getByRole("link", { name: "Documentation" })).toHaveAttribute(
+      "href",
+      /docs\/social-elements\/twitter-feed-carousel/
+    );
   });
 
   test("Test Section: Twitter Feed Carousel Style 1", async ({ page }) => {

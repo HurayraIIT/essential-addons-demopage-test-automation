@@ -1,6 +1,8 @@
 "use strict";
 import exp from "constants";
+import path from "path";
 import { test, expect } from "../global-setup";
+import { evaluateNodeStructure, saveStructure, getStructure } from "../helpers/snapshot";
 
 let slug = "/betterdocs-category-box";
 let heading = "BetterDocs Category Box";

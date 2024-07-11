@@ -1,5 +1,8 @@
 "use strict";
+
+import path from "path";
 import { test, expect } from "../global-setup";
+import { evaluateNodeStructure, saveStructure, getStructure } from "../helpers/snapshot";
 
 let slug = "/feature-list";
 let heading = "Feature List";
@@ -38,5 +41,101 @@ test.describe("Feature List", () => {
     await expect(section_root.getByText("Influence your potential buyers")).toBeVisible();
     await expect(section_root.getByText("Add as much as key aspects")).toBeVisible();
     await expect(section_root.getByText("Style your icon, content and")).toBeVisible();
+  });
+});
+
+test.describe("Feature List - Structure Tests", () => {
+  test.beforeEach(async ({ page }) => {
+    await page.goto(slug);
+  });
+
+  test("Style 1", async ({ page }) => {
+    const selector = ".elementor-element-6318a604"; // Replace with your actual selector
+    await page.waitForSelector(selector);
+    await page.locator(selector).scrollIntoViewIfNeeded();
+    await page.waitForTimeout(300);
+
+    const filePath = path.join(__dirname, `../snapshots/${slug.substring(1)}-${selector.substring(1)}.json`);
+
+    const nodeStructure = await page.evaluate(evaluateNodeStructure, selector);
+    saveStructure(nodeStructure, filePath);
+
+    const existingNodeStructure = getStructure(filePath);
+    expect(nodeStructure).toEqual(existingNodeStructure);
+  });
+
+  test("Style 2", async ({ page }) => {
+    const selector = ".elementor-element-7fc80de4"; // Replace with your actual selector
+    await page.waitForSelector(selector);
+    await page.locator(selector).scrollIntoViewIfNeeded();
+    await page.waitForTimeout(300);
+
+    const filePath = path.join(__dirname, `../snapshots/${slug.substring(1)}-${selector.substring(1)}.json`);
+
+    const nodeStructure = await page.evaluate(evaluateNodeStructure, selector);
+    saveStructure(nodeStructure, filePath);
+
+    const existingNodeStructure = getStructure(filePath);
+    expect(nodeStructure).toEqual(existingNodeStructure);
+  });
+
+  test("Style 3", async ({ page }) => {
+    const selector = ".elementor-element-70184f78"; // Replace with your actual selector
+    await page.waitForSelector(selector);
+    await page.locator(selector).scrollIntoViewIfNeeded();
+    await page.waitForTimeout(300);
+
+    const filePath = path.join(__dirname, `../snapshots/${slug.substring(1)}-${selector.substring(1)}.json`);
+
+    const nodeStructure = await page.evaluate(evaluateNodeStructure, selector);
+    saveStructure(nodeStructure, filePath);
+
+    const existingNodeStructure = getStructure(filePath);
+    expect(nodeStructure).toEqual(existingNodeStructure);
+  });
+
+  test("Style 4", async ({ page }) => {
+    const selector = ".elementor-element-9c40028"; // Replace with your actual selector
+    await page.waitForSelector(selector);
+    await page.locator(selector).scrollIntoViewIfNeeded();
+    await page.waitForTimeout(300);
+
+    const filePath = path.join(__dirname, `../snapshots/${slug.substring(1)}-${selector.substring(1)}.json`);
+
+    const nodeStructure = await page.evaluate(evaluateNodeStructure, selector);
+    saveStructure(nodeStructure, filePath);
+
+    const existingNodeStructure = getStructure(filePath);
+    expect(nodeStructure).toEqual(existingNodeStructure);
+  });
+
+  test("Style 5", async ({ page }) => {
+    const selector = ".elementor-element-312c18ac"; // Replace with your actual selector
+    await page.waitForSelector(selector);
+    await page.locator(selector).scrollIntoViewIfNeeded();
+    await page.waitForTimeout(300);
+
+    const filePath = path.join(__dirname, `../snapshots/${slug.substring(1)}-${selector.substring(1)}.json`);
+
+    const nodeStructure = await page.evaluate(evaluateNodeStructure, selector);
+    saveStructure(nodeStructure, filePath);
+
+    const existingNodeStructure = getStructure(filePath);
+    expect(nodeStructure).toEqual(existingNodeStructure);
+  });
+
+  test("Style 6", async ({ page }) => {
+    const selector = ".elementor-element-4ecaa585"; // Replace with your actual selector
+    await page.waitForSelector(selector);
+    await page.locator(selector).scrollIntoViewIfNeeded();
+    await page.waitForTimeout(300);
+
+    const filePath = path.join(__dirname, `../snapshots/${slug.substring(1)}-${selector.substring(1)}.json`);
+
+    const nodeStructure = await page.evaluate(evaluateNodeStructure, selector);
+    saveStructure(nodeStructure, filePath);
+
+    const existingNodeStructure = getStructure(filePath);
+    expect(nodeStructure).toEqual(existingNodeStructure);
   });
 });
