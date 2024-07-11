@@ -1,0 +1,496 @@
+{
+  "tag": "div",
+  "attributes": {
+    "class": [
+      "elementor-element",
+      "elementor-element-19a8b08c",
+      "elementor-widget",
+      "elementor-widget-eael-woo-cross-sells"
+    ],
+    "data-id": "19a8b08c",
+    "data-element_type": "widget",
+    "data-widget_type": "eael-woo-cross-sells.default"
+  },
+  "children": [
+    {
+      "tag": "div",
+      "attributes": {
+        "class": [
+          "elementor-widget-container"
+        ]
+      },
+      "children": [
+        {
+          "tag": "div",
+          "attributes": {
+            "class": [
+              "eael-cs-products-container",
+              "eael-custom-image-area",
+              "style-3"
+            ]
+          },
+          "children": [
+            {
+              "tag": "div",
+              "attributes": {
+                "class": [
+                  "eael-cs-single-product"
+                ]
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "attributes": {
+                    "class": [
+                      "eael-cs-product-image"
+                    ]
+                  },
+                  "children": [
+                    {
+                      "tag": "img",
+                      "attributes": {
+                        "loading": [
+                          "lazy"
+                        ],
+                        "decoding": [
+                          "async"
+                        ],
+                        "width": [
+                          "252"
+                        ],
+                        "height": [
+                          "252"
+                        ],
+                        "src": "https://essential-addons.com/wp-content/uploads/2023/09/Rectangle-483.jpg",
+                        "class": [
+                          "attachment-full",
+                          "size-full"
+                        ],
+                        "alt": "Woo Cross Sells 114",
+                        "title": "Woo Cross Sells 114"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "attributes": {
+                    "class": [
+                      "eael-cs-product-info"
+                    ]
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "attributes": {
+                        "class": [
+                          "eael-cs-product-title"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "tag": "a",
+                          "attributes": {
+                            "href": "https://essential-addons.com/product/herman-miller-aeron-chair/"
+                          },
+                          "children": [
+                            {
+                              "text": "Herman Miller Aeron Chair"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "attributes": {
+                        "class": [
+                          "eael-cs-product-price"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "tag": "del",
+                          "attributes": {},
+                          "children": [
+                            {
+                              "tag": "span",
+                              "attributes": {
+                                "class": [
+                                  "amount",
+                                  "woocommerce-Price-amount"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "span",
+                                  "attributes": {
+                                    "class": [
+                                      "woocommerce-Price-currencySymbol"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "£"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "text": "99.00"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "span",
+                          "attributes": {
+                            "class": [
+                              "screen-reader-text"
+                            ]
+                          },
+                          "children": [
+                            {
+                              "text": "Original price was: £99.00."
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "ins",
+                          "attributes": {},
+                          "children": [
+                            {
+                              "tag": "span",
+                              "attributes": {
+                                "class": [
+                                  "amount",
+                                  "woocommerce-Price-amount"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "span",
+                                  "attributes": {
+                                    "class": [
+                                      "woocommerce-Price-currencySymbol"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "£"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "text": "49.00"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "span",
+                          "attributes": {
+                            "class": [
+                              "screen-reader-text"
+                            ]
+                          },
+                          "children": [
+                            {
+                              "text": "Current price is: £49.00."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "attributes": {
+                        "class": [
+                          "eael-cs-product-excerpt"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "text": "The Herman Miller Aeron Chair is a popular choice for the office, offering ergonomic comfort and sleek design. With adjustable features and breathable material, it’s a reliable option for long hours of work."
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "attributes": {
+                        "class": [
+                          "eael-cs-product-buttons",
+                          "eael-cs-purchasable"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "tag": "a",
+                          "attributes": {
+                            "href": "?add-to-cart=279036",
+                            "class": [
+                              "add_to_cart_button",
+                              "ajax_add_to_cart"
+                            ],
+                            "data-product_id": "279036",
+                            "data-quantity": "1"
+                          },
+                          "children": [
+                            {
+                              "tag": "i",
+                              "attributes": {
+                                "class": [
+                                  "fa-shopping-cart",
+                                  "fas"
+                                ]
+                              },
+                              "children": []
+                            },
+                            {
+                              "text": "Add to Cart"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "attributes": {
+                "class": [
+                  "eael-cs-single-product"
+                ]
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "attributes": {
+                    "class": [
+                      "eael-cs-product-image"
+                    ]
+                  },
+                  "children": [
+                    {
+                      "tag": "img",
+                      "attributes": {
+                        "loading": [
+                          "lazy"
+                        ],
+                        "decoding": [
+                          "async"
+                        ],
+                        "width": [
+                          "252"
+                        ],
+                        "height": [
+                          "252"
+                        ],
+                        "src": "https://essential-addons.com/wp-content/uploads/2023/09/Rectangle-484.jpg",
+                        "class": [
+                          "attachment-full",
+                          "size-full"
+                        ],
+                        "alt": "Woo Cross Sells 115",
+                        "title": "Woo Cross Sells 115"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "attributes": {
+                    "class": [
+                      "eael-cs-product-info"
+                    ]
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "attributes": {
+                        "class": [
+                          "eael-cs-product-title"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "tag": "a",
+                          "attributes": {
+                            "href": "https://essential-addons.com/product/steelcase-gesture-chair/"
+                          },
+                          "children": [
+                            {
+                              "text": "Steelcase Gesture Chair"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "attributes": {
+                        "class": [
+                          "eael-cs-product-price"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "tag": "del",
+                          "attributes": {},
+                          "children": [
+                            {
+                              "tag": "span",
+                              "attributes": {
+                                "class": [
+                                  "amount",
+                                  "woocommerce-Price-amount"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "span",
+                                  "attributes": {
+                                    "class": [
+                                      "woocommerce-Price-currencySymbol"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "£"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "text": "99.00"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "span",
+                          "attributes": {
+                            "class": [
+                              "screen-reader-text"
+                            ]
+                          },
+                          "children": [
+                            {
+                              "text": "Original price was: £99.00."
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "ins",
+                          "attributes": {},
+                          "children": [
+                            {
+                              "tag": "span",
+                              "attributes": {
+                                "class": [
+                                  "amount",
+                                  "woocommerce-Price-amount"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "span",
+                                  "attributes": {
+                                    "class": [
+                                      "woocommerce-Price-currencySymbol"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "£"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "text": "49.00"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "span",
+                          "attributes": {
+                            "class": [
+                              "screen-reader-text"
+                            ]
+                          },
+                          "children": [
+                            {
+                              "text": "Current price is: £49.00."
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "attributes": {
+                        "class": [
+                          "eael-cs-product-excerpt"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "text": "The Steelcase Gesture Chair is designed to adapt to various sitting postures, making it ideal for a dynamic office environment. Its intuitive adjustments and flexible backrest ensure optimal support throughout the day."
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "attributes": {
+                        "class": [
+                          "eael-cs-product-buttons",
+                          "eael-cs-purchasable"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "tag": "a",
+                          "attributes": {
+                            "href": "?add-to-cart=279035",
+                            "class": [
+                              "add_to_cart_button",
+                              "ajax_add_to_cart"
+                            ],
+                            "data-product_id": "279035",
+                            "data-quantity": "1"
+                          },
+                          "children": [
+                            {
+                              "tag": "i",
+                              "attributes": {
+                                "class": [
+                                  "fa-shopping-cart",
+                                  "fas"
+                                ]
+                              },
+                              "children": []
+                            },
+                            {
+                              "text": "Add to Cart"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

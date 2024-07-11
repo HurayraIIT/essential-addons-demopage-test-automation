@@ -1,0 +1,257 @@
+{
+  "tag": "div",
+  "attributes": {
+    "class": [
+      "eael-cross-sales-column-1",
+      "eael-cross-sales-column-mobile-1",
+      "eael-cross-sales-column-tablet-1",
+      "elementor-element",
+      "elementor-element-6f15a5a",
+      "elementor-widget",
+      "elementor-widget-eael-woo-cross-sells",
+      "elementor-widget-mobile__width-inherit",
+      "elementor-widget__width-initial"
+    ],
+    "data-id": "6f15a5a",
+    "data-element_type": "widget",
+    "data-widget_type": "eael-woo-cross-sells.default"
+  },
+  "children": [
+    {
+      "tag": "div",
+      "attributes": {
+        "class": [
+          "elementor-widget-container"
+        ]
+      },
+      "children": [
+        {
+          "tag": "div",
+          "attributes": {
+            "class": [
+              "eael-cs-products-container",
+              "eael-custom-image-area",
+              "style-2"
+            ]
+          },
+          "children": [
+            {
+              "tag": "div",
+              "attributes": {
+                "class": [
+                  "eael-cs-single-product"
+                ],
+                "style": "height: 292px;"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "attributes": {
+                    "class": [
+                      "eael-cs-product-image"
+                    ],
+                    "style": "max-height: calc(100% - 75px);"
+                  },
+                  "children": [
+                    {
+                      "tag": "img",
+                      "attributes": {
+                        "loading": [
+                          "lazy"
+                        ],
+                        "decoding": [
+                          "async"
+                        ],
+                        "width": [
+                          "450"
+                        ],
+                        "height": [
+                          "400"
+                        ],
+                        "src": "https://essential-addons.com/wp-content/uploads/2023/09/Rectangle-480.jpg",
+                        "class": [
+                          "attachment-full",
+                          "size-full"
+                        ],
+                        "alt": "Woo Cross Sells 110",
+                        "title": "Woo Cross Sells 110"
+                      },
+                      "children": []
+                    },
+                    {
+                      "tag": "div",
+                      "attributes": {
+                        "class": [
+                          "eael-cs-product-buttons",
+                          "eael-cs-purchasable"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "tag": "a",
+                          "attributes": {
+                            "href": "https://essential-addons.com/product/roja-parfums-haute-luxe/"
+                          },
+                          "children": [
+                            {
+                              "tag": "i",
+                              "attributes": {
+                                "class": [
+                                  "fa-eye",
+                                  "fas"
+                                ]
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "a",
+                          "attributes": {
+                            "href": "?add-to-cart=279031",
+                            "class": [
+                              "add_to_cart_button",
+                              "ajax_add_to_cart"
+                            ],
+                            "data-product_id": "279031",
+                            "data-quantity": "1"
+                          },
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "attributes": {
+                    "class": [
+                      "eael-cs-product-info"
+                    ]
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "attributes": {
+                        "class": [
+                          "eael-cs-product-title"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "text": "Roja Parfums Haute Luxe"
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "attributes": {
+                        "class": [
+                          "eael-cs-product-price"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "tag": "del",
+                          "attributes": {},
+                          "children": [
+                            {
+                              "tag": "span",
+                              "attributes": {
+                                "class": [
+                                  "amount",
+                                  "woocommerce-Price-amount"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "span",
+                                  "attributes": {
+                                    "class": [
+                                      "woocommerce-Price-currencySymbol"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "£"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "text": "99.00"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "span",
+                          "attributes": {
+                            "class": [
+                              "screen-reader-text"
+                            ]
+                          },
+                          "children": [
+                            {
+                              "text": "Original price was: £99.00."
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "ins",
+                          "attributes": {},
+                          "children": [
+                            {
+                              "tag": "span",
+                              "attributes": {
+                                "class": [
+                                  "amount",
+                                  "woocommerce-Price-amount"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "span",
+                                  "attributes": {
+                                    "class": [
+                                      "woocommerce-Price-currencySymbol"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "£"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "text": "49.00"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "span",
+                          "attributes": {
+                            "class": [
+                              "screen-reader-text"
+                            ]
+                          },
+                          "children": [
+                            {
+                              "text": "Current price is: £49.00."
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

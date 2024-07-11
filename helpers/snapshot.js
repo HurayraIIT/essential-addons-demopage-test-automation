@@ -19,8 +19,18 @@ export function evaluateNodeStructure(selector) {
         let attrValue = attr.value;
 
         // Replace attribute value with an empty string if it contains "wpnonce" or "nonce"
-        if (/wpnonce|nonce|quantity_|cart.*qty|eael_quick_view_/i.test(attrValue)) {
+        if (
+          /wpnonce|nonce|quantity_|cart.*qty|eael_quick_view_|swiper-wrapper-|wc_order_attribution_session_start_time/i.test(
+            attrValue
+          )
+        ) {
           attrValue = "";
+        }
+
+        // Special handling for inline styles: remove opacity
+        if (attrName === "style") {
+          // Use regex to remove any `opacity: <value>;` pattern
+          attrValue = attrValue.replace(/opacity\s*:\s*[^;]+;?/g, "").trim();
         }
 
         // List of attributes that should not be split
@@ -42,19 +52,35 @@ export function evaluateNodeStructure(selector) {
           "srcset",
           "sizes",
         ];
+
         // Check if attribute is in the noSplitAttrs list or is a data-* attribute
         const shouldNotSplit = noSplitAttrs.includes(attrName) || attrName.startsWith("data-");
+
         // Split the attribute values into an array if not in the noSplitAttrs list
-        attrs[attrName] = shouldNotSplit ? attrValue : attrValue.split(/\s+/);
+        const sortedValues = shouldNotSplit ? attrValue : attrValue.split(/\s+/).sort();
+
+        attrs[attrName] = sortedValues;
         return attrs;
       }, {});
     };
 
+    // Special handling for input elements with type="hidden"
+    const handleSpecialCases = (node) => {
+      if (node.tagName.toLowerCase() === "input" && node.type.toLowerCase() === "hidden") {
+        node.value = ""; // Replace value with empty string
+      }
+    };
+
+    handleSpecialCases(node);
+
     const structure = {
       tag: node.tagName.toLowerCase(),
       attributes: getAttributes(node),
-      //computedStyle: getComputedStyleProperties(node),
-      children: Array.from(node.childNodes).map(getNodeStructure).filter(Boolean),
+      // computedStyle: getComputedStyleProperties(node),
+      children: Array.from(node.childNodes)
+        .filter((childNode) => childNode.nodeType !== Node.COMMENT_NODE) // Filter out comment nodes
+        .map(getNodeStructure)
+        .filter(Boolean),
     };
 
     return structure;

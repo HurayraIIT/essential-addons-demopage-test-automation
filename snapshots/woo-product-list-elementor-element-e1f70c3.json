@@ -4,10 +4,10 @@
     "data-particle_enable": "false",
     "data-particle-mobile-disabled": "false",
     "class": [
-      "elementor-section",
-      "elementor-inner-section",
       "elementor-element",
       "elementor-element-e1f70c3",
+      "elementor-inner-section",
+      "elementor-section",
       "elementor-section-full_width",
       "elementor-section-height-default",
       "elementor-section-height-default"
@@ -21,8 +21,8 @@
       "tag": "div",
       "attributes": {
         "class": [
-          "elementor-container",
-          "elementor-column-gap-no"
+          "elementor-column-gap-no",
+          "elementor-container"
         ]
       },
       "children": [
@@ -30,11 +30,11 @@
           "tag": "div",
           "attributes": {
             "class": [
-              "elementor-column",
               "elementor-col-100",
-              "elementor-inner-column",
+              "elementor-column",
               "elementor-element",
-              "elementor-element-f698a46"
+              "elementor-element-f698a46",
+              "elementor-inner-column"
             ],
             "data-id": "f698a46",
             "data-element_type": "column"
@@ -44,8 +44,8 @@
               "tag": "div",
               "attributes": {
                 "class": [
-                  "elementor-widget-wrap",
-                  "elementor-element-populated"
+                  "elementor-element-populated",
+                  "elementor-widget-wrap"
                 ]
               },
               "children": [
@@ -109,18 +109,18 @@
                                           "tag": "div",
                                           "attributes": {
                                             "class": [
-                                              "product",
-                                              "post-280159",
-                                              "type-product",
-                                              "status-publish",
-                                              "has-post-thumbnail",
-                                              "product_cat-chair",
                                               "first",
+                                              "has-post-thumbnail",
                                               "instock",
+                                              "post-280159",
+                                              "product",
+                                              "product-type-simple",
+                                              "product_cat-chair",
+                                              "purchasable",
                                               "sale",
                                               "shipping-taxable",
-                                              "purchasable",
-                                              "product-type-simple"
+                                              "status-publish",
+                                              "type-product"
                                             ]
                                           },
                                           "children": [
@@ -128,8 +128,8 @@
                                               "tag": "div",
                                               "attributes": {
                                                 "class": [
-                                                  "eael-product-list-item",
-                                                  ""
+                                                  "",
+                                                  "eael-product-list-item"
                                                 ]
                                               },
                                               "children": [
@@ -145,9 +145,9 @@
                                                       "tag": "div",
                                                       "attributes": {
                                                         "class": [
-                                                          "eael-product-list-badge-wrap",
-                                                          "badge-preset-1",
                                                           "badge-alignment-left",
+                                                          "badge-preset-1",
+                                                          "eael-product-list-badge-wrap",
                                                           "is-on-sale"
                                                         ]
                                                       },
@@ -264,8 +264,8 @@
                                                           "tag": "li",
                                                           "attributes": {
                                                             "class": [
-                                                              "eael-product-list-add-to-cart-button",
-                                                              "eael-m-0"
+                                                              "eael-m-0",
+                                                              "eael-product-list-add-to-cart-button"
                                                             ]
                                                           },
                                                           "children": [
@@ -278,21 +278,21 @@
                                                                 ],
                                                                 "data-quantity": "1",
                                                                 "class": [
-                                                                  "button",
-                                                                  "product_type_simple",
                                                                   "add_to_cart_button",
-                                                                  "ajax_add_to_cart"
+                                                                  "ajax_add_to_cart",
+                                                                  "button",
+                                                                  "product_type_simple"
                                                                 ],
                                                                 "data-product_id": "280159",
                                                                 "data-product_sku": "",
                                                                 "aria-label": [
                                                                   "Add",
-                                                                  "to",
-                                                                  "cart:",
-                                                                  "“Saguaro",
-                                                                  "with",
                                                                   "Wooden",
-                                                                  "stand”"
+                                                                  "cart:",
+                                                                  "stand”",
+                                                                  "to",
+                                                                  "with",
+                                                                  "“Saguaro"
                                                                 ],
                                                                 "rel": [
                                                                   "nofollow"
@@ -322,8 +322,8 @@
                                                           "tag": "li",
                                                           "attributes": {
                                                             "class": [
-                                                              "eael-product-list-quick-view-button",
-                                                              "eael-m-0"
+                                                              "eael-m-0",
+                                                              "eael-product-list-quick-view-button"
                                                             ]
                                                           },
                                                           "children": [
@@ -343,8 +343,8 @@
                                                                   "tag": "i",
                                                                   "attributes": {
                                                                     "class": [
-                                                                      "fas",
-                                                                      "fa-eye"
+                                                                      "fa-eye",
+                                                                      "fas"
                                                                     ]
                                                                   },
                                                                   "children": []
@@ -357,8 +357,8 @@
                                                           "tag": "li",
                                                           "attributes": {
                                                             "class": [
-                                                              "eael-product-list-link-button",
-                                                              "eael-m-0"
+                                                              "eael-m-0",
+                                                              "eael-product-list-link-button"
                                                             ]
                                                           },
                                                           "children": [
@@ -372,8 +372,8 @@
                                                                   "tag": "i",
                                                                   "attributes": {
                                                                     "class": [
-                                                                      "fas",
-                                                                      "fa-link"
+                                                                      "fa-link",
+                                                                      "fas"
                                                                     ]
                                                                   },
                                                                   "children": []
@@ -398,8 +398,8 @@
                                                       "tag": "div",
                                                       "attributes": {
                                                         "class": [
-                                                          "eael-product-list-content-header",
-                                                          ""
+                                                          "",
+                                                          "eael-product-list-content-header"
                                                         ]
                                                       },
                                                       "children": [
@@ -421,11 +421,11 @@
                                                                   "img"
                                                                 ],
                                                                 "aria-label": [
-                                                                  "Rated",
                                                                   "4.5",
-                                                                  "out",
+                                                                  "5",
+                                                                  "Rated",
                                                                   "of",
-                                                                  "5"
+                                                                  "out"
                                                                 ]
                                                               },
                                                               "children": [
@@ -479,8 +479,8 @@
                                                               "attributes": {
                                                                 "href": "https://essential-addons.com/product/saguaro-with-wooden-stand/#reviews",
                                                                 "class": [
-                                                                  "woocommerce-review-link",
-                                                                  "eael-product-list-review-count"
+                                                                  "eael-product-list-review-count",
+                                                                  "woocommerce-review-link"
                                                                 ],
                                                                 "rel": [
                                                                   "nofollow"
@@ -511,8 +511,8 @@
                                                                   "tag": "i",
                                                                   "attributes": {
                                                                     "class": [
-                                                                      "fas",
-                                                                      "fa-box"
+                                                                      "fa-box",
+                                                                      "fas"
                                                                     ]
                                                                   },
                                                                   "children": []
@@ -595,8 +595,8 @@
                                                                   "tag": "span",
                                                                   "attributes": {
                                                                     "class": [
-                                                                      "woocommerce-Price-amount",
-                                                                      "amount"
+                                                                      "amount",
+                                                                      "woocommerce-Price-amount"
                                                                     ]
                                                                   },
                                                                   "children": [
@@ -645,8 +645,8 @@
                                                                   "tag": "span",
                                                                   "attributes": {
                                                                     "class": [
-                                                                      "woocommerce-Price-amount",
-                                                                      "amount"
+                                                                      "amount",
+                                                                      "woocommerce-Price-amount"
                                                                     ]
                                                                   },
                                                                   "children": [
@@ -707,8 +707,8 @@
                                                               "tag": "p",
                                                               "attributes": {
                                                                 "class": [
-                                                                  "eael-product-list-add-to-cart-button",
-                                                                  "eael-m-0"
+                                                                  "eael-m-0",
+                                                                  "eael-product-list-add-to-cart-button"
                                                                 ]
                                                               },
                                                               "children": [
@@ -721,21 +721,21 @@
                                                                     ],
                                                                     "data-quantity": "1",
                                                                     "class": [
-                                                                      "button",
-                                                                      "product_type_simple",
                                                                       "add_to_cart_button",
-                                                                      "ajax_add_to_cart"
+                                                                      "ajax_add_to_cart",
+                                                                      "button",
+                                                                      "product_type_simple"
                                                                     ],
                                                                     "data-product_id": "280159",
                                                                     "data-product_sku": "",
                                                                     "aria-label": [
                                                                       "Add",
-                                                                      "to",
-                                                                      "cart:",
-                                                                      "“Saguaro",
-                                                                      "with",
                                                                       "Wooden",
-                                                                      "stand”"
+                                                                      "cart:",
+                                                                      "stand”",
+                                                                      "to",
+                                                                      "with",
+                                                                      "“Saguaro"
                                                                     ],
                                                                     "rel": [
                                                                       "nofollow"
@@ -765,8 +765,8 @@
                                                               "tag": "p",
                                                               "attributes": {
                                                                 "class": [
-                                                                  "eael-product-list-quick-view-button",
-                                                                  "eael-m-0"
+                                                                  "eael-m-0",
+                                                                  "eael-product-list-quick-view-button"
                                                                 ]
                                                               },
                                                               "children": [
@@ -871,17 +871,17 @@
                                           "tag": "div",
                                           "attributes": {
                                             "class": [
-                                              "product",
-                                              "post-280154",
-                                              "type-product",
-                                              "status-publish",
                                               "has-post-thumbnail",
-                                              "product_cat-chair",
                                               "instock",
+                                              "post-280154",
+                                              "product",
+                                              "product-type-simple",
+                                              "product_cat-chair",
+                                              "purchasable",
                                               "sale",
                                               "shipping-taxable",
-                                              "purchasable",
-                                              "product-type-simple"
+                                              "status-publish",
+                                              "type-product"
                                             ]
                                           },
                                           "children": [
@@ -889,8 +889,8 @@
                                               "tag": "div",
                                               "attributes": {
                                                 "class": [
-                                                  "eael-product-list-item",
-                                                  ""
+                                                  "",
+                                                  "eael-product-list-item"
                                                 ]
                                               },
                                               "children": [
@@ -906,9 +906,9 @@
                                                       "tag": "div",
                                                       "attributes": {
                                                         "class": [
-                                                          "eael-product-list-badge-wrap",
-                                                          "badge-preset-1",
                                                           "badge-alignment-right",
+                                                          "badge-preset-1",
+                                                          "eael-product-list-badge-wrap",
                                                           "is-on-sale"
                                                         ]
                                                       },
@@ -1022,8 +1022,8 @@
                                                           "tag": "li",
                                                           "attributes": {
                                                             "class": [
-                                                              "eael-product-list-add-to-cart-button",
-                                                              "eael-m-0"
+                                                              "eael-m-0",
+                                                              "eael-product-list-add-to-cart-button"
                                                             ]
                                                           },
                                                           "children": [
@@ -1036,21 +1036,21 @@
                                                                 ],
                                                                 "data-quantity": "1",
                                                                 "class": [
-                                                                  "button",
-                                                                  "product_type_simple",
                                                                   "add_to_cart_button",
-                                                                  "ajax_add_to_cart"
+                                                                  "ajax_add_to_cart",
+                                                                  "button",
+                                                                  "product_type_simple"
                                                                 ],
                                                                 "data-product_id": "280154",
                                                                 "data-product_sku": "",
                                                                 "aria-label": [
                                                                   "Add",
-                                                                  "to",
-                                                                  "cart:",
-                                                                  "“EcoZen",
-                                                                  "Lounge",
+                                                                  "Chair”",
                                                                   "Comfy",
-                                                                  "Chair”"
+                                                                  "Lounge",
+                                                                  "cart:",
+                                                                  "to",
+                                                                  "“EcoZen"
                                                                 ],
                                                                 "rel": [
                                                                   "nofollow"
@@ -1080,8 +1080,8 @@
                                                           "tag": "li",
                                                           "attributes": {
                                                             "class": [
-                                                              "eael-product-list-quick-view-button",
-                                                              "eael-m-0"
+                                                              "eael-m-0",
+                                                              "eael-product-list-quick-view-button"
                                                             ]
                                                           },
                                                           "children": [
@@ -1101,8 +1101,8 @@
                                                                   "tag": "i",
                                                                   "attributes": {
                                                                     "class": [
-                                                                      "fas",
-                                                                      "fa-eye"
+                                                                      "fa-eye",
+                                                                      "fas"
                                                                     ]
                                                                   },
                                                                   "children": []
@@ -1115,8 +1115,8 @@
                                                           "tag": "li",
                                                           "attributes": {
                                                             "class": [
-                                                              "eael-product-list-link-button",
-                                                              "eael-m-0"
+                                                              "eael-m-0",
+                                                              "eael-product-list-link-button"
                                                             ]
                                                           },
                                                           "children": [
@@ -1130,8 +1130,8 @@
                                                                   "tag": "i",
                                                                   "attributes": {
                                                                     "class": [
-                                                                      "fas",
-                                                                      "fa-link"
+                                                                      "fa-link",
+                                                                      "fas"
                                                                     ]
                                                                   },
                                                                   "children": []
@@ -1184,8 +1184,8 @@
                                                       "tag": "div",
                                                       "attributes": {
                                                         "class": [
-                                                          "eael-product-list-content-header",
-                                                          "eael-direction-rtl"
+                                                          "eael-direction-rtl",
+                                                          "eael-product-list-content-header"
                                                         ]
                                                       },
                                                       "children": [
@@ -1207,11 +1207,11 @@
                                                                   "img"
                                                                 ],
                                                                 "aria-label": [
-                                                                  "Rated",
                                                                   "4.5",
-                                                                  "out",
+                                                                  "5",
+                                                                  "Rated",
                                                                   "of",
-                                                                  "5"
+                                                                  "out"
                                                                 ]
                                                               },
                                                               "children": [
@@ -1265,8 +1265,8 @@
                                                               "attributes": {
                                                                 "href": "https://essential-addons.com/product/ecozen-lounge-comfy-chair/#reviews",
                                                                 "class": [
-                                                                  "woocommerce-review-link",
-                                                                  "eael-product-list-review-count"
+                                                                  "eael-product-list-review-count",
+                                                                  "woocommerce-review-link"
                                                                 ],
                                                                 "rel": [
                                                                   "nofollow"
@@ -1297,8 +1297,8 @@
                                                                   "tag": "i",
                                                                   "attributes": {
                                                                     "class": [
-                                                                      "fas",
-                                                                      "fa-box"
+                                                                      "fa-box",
+                                                                      "fas"
                                                                     ]
                                                                   },
                                                                   "children": []
@@ -1353,8 +1353,8 @@
                                                                   "tag": "span",
                                                                   "attributes": {
                                                                     "class": [
-                                                                      "woocommerce-Price-amount",
-                                                                      "amount"
+                                                                      "amount",
+                                                                      "woocommerce-Price-amount"
                                                                     ]
                                                                   },
                                                                   "children": [
@@ -1403,8 +1403,8 @@
                                                                   "tag": "span",
                                                                   "attributes": {
                                                                     "class": [
-                                                                      "woocommerce-Price-amount",
-                                                                      "amount"
+                                                                      "amount",
+                                                                      "woocommerce-Price-amount"
                                                                     ]
                                                                   },
                                                                   "children": [
@@ -1527,8 +1527,8 @@
                                                               "tag": "p",
                                                               "attributes": {
                                                                 "class": [
-                                                                  "eael-product-list-add-to-cart-button",
-                                                                  "eael-m-0"
+                                                                  "eael-m-0",
+                                                                  "eael-product-list-add-to-cart-button"
                                                                 ]
                                                               },
                                                               "children": [
@@ -1541,21 +1541,21 @@
                                                                     ],
                                                                     "data-quantity": "1",
                                                                     "class": [
-                                                                      "button",
-                                                                      "product_type_simple",
                                                                       "add_to_cart_button",
-                                                                      "ajax_add_to_cart"
+                                                                      "ajax_add_to_cart",
+                                                                      "button",
+                                                                      "product_type_simple"
                                                                     ],
                                                                     "data-product_id": "280154",
                                                                     "data-product_sku": "",
                                                                     "aria-label": [
                                                                       "Add",
-                                                                      "to",
-                                                                      "cart:",
-                                                                      "“EcoZen",
-                                                                      "Lounge",
+                                                                      "Chair”",
                                                                       "Comfy",
-                                                                      "Chair”"
+                                                                      "Lounge",
+                                                                      "cart:",
+                                                                      "to",
+                                                                      "“EcoZen"
                                                                     ],
                                                                     "rel": [
                                                                       "nofollow"
@@ -1585,8 +1585,8 @@
                                                               "tag": "p",
                                                               "attributes": {
                                                                 "class": [
-                                                                  "eael-product-list-quick-view-button",
-                                                                  "eael-m-0"
+                                                                  "eael-m-0",
+                                                                  "eael-product-list-quick-view-button"
                                                                 ]
                                                               },
                                                               "children": [
@@ -1691,17 +1691,17 @@
                                           "tag": "div",
                                           "attributes": {
                                             "class": [
-                                              "product",
-                                              "post-280153",
-                                              "type-product",
-                                              "status-publish",
                                               "has-post-thumbnail",
-                                              "product_cat-chair",
-                                              "last",
                                               "instock",
-                                              "shipping-taxable",
+                                              "last",
+                                              "post-280153",
+                                              "product",
+                                              "product-type-variable",
+                                              "product_cat-chair",
                                               "purchasable",
-                                              "product-type-variable"
+                                              "shipping-taxable",
+                                              "status-publish",
+                                              "type-product"
                                             ]
                                           },
                                           "children": [
@@ -1709,8 +1709,8 @@
                                               "tag": "div",
                                               "attributes": {
                                                 "class": [
-                                                  "eael-product-list-item",
-                                                  ""
+                                                  "",
+                                                  "eael-product-list-item"
                                                 ]
                                               },
                                               "children": [
@@ -1771,8 +1771,8 @@
                                                           "tag": "li",
                                                           "attributes": {
                                                             "class": [
-                                                              "eael-product-list-add-to-cart-button",
-                                                              "eael-m-0"
+                                                              "eael-m-0",
+                                                              "eael-product-list-add-to-cart-button"
                                                             ]
                                                           },
                                                           "children": [
@@ -1785,20 +1785,20 @@
                                                                 ],
                                                                 "data-quantity": "1",
                                                                 "class": [
+                                                                  "add_to_cart_button",
                                                                   "button",
-                                                                  "product_type_variable",
-                                                                  "add_to_cart_button"
+                                                                  "product_type_variable"
                                                                 ],
                                                                 "data-product_id": "280153",
                                                                 "data-product_sku": "",
                                                                 "aria-label": [
-                                                                  "Select",
-                                                                  "options",
-                                                                  "for",
-                                                                  "“Woodland",
                                                                   "Bliss",
+                                                                  "Chair”",
                                                                   "Lounge",
-                                                                  "Chair”"
+                                                                  "Select",
+                                                                  "for",
+                                                                  "options",
+                                                                  "“Woodland"
                                                                 ],
                                                                 "rel": [
                                                                   "nofollow"
@@ -1832,8 +1832,8 @@
                                                           "tag": "li",
                                                           "attributes": {
                                                             "class": [
-                                                              "eael-product-list-quick-view-button",
-                                                              "eael-m-0"
+                                                              "eael-m-0",
+                                                              "eael-product-list-quick-view-button"
                                                             ]
                                                           },
                                                           "children": [
@@ -1853,8 +1853,8 @@
                                                                   "tag": "i",
                                                                   "attributes": {
                                                                     "class": [
-                                                                      "fas",
-                                                                      "fa-eye"
+                                                                      "fa-eye",
+                                                                      "fas"
                                                                     ]
                                                                   },
                                                                   "children": []
@@ -1867,8 +1867,8 @@
                                                           "tag": "li",
                                                           "attributes": {
                                                             "class": [
-                                                              "eael-product-list-link-button",
-                                                              "eael-m-0"
+                                                              "eael-m-0",
+                                                              "eael-product-list-link-button"
                                                             ]
                                                           },
                                                           "children": [
@@ -1882,8 +1882,8 @@
                                                                   "tag": "i",
                                                                   "attributes": {
                                                                     "class": [
-                                                                      "fas",
-                                                                      "fa-link"
+                                                                      "fa-link",
+                                                                      "fas"
                                                                     ]
                                                                   },
                                                                   "children": []
@@ -1936,8 +1936,8 @@
                                                       "tag": "div",
                                                       "attributes": {
                                                         "class": [
-                                                          "eael-product-list-content-header",
-                                                          ""
+                                                          "",
+                                                          "eael-product-list-content-header"
                                                         ]
                                                       },
                                                       "children": [
@@ -1958,8 +1958,8 @@
                                                                   "tag": "i",
                                                                   "attributes": {
                                                                     "class": [
-                                                                      "fas",
-                                                                      "fa-box"
+                                                                      "fa-box",
+                                                                      "fas"
                                                                     ]
                                                                   },
                                                                   "children": []
@@ -2006,8 +2006,8 @@
                                                               "tag": "span",
                                                               "attributes": {
                                                                 "class": [
-                                                                  "woocommerce-Price-amount",
-                                                                  "amount"
+                                                                  "amount",
+                                                                  "woocommerce-Price-amount"
                                                                 ]
                                                               },
                                                               "children": [
@@ -2036,8 +2036,8 @@
                                                               "tag": "span",
                                                               "attributes": {
                                                                 "class": [
-                                                                  "woocommerce-Price-amount",
-                                                                  "amount"
+                                                                  "amount",
+                                                                  "woocommerce-Price-amount"
                                                                 ]
                                                               },
                                                               "children": [
@@ -2083,8 +2083,8 @@
                                                               "tag": "p",
                                                               "attributes": {
                                                                 "class": [
-                                                                  "eael-product-list-add-to-cart-button",
-                                                                  "eael-m-0"
+                                                                  "eael-m-0",
+                                                                  "eael-product-list-add-to-cart-button"
                                                                 ]
                                                               },
                                                               "children": [
@@ -2097,20 +2097,20 @@
                                                                     ],
                                                                     "data-quantity": "1",
                                                                     "class": [
+                                                                      "add_to_cart_button",
                                                                       "button",
-                                                                      "product_type_variable",
-                                                                      "add_to_cart_button"
+                                                                      "product_type_variable"
                                                                     ],
                                                                     "data-product_id": "280153",
                                                                     "data-product_sku": "",
                                                                     "aria-label": [
-                                                                      "Select",
-                                                                      "options",
-                                                                      "for",
-                                                                      "“Woodland",
                                                                       "Bliss",
+                                                                      "Chair”",
                                                                       "Lounge",
-                                                                      "Chair”"
+                                                                      "Select",
+                                                                      "for",
+                                                                      "options",
+                                                                      "“Woodland"
                                                                     ],
                                                                     "rel": [
                                                                       "nofollow"
@@ -2144,8 +2144,8 @@
                                                               "tag": "p",
                                                               "attributes": {
                                                                 "class": [
-                                                                  "eael-product-list-quick-view-button",
-                                                                  "eael-m-0"
+                                                                  "eael-m-0",
+                                                                  "eael-product-list-quick-view-button"
                                                                 ]
                                                               },
                                                               "children": [
