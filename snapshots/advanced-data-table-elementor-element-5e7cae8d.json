@@ -1,0 +1,649 @@
+{
+  "tag": "section",
+  "attributes": {
+    "data-particle_enable": "false",
+    "data-particle-mobile-disabled": "false",
+    "class": [
+      "elementor-element",
+      "elementor-element-5e7cae8d",
+      "elementor-reverse-mobile",
+      "elementor-section",
+      "elementor-section-boxed",
+      "elementor-section-content-middle",
+      "elementor-section-height-default",
+      "elementor-section-height-default",
+      "elementor-top-section"
+    ],
+    "data-id": "5e7cae8d",
+    "data-element_type": "section",
+    "data-settings": "{\"background_background\":\"classic\"}"
+  },
+  "children": [
+    {
+      "tag": "div",
+      "attributes": {
+        "class": [
+          "elementor-column-gap-default",
+          "elementor-container"
+        ]
+      },
+      "children": [
+        {
+          "tag": "div",
+          "attributes": {
+            "class": [
+              "elementor-col-100",
+              "elementor-column",
+              "elementor-element",
+              "elementor-element-40c00ea9",
+              "elementor-top-column"
+            ],
+            "data-id": "40c00ea9",
+            "data-element_type": "column"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "attributes": {
+                "class": [
+                  "elementor-element-populated",
+                  "elementor-widget-wrap"
+                ]
+              },
+              "children": [
+                {
+                  "tag": "section",
+                  "attributes": {
+                    "data-particle_enable": "false",
+                    "data-particle-mobile-disabled": "false",
+                    "class": [
+                      "elementor-element",
+                      "elementor-element-6df3eddf",
+                      "elementor-inner-section",
+                      "elementor-section",
+                      "elementor-section-boxed",
+                      "elementor-section-height-default",
+                      "elementor-section-height-default"
+                    ],
+                    "data-id": "6df3eddf",
+                    "data-element_type": "section"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "attributes": {
+                        "class": [
+                          "elementor-column-gap-default",
+                          "elementor-container"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "attributes": {
+                            "class": [
+                              "elementor-col-100",
+                              "elementor-column",
+                              "elementor-element",
+                              "elementor-element-5765b22d",
+                              "elementor-inner-column"
+                            ],
+                            "data-id": "5765b22d",
+                            "data-element_type": "column"
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "elementor-element-populated",
+                                  "elementor-widget-wrap"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "elementor-element",
+                                      "elementor-element-30f00834",
+                                      "elementor-widget",
+                                      "elementor-widget-heading"
+                                    ],
+                                    "data-id": "30f00834",
+                                    "data-element_type": "widget",
+                                    "data-widget_type": "heading.default"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "div",
+                                      "attributes": {
+                                        "class": [
+                                          "elementor-widget-container"
+                                        ]
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "h3",
+                                          "attributes": {
+                                            "class": [
+                                              "elementor-heading-title",
+                                              "elementor-size-default"
+                                            ]
+                                          },
+                                          "children": [
+                                            {
+                                              "text": "Data Table Style 03"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "elementor-element",
+                                      "elementor-element-2be17fdf",
+                                      "elementor-widget",
+                                      "elementor-widget-heading"
+                                    ],
+                                    "data-id": "2be17fdf",
+                                    "data-element_type": "widget",
+                                    "data-widget_type": "heading.default"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "div",
+                                      "attributes": {
+                                        "class": [
+                                          "elementor-widget-container"
+                                        ]
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "h6",
+                                          "attributes": {
+                                            "class": [
+                                              "elementor-heading-title",
+                                              "elementor-size-default"
+                                            ]
+                                          },
+                                          "children": [
+                                            {
+                                              "text": "Add/Delete as many Columns/Rows you want with Limitless Styling options"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "attributes": {
+                    "class": [
+                      "elementor-element",
+                      "elementor-element-22fbf6d2",
+                      "elementor-widget",
+                      "elementor-widget-eael-advanced-data-table"
+                    ],
+                    "data-id": "22fbf6d2",
+                    "data-element_type": "widget",
+                    "data-widget_type": "eael-advanced-data-table.default"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "attributes": {
+                        "class": [
+                          "elementor-widget-container"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "attributes": {
+                            "class": [
+                              "ea-advanced-data-table-wrap"
+                            ],
+                            "data-id": "22fbf6d2"
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "ea-advanced-data-table-wrap-inner"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "table",
+                                  "attributes": {
+                                    "class": [
+                                      "ea-advanced-data-table",
+                                      "ea-advanced-data-table-22fbf6d2",
+                                      "ea-advanced-data-table-static"
+                                    ],
+                                    "data-id": "22fbf6d2"
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "thead",
+                                      "attributes": {},
+                                      "children": [
+                                        {
+                                          "tag": "tr",
+                                          "attributes": {},
+                                          "children": [
+                                            {
+                                              "tag": "th",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "Layer Cake"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "th",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "Cup Cake"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "th",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "Fruit Cake"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "th",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "Dan Cake"
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "tag": "tbody",
+                                      "attributes": {},
+                                      "children": [
+                                        {
+                                          "tag": "tr",
+                                          "attributes": {},
+                                          "children": [
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "tag": "img",
+                                                  "attributes": {
+                                                    "decoding": [
+                                                      "async"
+                                                    ],
+                                                    "src": "https://essential-addons.com/elementor/wp-content/uploads/2020/01/Layer-Cake.png",
+                                                    "alt": "Advanced Data Table 107",
+                                                    "title": "Advanced Data Table 107"
+                                                  },
+                                                  "children": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "tag": "img",
+                                                  "attributes": {
+                                                    "decoding": [
+                                                      "async"
+                                                    ],
+                                                    "src": "https://essential-addons.com/elementor/wp-content/uploads/2020/01/Fruite-Cake.png",
+                                                    "alt": "Advanced Data Table 108",
+                                                    "title": "Advanced Data Table 108"
+                                                  },
+                                                  "children": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "tag": "img",
+                                                  "attributes": {
+                                                    "decoding": [
+                                                      "async"
+                                                    ],
+                                                    "src": "https://essential-addons.com/elementor/wp-content/uploads/2020/01/Cup-Cake.png",
+                                                    "alt": "Advanced Data Table 109",
+                                                    "title": "Advanced Data Table 109"
+                                                  },
+                                                  "children": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "tag": "img",
+                                                  "attributes": {
+                                                    "decoding": [
+                                                      "async"
+                                                    ],
+                                                    "src": "https://essential-addons.com/elementor/wp-content/uploads/2020/01/Dan-Cake.png",
+                                                    "alt": "Advanced Data Table 110",
+                                                    "title": "Advanced Data Table 110"
+                                                  },
+                                                  "children": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "tag": "tr",
+                                          "attributes": {},
+                                          "children": [
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "tag": "p",
+                                                  "attributes": {},
+                                                  "children": [
+                                                    {
+                                                      "text": "Choco Delight"
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "Dutch Chocolate"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "Mango Delight"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "Detroit  Livonia"
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "tag": "tr",
+                                          "attributes": {},
+                                          "children": [
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "Black Forest"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "Boneless Wings"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "Tyngsboro"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "Walnut Punch"
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "tag": "tr",
+                                          "attributes": {},
+                                          "children": [
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "Choco Chip"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "Vanilla"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "Passion Choco"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "Schaumburg"
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "tag": "tr",
+                                          "attributes": {},
+                                          "children": [
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "Choco Vanilla"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "Altamonte Springs"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "Choco Delight"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "Pembroke Pines"
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "tag": "tr",
+                                          "attributes": {},
+                                          "children": [
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "Choco Bite"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "Dutch Chocolate"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "Wolfchase Galleria"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "Flake Chocolate"
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "tag": "tr",
+                                          "attributes": {},
+                                          "children": [
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "Chocolate Mocha"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "Velvy Choco"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "Layer Cake"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "tag": "td",
+                                              "attributes": {},
+                                              "children": [
+                                                {
+                                                  "text": "Dark Dan"
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
