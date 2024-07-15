@@ -196,7 +196,7 @@ test.describe("Advanced Data Table - Structure Tests", () => {
     const selector = ".elementor-element-49b2d12e"; // Replace with your actual selector
     await page.waitForSelector(selector);
     await page.locator(selector).scrollIntoViewIfNeeded();
-    await page.waitForTimeout(300);
+    await page.waitForTimeout(500);
 
     const filePath = path.join(__dirname, `../snapshots/${slug.substring(1)}-${selector.substring(1)}.json`);
 
@@ -211,7 +211,7 @@ test.describe("Advanced Data Table - Structure Tests", () => {
     const selector = ".elementor-element-466afb7b"; // Replace with your actual selector
     await page.waitForSelector(selector);
     await page.locator(selector).scrollIntoViewIfNeeded();
-    await page.waitForTimeout(300);
+    await page.waitForTimeout(500);
 
     const filePath = path.join(__dirname, `../snapshots/${slug.substring(1)}-${selector.substring(1)}.json`);
 
@@ -226,7 +226,7 @@ test.describe("Advanced Data Table - Structure Tests", () => {
     const selector = ".elementor-element-5e7cae8d"; // Replace with your actual selector
     await page.waitForSelector(selector);
     await page.locator(selector).scrollIntoViewIfNeeded();
-    await page.waitForTimeout(300);
+    await page.waitForTimeout(500);
 
     const filePath = path.join(__dirname, `../snapshots/${slug.substring(1)}-${selector.substring(1)}.json`);
 
@@ -241,7 +241,7 @@ test.describe("Advanced Data Table - Structure Tests", () => {
     const selector = ".elementor-element-451dc4f7"; // Replace with your actual selector
     await page.waitForSelector(selector);
     await page.locator(selector).scrollIntoViewIfNeeded();
-    await page.waitForTimeout(300);
+    await page.waitForTimeout(500);
 
     const filePath = path.join(__dirname, `../snapshots/${slug.substring(1)}-${selector.substring(1)}.json`);
 
@@ -256,7 +256,7 @@ test.describe("Advanced Data Table - Structure Tests", () => {
     const selector = ".elementor-element-63e0b7e2"; // Replace with your actual selector
     await page.waitForSelector(selector);
     await page.locator(selector).scrollIntoViewIfNeeded();
-    await page.waitForTimeout(300);
+    await page.waitForTimeout(500);
 
     const filePath = path.join(__dirname, `../snapshots/${slug.substring(1)}-${selector.substring(1)}.json`);
 

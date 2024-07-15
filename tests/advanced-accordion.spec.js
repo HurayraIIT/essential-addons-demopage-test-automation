@@ -126,7 +126,7 @@ test.describe("Advanced Accordion - Structure Tests", () => {
     const selector = ".elementor-element-62209eb9"; // Replace with your actual selector
     await page.waitForSelector(selector);
     await page.locator(selector).scrollIntoViewIfNeeded();
-    await page.waitForTimeout(300);
+    await page.waitForTimeout(400);
 
     const filePath = path.join(__dirname, `../snapshots/${slug.substring(1)}-${selector.substring(1)}.json`);
 
@@ -141,7 +141,7 @@ test.describe("Advanced Accordion - Structure Tests", () => {
     const selector = ".elementor-element-5caaa7ed"; // Replace with your actual selector
     await page.waitForSelector(selector);
     await page.locator(selector).scrollIntoViewIfNeeded();
-    await page.waitForTimeout(300);
+    await page.waitForTimeout(400);
 
     const filePath = path.join(__dirname, `../snapshots/${slug.substring(1)}-${selector.substring(1)}.json`);
 
@@ -156,7 +156,7 @@ test.describe("Advanced Accordion - Structure Tests", () => {
     const selector = ".elementor-element-592d5521"; // Replace with your actual selector
     await page.waitForSelector(selector);
     await page.locator(selector).scrollIntoViewIfNeeded();
-    await page.waitForTimeout(300);
+    await page.waitForTimeout(400);
 
     const filePath = path.join(__dirname, `../snapshots/${slug.substring(1)}-${selector.substring(1)}.json`);
 
@@ -171,7 +171,7 @@ test.describe("Advanced Accordion - Structure Tests", () => {
     const selector = ".elementor-element-5c7d5236"; // Replace with your actual selector
     await page.waitForSelector(selector);
     await page.locator(selector).scrollIntoViewIfNeeded();
-    await page.waitForTimeout(300);
+    await page.waitForTimeout(400);
 
     const filePath = path.join(__dirname, `../snapshots/${slug.substring(1)}-${selector.substring(1)}.json`);
 

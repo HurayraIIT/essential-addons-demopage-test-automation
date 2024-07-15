@@ -53,7 +53,7 @@ test.describe("Advanced Menu - Structure Tests", () => {
     const selector = ".elementor-element-6a863ab4"; // Replace with your actual selector
     await page.waitForSelector(selector);
     await page.locator(selector).scrollIntoViewIfNeeded();
-    await page.waitForTimeout(300);
+    await page.waitForTimeout(500);
 
     const filePath = path.join(__dirname, `../snapshots/${slug.substring(1)}-${selector.substring(1)}.json`);
 
@@ -68,7 +68,7 @@ test.describe("Advanced Menu - Structure Tests", () => {
     const selector = ".elementor-element-529f18dc"; // Replace with your actual selector
     await page.waitForSelector(selector);
     await page.locator(selector).scrollIntoViewIfNeeded();
-    await page.waitForTimeout(300);
+    await page.waitForTimeout(500);
 
     const filePath = path.join(__dirname, `../snapshots/${slug.substring(1)}-${selector.substring(1)}.json`);
 
@@ -83,7 +83,7 @@ test.describe("Advanced Menu - Structure Tests", () => {
     const selector = ".elementor-element-25174124"; // Replace with your actual selector
     await page.waitForSelector(selector);
     await page.locator(selector).scrollIntoViewIfNeeded();
-    await page.waitForTimeout(300);
+    await page.waitForTimeout(500);
 
     const filePath = path.join(__dirname, `../snapshots/${slug.substring(1)}-${selector.substring(1)}.json`);
 
@@ -98,7 +98,7 @@ test.describe("Advanced Menu - Structure Tests", () => {
     const selector = ".elementor-element-1f756f77"; // Replace with your actual selector
     await page.waitForSelector(selector);
     await page.locator(selector).scrollIntoViewIfNeeded();
-    await page.waitForTimeout(300);
+    await page.waitForTimeout(500);
 
     const filePath = path.join(__dirname, `../snapshots/${slug.substring(1)}-${selector.substring(1)}.json`);
 
@@ -113,7 +113,7 @@ test.describe("Advanced Menu - Structure Tests", () => {
     const selector = ".elementor-element-43c92a5d"; // Replace with your actual selector
     await page.waitForSelector(selector);
     await page.locator(selector).scrollIntoViewIfNeeded();
-    await page.waitForTimeout(300);
+    await page.waitForTimeout(500);
 
     const filePath = path.join(__dirname, `../snapshots/${slug.substring(1)}-${selector.substring(1)}.json`);
 
@@ -128,7 +128,7 @@ test.describe("Advanced Menu - Structure Tests", () => {
     const selector = ".elementor-element-6d6ae8bd"; // Replace with your actual selector
     await page.waitForSelector(selector);
     await page.locator(selector).scrollIntoViewIfNeeded();
-    await page.waitForTimeout(300);
+    await page.waitForTimeout(500);
 
     const filePath = path.join(__dirname, `../snapshots/${slug.substring(1)}-${selector.substring(1)}.json`);
 
@@ -143,7 +143,7 @@ test.describe("Advanced Menu - Structure Tests", () => {
     const selector = ".elementor-element-1bcb0b1e"; // Replace with your actual selector
     await page.waitForSelector(selector);
     await page.locator(selector).scrollIntoViewIfNeeded();
-    await page.waitForTimeout(300);
+    await page.waitForTimeout(500);
 
     const filePath = path.join(__dirname, `../snapshots/${slug.substring(1)}-${selector.substring(1)}.json`);
 
@@ -158,7 +158,7 @@ test.describe("Advanced Menu - Structure Tests", () => {
     const selector = ".elementor-element-60971be4"; // Replace with your actual selector
     await page.waitForSelector(selector);
     await page.locator(selector).scrollIntoViewIfNeeded();
-    await page.waitForTimeout(300);
+    await page.waitForTimeout(500);
 
     const filePath = path.join(__dirname, `../snapshots/${slug.substring(1)}-${selector.substring(1)}.json`);
 
@@ -173,7 +173,7 @@ test.describe("Advanced Menu - Structure Tests", () => {
     const selector = ".elementor-element-59e78009"; // Replace with your actual selector
     await page.waitForSelector(selector);
     await page.locator(selector).scrollIntoViewIfNeeded();
-    await page.waitForTimeout(300);
+    await page.waitForTimeout(500);
 
     const filePath = path.join(__dirname, `../snapshots/${slug.substring(1)}-${selector.substring(1)}.json`);
 
@@ -188,7 +188,7 @@ test.describe("Advanced Menu - Structure Tests", () => {
     const selector = ".elementor-element-780d2b34"; // Replace with your actual selector
     await page.waitForSelector(selector);
     await page.locator(selector).scrollIntoViewIfNeeded();
-    await page.waitForTimeout(300);
+    await page.waitForTimeout(500);
 
     const filePath = path.join(__dirname, `../snapshots/${slug.substring(1)}-${selector.substring(1)}.json`);
 
@@ -203,7 +203,7 @@ test.describe("Advanced Menu - Structure Tests", () => {
     const selector = ".elementor-element-580e5e1b"; // Replace with your actual selector
     await page.waitForSelector(selector);
     await page.locator(selector).scrollIntoViewIfNeeded();
-    await page.waitForTimeout(300);
+    await page.waitForTimeout(500);
 
     const filePath = path.join(__dirname, `../snapshots/${slug.substring(1)}-${selector.substring(1)}.json`);
 

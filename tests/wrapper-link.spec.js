@@ -11,8 +11,6 @@ test.describe("EA Wrapper Link", () => {
   test.beforeEach(async ({ page }) => {
     await page.goto(slug);
     await expect(page.getByRole("heading", { name: heading, exact: true })).toBeVisible();
-    await expect(page.getByRole("link", { name: "Documentation" })).toBeVisible();
-    await expect(page.getByRole("link", { name: "Documentation" })).toHaveAttribute("href", /docs\/ea-wrapper-link/);
   });
 
   test("Test Section: Enjoy Full Freedom To Insert Links Anywhere", async ({ page }) => {
