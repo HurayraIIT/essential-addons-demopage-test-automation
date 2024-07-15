@@ -1,0 +1,452 @@
+{
+  "tag": "div",
+  "attributes": {
+    "class": [
+      "eael-hamburger--not-responsive",
+      "eael-hamburger--tablet",
+      "eael-simple-menu-hamburger-align-right",
+      "eael_simple_menu_hamburger_disable_selected_menu_no",
+      "elementor-element",
+      "elementor-element-7bdd1b2",
+      "elementor-widget",
+      "elementor-widget-eael-simple-menu"
+    ],
+    "data-id": "7bdd1b2",
+    "data-element_type": "widget",
+    "data-widget_type": "eael-simple-menu.default"
+  },
+  "children": [
+    {
+      "tag": "div",
+      "attributes": {
+        "class": [
+          "elementor-widget-container"
+        ]
+      },
+      "children": [
+        {
+          "tag": "style",
+          "attributes": {},
+          "children": [
+            {
+              "text": "@media screen and (max-width: 1024px) {\n                            .eael-hamburger--tablet {\n                                .eael-simple-menu-horizontal,\n                                .eael-simple-menu-vertical {\n                                    display: none;\n                                }\n                            }\n                            .eael-hamburger--tablet {\n                                .eael-simple-menu-container .eael-simple-menu-toggle {\n                                    display: block;\n                                }\n                            }\n                        }"
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "attributes": {
+            "data-hamburger-icon": "<i aria-hidden=\"true\" class=\"fas fa-bars\"></i>",
+            "data-indicator-icon": "<i aria-hidden=\"true\" class=\"fas fa-angle-down\"></i>",
+            "data-dropdown-indicator-icon": "<i class=\"fas fa-angle-down\"></i>",
+            "class": [
+              "eael-simple-menu-align-left",
+              "eael-simple-menu-container",
+              "eael-simple-menu-dropdown-align-left",
+              "preset-1"
+            ],
+            "data-hamburger-breakpoints": "{\"mobile\":\"Mobile Portrait (> 767px)\",\"tablet\":\"Tablet Portrait (> 1024px)\",\"desktop\":\"Desktop (> 2400px)\",\"none\":\"None\"}",
+            "data-hamburger-device": "tablet"
+          },
+          "children": [
+            {
+              "tag": "span",
+              "attributes": {
+                "class": [
+                  "eael-simple-menu-toggle-text"
+                ]
+              },
+              "children": []
+            },
+            {
+              "tag": "ul",
+              "attributes": {
+                "id": [
+                  "menu-simple-menu"
+                ],
+                "class": [
+                  "eael-simple-menu",
+                  "eael-simple-menu-dropdown-animate-to-top",
+                  "eael-simple-menu-horizontal",
+                  "eael-simple-menu-indicator"
+                ]
+              },
+              "children": [
+                {
+                  "tag": "li",
+                  "attributes": {
+                    "id": [
+                      "menu-item-267446"
+                    ],
+                    "class": [
+                      "menu-item",
+                      "menu-item-267446",
+                      "menu-item-object-custom",
+                      "menu-item-type-custom"
+                    ]
+                  },
+                  "children": [
+                    {
+                      "tag": "a",
+                      "attributes": {
+                        "href": "https://essential-addons.com/elementor"
+                      },
+                      "children": [
+                        {
+                          "text": "Home"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attributes": {
+                    "id": [
+                      "menu-item-267450"
+                    ],
+                    "class": [
+                      "menu-item",
+                      "menu-item-267450",
+                      "menu-item-has-children",
+                      "menu-item-object-custom",
+                      "menu-item-type-custom"
+                    ]
+                  },
+                  "children": [
+                    {
+                      "tag": "a",
+                      "attributes": {
+                        "href": "#"
+                      },
+                      "children": [
+                        {
+                          "text": "Elements"
+                        },
+                        {
+                          "tag": "span",
+                          "attributes": {},
+                          "children": [
+                            {
+                              "tag": "i",
+                              "attributes": {
+                                "aria-hidden": [
+                                  "true"
+                                ],
+                                "class": [
+                                  "fa-angle-down",
+                                  "fas"
+                                ]
+                              },
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "ul",
+                      "attributes": {
+                        "class": [
+                          "sub-menu"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "tag": "li",
+                          "attributes": {
+                            "id": [
+                              "menu-item-267452"
+                            ],
+                            "class": [
+                              "menu-item",
+                              "menu-item-267452",
+                              "menu-item-object-page",
+                              "menu-item-type-post_type"
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "a",
+                              "attributes": {
+                                "href": "https://essential-addons.com/woo-product-slider/"
+                              },
+                              "children": [
+                                {
+                                  "text": "Woo Product Slider"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "li",
+                          "attributes": {
+                            "id": [
+                              "menu-item-267453"
+                            ],
+                            "class": [
+                              "menu-item",
+                              "menu-item-267453",
+                              "menu-item-object-page",
+                              "menu-item-type-post_type"
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "a",
+                              "attributes": {
+                                "href": "https://essential-addons.com/woo-product-grid/"
+                              },
+                              "children": [
+                                {
+                                  "text": "Woo Product Grid"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "li",
+                          "attributes": {
+                            "id": [
+                              "menu-item-267454"
+                            ],
+                            "class": [
+                              "menu-item",
+                              "menu-item-267454",
+                              "menu-item-object-page",
+                              "menu-item-type-post_type"
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "a",
+                              "attributes": {
+                                "href": "https://essential-addons.com/woo-product-compare/"
+                              },
+                              "children": [
+                                {
+                                  "text": "Woo Product Compare"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "li",
+                          "attributes": {
+                            "id": [
+                              "menu-item-267455"
+                            ],
+                            "class": [
+                              "menu-item",
+                              "menu-item-267455",
+                              "menu-item-object-page",
+                              "menu-item-type-post_type"
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "a",
+                              "attributes": {
+                                "href": "https://essential-addons.com/woo-product-carousel/"
+                              },
+                              "children": [
+                                {
+                                  "text": "Woo Product Carousel"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "li",
+                          "attributes": {
+                            "id": [
+                              "menu-item-267552"
+                            ],
+                            "class": [
+                              "menu-item",
+                              "menu-item-267552",
+                              "menu-item-object-page",
+                              "menu-item-type-post_type"
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "a",
+                              "attributes": {
+                                "href": "https://essential-addons.com/call-to-action/"
+                              },
+                              "children": [
+                                {
+                                  "text": "Call To Action"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "span",
+                      "attributes": {
+                        "class": [
+                          "eael-simple-menu-indicator"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "tag": "i",
+                          "attributes": {
+                            "aria-hidden": [
+                              "true"
+                            ],
+                            "class": [
+                              "fa-angle-down",
+                              "fas"
+                            ]
+                          },
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attributes": {
+                    "id": [
+                      "menu-item-267445"
+                    ],
+                    "class": [
+                      "current-menu-item",
+                      "current_page_item",
+                      "menu-item",
+                      "menu-item-267445",
+                      "menu-item-object-page",
+                      "menu-item-type-post_type",
+                      "page-item-267411",
+                      "page_item"
+                    ]
+                  },
+                  "children": [
+                    {
+                      "tag": "a",
+                      "attributes": {
+                        "href": "https://essential-addons.com/simple-menu/",
+                        "aria-current": [
+                          "page"
+                        ],
+                        "class": [
+                          "eael-item-active"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "text": "Simple Menu"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attributes": {
+                    "id": [
+                      "menu-item-267449"
+                    ],
+                    "class": [
+                      "menu-item",
+                      "menu-item-267449",
+                      "menu-item-object-custom",
+                      "menu-item-type-custom"
+                    ]
+                  },
+                  "children": [
+                    {
+                      "tag": "a",
+                      "attributes": {
+                        "href": "https://essential-addons.com/elementor/blog"
+                      },
+                      "children": [
+                        {
+                          "text": "Blog"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "attributes": {
+                    "id": [
+                      "menu-item-267447"
+                    ],
+                    "class": [
+                      "menu-item",
+                      "menu-item-267447",
+                      "menu-item-object-page",
+                      "menu-item-type-post_type"
+                    ]
+                  },
+                  "children": [
+                    {
+                      "tag": "a",
+                      "attributes": {
+                        "href": "https://essential-addons.com/support/"
+                      },
+                      "children": [
+                        {
+                          "text": "Support"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "button",
+              "attributes": {
+                "class": [
+                  "eael-simple-menu-toggle"
+                ]
+              },
+              "children": [
+                {
+                  "tag": "span",
+                  "attributes": {
+                    "class": [
+                      "",
+                      "sr-only"
+                    ]
+                  },
+                  "children": [
+                    {
+                      "text": "Humberger Toggle Menu"
+                    }
+                  ]
+                },
+                {
+                  "tag": "i",
+                  "attributes": {
+                    "aria-hidden": [
+                      "true"
+                    ],
+                    "class": [
+                      "fa-bars",
+                      "fas"
+                    ]
+                  },
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

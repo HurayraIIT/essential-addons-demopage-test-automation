@@ -12,7 +12,10 @@ test.describe("BetterDocs Category Grid", () => {
     await page.goto(slug);
     await expect(page.getByRole("heading", { name: heading, exact: true })).toBeVisible();
     await expect(page.getByRole("link", { name: "Documentation", exact: true })).toBeVisible();
-    await expect(page.getByRole("link", { name: "Documentation", exact: true })).toHaveAttribute("href", /docs\/betterdocs-category-grid/);
+    await expect(page.getByRole("link", { name: "Documentation", exact: true })).toHaveAttribute(
+      "href",
+      /docs\/betterdocs-category-grid/
+    );
   });
 
   test("Test Section: Stunning Grid", async ({ page }) => {

@@ -1,0 +1,207 @@
+{
+  "tag": "div",
+  "attributes": {
+    "class": [
+      "elementor-element",
+      "elementor-element-64a150a4",
+      "elementor-widget",
+      "elementor-widget-eael-static-product"
+    ],
+    "data-id": "64a150a4",
+    "data-element_type": "widget",
+    "data-widget_type": "eael-static-product.default"
+  },
+  "children": [
+    {
+      "tag": "div",
+      "attributes": {
+        "class": [
+          "elementor-widget-container"
+        ]
+      },
+      "children": [
+        {
+          "tag": "div",
+          "attributes": {
+            "class": [
+              "woocommerce-notices-wrapper"
+            ]
+          },
+          "children": []
+        },
+        {
+          "tag": "div",
+          "attributes": {
+            "id": [
+              "eael-static-product-64a150a4"
+            ],
+            "class": [
+              "eael-static-product"
+            ]
+          },
+          "children": [
+            {
+              "tag": "div",
+              "attributes": {
+                "class": [
+                  "eael-static-product-media"
+                ]
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "attributes": {
+                    "class": [
+                      "eael-static-product-thumb-overlay"
+                    ]
+                  },
+                  "children": [
+                    {
+                      "tag": "a",
+                      "attributes": {
+                        "class": [
+                          "eael-static-product-live-demo-btn"
+                        ],
+                        "href": "#",
+                        "target": [
+                          "_blank"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "tag": "span",
+                          "attributes": {},
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "attributes": {
+                    "class": [
+                      "eael-static-product-thumb"
+                    ]
+                  },
+                  "children": [
+                    {
+                      "tag": "img",
+                      "attributes": {
+                        "decoding": [
+                          "async"
+                        ],
+                        "src": "https://essential-addons.com/elementor/wp-content/uploads/2020/01/Simple-Artist.png",
+                        "alt": "Static Product 106",
+                        "title": "Static Product 106"
+                      },
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "attributes": {
+                "class": [
+                  "eael-static-product-details"
+                ]
+              },
+              "children": [
+                {
+                  "tag": "h2",
+                  "attributes": {},
+                  "children": [
+                    {
+                      "tag": "a",
+                      "attributes": {
+                        "href": "#",
+                        "target": [
+                          "_self"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "text": "Simple Artist"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "attributes": {},
+                  "children": [
+                    {
+                      "tag": "strong",
+                      "attributes": {},
+                      "children": [
+                        {
+                          "text": "$77.5"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "(45 reviews)"
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "attributes": {
+                    "class": [
+                      "eael-static-product-btn-wrap"
+                    ]
+                  },
+                  "children": [
+                    {
+                      "tag": "a",
+                      "attributes": {
+                        "href": "#",
+                        "target": [
+                          "_self"
+                        ],
+                        "class": [
+                          "eael-static-product-btn"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "tag": "span",
+                          "attributes": {
+                            "class": [
+                              "eael-static-product-btn-inner"
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "i",
+                              "attributes": {
+                                "class": [
+                                  "",
+                                  "eael-static-product-button-icon-left"
+                                ],
+                                "aria-hidden": [
+                                  "true"
+                                ]
+                              },
+                              "children": []
+                            },
+                            {
+                              "text": "Explore More"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

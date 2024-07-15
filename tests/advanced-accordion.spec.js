@@ -122,63 +122,39 @@ test.describe("Advanced Accordion - Structure Tests", () => {
     await page.goto(slug);
   });
 
-  test("Style 1", async ({ page }) => {
-    const selector = ".elementor-element-62209eb9"; // Replace with your actual selector
-    await page.waitForSelector(selector);
-    await page.locator(selector).scrollIntoViewIfNeeded();
-    await page.waitForTimeout(400);
+  const target_selectors = [
+    {
+      section_name: "Style 01",
+      selector: ".elementor-element-62209eb9",
+    },
+    {
+      section_name: "Style 02",
+      selector: ".elementor-element-5caaa7ed",
+    },
+    {
+      section_name: "Style 03",
+      selector: ".elementor-element-592d5521",
+    },
+    {
+      section_name: "Style 04",
+      selector: ".elementor-element-5c7d5236",
+    },
+  ];
 
-    const filePath = path.join(__dirname, `../snapshots/${slug.substring(1)}-${selector.substring(1)}.json`);
+  target_selectors.forEach((target) => {
+    test(target.section_name, async ({ page }) => {
+      const selector = target.selector;
+      await page.waitForSelector(selector);
+      await page.locator(selector).scrollIntoViewIfNeeded();
+      await page.waitForTimeout(400);
 
-    const nodeStructure = await page.evaluate(evaluateNodeStructure, selector);
-    saveStructure(nodeStructure, filePath);
+      const filePath = path.join(__dirname, `../snapshots/${slug.substring(1)}-${selector.substring(1)}.json`);
 
-    const existingNodeStructure = getStructure(filePath);
-    expect(nodeStructure).toEqual(existingNodeStructure);
-  });
+      const nodeStructure = await page.evaluate(evaluateNodeStructure, selector);
+      saveStructure(nodeStructure, filePath);
 
-  test("Style 2", async ({ page }) => {
-    const selector = ".elementor-element-5caaa7ed"; // Replace with your actual selector
-    await page.waitForSelector(selector);
-    await page.locator(selector).scrollIntoViewIfNeeded();
-    await page.waitForTimeout(400);
-
-    const filePath = path.join(__dirname, `../snapshots/${slug.substring(1)}-${selector.substring(1)}.json`);
-
-    const nodeStructure = await page.evaluate(evaluateNodeStructure, selector);
-    saveStructure(nodeStructure, filePath);
-
-    const existingNodeStructure = getStructure(filePath);
-    expect(nodeStructure).toEqual(existingNodeStructure);
-  });
-
-  test("Style 3", async ({ page }) => {
-    const selector = ".elementor-element-592d5521"; // Replace with your actual selector
-    await page.waitForSelector(selector);
-    await page.locator(selector).scrollIntoViewIfNeeded();
-    await page.waitForTimeout(400);
-
-    const filePath = path.join(__dirname, `../snapshots/${slug.substring(1)}-${selector.substring(1)}.json`);
-
-    const nodeStructure = await page.evaluate(evaluateNodeStructure, selector);
-    saveStructure(nodeStructure, filePath);
-
-    const existingNodeStructure = getStructure(filePath);
-    expect(nodeStructure).toEqual(existingNodeStructure);
-  });
-
-  test("Style 4", async ({ page }) => {
-    const selector = ".elementor-element-5c7d5236"; // Replace with your actual selector
-    await page.waitForSelector(selector);
-    await page.locator(selector).scrollIntoViewIfNeeded();
-    await page.waitForTimeout(400);
-
-    const filePath = path.join(__dirname, `../snapshots/${slug.substring(1)}-${selector.substring(1)}.json`);
-
-    const nodeStructure = await page.evaluate(evaluateNodeStructure, selector);
-    saveStructure(nodeStructure, filePath);
-
-    const existingNodeStructure = getStructure(filePath);
-    expect(nodeStructure).toEqual(existingNodeStructure);
+      const existingNodeStructure = getStructure(filePath);
+      expect(nodeStructure).toEqual(existingNodeStructure);
+    });
   });
 });
