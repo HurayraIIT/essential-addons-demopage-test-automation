@@ -16,6 +16,8 @@ test.describe("Post Grid", () => {
   test("Test Section: Masonry Layout With Animation", async ({ page }) => {
     await page.getByRole("heading", { name: "Masonry Layout With Animation" }).scrollIntoViewIfNeeded();
     await expect(page.getByRole("heading", { name: "Masonry Layout With Animation" })).toBeVisible();
-    await expect(page.getByText("Select source type as posts, set your post layout to masonry to give it an unique look")).toBeVisible();
+    await expect(
+      page.getByText("Select source type as posts, set your post layout to masonry to give it an unique look")
+    ).toBeVisible();
   });
 });

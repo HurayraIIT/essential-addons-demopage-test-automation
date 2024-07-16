@@ -42,3 +42,41 @@ test.describe("Advanced Tooltips Style 01", () => {
     await expect(tooltip).toBeHidden();
   });
 });
+
+test.describe("Advanced Tooltip - Structure Tests", () => {
+  test.beforeEach(async ({ page }) => {
+    await page.goto(slug);
+  });
+
+  const target_selectors = [
+    {
+      section_name: "Style 01",
+      selector: ".elementor-element-4b0da25c",
+    },
+    {
+      section_name: "Style 02",
+      selector: ".elementor-element-5d1bbead",
+    },
+    {
+      section_name: "Style 03",
+      selector: ".elementor-element-3115bce3",
+    },
+  ];
+
+  target_selectors.forEach((target) => {
+    test(target.section_name, async ({ page }) => {
+      const selector = target.selector;
+      await page.waitForSelector(selector);
+      await page.locator(selector).scrollIntoViewIfNeeded();
+      await page.waitForTimeout(400);
+
+      const filePath = path.join(__dirname, `../snapshots/${slug.substring(1)}-${selector.substring(1)}.json`);
+
+      const nodeStructure = await page.evaluate(evaluateNodeStructure, selector);
+      saveStructure(nodeStructure, filePath);
+
+      const existingNodeStructure = getStructure(filePath);
+      expect(nodeStructure).toEqual(existingNodeStructure);
+    });
+  });
+});

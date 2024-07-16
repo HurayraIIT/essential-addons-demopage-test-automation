@@ -1,0 +1,437 @@
+{
+  "tag": "div",
+  "attributes": {
+    "class": [
+      "elementor-element",
+      "elementor-element-20a131d9",
+      "elementor-widget",
+      "elementor-widget-eael-price-menu"
+    ],
+    "data-id": "20a131d9",
+    "data-element_type": "widget",
+    "data-widget_type": "eael-price-menu.default"
+  },
+  "children": [
+    {
+      "tag": "div",
+      "attributes": {
+        "class": [
+          "elementor-widget-container"
+        ]
+      },
+      "children": [
+        {
+          "tag": "div",
+          "attributes": {
+            "class": [
+              "eael-restaurant-menu",
+              "eael-restaurant-menu-style-1"
+            ]
+          },
+          "children": [
+            {
+              "tag": "div",
+              "attributes": {
+                "class": [
+                  "eael-restaurant-menu-items"
+                ]
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "attributes": {
+                    "class": [
+                      "eael-restaurant-menu-item-wrap"
+                    ]
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "attributes": {
+                        "class": [
+                          "eael-restaurant-menu-item"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "attributes": {
+                            "class": [
+                              "eael-restaurant-menu-image"
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "img",
+                              "attributes": {
+                                "decoding": [
+                                  "async"
+                                ],
+                                "src": "https://essential-addons.com/wp-content/uploads/2020/01/image_1-2.png",
+                                "alt": "Price Menu 105",
+                                "title": "Price Menu 105"
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "attributes": {
+                            "class": [
+                              "eael-restaurant-menu-content"
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "eael-restaurant-menu-header"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "h4",
+                                  "attributes": {
+                                    "class": [
+                                      "eael-restaurant-menu-title"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "attributes": {
+                                        "class": [
+                                          "eael-restaurant-menu-title-text"
+                                        ]
+                                      },
+                                      "children": [
+                                        {
+                                          "text": "Eggs Norwegian"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "span",
+                                  "attributes": {
+                                    "class": [
+                                      "eael-price-title-connector"
+                                    ]
+                                  },
+                                  "children": []
+                                },
+                                {
+                                  "tag": "span",
+                                  "attributes": {
+                                    "class": [
+                                      "eael-restaurant-menu-price"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "attributes": {
+                                        "class": [
+                                          "eael-restaurant-menu-price-discount"
+                                        ]
+                                      },
+                                      "children": [
+                                        {
+                                          "text": "$35"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "eael-restaurant-menu-description"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labocomm"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "attributes": {
+                    "class": [
+                      "eael-restaurant-menu-item-wrap"
+                    ]
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "attributes": {
+                        "class": [
+                          "eael-restaurant-menu-item"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "attributes": {
+                            "class": [
+                              "eael-restaurant-menu-image"
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "img",
+                              "attributes": {
+                                "decoding": [
+                                  "async"
+                                ],
+                                "src": "https://essential-addons.com/wp-content/uploads/2020/01/image_2-2.png",
+                                "alt": "Price Menu 106",
+                                "title": "Price Menu 106"
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "attributes": {
+                            "class": [
+                              "eael-restaurant-menu-content"
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "eael-restaurant-menu-header"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "h4",
+                                  "attributes": {
+                                    "class": [
+                                      "eael-restaurant-menu-title"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "attributes": {
+                                        "class": [
+                                          "eael-restaurant-menu-title-text"
+                                        ]
+                                      },
+                                      "children": [
+                                        {
+                                          "text": "Bacon,Coleslaw"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "span",
+                                  "attributes": {
+                                    "class": [
+                                      "eael-price-title-connector"
+                                    ]
+                                  },
+                                  "children": []
+                                },
+                                {
+                                  "tag": "span",
+                                  "attributes": {
+                                    "class": [
+                                      "eael-restaurant-menu-price"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "attributes": {
+                                        "class": [
+                                          "eael-restaurant-menu-price-discount"
+                                        ]
+                                      },
+                                      "children": [
+                                        {
+                                          "text": "$35"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "eael-restaurant-menu-description"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labocomm"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "attributes": {
+                    "class": [
+                      "eael-restaurant-menu-item-wrap"
+                    ]
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "attributes": {
+                        "class": [
+                          "eael-restaurant-menu-item"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "attributes": {
+                            "class": [
+                              "eael-restaurant-menu-image"
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "img",
+                              "attributes": {
+                                "decoding": [
+                                  "async"
+                                ],
+                                "src": "https://essential-addons.com/wp-content/uploads/2020/01/image_3.png",
+                                "alt": "Price Menu 107",
+                                "title": "Price Menu 107"
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "attributes": {
+                            "class": [
+                              "eael-restaurant-menu-content"
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "eael-restaurant-menu-header"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "h4",
+                                  "attributes": {
+                                    "class": [
+                                      "eael-restaurant-menu-title"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "attributes": {
+                                        "class": [
+                                          "eael-restaurant-menu-title-text"
+                                        ]
+                                      },
+                                      "children": [
+                                        {
+                                          "text": "Croissant (Plain)"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "span",
+                                  "attributes": {
+                                    "class": [
+                                      "eael-price-title-connector"
+                                    ]
+                                  },
+                                  "children": []
+                                },
+                                {
+                                  "tag": "span",
+                                  "attributes": {
+                                    "class": [
+                                      "eael-restaurant-menu-price"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "attributes": {
+                                        "class": [
+                                          "eael-restaurant-menu-price-discount"
+                                        ]
+                                      },
+                                      "children": [
+                                        {
+                                          "text": "$35"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "eael-restaurant-menu-description"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labocomm"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

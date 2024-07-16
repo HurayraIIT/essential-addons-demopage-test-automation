@@ -1,0 +1,155 @@
+{
+  "tag": "div",
+  "attributes": {
+    "class": [
+      "elementor-element",
+      "elementor-element-4a3e6371",
+      "elementor-widget",
+      "elementor-widget-eael-price-menu"
+    ],
+    "data-id": "4a3e6371",
+    "data-element_type": "widget",
+    "data-widget_type": "eael-price-menu.default"
+  },
+  "children": [
+    {
+      "tag": "div",
+      "attributes": {
+        "class": [
+          "elementor-widget-container"
+        ]
+      },
+      "children": [
+        {
+          "tag": "div",
+          "attributes": {
+            "class": [
+              "eael-restaurant-menu",
+              "eael-restaurant-menu-style-4"
+            ]
+          },
+          "children": [
+            {
+              "tag": "div",
+              "attributes": {
+                "class": [
+                  "eael-restaurant-menu-items"
+                ]
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "attributes": {
+                    "class": [
+                      "eael-restaurant-menu-item-wrap"
+                    ]
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "attributes": {
+                        "class": [
+                          "eael-restaurant-menu-item"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "attributes": {
+                            "class": [
+                              "eael-restaurant-menu-image"
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "img",
+                              "attributes": {
+                                "decoding": [
+                                  "async"
+                                ],
+                                "src": "https://essential-addons.com/wp-content/uploads/2020/01/Eggs-Benedict.png",
+                                "alt": "Price Menu 111",
+                                "title": "Price Menu 111"
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "attributes": {
+                            "class": [
+                              "eael-restaurant-menu-content"
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "eael-restaurant-menu-header"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "h4",
+                                  "attributes": {
+                                    "class": [
+                                      "eael-restaurant-menu-title"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "attributes": {
+                                        "class": [
+                                          "eael-restaurant-menu-title-text"
+                                        ]
+                                      },
+                                      "children": [
+                                        {
+                                          "text": "Eggs Benedict"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "span",
+                              "attributes": {
+                                "class": [
+                                  "eael-restaurant-menu-price"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "span",
+                                  "attributes": {
+                                    "class": [
+                                      "eael-restaurant-menu-price-discount"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "$9"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
