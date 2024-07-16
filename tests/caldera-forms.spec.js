@@ -18,6 +18,8 @@ test.describe("Caldera Forms", () => {
   test("Test Section: Caldera Form 1 Style", async ({ page }) => {
     await page.getByRole("heading", { name: "Caldera Form 1 Style" }).scrollIntoViewIfNeeded();
     await expect(page.getByRole("heading", { name: "Caldera Form 1 Style" })).toBeVisible();
-    await expect(page.getByText("Choose form type & style the form container as you want using EA Caldera Form")).toBeVisible();
+    await expect(
+      page.getByText("Choose form type & style the form container as you want using EA Caldera Form")
+    ).toBeVisible();
   });
 });

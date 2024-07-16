@@ -35,7 +35,7 @@ export function evaluateNodeStructure(selector) {
           attrValue = attrValue.replace(/\.\d+/g, "");
         }
 
-        if (attrName === "data-defaultdate") {
+        if (attrName === "data-defaultdate" || attrName === "data-nonce-time") {
           // Replace data-defaultdate attribute value with an empty string
           attrValue = "";
         }
