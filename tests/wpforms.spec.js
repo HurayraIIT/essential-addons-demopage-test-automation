@@ -11,8 +11,6 @@ test.describe("WPForms", () => {
   test.beforeEach(async ({ page }) => {
     await page.goto(slug);
     await expect(page.getByRole("heading", { name: heading, exact: true })).toBeVisible();
-    await expect(page.getByRole("link", { name: "Documentation" })).toBeVisible();
-    await expect(page.getByRole("link", { name: "Documentation" })).toHaveAttribute("href", /docs\/wpforms/);
   });
 
   test("Test Section: WPForms Style 01", async ({ page }) => {

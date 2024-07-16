@@ -1,0 +1,207 @@
+{
+  "tag": "div",
+  "attributes": {
+    "class": [
+      "eael-flipbox-content-align-center",
+      "elementor-element",
+      "elementor-element-3b548f01",
+      "elementor-widget",
+      "elementor-widget-eael-flip-box"
+    ],
+    "data-id": "3b548f01",
+    "data-element_type": "widget",
+    "data-widget_type": "eael-flip-box.default"
+  },
+  "children": [
+    {
+      "tag": "div",
+      "attributes": {
+        "class": [
+          "elementor-widget-container"
+        ]
+      },
+      "children": [
+        {
+          "tag": "div",
+          "attributes": {
+            "class": [
+              "eael-animate-flip",
+              "eael-animate-left",
+              "eael-content",
+              "eael-elements-flip-box-container"
+            ]
+          },
+          "children": [
+            {
+              "tag": "div",
+              "attributes": {
+                "class": [
+                  "eael-elements-flip-box-flip-card"
+                ]
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "attributes": {
+                    "class": [
+                      "eael-elements-flip-box-front-container"
+                    ]
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "attributes": {
+                        "class": [
+                          "eael-elements-slider-display-table"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "attributes": {
+                            "class": [
+                              "eael-elements-flip-box-vertical-align"
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "eael-elements-flip-box-padding"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "eael-elements-flip-box-icon-image"
+                                    ]
+                                  },
+                                  "children": []
+                                },
+                                {
+                                  "tag": "h2",
+                                  "attributes": {
+                                    "class": [
+                                      "eael-elements-flip-box-heading"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "3"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "eael-elements-flip-box-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "p",
+                                      "attributes": {},
+                                      "children": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "attributes": {
+                    "class": [
+                      "eael-elements-flip-box-rear-container"
+                    ]
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "attributes": {
+                        "class": [
+                          "eael-elements-slider-display-table"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "attributes": {
+                            "class": [
+                              "eael-elements-flip-box-vertical-align"
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "eael-elements-flip-box-padding"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "eael-elements-flip-box-icon-image"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "img",
+                                      "attributes": {
+                                        "decoding": [
+                                          "async"
+                                        ],
+                                        "class": [
+                                          "eael-flipbox-image-as-icon"
+                                        ],
+                                        "src": "https://essential-addons.com/wp-content/uploads/2020/12/Rocket-Explor.gif",
+                                        "alt": "Flip Box 106",
+                                        "title": "Flip Box 106"
+                                      },
+                                      "children": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "eael-elements-flip-box-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "p",
+                                      "attributes": {},
+                                      "children": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

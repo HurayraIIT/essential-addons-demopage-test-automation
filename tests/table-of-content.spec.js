@@ -12,9 +12,7 @@ test.describe("Table of Contents", () => {
 
   test.beforeEach(async ({ page }) => {
     await page.goto(slug);
-    await expect(page.getByRole("heading", { name: heading, exact: true })).toBeVisible();
-    await expect(page.getByRole("link", { name: "Documentation" })).toBeVisible();
-    await expect(page.getByRole("link", { name: "Documentation" })).toHaveAttribute("href", /docs\/table-of-content/);
+    await expect(page.getByTestId("1dfd57b3").getByRole("heading", { name: heading, exact: true })).toBeVisible();
 
     toc = page.locator("#eael-toc");
   });

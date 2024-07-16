@@ -1,0 +1,671 @@
+{
+  "tag": "div",
+  "attributes": {
+    "class": [
+      "elementor-element",
+      "elementor-element-5655788f",
+      "elementor-grid-3",
+      "elementor-grid-mobile-1",
+      "elementor-grid-tablet-2",
+      "elementor-widget",
+      "elementor-widget-eael-betterdocs-category-box"
+    ],
+    "data-id": "5655788f",
+    "data-element_type": "widget",
+    "data-settings": "{\"box_column\":\"3\",\"box_column_tablet\":\"2\",\"box_column_mobile\":\"1\"}",
+    "data-widget_type": "eael-betterdocs-category-box.default"
+  },
+  "children": [
+    {
+      "tag": "div",
+      "attributes": {
+        "class": [
+          "elementor-widget-container"
+        ]
+      },
+      "children": [
+        {
+          "tag": "div",
+          "attributes": {
+            "id": [
+              "eael-bd-cat-box-5655788f"
+            ],
+            "class": [
+              "eael-better-docs-category-box-wrapper"
+            ]
+          },
+          "children": [
+            {
+              "tag": "div",
+              "attributes": {
+                "class": [
+                  "eael-better-docs-category-box"
+                ]
+              },
+              "children": [
+                {
+                  "tag": "a",
+                  "attributes": {
+                    "href": "https://essential-addons.com/docs-category/getting-started/",
+                    "class": [
+                      "eael-better-docs-category-box-post"
+                    ]
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "attributes": {
+                        "class": [
+                          "eael-bd-cb-inner"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "attributes": {
+                            "class": [
+                              "eael-bd-cb-cat-icon"
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "img",
+                              "attributes": {
+                                "decoding": [
+                                  "async"
+                                ],
+                                "width": [
+                                  "150"
+                                ],
+                                "height": [
+                                  "150"
+                                ],
+                                "src": "https://essential-addons.com/wp-content/uploads/2020/03/Getting-Started.svg",
+                                "class": [
+                                  "attachment-thumbnail",
+                                  "size-thumbnail"
+                                ],
+                                "alt": "Betterdocs Category Box 102",
+                                "title": "Betterdocs Category Box 102"
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "h2",
+                          "attributes": {
+                            "class": [
+                              "eael-bd-cb-cat-title"
+                            ]
+                          },
+                          "children": [
+                            {
+                              "text": "Getting Started"
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "attributes": {
+                            "class": [
+                              "eael-bd-cb-cat-count"
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "span",
+                              "attributes": {
+                                "class": [
+                                  "count-prefix"
+                                ]
+                              },
+                              "children": []
+                            },
+                            {
+                              "text": "8"
+                            },
+                            {
+                              "tag": "span",
+                              "attributes": {
+                                "class": [
+                                  "count-suffix"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "text": "articles"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "a",
+                  "attributes": {
+                    "href": "https://essential-addons.com/docs-category/how-to-use-my-account/",
+                    "class": [
+                      "eael-better-docs-category-box-post"
+                    ]
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "attributes": {
+                        "class": [
+                          "eael-bd-cb-inner"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "attributes": {
+                            "class": [
+                              "eael-bd-cb-cat-icon"
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "img",
+                              "attributes": {
+                                "decoding": [
+                                  "async"
+                                ],
+                                "width": [
+                                  "150"
+                                ],
+                                "height": [
+                                  "150"
+                                ],
+                                "src": "https://essential-addons.com/wp-content/uploads/2020/03/my-account.svg",
+                                "class": [
+                                  "attachment-thumbnail",
+                                  "size-thumbnail"
+                                ],
+                                "alt": "Betterdocs Category Box 103",
+                                "title": "Betterdocs Category Box 103"
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "h2",
+                          "attributes": {
+                            "class": [
+                              "eael-bd-cb-cat-title"
+                            ]
+                          },
+                          "children": [
+                            {
+                              "text": "How to Use My Account"
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "attributes": {
+                            "class": [
+                              "eael-bd-cb-cat-count"
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "span",
+                              "attributes": {
+                                "class": [
+                                  "count-prefix"
+                                ]
+                              },
+                              "children": []
+                            },
+                            {
+                              "text": "7"
+                            },
+                            {
+                              "tag": "span",
+                              "attributes": {
+                                "class": [
+                                  "count-suffix"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "text": "articles"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "a",
+                  "attributes": {
+                    "href": "https://essential-addons.com/docs-category/faq/",
+                    "class": [
+                      "eael-better-docs-category-box-post"
+                    ]
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "attributes": {
+                        "class": [
+                          "eael-bd-cb-inner"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "attributes": {
+                            "class": [
+                              "eael-bd-cb-cat-icon"
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "img",
+                              "attributes": {
+                                "loading": [
+                                  "lazy"
+                                ],
+                                "decoding": [
+                                  "async"
+                                ],
+                                "width": [
+                                  "150"
+                                ],
+                                "height": [
+                                  "150"
+                                ],
+                                "src": "https://essential-addons.com/wp-content/uploads/2020/03/FAQ.svg",
+                                "class": [
+                                  "attachment-thumbnail",
+                                  "size-thumbnail"
+                                ],
+                                "alt": "Betterdocs Category Box 104",
+                                "title": "Betterdocs Category Box 104"
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "h2",
+                          "attributes": {
+                            "class": [
+                              "eael-bd-cb-cat-title"
+                            ]
+                          },
+                          "children": [
+                            {
+                              "text": "FAQ"
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "attributes": {
+                            "class": [
+                              "eael-bd-cb-cat-count"
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "span",
+                              "attributes": {
+                                "class": [
+                                  "count-prefix"
+                                ]
+                              },
+                              "children": []
+                            },
+                            {
+                              "text": "53"
+                            },
+                            {
+                              "tag": "span",
+                              "attributes": {
+                                "class": [
+                                  "count-suffix"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "text": "articles"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "a",
+                  "attributes": {
+                    "href": "https://essential-addons.com/docs-category/content-elements/",
+                    "class": [
+                      "eael-better-docs-category-box-post"
+                    ]
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "attributes": {
+                        "class": [
+                          "eael-bd-cb-inner"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "attributes": {
+                            "class": [
+                              "eael-bd-cb-cat-icon"
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "img",
+                              "attributes": {
+                                "loading": [
+                                  "lazy"
+                                ],
+                                "decoding": [
+                                  "async"
+                                ],
+                                "width": [
+                                  "150"
+                                ],
+                                "height": [
+                                  "150"
+                                ],
+                                "src": "https://essential-addons.com/wp-content/uploads/2020/03/Content.svg",
+                                "class": [
+                                  "attachment-thumbnail",
+                                  "size-thumbnail"
+                                ],
+                                "alt": "Betterdocs Category Box 105",
+                                "title": "Betterdocs Category Box 105"
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "h2",
+                          "attributes": {
+                            "class": [
+                              "eael-bd-cb-cat-title"
+                            ]
+                          },
+                          "children": [
+                            {
+                              "text": "Content Elements"
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "attributes": {
+                            "class": [
+                              "eael-bd-cb-cat-count"
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "span",
+                              "attributes": {
+                                "class": [
+                                  "count-prefix"
+                                ]
+                              },
+                              "children": []
+                            },
+                            {
+                              "text": "29"
+                            },
+                            {
+                              "tag": "span",
+                              "attributes": {
+                                "class": [
+                                  "count-suffix"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "text": "articles"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "a",
+                  "attributes": {
+                    "href": "https://essential-addons.com/docs-category/creative-elements/",
+                    "class": [
+                      "eael-better-docs-category-box-post"
+                    ]
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "attributes": {
+                        "class": [
+                          "eael-bd-cb-inner"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "attributes": {
+                            "class": [
+                              "eael-bd-cb-cat-icon"
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "img",
+                              "attributes": {
+                                "loading": [
+                                  "lazy"
+                                ],
+                                "decoding": [
+                                  "async"
+                                ],
+                                "width": [
+                                  "150"
+                                ],
+                                "height": [
+                                  "150"
+                                ],
+                                "src": "https://essential-addons.com/wp-content/uploads/2020/03/creative.svg",
+                                "class": [
+                                  "attachment-thumbnail",
+                                  "size-thumbnail"
+                                ],
+                                "alt": "Betterdocs Category Box 106",
+                                "title": "Betterdocs Category Box 106"
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "h2",
+                          "attributes": {
+                            "class": [
+                              "eael-bd-cb-cat-title"
+                            ]
+                          },
+                          "children": [
+                            {
+                              "text": "Creative Elements"
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "attributes": {
+                            "class": [
+                              "eael-bd-cb-cat-count"
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "span",
+                              "attributes": {
+                                "class": [
+                                  "count-prefix"
+                                ]
+                              },
+                              "children": []
+                            },
+                            {
+                              "text": "20"
+                            },
+                            {
+                              "tag": "span",
+                              "attributes": {
+                                "class": [
+                                  "count-suffix"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "text": "articles"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "a",
+                  "attributes": {
+                    "href": "https://essential-addons.com/docs-category/dynamic-content-elements/",
+                    "class": [
+                      "eael-better-docs-category-box-post"
+                    ]
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "attributes": {
+                        "class": [
+                          "eael-bd-cb-inner"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "attributes": {
+                            "class": [
+                              "eael-bd-cb-cat-icon"
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "img",
+                              "attributes": {
+                                "loading": [
+                                  "lazy"
+                                ],
+                                "decoding": [
+                                  "async"
+                                ],
+                                "width": [
+                                  "150"
+                                ],
+                                "height": [
+                                  "150"
+                                ],
+                                "src": "https://essential-addons.com/wp-content/uploads/2020/03/Dynamic.svg",
+                                "class": [
+                                  "attachment-thumbnail",
+                                  "size-thumbnail"
+                                ],
+                                "alt": "Betterdocs Category Box 107",
+                                "title": "Betterdocs Category Box 107"
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "h2",
+                          "attributes": {
+                            "class": [
+                              "eael-bd-cb-cat-title"
+                            ]
+                          },
+                          "children": [
+                            {
+                              "text": "Dynamic Content Elements"
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "attributes": {
+                            "class": [
+                              "eael-bd-cb-cat-count"
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "span",
+                              "attributes": {
+                                "class": [
+                                  "count-prefix"
+                                ]
+                              },
+                              "children": []
+                            },
+                            {
+                              "text": "11"
+                            },
+                            {
+                              "tag": "span",
+                              "attributes": {
+                                "class": [
+                                  "count-suffix"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "text": "articles"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

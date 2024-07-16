@@ -14,7 +14,10 @@ test.describe("BetterDocs Category Box", () => {
     await page.goto(slug);
     await expect(page.getByRole("heading", { name: heading, exact: true })).toBeVisible();
     await expect(page.getByRole("link", { name: "Documentation", exact: true })).toBeVisible();
-    await expect(page.getByRole("link", { name: "Documentation", exact: true })).toHaveAttribute("href", /docs\/betterdocs-category-box/);
+    await expect(page.getByRole("link", { name: "Documentation", exact: true })).toHaveAttribute(
+      "href",
+      /docs\/betterdocs-category-box/
+    );
   });
 
   test("Test Section: Configure BetterDocs Category Box Layout", async ({ page }) => {
@@ -24,7 +27,7 @@ test.describe("BetterDocs Category Box", () => {
     await expect(page.getByTestId(layout1DataID)).toBeVisible();
     await expect(page.getByTestId(layout1DataID)).toHaveClass(/elementor-widget-eael-betterdocs-category-box/);
     await expect(page.locator('//*[@id="eael-bd-cat-box-5655788f"]/div/a[1]/div/div[1]')).toBeVisible();
-    await expect(page.getByRole('link', { name: 'Betterdocs Category Box 102' })).toBeVisible();
+    await expect(page.getByRole("link", { name: "Betterdocs Category Box 102" })).toBeVisible();
   });
 
   test("Test Section: Try More Beautifully Designed Layouts", async ({ page }) => {
@@ -34,5 +37,33 @@ test.describe("BetterDocs Category Box", () => {
     await expect(page.getByTestId(layout2DataID)).toHaveClass(/elementor-widget-eael-betterdocs-category-box/);
     await expect(page.locator('//*[@id="eael-bd-cat-box-783034e0"]/div/a[1]/div/div[1]')).toBeVisible();
     await expect(page.locator('//*[@id="eael-bd-cat-box-783034e0"]/div/a[1]/div/div[2]/span')).toHaveText("8");
+  });
+});
+
+test.describe("BetterDocs Category Box - Structure Tests", () => {
+  test.beforeEach(async ({ page }) => {
+    await page.goto(slug);
+  });
+
+  const target_selectors = [
+    { section_name: "EA BetterDocs Category Box - Style 01", selector: ".elementor-element-5655788f" },
+    { section_name: "EA BetterDocs Category Box - Style 02", selector: ".elementor-element-783034e0" },
+  ];
+
+  target_selectors.forEach((target) => {
+    test(target.section_name, async ({ page }) => {
+      const selector = target.selector;
+      await page.waitForSelector(selector);
+      await page.locator(selector).scrollIntoViewIfNeeded();
+      await page.waitForTimeout(400);
+
+      const filePath = path.join(__dirname, `../snapshots/${slug.substring(1)}-${selector.substring(1)}.json`);
+
+      const nodeStructure = await page.evaluate(evaluateNodeStructure, selector);
+      saveStructure(nodeStructure, filePath);
+
+      const existingNodeStructure = getStructure(filePath);
+      expect(nodeStructure).toEqual(existingNodeStructure);
+    });
   });
 });

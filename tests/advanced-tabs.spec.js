@@ -117,3 +117,35 @@ test.describe("Advanced Tabs - Use Horizontal Layout of Tabs", () => {
     await expect(advtab_content_4).toBeVisible();
   });
 });
+
+test.describe("Advanced Tabs - Structure Tests", () => {
+  test.beforeEach(async ({ page }) => {
+    await page.goto(slug);
+  });
+
+  const target_selectors = [
+    { section_name: "Style 01", selector: ".elementor-element-73ca6f31" },
+    { section_name: "Style 02", selector: ".elementor-element-53ec73b2" },
+    { section_name: "Style 03", selector: ".elementor-element-6012d12c" },
+    { section_name: "Style 04", selector: ".elementor-element-798ca354" },
+    { section_name: "Style 05", selector: ".elementor-element-14651a8d" },
+    { section_name: "Style 06", selector: ".elementor-element-65da952a" },
+  ];
+
+  target_selectors.forEach((target) => {
+    test(target.section_name, async ({ page }) => {
+      const selector = target.selector;
+      await page.waitForSelector(selector);
+      await page.locator(selector).scrollIntoViewIfNeeded();
+      await page.waitForTimeout(400);
+
+      const filePath = path.join(__dirname, `../snapshots/${slug.substring(1)}-${selector.substring(1)}.json`);
+
+      const nodeStructure = await page.evaluate(evaluateNodeStructure, selector);
+      saveStructure(nodeStructure, filePath);
+
+      const existingNodeStructure = getStructure(filePath);
+      expect(nodeStructure).toEqual(existingNodeStructure);
+    });
+  });
+});

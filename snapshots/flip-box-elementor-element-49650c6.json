@@ -1,0 +1,226 @@
+{
+  "tag": "div",
+  "attributes": {
+    "class": [
+      "eael-flipbox-content-align-center",
+      "eael-flipbox-img-default",
+      "elementor-element",
+      "elementor-element-49650c6",
+      "elementor-widget",
+      "elementor-widget-eael-flip-box"
+    ],
+    "data-id": "49650c6",
+    "data-element_type": "widget",
+    "data-widget_type": "eael-flip-box.default"
+  },
+  "children": [
+    {
+      "tag": "div",
+      "attributes": {
+        "class": [
+          "elementor-widget-container"
+        ]
+      },
+      "children": [
+        {
+          "tag": "div",
+          "attributes": {
+            "class": [
+              "eael-animate-flip",
+              "eael-animate-up",
+              "eael-content",
+              "eael-elements-flip-box-container"
+            ]
+          },
+          "children": [
+            {
+              "tag": "a",
+              "attributes": {
+                "class": [
+                  "eael-elements-flip-box-flip-card"
+                ],
+                "href": "#"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "attributes": {
+                    "class": [
+                      "eael-elements-flip-box-front-container"
+                    ]
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "attributes": {
+                        "class": [
+                          "eael-elements-slider-display-table"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "attributes": {
+                            "class": [
+                              "eael-elements-flip-box-vertical-align"
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "eael-elements-flip-box-padding"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "eael-elements-flip-box-icon-image"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "img",
+                                      "attributes": {
+                                        "decoding": [
+                                          "async"
+                                        ],
+                                        "class": [
+                                          "eael-flipbox-image-as-icon"
+                                        ],
+                                        "src": "https://essential-addons.com/wp-content/uploads/2020/12/Interface-Design.gif",
+                                        "alt": "Flip Box 102",
+                                        "title": "Flip Box 102"
+                                      },
+                                      "children": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "h2",
+                                  "attributes": {
+                                    "class": [
+                                      "eael-elements-flip-box-heading"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "Interface Design"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "eael-elements-flip-box-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "p",
+                                      "attributes": {},
+                                      "children": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "attributes": {
+                    "class": [
+                      "eael-elements-flip-box-rear-container"
+                    ]
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "attributes": {
+                        "class": [
+                          "eael-elements-slider-display-table"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "attributes": {
+                            "class": [
+                              "eael-elements-flip-box-vertical-align"
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "eael-elements-flip-box-padding"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "eael-elements-flip-box-icon-image"
+                                    ]
+                                  },
+                                  "children": []
+                                },
+                                {
+                                  "tag": "h2",
+                                  "attributes": {
+                                    "class": [
+                                      "eael-elements-flip-box-heading"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "Style Your Flip Box Exclusively"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "eael-elements-flip-box-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "p",
+                                      "attributes": {},
+                                      "children": [
+                                        {
+                                          "text": "Add your preferred content or use saved templates here, choose your 'Icon Type', add title, select title tag for front & back, set your content position, alignment and style your Flip Box the way you want."
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

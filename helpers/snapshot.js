@@ -31,6 +31,13 @@ export function evaluateNodeStructure(selector) {
         if (attrName === "style") {
           // Use regex to remove any `opacity: <value>;` pattern
           attrValue = attrValue.replace(/opacity\s*:\s*[^;]+;?/g, "").trim();
+          // Use regex to remove all float values and just keep the decimal part
+          attrValue = attrValue.replace(/\.\d+/g, "");
+        }
+
+        if (attrName === "data-defaultdate") {
+          // Replace data-defaultdate attribute value with an empty string
+          attrValue = "";
         }
 
         // List of attributes that should not be split

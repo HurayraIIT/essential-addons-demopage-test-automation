@@ -1,0 +1,289 @@
+{
+  "tag": "div",
+  "attributes": {
+    "class": [
+      "elementor-element",
+      "elementor-element-5374321b",
+      "elementor-widget",
+      "elementor-widget-eael-advanced-search"
+    ],
+    "data-id": "5374321b",
+    "data-element_type": "widget",
+    "data-widget_type": "eael-advanced-search.default"
+  },
+  "children": [
+    {
+      "tag": "div",
+      "attributes": {
+        "class": [
+          "elementor-widget-container"
+        ]
+      },
+      "children": [
+        {
+          "tag": "div",
+          "attributes": {
+            "class": [
+              "eael-adv-search-wrapper"
+            ]
+          },
+          "children": [
+            {
+              "tag": "div",
+              "attributes": {
+                "id": [
+                  "eael-advanced-search-widget-5374321b"
+                ],
+                "class": [
+                  "eael-advanced-search-widget"
+                ]
+              },
+              "children": [
+                {
+                  "tag": "form",
+                  "attributes": {
+                    "data-settings": "{\"post_per_page\":\"5\",\"search_among_taxonomies\":\"no\",\"current_post_id\":271377,\"show_popular_keyword\":0,\"show_category\":0,\"show_content_image\":1,\"show_search_result_all_results\":0,\"result_on_new_tab\":\"no\"}",
+                    "method": [
+                      "POST"
+                    ],
+                    "name": "eael-advanced-search-form-5374321b",
+                    "class": [
+                      "eael-advanced-search-form",
+                      "eael-advanced-search-form-style-1"
+                    ]
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "attributes": {
+                        "class": [
+                          "eael-advanced-search-wrap"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "tag": "span",
+                          "attributes": {
+                            "class": [
+                              "eael-adv-search-loader"
+                            ]
+                          },
+                          "children": []
+                        },
+                        {
+                          "tag": "span",
+                          "attributes": {
+                            "class": [
+                              "eael-adv-search-close"
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "i",
+                              "attributes": {
+                                "class": [
+                                  "fa-times",
+                                  "fas"
+                                ]
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "span",
+                          "attributes": {
+                            "class": [
+                              "",
+                              "icon"
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "i",
+                              "attributes": {
+                                "class": [
+                                  "fa-search",
+                                  "fas"
+                                ]
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "input",
+                          "attributes": {
+                            "type": "text",
+                            "placeholder": "Enter Search Keyword",
+                            "class": [
+                              "eael-advanced-search"
+                            ],
+                            "autocomplete": [
+                              "off"
+                            ],
+                            "name": "eael_advanced_search"
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "button",
+                      "attributes": {
+                        "class": [
+                          "eael-advanced-search-button"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "text": "Search"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "attributes": {
+                    "class": [
+                      "eael-advanced-search-result"
+                    ]
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "attributes": {
+                        "class": [
+                          "eael-advanced-search-popular-keyword"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "tag": "h4",
+                          "attributes": {
+                            "class": [
+                              "eael-advanced-search-popular-keyword-text"
+                            ]
+                          },
+                          "children": [
+                            {
+                              "text": "Popular Keywords"
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "attributes": {
+                            "class": [
+                              "eael-popular-keyword-content"
+                            ]
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "attributes": {
+                        "class": [
+                          "eael-advanced-search-category"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "tag": "h4",
+                          "attributes": {
+                            "class": [
+                              "eael-advanced-search-category-text"
+                            ]
+                          },
+                          "children": [
+                            {
+                              "text": "Categories"
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "attributes": {
+                            "class": [
+                              "eael-popular-category-content"
+                            ]
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "attributes": {
+                        "class": [
+                          "eael-advanced-search-total-results-section"
+                        ]
+                      },
+                      "children": []
+                    },
+                    {
+                      "tag": "div",
+                      "attributes": {
+                        "class": [
+                          "eael-advanced-search-content",
+                          "eael-item-style-1"
+                        ]
+                      },
+                      "children": []
+                    },
+                    {
+                      "tag": "div",
+                      "attributes": {
+                        "class": [
+                          "eael-advanced-search-not-found"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "tag": "p",
+                          "attributes": {},
+                          "children": [
+                            {
+                              "text": "No Record Found"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "attributes": {
+                        "class": [
+                          "eael-advanced-search-load-more"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "tag": "a",
+                          "attributes": {
+                            "class": [
+                              "eael-advanced-search-load-more-button"
+                            ],
+                            "href": "#"
+                          },
+                          "children": [
+                            {
+                              "text": "View All Results"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

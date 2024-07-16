@@ -1,0 +1,332 @@
+{
+  "tag": "div",
+  "attributes": {
+    "class": [
+      "elementor-element",
+      "elementor-element-798ca354",
+      "elementor-widget",
+      "elementor-widget-eael-adv-tabs"
+    ],
+    "data-id": "798ca354",
+    "data-element_type": "widget",
+    "data-widget_type": "eael-adv-tabs.default"
+  },
+  "children": [
+    {
+      "tag": "div",
+      "attributes": {
+        "class": [
+          "elementor-widget-container"
+        ]
+      },
+      "children": [
+        {
+          "tag": "div",
+          "attributes": {
+            "data-scroll-on-click": "no",
+            "data-scroll-speed": "300",
+            "id": [
+              "eael-advance-tabs-798ca354"
+            ],
+            "class": [
+              "active-caret-on",
+              "eael-advance-tabs",
+              "eael-tab-auto-active",
+              "eael-tabs-vertical"
+            ],
+            "data-tabid": "798ca354"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "attributes": {
+                "class": [
+                  "eael-tabs-nav"
+                ]
+              },
+              "children": [
+                {
+                  "tag": "ul",
+                  "attributes": {
+                    "class": [
+                      "eael-tab-inline-icon"
+                    ],
+                    "role": [
+                      "tablist"
+                    ]
+                  },
+                  "children": [
+                    {
+                      "tag": "li",
+                      "attributes": {
+                        "id": [
+                          "easy-to-use"
+                        ],
+                        "class": [
+                          "active",
+                          "active-default",
+                          "eael-tab-item-trigger"
+                        ],
+                        "aria-selected": [
+                          "true"
+                        ],
+                        "data-tab": "1",
+                        "role": [
+                          "tab"
+                        ],
+                        "tabindex": [
+                          "0"
+                        ],
+                        "aria-controls": [
+                          "easy-to-use-tab"
+                        ],
+                        "aria-expanded": [
+                          "false"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "tag": "span",
+                          "attributes": {
+                            "class": [
+                              "eael-tab-title",
+                              "title-after-icon"
+                            ]
+                          },
+                          "children": [
+                            {
+                              "text": "Easy To Use"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "li",
+                      "attributes": {
+                        "id": [
+                          "mission-vision"
+                        ],
+                        "class": [
+                          "eael-tab-item-trigger",
+                          "inactive"
+                        ],
+                        "aria-selected": [
+                          "false"
+                        ],
+                        "data-tab": "2",
+                        "role": [
+                          "tab"
+                        ],
+                        "tabindex": [
+                          "-1"
+                        ],
+                        "aria-controls": [
+                          "mission-vision-tab"
+                        ],
+                        "aria-expanded": [
+                          "false"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "tag": "span",
+                          "attributes": {
+                            "class": [
+                              "eael-tab-title",
+                              "title-after-icon"
+                            ]
+                          },
+                          "children": [
+                            {
+                              "text": "Mission & Vision"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "li",
+                      "attributes": {
+                        "id": [
+                          "goals"
+                        ],
+                        "class": [
+                          "eael-tab-item-trigger",
+                          "inactive"
+                        ],
+                        "aria-selected": [
+                          "false"
+                        ],
+                        "data-tab": "3",
+                        "role": [
+                          "tab"
+                        ],
+                        "tabindex": [
+                          "-1"
+                        ],
+                        "aria-controls": [
+                          "goals-tab"
+                        ],
+                        "aria-expanded": [
+                          "false"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "tag": "span",
+                          "attributes": {
+                            "class": [
+                              "eael-tab-title",
+                              "title-after-icon"
+                            ]
+                          },
+                          "children": [
+                            {
+                              "text": "Goals"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "li",
+                      "attributes": {
+                        "id": [
+                          "privacy-policy"
+                        ],
+                        "class": [
+                          "eael-tab-item-trigger",
+                          "inactive"
+                        ],
+                        "aria-selected": [
+                          "false"
+                        ],
+                        "data-tab": "4",
+                        "role": [
+                          "tab"
+                        ],
+                        "tabindex": [
+                          "-1"
+                        ],
+                        "aria-controls": [
+                          "privacy-policy-tab"
+                        ],
+                        "aria-expanded": [
+                          "false"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "tag": "span",
+                          "attributes": {
+                            "class": [
+                              "eael-tab-title",
+                              "title-after-icon"
+                            ]
+                          },
+                          "children": [
+                            {
+                              "text": "Privacy Policy"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "attributes": {
+                "class": [
+                  "eael-tabs-content"
+                ]
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "attributes": {
+                    "id": [
+                      "easy-to-use-tab"
+                    ],
+                    "class": [
+                      "active",
+                      "active-default",
+                      "clearfix",
+                      "eael-tab-content-item"
+                    ],
+                    "data-title-link": "easy-to-use-tab"
+                  },
+                  "children": [
+                    {
+                      "text": "Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque mattis, leo quam aliquet diam, congue laoreet elit metus eget\ndiam. Proin ac metus diam. In quis scelerisque velit. Proin pellentesque neque ut scelerisque dapibus. Praesent elementum feugiat dignissim. Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque mattis, leo quam aliquet diam, congue laoreet elit metus eget\ndiam. Proin ac metus diam. In quis scelerisque velit. Proin pellentesque neque ut scelerisque dapibus. Praesent elementum feugiat dignissim. Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque mattis, leo quam aliquet diam, congue laoreet elit metus eget\ndiam. Proin ac metus diam. Proin ac metus diam. In quis scelerisque velit. Proin pellentesque neque ut scelerisque dapibus. Praesent elementum feugiat dignissim."
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "attributes": {
+                    "id": [
+                      "mission-vision-tab"
+                    ],
+                    "class": [
+                      "clearfix",
+                      "eael-tab-content-item",
+                      "inactive"
+                    ],
+                    "data-title-link": "mission-vision-tab"
+                  },
+                  "children": [
+                    {
+                      "text": "Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque mattis, leo quam aliquet diam, congue laoreet elit metus eget\ndiam. Proin ac metus diam. In quis scelerisque velit. Proin pellentesque neque ut scelerisque dapibus. Praesent elementum feugiat dignissim. Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque mattis, leo quam aliquet diam, congue laoreet elit metus eget\ndiam. Proin ac metus diam. In quis scelerisque velit. Proin pellentesque neque ut scelerisque dapibus. Praesent elementum feugiat dignissim. Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque mattis, leo quam aliquet diam, congue laoreet elit metus eget\ndiam. Proin ac metus diam. Proin ac metus diam. In quis scelerisque velit. Proin pellentesque neque ut scelerisque dapibus. Praesent elementum feugiat dignissim."
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "attributes": {
+                    "id": [
+                      "goals-tab"
+                    ],
+                    "class": [
+                      "clearfix",
+                      "eael-tab-content-item",
+                      "inactive"
+                    ],
+                    "data-title-link": "goals-tab"
+                  },
+                  "children": [
+                    {
+                      "text": "Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque mattis, leo quam aliquet diam, congue laoreet elit metus eget\ndiam. Proin ac metus diam. In quis scelerisque velit. Proin pellentesque neque ut scelerisque dapibus. Praesent elementum feugiat dignissim. Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque mattis, leo quam aliquet diam, congue laoreet elit metus eget\ndiam. Proin ac metus diam. In quis scelerisque velit. Proin pellentesque neque ut scelerisque dapibus. Praesent elementum feugiat dignissim. Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque mattis, leo quam aliquet diam, congue laoreet elit metus eget\ndiam. Proin ac metus diam. Proin ac metus diam. In quis scelerisque velit. Proin pellentesque neque ut scelerisque dapibus. Praesent elementum feugiat dignissim."
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "attributes": {
+                    "id": [
+                      "privacy-policy-tab"
+                    ],
+                    "class": [
+                      "clearfix",
+                      "eael-tab-content-item",
+                      "inactive"
+                    ],
+                    "data-title-link": "privacy-policy-tab"
+                  },
+                  "children": [
+                    {
+                      "text": "Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque mattis, leo quam aliquet diam, congue laoreet elit metus eget\ndiam. Proin ac metus diam. In quis scelerisque velit. Proin pellentesque neque ut scelerisque dapibus. Praesent elementum feugiat dignissim. Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque mattis, leo quam aliquet diam, congue laoreet elit metus eget\ndiam. Proin ac metus diam. In quis scelerisque velit. Proin pellentesque neque ut scelerisque dapibus. Praesent elementum feugiat dignissim. Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque mattis, leo quam aliquet diam, congue laoreet elit metus eget\ndiam. Proin ac metus diam. Proin ac metus diam. In quis scelerisque velit. Proin pellentesque neque ut scelerisque dapibus. Praesent elementum feugiat dignissim."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
