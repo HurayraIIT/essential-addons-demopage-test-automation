@@ -146,7 +146,6 @@ test.describe("Advanced Accordion - Structure Tests", () => {
       const selector = target.selector;
       await page.waitForSelector(selector);
       await page.locator(selector).scrollIntoViewIfNeeded();
-      await page.waitForTimeout(400);
 
       const filePath = path.join(__dirname, `../snapshots/${slug.substring(1)}-${selector.substring(1)}.json`);
 
