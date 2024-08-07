@@ -883,7 +883,13 @@
                                                                                     {
                                                                                       "tag": "a",
                                                                                       "attributes": {
-                                                                                        "href": "https://essential-addons.com/woo-account-dashboard/view-order/279366/"
+                                                                                        "href": "https://essential-addons.com/woo-account-dashboard/view-order/279366/",
+                                                                                        "aria-label": [
+                                                                                          "279366",
+                                                                                          "View",
+                                                                                          "number",
+                                                                                          "order"
+                                                                                        ]
                                                                                       },
                                                                                       "children": [
                                                                                         {
@@ -1028,7 +1034,13 @@
                                                                                     {
                                                                                       "tag": "a",
                                                                                       "attributes": {
-                                                                                        "href": "https://essential-addons.com/woo-account-dashboard/view-order/279365/"
+                                                                                        "href": "https://essential-addons.com/woo-account-dashboard/view-order/279365/",
+                                                                                        "aria-label": [
+                                                                                          "279365",
+                                                                                          "View",
+                                                                                          "number",
+                                                                                          "order"
+                                                                                        ]
                                                                                       },
                                                                                       "children": [
                                                                                         {
@@ -1173,7 +1185,13 @@
                                                                                     {
                                                                                       "tag": "a",
                                                                                       "attributes": {
-                                                                                        "href": "https://essential-addons.com/woo-account-dashboard/view-order/279359/"
+                                                                                        "href": "https://essential-addons.com/woo-account-dashboard/view-order/279359/",
+                                                                                        "aria-label": [
+                                                                                          "279359",
+                                                                                          "View",
+                                                                                          "number",
+                                                                                          "order"
+                                                                                        ]
                                                                                       },
                                                                                       "children": [
                                                                                         {
