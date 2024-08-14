@@ -225,9 +225,6 @@
                                                         {
                                                           "tag": "img",
                                                           "attributes": {
-                                                            "fetchpriority": [
-                                                              "high"
-                                                            ],
                                                             "decoding": [
                                                               "async"
                                                             ],

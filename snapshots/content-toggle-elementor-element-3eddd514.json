@@ -3740,6 +3740,9 @@
                                                                                                 {
                                                                                                   "tag": "img",
                                                                                                   "attributes": {
+                                                                                                    "loading": [
+                                                                                                      "lazy"
+                                                                                                    ],
                                                                                                     "decoding": [
                                                                                                       "async"
                                                                                                     ],
