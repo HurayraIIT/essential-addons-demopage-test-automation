@@ -607,9 +607,6 @@
                                                 {
                                                   "tag": "img",
                                                   "attributes": {
-                                                    "fetchpriority": [
-                                                      "high"
-                                                    ],
                                                     "decoding": [
                                                       "async"
                                                     ],
@@ -805,9 +802,6 @@
                                                 {
                                                   "tag": "img",
                                                   "attributes": {
-                                                    "fetchpriority": [
-                                                      "high"
-                                                    ],
                                                     "decoding": [
                                                       "async"
                                                     ],
@@ -1003,9 +997,6 @@
                                                 {
                                                   "tag": "img",
                                                   "attributes": {
-                                                    "fetchpriority": [
-                                                      "high"
-                                                    ],
                                                     "decoding": [
                                                       "async"
                                                     ],
@@ -1201,9 +1192,6 @@
                                                 {
                                                   "tag": "img",
                                                   "attributes": {
-                                                    "fetchpriority": [
-                                                      "high"
-                                                    ],
                                                     "decoding": [
                                                       "async"
                                                     ],

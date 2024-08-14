@@ -428,9 +428,6 @@
                                                                     {
                                                                       "tag": "img",
                                                                       "attributes": {
-                                                                        "fetchpriority": [
-                                                                          "high"
-                                                                        ],
                                                                         "decoding": [
                                                                           "async"
                                                                         ],
@@ -482,6 +479,9 @@
                                                                     {
                                                                       "tag": "img",
                                                                       "attributes": {
+                                                                        "loading": [
+                                                                          "lazy"
+                                                                        ],
                                                                         "decoding": [
                                                                           "async"
                                                                         ],
