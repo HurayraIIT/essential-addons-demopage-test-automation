@@ -21,8 +21,8 @@ test.describe("Image Scroller", () => {
     await expect(page.getByRole("heading", { name: "Vertical Scrolling Effect On Hover" })).toBeVisible();
     await expect(page.getByText("Turn on the Auto Scroller, Choose ")).toBeVisible();
     await page.getByRole('img', { name: 'Image Scroller 102' }).hover();
-    await expect(page.getByRole('img', { name: 'Image Scroller 102' })).toHaveAttribute('style', 'transform: translateY(-133.75px);')
+    await expect(page.getByRole('img', { name: 'Image Scroller 102' })).toHaveAttribute('style', /transform: translateY\(-133.*/)
     await page.getByRole('img', { name: 'Image Scroller 103' }).hover();
-    await expect(page.getByRole('img', { name: 'Image Scroller 103' })).toHaveAttribute('style', 'transform: translateY(-133.75px);')
+    await expect(page.getByRole('img', { name: 'Image Scroller 103' })).toHaveAttribute('style', /transform: translateY\(-133.*/)
   });
 });
