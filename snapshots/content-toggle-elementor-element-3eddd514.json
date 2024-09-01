@@ -297,6 +297,9 @@
                                     {
                                       "tag": "div",
                                       "attributes": {
+                                        "tabindex": [
+                                          "0"
+                                        ],
                                         "class": [
                                           "eael-toggle-switch-container",
                                           "eael-toggle-switch-round"
