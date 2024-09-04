@@ -51,3 +51,5 @@ test.describe("Advanced Google Map - Basic Map With Marker & Standard Theme", ()
     await expect(map.getByLabel("Toggle fullscreen view")).toBeVisible();
   });
 });
+
+// Not suitable for structure tests

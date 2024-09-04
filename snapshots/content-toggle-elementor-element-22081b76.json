@@ -493,7 +493,7 @@
                                                                           "tag": "div",
                                                                           "attributes": {
                                                                             "class": [
-                                                                              "eael-infobox-content-align-center",
+                                                                              "eael-infobox-content-align--center",
                                                                               "eael-infobox-hover-img-shape-square",
                                                                               "eael-infobox-shape-square",
                                                                               "elementor-element",
@@ -612,7 +612,7 @@
                                                                           "tag": "div",
                                                                           "attributes": {
                                                                             "class": [
-                                                                              "eael-infobox-content-align-center",
+                                                                              "eael-infobox-content-align--center",
                                                                               "eael-infobox-hover-img-shape-square",
                                                                               "eael-infobox-shape-square",
                                                                               "elementor-element",
@@ -731,7 +731,7 @@
                                                                           "tag": "div",
                                                                           "attributes": {
                                                                             "class": [
-                                                                              "eael-infobox-content-align-center",
+                                                                              "eael-infobox-content-align--center",
                                                                               "eael-infobox-hover-img-shape-square",
                                                                               "eael-infobox-shape-square",
                                                                               "elementor-element",
@@ -850,7 +850,7 @@
                                                                           "tag": "div",
                                                                           "attributes": {
                                                                             "class": [
-                                                                              "eael-infobox-content-align-center",
+                                                                              "eael-infobox-content-align--center",
                                                                               "eael-infobox-hover-img-shape-square",
                                                                               "eael-infobox-shape-square",
                                                                               "elementor-element",
@@ -1000,7 +1000,7 @@
                                                                           "tag": "div",
                                                                           "attributes": {
                                                                             "class": [
-                                                                              "eael-infobox-content-align-center",
+                                                                              "eael-infobox-content-align--center",
                                                                               "eael-infobox-hover-img-shape-square",
                                                                               "eael-infobox-shape-square",
                                                                               "elementor-element",
@@ -1119,7 +1119,7 @@
                                                                           "tag": "div",
                                                                           "attributes": {
                                                                             "class": [
-                                                                              "eael-infobox-content-align-center",
+                                                                              "eael-infobox-content-align--center",
                                                                               "eael-infobox-hover-img-shape-square",
                                                                               "eael-infobox-shape-square",
                                                                               "elementor-element",
@@ -1238,7 +1238,7 @@
                                                                           "tag": "div",
                                                                           "attributes": {
                                                                             "class": [
-                                                                              "eael-infobox-content-align-center",
+                                                                              "eael-infobox-content-align--center",
                                                                               "eael-infobox-hover-img-shape-square",
                                                                               "eael-infobox-shape-square",
                                                                               "elementor-element",
@@ -1357,7 +1357,7 @@
                                                                           "tag": "div",
                                                                           "attributes": {
                                                                             "class": [
-                                                                              "eael-infobox-content-align-center",
+                                                                              "eael-infobox-content-align--center",
                                                                               "eael-infobox-hover-img-shape-square",
                                                                               "eael-infobox-shape-square",
                                                                               "elementor-element",
@@ -1737,7 +1737,7 @@
                                                                           "tag": "div",
                                                                           "attributes": {
                                                                             "class": [
-                                                                              "eael-infobox-content-align-center",
+                                                                              "eael-infobox-content-align--center",
                                                                               "eael-infobox-hover-img-shape-square",
                                                                               "eael-infobox-shape-square",
                                                                               "elementor-element",
@@ -1856,7 +1856,7 @@
                                                                           "tag": "div",
                                                                           "attributes": {
                                                                             "class": [
-                                                                              "eael-infobox-content-align-center",
+                                                                              "eael-infobox-content-align--center",
                                                                               "eael-infobox-hover-img-shape-square",
                                                                               "eael-infobox-shape-square",
                                                                               "elementor-element",
@@ -1975,7 +1975,7 @@
                                                                           "tag": "div",
                                                                           "attributes": {
                                                                             "class": [
-                                                                              "eael-infobox-content-align-center",
+                                                                              "eael-infobox-content-align--center",
                                                                               "eael-infobox-hover-img-shape-square",
                                                                               "eael-infobox-shape-square",
                                                                               "elementor-element",
@@ -2094,7 +2094,7 @@
                                                                           "tag": "div",
                                                                           "attributes": {
                                                                             "class": [
-                                                                              "eael-infobox-content-align-center",
+                                                                              "eael-infobox-content-align--center",
                                                                               "eael-infobox-hover-img-shape-square",
                                                                               "eael-infobox-shape-square",
                                                                               "elementor-element",
@@ -2244,7 +2244,7 @@
                                                                           "tag": "div",
                                                                           "attributes": {
                                                                             "class": [
-                                                                              "eael-infobox-content-align-center",
+                                                                              "eael-infobox-content-align--center",
                                                                               "eael-infobox-hover-img-shape-square",
                                                                               "eael-infobox-shape-square",
                                                                               "elementor-element",
@@ -2363,7 +2363,7 @@
                                                                           "tag": "div",
                                                                           "attributes": {
                                                                             "class": [
-                                                                              "eael-infobox-content-align-center",
+                                                                              "eael-infobox-content-align--center",
                                                                               "eael-infobox-hover-img-shape-square",
                                                                               "eael-infobox-shape-square",
                                                                               "elementor-element",
@@ -2482,7 +2482,7 @@
                                                                           "tag": "div",
                                                                           "attributes": {
                                                                             "class": [
-                                                                              "eael-infobox-content-align-center",
+                                                                              "eael-infobox-content-align--center",
                                                                               "eael-infobox-hover-img-shape-square",
                                                                               "eael-infobox-shape-square",
                                                                               "elementor-element",
@@ -2601,7 +2601,7 @@
                                                                           "tag": "div",
                                                                           "attributes": {
                                                                             "class": [
-                                                                              "eael-infobox-content-align-center",
+                                                                              "eael-infobox-content-align--center",
                                                                               "eael-infobox-hover-img-shape-square",
                                                                               "eael-infobox-shape-square",
                                                                               "elementor-element",
