@@ -1,0 +1,97 @@
+{
+  "tag": "div",
+  "attributes": {
+    "class": [
+      "demo-call-to-action",
+      "elementor-element",
+      "elementor-element-1b6127",
+      "elementor-widget",
+      "elementor-widget-eael-cta-box"
+    ],
+    "data-id": "1b6127",
+    "data-element_type": "widget",
+    "data-widget_type": "eael-cta-box.default"
+  },
+  "children": [
+    {
+      "tag": "div",
+      "attributes": {
+        "class": [
+          "elementor-widget-container"
+        ]
+      },
+      "children": [
+        {
+          "tag": "div",
+          "attributes": {
+            "class": [
+              "bg-lite",
+              "cta-flex",
+              "cta-preset-1",
+              "eael-call-to-action"
+            ]
+          },
+          "children": [
+            {
+              "tag": "div",
+              "attributes": {
+                "class": [
+                  "content"
+                ]
+              },
+              "children": [
+                {
+                  "tag": "h2",
+                  "attributes": {
+                    "class": [
+                      "title"
+                    ]
+                  },
+                  "children": [
+                    {
+                      "tag": "strong",
+                      "attributes": {},
+                      "children": [
+                        {
+                          "text": "NotificationX"
+                        }
+                      ]
+                    },
+                    {
+                      "text": "– Best Social Proof & FOMO Plugin"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "attributes": {
+                "class": [
+                  "action"
+                ]
+              },
+              "children": [
+                {
+                  "tag": "a",
+                  "attributes": {
+                    "href": "#",
+                    "class": [
+                      "",
+                      "cta-button"
+                    ]
+                  },
+                  "children": [
+                    {
+                      "text": "Purchase Now"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,442 @@
+{
+  "tag": "div",
+  "attributes": {
+    "class": [
+      "elementor-element",
+      "elementor-element-73d0d346",
+      "elementor-widget",
+      "elementor-widget-eael-adv-accordion"
+    ],
+    "data-id": "73d0d346",
+    "data-element_type": "widget",
+    "data-widget_type": "eael-adv-accordion.default"
+  },
+  "children": [
+    {
+      "tag": "div",
+      "attributes": {
+        "class": [
+          "elementor-widget-container"
+        ]
+      },
+      "children": [
+        {
+          "tag": "div",
+          "attributes": {
+            "class": [
+              "eael-adv-accordion"
+            ],
+            "id": [
+              "eael-adv-accordion-73d0d346"
+            ],
+            "data-scroll-on-click": "no",
+            "data-scroll-speed": "300",
+            "data-accordion-id": "73d0d346",
+            "data-accordion-type": "accordion",
+            "data-toogle-speed": "300"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "attributes": {
+                "class": [
+                  "eael-accordion-list"
+                ]
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "attributes": {
+                    "id": [
+                      "font-awesome-icons-used"
+                    ],
+                    "class": [
+                      "active",
+                      "active-default",
+                      "eael-accordion-header",
+                      "elementor-tab-title",
+                      "show-this"
+                    ],
+                    "tabindex": [
+                      "0"
+                    ],
+                    "data-tab": "1",
+                    "aria-controls": [
+                      "elementor-tab-content-1941"
+                    ]
+                  },
+                  "children": [
+                    {
+                      "tag": "span",
+                      "attributes": {
+                        "class": [
+                          "eael-advanced-accordion-icon-closed"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "tag": "i",
+                          "attributes": {
+                            "aria-hidden": [
+                              "true"
+                            ],
+                            "class": [
+                              "fa-accordion-icon",
+                              "fa-thumbs-up",
+                              "far"
+                            ]
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "span",
+                      "attributes": {
+                        "class": [
+                          "eael-advanced-accordion-icon-opened"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "tag": "i",
+                          "attributes": {
+                            "aria-hidden": [
+                              "true"
+                            ],
+                            "class": [
+                              "fa-accordion-icon",
+                              "fa-minus",
+                              "fas"
+                            ]
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "span",
+                      "attributes": {
+                        "class": [
+                          "eael-accordion-tab-title"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "text": "Font Awesome Icons Used"
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "i",
+                      "attributes": {
+                        "aria-hidden": [
+                          "true"
+                        ],
+                        "class": [
+                          "fa-angle-right",
+                          "fa-toggle",
+                          "fas"
+                        ]
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "attributes": {
+                    "id": [
+                      "elementor-tab-content-1941"
+                    ],
+                    "class": [
+                      "active-default",
+                      "clearfix",
+                      "eael-accordion-content"
+                    ],
+                    "data-tab": "1",
+                    "aria-labelledby": [
+                      "font-awesome-icons-used"
+                    ],
+                    "style": "display: block;"
+                  },
+                  "children": [
+                    {
+                      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, neque qui velit. Magni dolorum quidem ipsam eligendi, totam, facilis laudantium cum accusamus ullam voluptatibus commodi numquam, error, est. Ea, consequatur."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "attributes": {
+                "class": [
+                  "eael-accordion-list"
+                ]
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "attributes": {
+                    "id": [
+                      "free-demo-content-installations"
+                    ],
+                    "class": [
+                      "eael-accordion-header",
+                      "elementor-tab-title"
+                    ],
+                    "tabindex": [
+                      "0"
+                    ],
+                    "data-tab": "2",
+                    "aria-controls": [
+                      "elementor-tab-content-1942"
+                    ]
+                  },
+                  "children": [
+                    {
+                      "tag": "span",
+                      "attributes": {
+                        "class": [
+                          "eael-advanced-accordion-icon-closed"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "tag": "i",
+                          "attributes": {
+                            "aria-hidden": [
+                              "true"
+                            ],
+                            "class": [
+                              "fa-accordion-icon",
+                              "fa-thumbs-up",
+                              "far"
+                            ]
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "span",
+                      "attributes": {
+                        "class": [
+                          "eael-advanced-accordion-icon-opened"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "tag": "i",
+                          "attributes": {
+                            "aria-hidden": [
+                              "true"
+                            ],
+                            "class": [
+                              "fa-accordion-icon",
+                              "fa-minus",
+                              "fas"
+                            ]
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "span",
+                      "attributes": {
+                        "class": [
+                          "eael-accordion-tab-title"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "text": "Free Demo Content Installations"
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "i",
+                      "attributes": {
+                        "aria-hidden": [
+                          "true"
+                        ],
+                        "class": [
+                          "fa-angle-right",
+                          "fa-toggle",
+                          "fas"
+                        ]
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "attributes": {
+                    "id": [
+                      "elementor-tab-content-1942"
+                    ],
+                    "class": [
+                      "clearfix",
+                      "eael-accordion-content"
+                    ],
+                    "data-tab": "2",
+                    "aria-labelledby": [
+                      "free-demo-content-installations"
+                    ]
+                  },
+                  "children": [
+                    {
+                      "tag": "p",
+                      "attributes": {},
+                      "children": [
+                        {
+                          "text": "Netflix has struck a deal set up a permanent production base at Shepperton Studios, home to films from Alien to Mary Poppins Returns."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "attributes": {
+                "class": [
+                  "eael-accordion-list"
+                ]
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "attributes": {
+                    "id": [
+                      "visual-page-builder"
+                    ],
+                    "class": [
+                      "eael-accordion-header",
+                      "elementor-tab-title"
+                    ],
+                    "tabindex": [
+                      "0"
+                    ],
+                    "data-tab": "3",
+                    "aria-controls": [
+                      "elementor-tab-content-1943"
+                    ]
+                  },
+                  "children": [
+                    {
+                      "tag": "span",
+                      "attributes": {
+                        "class": [
+                          "eael-advanced-accordion-icon-closed"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "tag": "i",
+                          "attributes": {
+                            "aria-hidden": [
+                              "true"
+                            ],
+                            "class": [
+                              "fa-accordion-icon",
+                              "fa-thumbs-up",
+                              "far"
+                            ]
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "span",
+                      "attributes": {
+                        "class": [
+                          "eael-advanced-accordion-icon-opened"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "tag": "i",
+                          "attributes": {
+                            "aria-hidden": [
+                              "true"
+                            ],
+                            "class": [
+                              "fa-accordion-icon",
+                              "fa-minus",
+                              "fas"
+                            ]
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "span",
+                      "attributes": {
+                        "class": [
+                          "eael-accordion-tab-title"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "text": "Visual Page Builder"
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "i",
+                      "attributes": {
+                        "aria-hidden": [
+                          "true"
+                        ],
+                        "class": [
+                          "fa-angle-right",
+                          "fa-toggle",
+                          "fas"
+                        ]
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "attributes": {
+                    "id": [
+                      "elementor-tab-content-1943"
+                    ],
+                    "class": [
+                      "clearfix",
+                      "eael-accordion-content"
+                    ],
+                    "data-tab": "3",
+                    "aria-labelledby": [
+                      "visual-page-builder"
+                    ]
+                  },
+                  "children": [
+                    {
+                      "tag": "p",
+                      "attributes": {},
+                      "children": [
+                        {
+                          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, neque qui velit. Magni dolorum quidem ipsam eligendi, totam, facilis laudantium cum accusamus ullam voluptatibus commodi numquam, error, est. Ea, consequatur."
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

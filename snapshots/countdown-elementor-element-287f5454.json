@@ -1,0 +1,275 @@
+{
+  "tag": "div",
+  "attributes": {
+    "class": [
+      "elementor-element",
+      "elementor-element-287f5454",
+      "elementor-widget",
+      "elementor-widget-eael-countdown"
+    ],
+    "data-id": "287f5454",
+    "data-element_type": "widget",
+    "data-widget_type": "eael-countdown.default"
+  },
+  "children": [
+    {
+      "tag": "div",
+      "attributes": {
+        "class": [
+          "elementor-widget-container"
+        ]
+      },
+      "children": [
+        {
+          "tag": "div",
+          "attributes": {
+            "class": [
+              "eael-countdown-wrapper"
+            ],
+            "data-countdown-id": "287f5454",
+            "data-expire-type": "none",
+            "data-countdown-type": "evergreen",
+            "data-evergreen-time": "43140",
+            "data-evergreen-recurring": "0",
+            "data-evergreen-recurring-stop": "Aug 31 2024 0:00:00 +0"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "attributes": {
+                "class": [
+                  "",
+                  "eael-countdown-container",
+                  "eael-countdown-label-block"
+                ]
+              },
+              "children": [
+                {
+                  "tag": "ul",
+                  "attributes": {
+                    "id": [
+                      "eael-countdown-287f5454"
+                    ],
+                    "class": [
+                      "eael-countdown-items"
+                    ],
+                    "data-date": "Jan 01 1970 0:00:00 +0"
+                  },
+                  "children": [
+                    {
+                      "tag": "li",
+                      "attributes": {
+                        "class": [
+                          "eael-countdown-item"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "attributes": {
+                            "class": [
+                              "eael-countdown-days"
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "span",
+                              "attributes": {
+                                "data-days": "",
+                                "class": [
+                                  "eael-countdown-digits"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "text": "00"
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "span",
+                              "attributes": {
+                                "class": [
+                                  "eael-countdown-label"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "text": "Days"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "li",
+                      "attributes": {
+                        "class": [
+                          "eael-countdown-item"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "attributes": {
+                            "class": [
+                              "eael-countdown-hours"
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "span",
+                              "attributes": {
+                                "data-hours": "",
+                                "class": [
+                                  "eael-countdown-digits"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "text": "00"
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "span",
+                              "attributes": {
+                                "class": [
+                                  "eael-countdown-label"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "text": "Hours"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "li",
+                      "attributes": {
+                        "class": [
+                          "eael-countdown-item"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "attributes": {
+                            "class": [
+                              "eael-countdown-minutes"
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "span",
+                              "attributes": {
+                                "data-minutes": "",
+                                "class": [
+                                  "eael-countdown-digits"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "text": "00"
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "span",
+                              "attributes": {
+                                "class": [
+                                  "eael-countdown-label"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "text": "Minutes"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "li",
+                      "attributes": {
+                        "class": [
+                          "eael-countdown-item"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "attributes": {
+                            "class": [
+                              "eael-countdown-seconds"
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "span",
+                              "attributes": {
+                                "data-seconds": "",
+                                "class": [
+                                  "eael-countdown-digits"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "text": "00"
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "span",
+                              "attributes": {
+                                "class": [
+                                  "eael-countdown-label"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "text": "Seconds"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "attributes": {
+                    "class": [
+                      "eael-countdown-expiry-template"
+                    ],
+                    "style": "display: none;"
+                  },
+                  "children": []
+                },
+                {
+                  "tag": "div",
+                  "attributes": {
+                    "class": [
+                      "clearfix"
+                    ]
+                  },
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
