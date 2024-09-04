@@ -1,0 +1,458 @@
+{
+  "tag": "div",
+  "attributes": {
+    "class": [
+      "elementor-element",
+      "elementor-element-72c859bb",
+      "elementor-widget",
+      "elementor-widget-eael-content-timeline"
+    ],
+    "data-id": "72c859bb",
+    "data-element_type": "widget",
+    "data-widget_type": "eael-content-timeline.default"
+  },
+  "children": [
+    {
+      "tag": "div",
+      "attributes": {
+        "class": [
+          "elementor-widget-container"
+        ]
+      },
+      "children": [
+        {
+          "tag": "div",
+          "attributes": {
+            "id": [
+              "eael-content-timeline-72c859bb"
+            ],
+            "class": [
+              "content-timeline-layout-center",
+              "date-position-",
+              "horizontal-timeline-wrapper"
+            ],
+            "data-slide_to_scroll": "{\"desktop\":1,\"mobile\":1,\"tablet\":1}"
+          },
+          "children": [
+            {
+              "tag": "div",
+              "attributes": {
+                "class": [
+                  "eael-content-timeline-container"
+                ]
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "attributes": {
+                    "class": [
+                      "eael-content-timeline-container"
+                    ]
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "attributes": {
+                        "class": [
+                          "eael-content-timeline-block"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "attributes": {
+                            "class": [
+                              "eael-content-timeline-line"
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "eael-content-timeline-inner"
+                                ]
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "attributes": {
+                            "class": [
+                              "eael-content-timeline-img",
+                              "eael-picture",
+                              "is-hidden"
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "i",
+                              "attributes": {
+                                "class": [
+                                  "fa-paper-plane",
+                                  "fas"
+                                ]
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "attributes": {
+                            "class": [
+                              "eael-content-timeline-content",
+                              "is-hidden"
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "h2",
+                              "attributes": {
+                                "class": [
+                                  "eael-timeline-title"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "a",
+                                  "attributes": {
+                                    "href": ""
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "How to Include Elementor Template using a Shortcode"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "text": "Thanks to Elementor PRO, you can now easily include your  ...."
+                            },
+                            {
+                              "tag": "span",
+                              "attributes": {
+                                "class": [
+                                  "eael-date"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "text": "02 September 2019"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "attributes": {
+                        "class": [
+                          "eael-content-timeline-block"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "attributes": {
+                            "class": [
+                              "eael-content-timeline-line"
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "eael-content-timeline-inner"
+                                ]
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "attributes": {
+                            "class": [
+                              "eael-content-timeline-img",
+                              "eael-picture",
+                              "is-hidden"
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "i",
+                              "attributes": {
+                                "class": [
+                                  "fa-wordpress",
+                                  "fab"
+                                ]
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "attributes": {
+                            "class": [
+                              "eael-content-timeline-content",
+                              "is-hidden"
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "h2",
+                              "attributes": {
+                                "class": [
+                                  "eael-timeline-title"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "a",
+                                  "attributes": {
+                                    "href": ""
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "What’s New in Essential Addons  for Elementor Version 3.0?"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "text": "With the Introduction of Essential Addons 3.0, you are about …"
+                            },
+                            {
+                              "tag": "span",
+                              "attributes": {
+                                "class": [
+                                  "eael-date"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "text": "05 September 2019"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "attributes": {
+                        "class": [
+                          "eael-content-timeline-block"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "attributes": {
+                            "class": [
+                              "eael-content-timeline-line"
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "eael-content-timeline-inner"
+                                ]
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "attributes": {
+                            "class": [
+                              "eael-content-timeline-img",
+                              "eael-picture",
+                              "is-hidden"
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "i",
+                              "attributes": {
+                                "class": [
+                                  "fa-rocket",
+                                  "fas"
+                                ]
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "attributes": {
+                            "class": [
+                              "eael-content-timeline-content",
+                              "is-hidden"
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "h2",
+                              "attributes": {
+                                "class": [
+                                  "eael-timeline-title"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "a",
+                                  "attributes": {
+                                    "href": ""
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "How to Filter Your WordPress Blogs Based on Categories or Tags"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "text": "To get more traffic on your content, it is important …"
+                            },
+                            {
+                              "tag": "span",
+                              "attributes": {
+                                "class": [
+                                  "eael-date"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "text": "08 September 2019"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "attributes": {
+                        "class": [
+                          "eael-content-timeline-block"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "attributes": {
+                            "class": [
+                              "eael-content-timeline-line"
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "eael-content-timeline-inner"
+                                ]
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "attributes": {
+                            "class": [
+                              "eael-content-timeline-img",
+                              "eael-picture",
+                              "is-hidden"
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "i",
+                              "attributes": {
+                                "class": [
+                                  "fa-wordpress",
+                                  "fab"
+                                ]
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "attributes": {
+                            "class": [
+                              "eael-content-timeline-content",
+                              "is-hidden"
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "h2",
+                              "attributes": {
+                                "class": [
+                                  "eael-timeline-title"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "a",
+                                  "attributes": {
+                                    "href": ""
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "How To Hide Your Existing Page From  Certain Users in Elementor"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "text": "Once you turn on the Elementor Role Manager option, users …"
+                            },
+                            {
+                              "tag": "span",
+                              "attributes": {
+                                "class": [
+                                  "eael-date"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "text": "05 September 2019"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

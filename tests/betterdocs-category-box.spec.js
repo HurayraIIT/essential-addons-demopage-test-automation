@@ -39,3 +39,5 @@ test.describe("BetterDocs Category Box", () => {
     await expect(page.locator('//*[@id="eael-bd-cat-box-783034e0"]/div/a[1]/div/div[2]/span')).toHaveText("8");
   });
 });
+
+// Not suitable for structure tests

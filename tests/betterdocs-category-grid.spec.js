@@ -24,3 +24,5 @@ test.describe("BetterDocs Category Grid", () => {
     await expect(page.getByText("Make it available for any type of posts, besides")).toBeVisible();
   });
 });
+
+// Not suitable for structure tests

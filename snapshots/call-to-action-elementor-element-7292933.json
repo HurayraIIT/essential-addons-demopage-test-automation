@@ -1,0 +1,72 @@
+{
+  "tag": "div",
+  "attributes": {
+    "class": [
+      "content-align-cta-center",
+      "demo-call-to-action",
+      "elementor-element",
+      "elementor-element-7292933",
+      "elementor-widget",
+      "elementor-widget-eael-cta-box"
+    ],
+    "data-id": "7292933",
+    "data-element_type": "widget",
+    "data-widget_type": "eael-cta-box.default"
+  },
+  "children": [
+    {
+      "tag": "div",
+      "attributes": {
+        "class": [
+          "elementor-widget-container"
+        ]
+      },
+      "children": [
+        {
+          "tag": "div",
+          "attributes": {
+            "class": [
+              "bg-lite",
+              "cta-basic",
+              "cta-preset-1",
+              "eael-call-to-action"
+            ]
+          },
+          "children": [
+            {
+              "tag": "h2",
+              "attributes": {
+                "class": [
+                  "title"
+                ]
+              },
+              "children": [
+                {
+                  "text": "Essential Addons for Elementor"
+                }
+              ]
+            },
+            {
+              "text": "Enhance your Elementor page building experience with 57+ creative elements."
+            },
+            {
+              "tag": "a",
+              "attributes": {
+                "href": "#",
+                "class": [
+                  "",
+                  "cta-button"
+                ]
+              },
+              "children": [
+                {
+                  "text": "Purchase Now"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
