@@ -9,7 +9,7 @@ export default defineConfig({
   testDir: "./tests",
   fullyParallel: true,
   retries: process.env.CI ? 2 : 2,
-  workers: process.env.CI ? 2 : 4,
+  workers: process.env.CI ? 4 : 4,
   timeout: 30 * 1000,
 
   reporter: process.env.CI
@@ -23,7 +23,8 @@ export default defineConfig({
             meta: [
               {
                 key: "Essential Addons Demo - Test Results",
-                value: "<https://hurayraiit.github.io/essential-addons-demopage-test-automation/ | 📂 Click Here!>",
+                value:
+                  "<https://hurayraiit.github.io/essential-addons-demopage-test-automation/ | 📂 Click Here!>  maybe here too: <http://playwright.qa1.site/ | 📂 Selfhosted!>",
               },
             ],
           },
@@ -36,7 +37,7 @@ export default defineConfig({
     baseURL: process.env.BASE_URL,
     testIdAttribute: "data-id",
 
-    screenshot: "only-on-failure",
+    screenshot: "on",
     trace: "on-first-retry",
     video: "on-first-retry",
 
