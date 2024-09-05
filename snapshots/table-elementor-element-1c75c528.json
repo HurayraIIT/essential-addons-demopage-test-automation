@@ -1,0 +1,3170 @@
+{
+  "tag": "div",
+  "attributes": {
+    "class": [
+      "eael-dt-th-align-left",
+      "eael-table-align-center",
+      "elementor-element",
+      "elementor-element-1c75c528",
+      "elementor-widget",
+      "elementor-widget-eael-data-table"
+    ],
+    "data-id": "1c75c528",
+    "data-element_type": "widget",
+    "data-widget_type": "eael-data-table.default"
+  },
+  "children": [
+    {
+      "tag": "div",
+      "attributes": {
+        "class": [
+          "elementor-widget-container"
+        ]
+      },
+      "children": [
+        {
+          "tag": "div",
+          "attributes": {
+            "class": [
+              "eael-data-table-wrap"
+            ],
+            "data-table_id": "1c75c528",
+            "id": [
+              "eael-data-table-wrapper-1c75c528"
+            ],
+            "data-custom_responsive": "false",
+            "data-table_enabled": "true"
+          },
+          "children": [
+            {
+              "tag": "table",
+              "attributes": {
+                "class": [
+                  ""
+                ],
+                "id": [
+                  "eael-data-table-1c75c528"
+                ],
+                "role": [
+                  "grid"
+                ]
+              },
+              "children": [
+                {
+                  "tag": "thead",
+                  "attributes": {},
+                  "children": [
+                    {
+                      "tag": "tr",
+                      "attributes": {
+                        "class": [
+                          "table-header",
+                          "tablesorter-headerRow"
+                        ],
+                        "role": [
+                          "row"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "tag": "th",
+                          "attributes": {
+                            "class": [
+                              "sorting",
+                              "tablesorter-header",
+                              "tablesorter-headerUnSorted"
+                            ],
+                            "id": [
+                              ""
+                            ],
+                            "colspan": [
+                              ""
+                            ],
+                            "data-column": "0",
+                            "tabindex": [
+                              "0"
+                            ],
+                            "scope": [
+                              "col"
+                            ],
+                            "role": [
+                              "columnheader"
+                            ],
+                            "aria-disabled": [
+                              "false"
+                            ],
+                            "aria-controls": [
+                              "eael-data-table-1c75c528"
+                            ],
+                            "unselectable": [
+                              "on"
+                            ],
+                            "aria-sort": [
+                              "none"
+                            ],
+                            "aria-label": [
+                              "#:",
+                              "No",
+                              "activate",
+                              "an",
+                              "applied,",
+                              "apply",
+                              "ascending",
+                              "sort",
+                              "sort",
+                              "to"
+                            ],
+                            "style": ""
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "tablesorter-header-inner"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "span",
+                                  "attributes": {
+                                    "class": [
+                                      "data-table-header-text"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "#"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "th",
+                          "attributes": {
+                            "class": [
+                              "sorting",
+                              "tablesorter-header",
+                              "tablesorter-headerUnSorted"
+                            ],
+                            "id": [
+                              ""
+                            ],
+                            "colspan": [
+                              ""
+                            ],
+                            "data-column": "1",
+                            "tabindex": [
+                              "0"
+                            ],
+                            "scope": [
+                              "col"
+                            ],
+                            "role": [
+                              "columnheader"
+                            ],
+                            "aria-disabled": [
+                              "false"
+                            ],
+                            "aria-controls": [
+                              "eael-data-table-1c75c528"
+                            ],
+                            "unselectable": [
+                              "on"
+                            ],
+                            "aria-sort": [
+                              "none"
+                            ],
+                            "aria-label": [
+                              "Employee:",
+                              "No",
+                              "activate",
+                              "an",
+                              "applied,",
+                              "apply",
+                              "ascending",
+                              "sort",
+                              "sort",
+                              "to"
+                            ],
+                            "style": ""
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "tablesorter-header-inner"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "span",
+                                  "attributes": {
+                                    "class": [
+                                      "data-table-header-text"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "Employee"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "th",
+                          "attributes": {
+                            "class": [
+                              "sorting",
+                              "tablesorter-header",
+                              "tablesorter-headerUnSorted"
+                            ],
+                            "id": [
+                              ""
+                            ],
+                            "colspan": [
+                              ""
+                            ],
+                            "data-column": "2",
+                            "tabindex": [
+                              "0"
+                            ],
+                            "scope": [
+                              "col"
+                            ],
+                            "role": [
+                              "columnheader"
+                            ],
+                            "aria-disabled": [
+                              "false"
+                            ],
+                            "aria-controls": [
+                              "eael-data-table-1c75c528"
+                            ],
+                            "unselectable": [
+                              "on"
+                            ],
+                            "aria-sort": [
+                              "none"
+                            ],
+                            "aria-label": [
+                              "Days:",
+                              "No",
+                              "Working",
+                              "activate",
+                              "an",
+                              "applied,",
+                              "apply",
+                              "ascending",
+                              "sort",
+                              "sort",
+                              "to"
+                            ],
+                            "style": ""
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "tablesorter-header-inner"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "span",
+                                  "attributes": {
+                                    "class": [
+                                      "data-table-header-text"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "Working Days"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "th",
+                          "attributes": {
+                            "class": [
+                              "sorting",
+                              "tablesorter-header",
+                              "tablesorter-headerUnSorted"
+                            ],
+                            "id": [
+                              ""
+                            ],
+                            "colspan": [
+                              ""
+                            ],
+                            "data-column": "3",
+                            "tabindex": [
+                              "0"
+                            ],
+                            "scope": [
+                              "col"
+                            ],
+                            "role": [
+                              "columnheader"
+                            ],
+                            "aria-disabled": [
+                              "false"
+                            ],
+                            "aria-controls": [
+                              "eael-data-table-1c75c528"
+                            ],
+                            "unselectable": [
+                              "on"
+                            ],
+                            "aria-sort": [
+                              "none"
+                            ],
+                            "aria-label": [
+                              "Hours:",
+                              "No",
+                              "activate",
+                              "an",
+                              "applied,",
+                              "apply",
+                              "ascending",
+                              "sort",
+                              "sort",
+                              "to"
+                            ],
+                            "style": ""
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "tablesorter-header-inner"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "span",
+                                  "attributes": {
+                                    "class": [
+                                      "data-table-header-text"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "Hours"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "th",
+                          "attributes": {
+                            "class": [
+                              "sorting",
+                              "tablesorter-header",
+                              "tablesorter-headerUnSorted"
+                            ],
+                            "id": [
+                              ""
+                            ],
+                            "colspan": [
+                              ""
+                            ],
+                            "data-column": "4",
+                            "tabindex": [
+                              "0"
+                            ],
+                            "scope": [
+                              "col"
+                            ],
+                            "role": [
+                              "columnheader"
+                            ],
+                            "aria-disabled": [
+                              "false"
+                            ],
+                            "aria-controls": [
+                              "eael-data-table-1c75c528"
+                            ],
+                            "unselectable": [
+                              "on"
+                            ],
+                            "aria-sort": [
+                              "none"
+                            ],
+                            "aria-label": [
+                              "No",
+                              "Rate:",
+                              "activate",
+                              "an",
+                              "applied,",
+                              "apply",
+                              "ascending",
+                              "sort",
+                              "sort",
+                              "to"
+                            ],
+                            "style": ""
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "tablesorter-header-inner"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "span",
+                                  "attributes": {
+                                    "class": [
+                                      "data-table-header-text"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "Rate"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "th",
+                          "attributes": {
+                            "class": [
+                              "sorting",
+                              "tablesorter-header",
+                              "tablesorter-headerUnSorted"
+                            ],
+                            "id": [
+                              ""
+                            ],
+                            "colspan": [
+                              ""
+                            ],
+                            "data-column": "5",
+                            "tabindex": [
+                              "0"
+                            ],
+                            "scope": [
+                              "col"
+                            ],
+                            "role": [
+                              "columnheader"
+                            ],
+                            "aria-disabled": [
+                              "false"
+                            ],
+                            "aria-controls": [
+                              "eael-data-table-1c75c528"
+                            ],
+                            "unselectable": [
+                              "on"
+                            ],
+                            "aria-sort": [
+                              "none"
+                            ],
+                            "aria-label": [
+                              "No",
+                              "Pay:",
+                              "activate",
+                              "an",
+                              "applied,",
+                              "apply",
+                              "ascending",
+                              "sort",
+                              "sort",
+                              "to"
+                            ],
+                            "style": ""
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "tablesorter-header-inner"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "span",
+                                  "attributes": {
+                                    "class": [
+                                      "data-table-header-text"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "Pay"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "tbody",
+                  "attributes": {
+                    "aria-live": [
+                      "polite"
+                    ],
+                    "aria-relevant": [
+                      "all"
+                    ]
+                  },
+                  "children": [
+                    {
+                      "tag": "tr",
+                      "attributes": {
+                        "role": [
+                          "row"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              ""
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "1"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              ""
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "Garrett Winters"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              ""
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "Attend"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              ""
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "7:59:00"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              ""
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "$25.15"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              ""
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "$1,483.85"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "tr",
+                      "attributes": {
+                        "role": [
+                          "row"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              ""
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "2"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              ""
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "Brielle Williamson"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              ""
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "Attend"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              ""
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "9:39:00"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              ""
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "$18.15"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              ""
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "$886.5"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "tr",
+                      "attributes": {
+                        "role": [
+                          "row"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              ""
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "3"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              ""
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "Haley Kennedy"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              ""
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "Attend"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              ""
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "6:35:00"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              ""
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "$32.15"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              ""
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "$1,116,9"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "tr",
+                      "attributes": {
+                        "role": [
+                          "row"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              ""
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "4"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              ""
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "Template Library"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              ""
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "1 Day Absent"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              ""
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "9:39:00"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              ""
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "$25.15"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              ""
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "$1,028.6"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "tr",
+                      "attributes": {
+                        "role": [
+                          "row"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              ""
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "5"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              ""
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "Garrett Winters"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              ""
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "Attend"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              ""
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "7:59:00"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              ""
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "$23.15"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              ""
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "$1,483.85"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "tr",
+                      "attributes": {
+                        "role": [
+                          "row"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              ""
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "6"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              ""
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "Brielle Williamson"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              ""
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "3 Day Absent"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              ""
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "9:39:00"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              ""
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "$15.15"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              ""
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "$534"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "tr",
+                      "attributes": {
+                        "role": [
+                          "row"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              ""
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "7"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              ""
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "Haley Kennedy"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              ""
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "Attend"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              ""
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "6:35:00"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              ""
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "$33.15"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              ""
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "$2,070.45"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "tr",
+                      "attributes": {
+                        "role": [
+                          "row"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              ""
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "8"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              ""
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "Template Library"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              ""
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "Attend"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              ""
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "9:39:00"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              ""
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "$12.15"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              ""
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "$1,246.2"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "tr",
+                      "attributes": {
+                        "role": [
+                          "row"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              ""
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "9"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              ""
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "Garrett Winters"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              ""
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "Attend"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              ""
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "7:59:00"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              ""
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "$5.15"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              ""
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "$1,135.75"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "tr",
+                      "attributes": {
+                        "role": [
+                          "row"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              ""
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "10"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              ""
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "Brielle Williamson"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              ""
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "1 Day Absent"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              ""
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "6:35:00"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              ""
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "$25.15"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              ""
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "text": "$736"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

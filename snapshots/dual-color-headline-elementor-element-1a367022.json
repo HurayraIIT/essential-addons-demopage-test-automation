@@ -1,0 +1,113 @@
+{
+  "tag": "div",
+  "attributes": {
+    "class": [
+      "eael-dual-header-content-align-center",
+      "elementor-element",
+      "elementor-element-1a367022",
+      "elementor-widget",
+      "elementor-widget-eael-dual-color-header"
+    ],
+    "data-id": "1a367022",
+    "data-element_type": "widget",
+    "data-widget_type": "eael-dual-color-header.default"
+  },
+  "children": [
+    {
+      "tag": "div",
+      "attributes": {
+        "class": [
+          "elementor-widget-container"
+        ]
+      },
+      "children": [
+        {
+          "tag": "div",
+          "attributes": {
+            "class": [
+              "eael-dual-header"
+            ]
+          },
+          "children": [
+            {
+              "tag": "span",
+              "attributes": {
+                "class": [
+                  "eael-dch-svg-icon"
+                ]
+              },
+              "children": [
+                {
+                  "tag": "i",
+                  "attributes": {
+                    "aria-hidden": [
+                      "true"
+                    ],
+                    "class": [
+                      "fa-leaf",
+                      "fas"
+                    ]
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "tag": "h2",
+              "attributes": {
+                "class": [
+                  "title"
+                ]
+              },
+              "children": [
+                {
+                  "tag": "span",
+                  "attributes": {
+                    "style": "",
+                    "class": [
+                      "lead",
+                      "solid-color"
+                    ]
+                  },
+                  "children": [
+                    {
+                      "text": "Dual Headers"
+                    }
+                  ]
+                },
+                {
+                  "tag": "span",
+                  "attributes": {},
+                  "children": [
+                    {
+                      "text": "With Icon"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "span",
+              "attributes": {
+                "class": [
+                  "subtext"
+                ]
+              },
+              "children": [
+                {
+                  "tag": "p",
+                  "attributes": {},
+                  "children": [
+                    {
+                      "text": "Add Icon with dual headings"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

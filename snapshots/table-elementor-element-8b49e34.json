@@ -1,0 +1,2588 @@
+{
+  "tag": "div",
+  "attributes": {
+    "class": [
+      "eael-dt-th-align-center",
+      "eael-table-align-center",
+      "elementor-element",
+      "elementor-element-8b49e34",
+      "elementor-widget",
+      "elementor-widget-eael-data-table"
+    ],
+    "data-id": "8b49e34",
+    "data-element_type": "widget",
+    "data-widget_type": "eael-data-table.default"
+  },
+  "children": [
+    {
+      "tag": "div",
+      "attributes": {
+        "class": [
+          "elementor-widget-container"
+        ]
+      },
+      "children": [
+        {
+          "tag": "style",
+          "attributes": {},
+          "children": [
+            {
+              "text": "@media (max-width: 767px) {\n\t\t\t   #eael-data-table-wrapper-8b49e34.custom-responsive-option-enable .eael-data-table thead {\n                    display: none;\n               }\n               #eael-data-table-wrapper-8b49e34.custom-responsive-option-enable .eael-data-table tbody tr td {\n                    float: none;\n                    clear: left;\n                    width: 100%;\n                    text-align: left;\n                    display: flex;\n                    align-items: center;\n                }\n\t\t\t}"
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "attributes": {
+            "class": [
+              "custom-responsive-option-enable",
+              "eael-data-table-wrap"
+            ],
+            "data-table_id": "8b49e34",
+            "id": [
+              "eael-data-table-wrapper-8b49e34"
+            ],
+            "data-custom_responsive": "true"
+          },
+          "children": [
+            {
+              "tag": "table",
+              "attributes": {
+                "class": [
+                  "center",
+                  "eael-data-table",
+                  "tablesorter"
+                ],
+                "id": [
+                  "eael-data-table-8b49e34"
+                ]
+              },
+              "children": [
+                {
+                  "tag": "thead",
+                  "attributes": {},
+                  "children": [
+                    {
+                      "tag": "tr",
+                      "attributes": {
+                        "class": [
+                          "table-header"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "tag": "th",
+                          "attributes": {
+                            "class": [
+                              "sorting",
+                              "sorting-none",
+                              "text-left"
+                            ],
+                            "id": [
+                              ""
+                            ],
+                            "colspan": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "span",
+                              "attributes": {
+                                "class": [
+                                  "data-table-header-text"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "text": "Features"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "th",
+                          "attributes": {
+                            "class": [
+                              "sorting",
+                              "sorting-none"
+                            ],
+                            "id": [
+                              ""
+                            ],
+                            "colspan": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "span",
+                              "attributes": {
+                                "class": [
+                                  "data-table-header-text"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "text": "Elementor"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "th",
+                          "attributes": {
+                            "class": [
+                              "sorting",
+                              "sorting-none"
+                            ],
+                            "id": [
+                              ""
+                            ],
+                            "colspan": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "span",
+                              "attributes": {
+                                "class": [
+                                  "data-table-header-text"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "text": "Elementor Pro"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "th",
+                          "attributes": {
+                            "class": [
+                              "sorting",
+                              "sorting-none"
+                            ],
+                            "id": [
+                              ""
+                            ],
+                            "colspan": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "span",
+                              "attributes": {
+                                "class": [
+                                  "data-table-header-text"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "text": "Elementor Gold"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "tbody",
+                  "attributes": {},
+                  "children": [
+                    {
+                      "tag": "tr",
+                      "attributes": {},
+                      "children": [
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              "text-left"
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "th-mobile-screen"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "attributes": {
+                                        "class": [
+                                          "data-table-header-text"
+                                        ]
+                                      },
+                                      "children": [
+                                        {
+                                          "text": "Features"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "img",
+                                      "attributes": {
+                                        "decoding": [
+                                          "async"
+                                        ],
+                                        "class": [
+                                          "alignnone",
+                                          "size-full",
+                                          "wp-image-258963"
+                                        ],
+                                        "src": "https://essential-addons.com/elementor/wp-content/uploads/2023/06/css.png",
+                                        "alt": "Table 106",
+                                        "width": [
+                                          "22"
+                                        ],
+                                        "height": [
+                                          "22"
+                                        ],
+                                        "title": "Table 106"
+                                      },
+                                      "children": []
+                                    },
+                                    {
+                                      "text": "Custom CSS"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              ""
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "th-mobile-screen"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "attributes": {
+                                        "class": [
+                                          "data-table-header-text"
+                                        ]
+                                      },
+                                      "children": [
+                                        {
+                                          "text": "Elementor"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "img",
+                                      "attributes": {
+                                        "decoding": [
+                                          "async"
+                                        ],
+                                        "class": [
+                                          "aligncenter",
+                                          "wp-image-258937"
+                                        ],
+                                        "src": "https://essential-addons.com/elementor/wp-content/uploads/2023/06/Green.svg",
+                                        "alt": "Table 107",
+                                        "width": [
+                                          "22"
+                                        ],
+                                        "title": "Table 107"
+                                      },
+                                      "children": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              ""
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "th-mobile-screen"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "attributes": {
+                                        "class": [
+                                          "data-table-header-text"
+                                        ]
+                                      },
+                                      "children": [
+                                        {
+                                          "text": "Elementor Pro"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "img",
+                                      "attributes": {
+                                        "decoding": [
+                                          "async"
+                                        ],
+                                        "class": [
+                                          "aligncenter",
+                                          "wp-image-258937"
+                                        ],
+                                        "src": "https://essential-addons.com/elementor/wp-content/uploads/2023/06/Green.svg",
+                                        "alt": "Table 107",
+                                        "width": [
+                                          "22"
+                                        ],
+                                        "title": "Table 107"
+                                      },
+                                      "children": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              ""
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "th-mobile-screen"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "attributes": {
+                                        "class": [
+                                          "data-table-header-text"
+                                        ]
+                                      },
+                                      "children": [
+                                        {
+                                          "text": "Elementor Gold"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "img",
+                                      "attributes": {
+                                        "decoding": [
+                                          "async"
+                                        ],
+                                        "class": [
+                                          "aligncenter",
+                                          "wp-image-258937"
+                                        ],
+                                        "src": "https://essential-addons.com/elementor/wp-content/uploads/2023/06/Green.svg",
+                                        "alt": "Table 107",
+                                        "width": [
+                                          "22"
+                                        ],
+                                        "title": "Table 107"
+                                      },
+                                      "children": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "tr",
+                      "attributes": {},
+                      "children": [
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              "text-left"
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "th-mobile-screen"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "attributes": {
+                                        "class": [
+                                          "data-table-header-text"
+                                        ]
+                                      },
+                                      "children": [
+                                        {
+                                          "text": "Features"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "img",
+                                      "attributes": {
+                                        "loading": [
+                                          "lazy"
+                                        ],
+                                        "decoding": [
+                                          "async"
+                                        ],
+                                        "class": [
+                                          "alignnone",
+                                          "size-full",
+                                          "wp-image-258964"
+                                        ],
+                                        "src": "https://essential-addons.com/elementor/wp-content/uploads/2023/06/chat.png",
+                                        "alt": "Table 110",
+                                        "width": [
+                                          "22"
+                                        ],
+                                        "height": [
+                                          "22"
+                                        ],
+                                        "title": "Table 110"
+                                      },
+                                      "children": []
+                                    },
+                                    {
+                                      "text": "Forms"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              ""
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "th-mobile-screen"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "attributes": {
+                                        "class": [
+                                          "data-table-header-text"
+                                        ]
+                                      },
+                                      "children": [
+                                        {
+                                          "text": "Elementor"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "img",
+                                      "attributes": {
+                                        "decoding": [
+                                          "async"
+                                        ],
+                                        "class": [
+                                          "alignnone",
+                                          "wp-image-258941"
+                                        ],
+                                        "src": "https://essential-addons.com/elementor/wp-content/uploads/2023/06/Red.svg",
+                                        "alt": "Table 111",
+                                        "width": [
+                                          "22"
+                                        ],
+                                        "title": "Table 111"
+                                      },
+                                      "children": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              ""
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "th-mobile-screen"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "attributes": {
+                                        "class": [
+                                          "data-table-header-text"
+                                        ]
+                                      },
+                                      "children": [
+                                        {
+                                          "text": "Elementor Pro"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "img",
+                                      "attributes": {
+                                        "decoding": [
+                                          "async"
+                                        ],
+                                        "class": [
+                                          "aligncenter",
+                                          "wp-image-258937"
+                                        ],
+                                        "src": "https://essential-addons.com/elementor/wp-content/uploads/2023/06/Green.svg",
+                                        "alt": "Table 107",
+                                        "width": [
+                                          "22"
+                                        ],
+                                        "title": "Table 107"
+                                      },
+                                      "children": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              ""
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "th-mobile-screen"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "attributes": {
+                                        "class": [
+                                          "data-table-header-text"
+                                        ]
+                                      },
+                                      "children": [
+                                        {
+                                          "text": "Elementor Gold"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "img",
+                                      "attributes": {
+                                        "decoding": [
+                                          "async"
+                                        ],
+                                        "class": [
+                                          "aligncenter",
+                                          "wp-image-258937"
+                                        ],
+                                        "src": "https://essential-addons.com/elementor/wp-content/uploads/2023/06/Green.svg",
+                                        "alt": "Table 107",
+                                        "width": [
+                                          "22"
+                                        ],
+                                        "title": "Table 107"
+                                      },
+                                      "children": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "tr",
+                      "attributes": {},
+                      "children": [
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              "text-left"
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "th-mobile-screen"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "attributes": {
+                                        "class": [
+                                          "data-table-header-text"
+                                        ]
+                                      },
+                                      "children": [
+                                        {
+                                          "text": "Features"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "img",
+                                      "attributes": {
+                                        "loading": [
+                                          "lazy"
+                                        ],
+                                        "decoding": [
+                                          "async"
+                                        ],
+                                        "class": [
+                                          "alignnone",
+                                          "size-full",
+                                          "wp-image-258965"
+                                        ],
+                                        "src": "https://essential-addons.com/elementor/wp-content/uploads/2023/06/edit.png",
+                                        "alt": "Table 114",
+                                        "width": [
+                                          "22"
+                                        ],
+                                        "height": [
+                                          "22"
+                                        ],
+                                        "title": "Table 114"
+                                      },
+                                      "children": []
+                                    },
+                                    {
+                                      "text": "Mobile Editing"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              ""
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "th-mobile-screen"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "attributes": {
+                                        "class": [
+                                          "data-table-header-text"
+                                        ]
+                                      },
+                                      "children": [
+                                        {
+                                          "text": "Elementor"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "img",
+                                      "attributes": {
+                                        "decoding": [
+                                          "async"
+                                        ],
+                                        "class": [
+                                          "aligncenter",
+                                          "wp-image-258937"
+                                        ],
+                                        "src": "https://essential-addons.com/elementor/wp-content/uploads/2023/06/Green.svg",
+                                        "alt": "Table 107",
+                                        "width": [
+                                          "22"
+                                        ],
+                                        "title": "Table 107"
+                                      },
+                                      "children": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              ""
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "th-mobile-screen"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "attributes": {
+                                        "class": [
+                                          "data-table-header-text"
+                                        ]
+                                      },
+                                      "children": [
+                                        {
+                                          "text": "Elementor Pro"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "img",
+                                      "attributes": {
+                                        "decoding": [
+                                          "async"
+                                        ],
+                                        "class": [
+                                          "aligncenter",
+                                          "wp-image-258937"
+                                        ],
+                                        "src": "https://essential-addons.com/elementor/wp-content/uploads/2023/06/Green.svg",
+                                        "alt": "Table 107",
+                                        "width": [
+                                          "22"
+                                        ],
+                                        "title": "Table 107"
+                                      },
+                                      "children": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              ""
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "th-mobile-screen"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "attributes": {
+                                        "class": [
+                                          "data-table-header-text"
+                                        ]
+                                      },
+                                      "children": [
+                                        {
+                                          "text": "Elementor Gold"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "img",
+                                      "attributes": {
+                                        "decoding": [
+                                          "async"
+                                        ],
+                                        "class": [
+                                          "aligncenter",
+                                          "wp-image-258937"
+                                        ],
+                                        "src": "https://essential-addons.com/elementor/wp-content/uploads/2023/06/Green.svg",
+                                        "alt": "Table 107",
+                                        "width": [
+                                          "22"
+                                        ],
+                                        "title": "Table 107"
+                                      },
+                                      "children": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "tr",
+                      "attributes": {},
+                      "children": [
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              "text-left"
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "th-mobile-screen"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "attributes": {
+                                        "class": [
+                                          "data-table-header-text"
+                                        ]
+                                      },
+                                      "children": [
+                                        {
+                                          "text": "Features"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "img",
+                                      "attributes": {
+                                        "loading": [
+                                          "lazy"
+                                        ],
+                                        "decoding": [
+                                          "async"
+                                        ],
+                                        "class": [
+                                          "alignnone",
+                                          "size-full",
+                                          "wp-image-258966"
+                                        ],
+                                        "src": "https://essential-addons.com/elementor/wp-content/uploads/2023/06/bars-2.png",
+                                        "alt": "Table 118",
+                                        "width": [
+                                          "22"
+                                        ],
+                                        "height": [
+                                          "22"
+                                        ],
+                                        "title": "Table 118"
+                                      },
+                                      "children": []
+                                    },
+                                    {
+                                      "text": "Nav Menu"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              ""
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "th-mobile-screen"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "attributes": {
+                                        "class": [
+                                          "data-table-header-text"
+                                        ]
+                                      },
+                                      "children": [
+                                        {
+                                          "text": "Elementor"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "img",
+                                      "attributes": {
+                                        "decoding": [
+                                          "async"
+                                        ],
+                                        "class": [
+                                          "aligncenter",
+                                          "wp-image-258937"
+                                        ],
+                                        "src": "https://essential-addons.com/elementor/wp-content/uploads/2023/06/Green.svg",
+                                        "alt": "Table 107",
+                                        "width": [
+                                          "22"
+                                        ],
+                                        "title": "Table 107"
+                                      },
+                                      "children": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              ""
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "th-mobile-screen"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "attributes": {
+                                        "class": [
+                                          "data-table-header-text"
+                                        ]
+                                      },
+                                      "children": [
+                                        {
+                                          "text": "Elementor Pro"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "img",
+                                      "attributes": {
+                                        "decoding": [
+                                          "async"
+                                        ],
+                                        "class": [
+                                          "aligncenter",
+                                          "wp-image-258937"
+                                        ],
+                                        "src": "https://essential-addons.com/elementor/wp-content/uploads/2023/06/Green.svg",
+                                        "alt": "Table 107",
+                                        "width": [
+                                          "22"
+                                        ],
+                                        "title": "Table 107"
+                                      },
+                                      "children": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              ""
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "th-mobile-screen"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "attributes": {
+                                        "class": [
+                                          "data-table-header-text"
+                                        ]
+                                      },
+                                      "children": [
+                                        {
+                                          "text": "Elementor Gold"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "img",
+                                      "attributes": {
+                                        "decoding": [
+                                          "async"
+                                        ],
+                                        "class": [
+                                          "aligncenter",
+                                          "wp-image-258937"
+                                        ],
+                                        "src": "https://essential-addons.com/elementor/wp-content/uploads/2023/06/Green.svg",
+                                        "alt": "Table 107",
+                                        "width": [
+                                          "22"
+                                        ],
+                                        "title": "Table 107"
+                                      },
+                                      "children": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "tr",
+                      "attributes": {},
+                      "children": [
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              "text-left"
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "th-mobile-screen"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "attributes": {
+                                        "class": [
+                                          "data-table-header-text"
+                                        ]
+                                      },
+                                      "children": [
+                                        {
+                                          "text": "Features"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "img",
+                                      "attributes": {
+                                        "loading": [
+                                          "lazy"
+                                        ],
+                                        "decoding": [
+                                          "async"
+                                        ],
+                                        "class": [
+                                          "alignnone",
+                                          "size-full",
+                                          "wp-image-258967"
+                                        ],
+                                        "src": "https://essential-addons.com/elementor/wp-content/uploads/2023/06/bars.png",
+                                        "alt": "Table 122",
+                                        "width": [
+                                          "22"
+                                        ],
+                                        "height": [
+                                          "22"
+                                        ],
+                                        "title": "Table 122"
+                                      },
+                                      "children": []
+                                    },
+                                    {
+                                      "text": "Price List"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              ""
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "th-mobile-screen"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "attributes": {
+                                        "class": [
+                                          "data-table-header-text"
+                                        ]
+                                      },
+                                      "children": [
+                                        {
+                                          "text": "Elementor"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "img",
+                                      "attributes": {
+                                        "decoding": [
+                                          "async"
+                                        ],
+                                        "class": [
+                                          "alignnone",
+                                          "wp-image-258941"
+                                        ],
+                                        "src": "https://essential-addons.com/elementor/wp-content/uploads/2023/06/Red.svg",
+                                        "alt": "Table 111",
+                                        "width": [
+                                          "22"
+                                        ],
+                                        "title": "Table 111"
+                                      },
+                                      "children": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              ""
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "th-mobile-screen"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "attributes": {
+                                        "class": [
+                                          "data-table-header-text"
+                                        ]
+                                      },
+                                      "children": [
+                                        {
+                                          "text": "Elementor Pro"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "img",
+                                      "attributes": {
+                                        "decoding": [
+                                          "async"
+                                        ],
+                                        "class": [
+                                          "alignnone",
+                                          "wp-image-258941"
+                                        ],
+                                        "src": "https://essential-addons.com/elementor/wp-content/uploads/2023/06/Red.svg",
+                                        "alt": "Table 111",
+                                        "width": [
+                                          "22"
+                                        ],
+                                        "title": "Table 111"
+                                      },
+                                      "children": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              ""
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "th-mobile-screen"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "attributes": {
+                                        "class": [
+                                          "data-table-header-text"
+                                        ]
+                                      },
+                                      "children": [
+                                        {
+                                          "text": "Elementor Gold"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "img",
+                                      "attributes": {
+                                        "decoding": [
+                                          "async"
+                                        ],
+                                        "class": [
+                                          "aligncenter",
+                                          "wp-image-258937"
+                                        ],
+                                        "src": "https://essential-addons.com/elementor/wp-content/uploads/2023/06/Green.svg",
+                                        "alt": "Table 107",
+                                        "width": [
+                                          "22"
+                                        ],
+                                        "title": "Table 107"
+                                      },
+                                      "children": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "tr",
+                      "attributes": {},
+                      "children": [
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              "text-left"
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "th-mobile-screen"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "attributes": {
+                                        "class": [
+                                          "data-table-header-text"
+                                        ]
+                                      },
+                                      "children": [
+                                        {
+                                          "text": "Features"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "img",
+                                      "attributes": {
+                                        "loading": [
+                                          "lazy"
+                                        ],
+                                        "decoding": [
+                                          "async"
+                                        ],
+                                        "class": [
+                                          "alignnone",
+                                          "size-full",
+                                          "wp-image-258968"
+                                        ],
+                                        "src": "https://essential-addons.com/elementor/wp-content/uploads/2023/06/shild.png",
+                                        "alt": "Table 126",
+                                        "width": [
+                                          "22"
+                                        ],
+                                        "height": [
+                                          "22"
+                                        ],
+                                        "title": "Table 126"
+                                      },
+                                      "children": []
+                                    },
+                                    {
+                                      "text": "Shape Divider"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              ""
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "th-mobile-screen"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "attributes": {
+                                        "class": [
+                                          "data-table-header-text"
+                                        ]
+                                      },
+                                      "children": [
+                                        {
+                                          "text": "Elementor"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "img",
+                                      "attributes": {
+                                        "decoding": [
+                                          "async"
+                                        ],
+                                        "class": [
+                                          "alignnone",
+                                          "wp-image-258941"
+                                        ],
+                                        "src": "https://essential-addons.com/elementor/wp-content/uploads/2023/06/Red.svg",
+                                        "alt": "Table 111",
+                                        "width": [
+                                          "22"
+                                        ],
+                                        "title": "Table 111"
+                                      },
+                                      "children": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              ""
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "th-mobile-screen"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "attributes": {
+                                        "class": [
+                                          "data-table-header-text"
+                                        ]
+                                      },
+                                      "children": [
+                                        {
+                                          "text": "Elementor Pro"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "img",
+                                      "attributes": {
+                                        "decoding": [
+                                          "async"
+                                        ],
+                                        "class": [
+                                          "alignnone",
+                                          "wp-image-258941"
+                                        ],
+                                        "src": "https://essential-addons.com/elementor/wp-content/uploads/2023/06/Red.svg",
+                                        "alt": "Table 111",
+                                        "width": [
+                                          "22"
+                                        ],
+                                        "title": "Table 111"
+                                      },
+                                      "children": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              ""
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "th-mobile-screen"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "attributes": {
+                                        "class": [
+                                          "data-table-header-text"
+                                        ]
+                                      },
+                                      "children": [
+                                        {
+                                          "text": "Elementor Gold"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "img",
+                                      "attributes": {
+                                        "decoding": [
+                                          "async"
+                                        ],
+                                        "class": [
+                                          "aligncenter",
+                                          "wp-image-258937"
+                                        ],
+                                        "src": "https://essential-addons.com/elementor/wp-content/uploads/2023/06/Green.svg",
+                                        "alt": "Table 107",
+                                        "width": [
+                                          "22"
+                                        ],
+                                        "title": "Table 107"
+                                      },
+                                      "children": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "tr",
+                      "attributes": {},
+                      "children": [
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              "text-left"
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "th-mobile-screen"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "attributes": {
+                                        "class": [
+                                          "data-table-header-text"
+                                        ]
+                                      },
+                                      "children": [
+                                        {
+                                          "text": "Features"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "img",
+                                      "attributes": {
+                                        "loading": [
+                                          "lazy"
+                                        ],
+                                        "decoding": [
+                                          "async"
+                                        ],
+                                        "class": [
+                                          "alignnone",
+                                          "size-full",
+                                          "wp-image-258969"
+                                        ],
+                                        "src": "https://essential-addons.com/elementor/wp-content/uploads/2023/06/book.png",
+                                        "alt": "Table 130",
+                                        "width": [
+                                          "22"
+                                        ],
+                                        "height": [
+                                          "22"
+                                        ],
+                                        "title": "Table 130"
+                                      },
+                                      "children": []
+                                    },
+                                    {
+                                      "text": "Template Library"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              ""
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "th-mobile-screen"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "attributes": {
+                                        "class": [
+                                          "data-table-header-text"
+                                        ]
+                                      },
+                                      "children": [
+                                        {
+                                          "text": "Elementor"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "img",
+                                      "attributes": {
+                                        "decoding": [
+                                          "async"
+                                        ],
+                                        "class": [
+                                          "alignnone",
+                                          "wp-image-258941"
+                                        ],
+                                        "src": "https://essential-addons.com/elementor/wp-content/uploads/2023/06/Red.svg",
+                                        "alt": "Table 111",
+                                        "width": [
+                                          "22"
+                                        ],
+                                        "title": "Table 111"
+                                      },
+                                      "children": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              ""
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "th-mobile-screen"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "attributes": {
+                                        "class": [
+                                          "data-table-header-text"
+                                        ]
+                                      },
+                                      "children": [
+                                        {
+                                          "text": "Elementor Pro"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "img",
+                                      "attributes": {
+                                        "decoding": [
+                                          "async"
+                                        ],
+                                        "class": [
+                                          "alignnone",
+                                          "wp-image-258941"
+                                        ],
+                                        "src": "https://essential-addons.com/elementor/wp-content/uploads/2023/06/Red.svg",
+                                        "alt": "Table 111",
+                                        "width": [
+                                          "22"
+                                        ],
+                                        "title": "Table 111"
+                                      },
+                                      "children": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "td",
+                          "attributes": {
+                            "colspan": [
+                              ""
+                            ],
+                            "rowspan": [
+                              ""
+                            ],
+                            "class": [
+                              ""
+                            ],
+                            "id": [
+                              ""
+                            ]
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attributes": {
+                                "class": [
+                                  "td-content-wrapper"
+                                ]
+                              },
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "th-mobile-screen"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "span",
+                                      "attributes": {
+                                        "class": [
+                                          "data-table-header-text"
+                                        ]
+                                      },
+                                      "children": [
+                                        {
+                                          "text": "Elementor Gold"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "attributes": {
+                                    "class": [
+                                      "td-content"
+                                    ]
+                                  },
+                                  "children": [
+                                    {
+                                      "tag": "img",
+                                      "attributes": {
+                                        "decoding": [
+                                          "async"
+                                        ],
+                                        "class": [
+                                          "aligncenter",
+                                          "wp-image-258937"
+                                        ],
+                                        "src": "https://essential-addons.com/elementor/wp-content/uploads/2023/06/Green.svg",
+                                        "alt": "Table 107",
+                                        "width": [
+                                          "22"
+                                        ],
+                                        "title": "Table 107"
+                                      },
+                                      "children": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

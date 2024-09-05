@@ -20,7 +20,7 @@ export function evaluateNodeStructure(selector) {
 
         // Replace attribute value with an empty string if it contains "wpnonce" or "nonce"
         if (
-          /wpnonce|nonce|quantity_|cart.*qty|eael_quick_view_|swiper-wrapper-|wc_order_attribution_session_start_time/i.test(
+          /wpnonce|nonce|quantity_|cart.*qty|eael_quick_view_|swiper-wrapper-|wc_order_attribution_session_start_time|tablesorter\w+|-webkit/i.test(
             attrValue
           )
         ) {
@@ -33,6 +33,8 @@ export function evaluateNodeStructure(selector) {
           attrValue = attrValue.replace(/opacity\s*:\s*[^;]+;?/g, "").trim();
           // Use regex to remove all float values and just keep the decimal part
           attrValue = attrValue.replace(/\.\d+/g, "");
+
+          attrValue = attrValue.replace(/user-select: none;/g, "");
         }
 
         if (attrName === "data-defaultdate" || attrName === "data-nonce-time") {

@@ -100,7 +100,7 @@
                           "post"
                         ],
                         "class": [
-                          "init",
+                          "resetting",
                           "wpcf7-form"
                         ],
                         "aria-label": [
@@ -110,7 +110,7 @@
                         "novalidate": [
                           "novalidate"
                         ],
-                        "data-status": "init"
+                        "data-status": "resetting"
                       },
                       "children": [
                         {

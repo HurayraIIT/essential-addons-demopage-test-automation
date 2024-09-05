@@ -1,0 +1,89 @@
+{
+  "tag": "div",
+  "attributes": {
+    "class": [
+      "eael-dual-header-content-align-center",
+      "elementor-element",
+      "elementor-element-2a4150af",
+      "elementor-widget",
+      "elementor-widget-eael-dual-color-header"
+    ],
+    "data-id": "2a4150af",
+    "data-element_type": "widget",
+    "data-widget_type": "eael-dual-color-header.default"
+  },
+  "children": [
+    {
+      "tag": "div",
+      "attributes": {
+        "class": [
+          "elementor-widget-container"
+        ]
+      },
+      "children": [
+        {
+          "tag": "div",
+          "attributes": {
+            "class": [
+              "eael-dual-header"
+            ]
+          },
+          "children": [
+            {
+              "tag": "h2",
+              "attributes": {
+                "class": [
+                  "title"
+                ]
+              },
+              "children": [
+                {
+                  "tag": "span",
+                  "attributes": {
+                    "class": [
+                      "lead",
+                      "solid-color"
+                    ]
+                  },
+                  "children": [
+                    {
+                      "text": "Use The Default"
+                    }
+                  ]
+                },
+                {
+                  "tag": "span",
+                  "attributes": {},
+                  "children": [
+                    {
+                      "text": "Style"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "span",
+              "attributes": {
+                "class": [
+                  "subtext"
+                ]
+              },
+              "children": [
+                {
+                  "tag": "p",
+                  "attributes": {},
+                  "children": [
+                    {
+                      "text": "You can keep it as it comes in default"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

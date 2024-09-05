@@ -1,0 +1,121 @@
+{
+  "tag": "div",
+  "attributes": {
+    "class": [
+      "eael-divider-center",
+      "elementor-element",
+      "elementor-element-c1117e1",
+      "elementor-widget",
+      "elementor-widget-eael-divider"
+    ],
+    "data-id": "c1117e1",
+    "data-element_type": "widget",
+    "data-widget_type": "eael-divider.default"
+  },
+  "children": [
+    {
+      "tag": "div",
+      "attributes": {
+        "class": [
+          "elementor-widget-container"
+        ]
+      },
+      "children": [
+        {
+          "tag": "div",
+          "attributes": {
+            "class": [
+              "divider-direction-horizontal",
+              "eael-divider-wrap"
+            ]
+          },
+          "children": [
+            {
+              "tag": "div",
+              "attributes": {
+                "class": [
+                  "divider-text-container"
+                ]
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "attributes": {
+                    "class": [
+                      "divider-text-wrap"
+                    ]
+                  },
+                  "children": [
+                    {
+                      "tag": "span",
+                      "attributes": {
+                        "class": [
+                          "divider-border-left",
+                          "divider-border-wrap"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "tag": "span",
+                          "attributes": {
+                            "class": [
+                              "divider-border"
+                            ]
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "span",
+                      "attributes": {
+                        "class": [
+                          "eael-divider-content"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "tag": "span",
+                          "attributes": {
+                            "class": [
+                              "eael-divider-text"
+                            ]
+                          },
+                          "children": [
+                            {
+                              "text": "Divider with Dot’s"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "span",
+                      "attributes": {
+                        "class": [
+                          "divider-border-right",
+                          "divider-border-wrap"
+                        ]
+                      },
+                      "children": [
+                        {
+                          "tag": "span",
+                          "attributes": {
+                            "class": [
+                              "divider-border"
+                            ]
+                          },
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
