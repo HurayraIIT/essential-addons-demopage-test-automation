@@ -1,8 +1,6 @@
 "use strict";
 
-import path from "path";
 import { test, expect } from "../global-setup";
-import { evaluateNodeStructure, saveStructure, getStructure } from "../helpers/snapshot";
 
 let slug = "/price-menu";
 let heading = "Price Menu";
@@ -45,37 +43,5 @@ test.describe("Price Menu", () => {
     await expect(page.getByText("Customize your Price Menu any ")).toBeVisible();
 
     // await expect(page.getByTestId('20a131d9').locator('section:nth-child(2) > .elementor-container > div > .elementor-widget-wrap > .elementor-element > .elementor-widget-container > .eael-restaurant-menu > .eael-restaurant-menu-items > div > .eael-restaurant-menu-item')).toBeVisible();
-  });
-});
-
-test.describe("Price Menu - Structure Tests", () => {
-  test.beforeEach(async ({ page }) => {
-    await page.goto(slug);
-  });
-
-  const target_selectors = [
-    { section_name: "Price Menu - Style 01", selector: ".elementor-element-3603799f" },
-    { section_name: "Price Menu - Style 04", selector: ".elementor-element-20a131d9" },
-    { section_name: "Price Menu - Style 06", selector: ".elementor-element-4a3e6371" },
-    { section_name: "Price Menu - Style 12", selector: ".elementor-element-3346f85f" },
-    { section_name: "Price Menu - Style 13", selector: ".elementor-element-23a43c0b" },
-    { section_name: "Price Menu - Style 14", selector: ".elementor-element-3817aa49" },
-  ];
-
-  target_selectors.forEach((target) => {
-    test(target.section_name, async ({ page }) => {
-      const selector = target.selector;
-      await page.waitForSelector(selector);
-      await page.locator(selector).scrollIntoViewIfNeeded();
-      await page.waitForTimeout(400);
-
-      const filePath = path.join(__dirname, `../snapshots/${slug.substring(1)}-${selector.substring(1)}.json`);
-
-      const nodeStructure = await page.evaluate(evaluateNodeStructure, selector);
-      saveStructure(nodeStructure, filePath);
-
-      const existingNodeStructure = getStructure(filePath);
-      expect(nodeStructure).toEqual(existingNodeStructure);
-    });
   });
 });

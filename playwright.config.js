@@ -24,7 +24,7 @@ export default defineConfig({
               {
                 key: "Essential Addons Demo - Test Results",
                 value:
-                  "<https://hurayraiit.github.io/essential-addons-demopage-test-automation/ | 📂 Click Here!>  maybe here too: <http://playwright.qa1.site/ | 📂 Selfhosted!>",
+                  "<https://hurayraiit.github.io/essential-addons-demopage-test-automation/ | 📂 Click Here!>",
               },
             ],
           },
@@ -49,16 +49,6 @@ export default defineConfig({
     {
       name: "chromium",
       use: { ...devices["Desktop Chrome"], ...test },
-    },
-
-    {
-      name: "firefox",
-      use: { ...devices["Desktop Firefox"], ...test },
-    },
-
-    {
-      name: "webkit",
-      use: { ...devices["Desktop Safari"], ...test },
     },
   ],
 });

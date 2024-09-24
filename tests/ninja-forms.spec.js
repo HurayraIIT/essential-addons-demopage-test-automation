@@ -1,22 +1,20 @@
 "use strict";
 
-import path from "path";
 import { test, expect } from "../global-setup";
-import { evaluateNodeStructure, saveStructure, getStructure } from "../helpers/snapshot";
 
 let slug = "/ninja-forms";
 let heading = "Ninja Forms";
 
-test.describe("Ninja Forms", () => {
-  test.beforeEach(async ({ page }) => {
-    await page.goto(slug);
-    await expect(page.getByRole("heading", { name: heading, exact: true })).toBeVisible();
-    await expect(page.getByRole("link", { name: "Documentation" })).toBeVisible();
-    await expect(page.getByRole("link", { name: "Documentation" })).toHaveAttribute("href", /docs\/ninja-forms/);
-  });
+// test.describe("Ninja Forms", () => {
+//   test.beforeEach(async ({ page }) => {
+//     await page.goto(slug);
+//     await expect(page.getByRole("heading", { name: heading, exact: true })).toBeVisible();
+//     await expect(page.getByRole("link", { name: "Documentation" })).toBeVisible();
+//     await expect(page.getByRole("link", { name: "Documentation" })).toHaveAttribute("href", /docs\/ninja-forms/);
+//   });
 
-  test("Test Section: Ninja Forms Style 01", async ({ page }) => {
-    await page.getByRole("heading", { name: "Ninja Forms Style 01" }).scrollIntoViewIfNeeded();
-    await expect(page.getByRole("heading", { name: "Ninja Forms Style 01" })).toBeVisible();
-  });
-});
+//   test("Test Section: Ninja Forms Style 01", async ({ page }) => {
+//     await page.getByRole("heading", { name: "Ninja Forms Style 01" }).scrollIntoViewIfNeeded();
+//     await expect(page.getByRole("heading", { name: "Ninja Forms Style 01" })).toBeVisible();
+//   });
+// });

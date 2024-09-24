@@ -1,8 +1,6 @@
 "use strict";
 
-import path from "path";
 import { test, expect } from "../global-setup";
-import { evaluateNodeStructure, saveStructure, getStructure } from "../helpers/snapshot";
 
 let slug = "/advanced-google-map";
 let heading = "Advanced Google Map";
@@ -51,5 +49,3 @@ test.describe("Advanced Google Map - Basic Map With Marker & Standard Theme", ()
     await expect(map.getByLabel("Toggle fullscreen view")).toBeVisible();
   });
 });
-
-// Not suitable for structure tests
