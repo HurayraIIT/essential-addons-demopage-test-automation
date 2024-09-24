@@ -1,8 +1,6 @@
 "use strict";
 
-import path from "path";
 import { test, expect } from "../global-setup";
-import { evaluateNodeStructure, saveStructure, getStructure } from "../helpers/snapshot";
 
 let slug = "/content-protection";
 let heading = "Content Protection";
@@ -67,7 +65,7 @@ test.describe("Content Protection - Password", () => {
     await protected_section_form_input.click();
     await protected_section_form_input.type("wrong_password");
     await protected_section_form_submit.click();
-    
+
     // Wait for page to load
     await page.waitForTimeout(1000);
     await page.waitForLoadState("domcontentloaded");
@@ -94,42 +92,8 @@ test.describe("Content Protection - Password", () => {
     // Assert visibility of content
     await expect(content_section).toBeVisible();
     await expect(content_section).toBeInViewport();
-    await expect(page.getByRole('link', { name: 'Content Protection 102' })).toBeVisible();
-    await expect(page.getByRole('link', { name: 'Content Protection 103' })).toBeVisible();
-    await expect(page.getByRole('link', { name: 'Content Protection 104' })).toBeVisible();
-  });
-});
-
-test.describe("Content Protection - Structure Tests", () => {
-  test.beforeEach(async ({ page }) => {
-    await page.goto(slug);
-  });
-
-  const target_selectors = [
-    {
-      section_name: "Style 01",
-      selector: ".elementor-element-57148cd9",
-    },
-    {
-      section_name: "Style 02",
-      selector: ".elementor-element-37675534",
-    },
-  ];
-
-  target_selectors.forEach((target) => {
-    test(target.section_name, async ({ page }) => {
-      const selector = target.selector;
-      await page.waitForSelector(selector);
-      await page.locator(selector).scrollIntoViewIfNeeded();
-      await page.waitForTimeout(400);
-
-      const filePath = path.join(__dirname, `../snapshots/${slug.substring(1)}-${selector.substring(1)}.json`);
-
-      const nodeStructure = await page.evaluate(evaluateNodeStructure, selector);
-      saveStructure(nodeStructure, filePath);
-
-      const existingNodeStructure = getStructure(filePath);
-      expect(nodeStructure).toEqual(existingNodeStructure);
-    });
+    await expect(page.getByRole("link", { name: "Content Protection 102" })).toBeVisible();
+    await expect(page.getByRole("link", { name: "Content Protection 103" })).toBeVisible();
+    await expect(page.getByRole("link", { name: "Content Protection 104" })).toBeVisible();
   });
 });

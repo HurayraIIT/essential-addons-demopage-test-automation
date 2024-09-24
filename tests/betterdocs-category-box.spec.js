@@ -1,8 +1,6 @@
 "use strict";
-import exp from "constants";
-import path from "path";
+
 import { test, expect } from "../global-setup";
-import { evaluateNodeStructure, saveStructure, getStructure } from "../helpers/snapshot";
 
 let slug = "/betterdocs-category-box";
 let heading = "BetterDocs Category Box";
@@ -39,5 +37,3 @@ test.describe("BetterDocs Category Box", () => {
     await expect(page.locator('//*[@id="eael-bd-cat-box-783034e0"]/div/a[1]/div/div[2]/span')).toHaveText("8");
   });
 });
-
-// Not suitable for structure tests

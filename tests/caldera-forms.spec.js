@@ -1,8 +1,6 @@
 "use strict";
 
-import path from "path";
 import { test, expect } from "../global-setup";
-import { evaluateNodeStructure, saveStructure, getStructure } from "../helpers/snapshot";
 
 let slug = "/caldera-forms";
 let heading = "Caldera Forms";
@@ -57,15 +55,15 @@ test.describe("Caldera Forms", () => {
     await expect(page.getByRole("heading", { name: "Interactive Form Title" })).toBeVisible();
     await expect(page.getByText("Give an interactive tittle to your form, change title color")).toBeVisible();
 
-    await page.goto('https://essential-addons.com/caldera-forms/');
-    await expect(page.getByText('Say Hello, On Our Support! Your Name (required) Your Email (required) Subject')).toBeVisible();
-    await expect(page.getByRole('heading', { name: 'Say Hello, On Our Support!' })).toBeVisible();
-    await expect(page.getByLabel('Your Name (required)').nth(2)).toBeVisible();
-    await expect(page.getByLabel('Your Email (required)').nth(2)).toBeVisible();
-    await expect(page.getByLabel('Subject').nth(2)).toBeVisible();
-    await expect(page.getByLabel('Your Message').nth(2)).toBeVisible();
-    await expect(page.locator('p').filter({ hasText: 'Send' }).nth(2)).toBeVisible();
+    await page.goto("https://essential-addons.com/caldera-forms/");
+    await expect(
+      page.getByText("Say Hello, On Our Support! Your Name (required) Your Email (required) Subject")
+    ).toBeVisible();
+    await expect(page.getByRole("heading", { name: "Say Hello, On Our Support!" })).toBeVisible();
+    await expect(page.getByLabel("Your Name (required)").nth(2)).toBeVisible();
+    await expect(page.getByLabel("Your Email (required)").nth(2)).toBeVisible();
+    await expect(page.getByLabel("Subject").nth(2)).toBeVisible();
+    await expect(page.getByLabel("Your Message").nth(2)).toBeVisible();
+    await expect(page.locator("p").filter({ hasText: "Send" }).nth(2)).toBeVisible();
   });
 });
-
-// Not suitable for structure tests

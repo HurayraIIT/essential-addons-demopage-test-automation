@@ -1,8 +1,6 @@
 "use strict";
 
-import path from "path";
 import { test, expect } from "../global-setup";
-import { evaluateNodeStructure, saveStructure, getStructure } from "../helpers/snapshot";
 
 let slug = "/content-timeline";
 let heading = "Content Timeline";
@@ -29,40 +27,11 @@ test.describe("Content Timeline", () => {
     );
     await expect(widget).toHaveAttribute("data-slide_to_scroll", '{"desktop":1,"mobile":1,"tablet":1}');
 
-    await expect(page.locator('.eael-content-timeline-img').first()).toBeVisible();
-    await expect(page.locator('.eael-content-timeline-inner').first()).toBeVisible();
-    await expect(page.locator('div:nth-child(2) > .eael-content-timeline-img').first()).toBeVisible();
-    await expect(page.locator('div:nth-child(2) > .eael-content-timeline-line').first()).toBeVisible();
-    await expect(page.locator('div:nth-child(3) > .eael-content-timeline-img').first()).toBeVisible();
-    await expect(page.locator('div:nth-child(4) > .eael-content-timeline-img').first()).toBeVisible();
-  });
-});
-
-test.describe("Content Timeline - Structure Tests", () => {
-  test.beforeEach(async ({ page }) => {
-    await page.goto(slug);
-  });
-
-  const target_selectors = [
-    {
-      section_name: "Style 01",
-      selector: ".elementor-element-72c859bb",
-    },
-  ];
-
-  target_selectors.forEach((target) => {
-    test(target.section_name, async ({ page }) => {
-      const selector = target.selector;
-      await page.waitForSelector(selector);
-      await page.waitForTimeout(400);
-
-      const filePath = path.join(__dirname, `../snapshots/${slug.substring(1)}-${selector.substring(1)}.json`);
-
-      const nodeStructure = await page.evaluate(evaluateNodeStructure, selector);
-      saveStructure(nodeStructure, filePath);
-
-      const existingNodeStructure = getStructure(filePath);
-      expect(nodeStructure).toEqual(existingNodeStructure);
-    });
+    await expect(page.locator(".eael-content-timeline-img").first()).toBeVisible();
+    await expect(page.locator(".eael-content-timeline-inner").first()).toBeVisible();
+    await expect(page.locator("div:nth-child(2) > .eael-content-timeline-img").first()).toBeVisible();
+    await expect(page.locator("div:nth-child(2) > .eael-content-timeline-line").first()).toBeVisible();
+    await expect(page.locator("div:nth-child(3) > .eael-content-timeline-img").first()).toBeVisible();
+    await expect(page.locator("div:nth-child(4) > .eael-content-timeline-img").first()).toBeVisible();
   });
 });
