@@ -2,7 +2,7 @@
 
 import { test, expect } from "../global-setup";
 
-let slug = "/interactive-promo";
+let slug = "https://essential-addons.com/elementor/interactive-promo";
 let heading = "Interactive Promo";
 
 // test.describe("Interactive Promo", () => {

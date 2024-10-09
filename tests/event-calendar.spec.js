@@ -2,7 +2,7 @@
 
 import { test, expect } from "../global-setup";
 
-let slug = "/event-calendar";
+let slug = "https://essential-addons.com/elementor/event-calendar";
 let heading = "Event Calendar";
 
 // test.describe("Event Calendar", () => {

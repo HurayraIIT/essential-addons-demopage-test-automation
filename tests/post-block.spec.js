@@ -2,7 +2,7 @@
 
 import { test, expect } from "../global-setup";
 
-let slug = "/post-block";
+let slug = "https://essential-addons.com/elementor/post-block";
 let heading = "Post Block";
 
 // test.describe("Post Block", () => {

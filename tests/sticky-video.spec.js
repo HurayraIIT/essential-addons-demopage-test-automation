@@ -2,7 +2,7 @@
 
 import { test, expect } from "../global-setup";
 
-let slug = "/sticky-video";
+let slug = "https://essential-addons.com/elementor/sticky-video";
 let heading = "Sticky Video";
 
 // test.describe("Sticky Video", () => {

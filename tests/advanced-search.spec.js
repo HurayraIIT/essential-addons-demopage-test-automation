@@ -2,7 +2,7 @@
 
 import { test, expect } from "../global-setup";
 
-let slug = "/advanced-search";
+let slug = "https://essential-addons.com/elementor/advanced-search";
 let heading = "Advanced Search";
 
 test.describe("Advanced Search - Stunning Advanced Live Search Bar", () => {

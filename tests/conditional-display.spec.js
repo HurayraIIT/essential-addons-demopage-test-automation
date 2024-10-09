@@ -2,7 +2,7 @@
 
 import { test, expect } from "../global-setup";
 
-let slug = "/conditional-display";
+let slug = "https://essential-addons.com/elementor/conditional-display";
 let heading = "Conditional Display";
 
 // test.describe("Conditional Display", () => {

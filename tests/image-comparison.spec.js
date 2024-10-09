@@ -2,7 +2,7 @@
 
 import { test, expect } from "../global-setup";
 
-let slug = "/image-comparison";
+let slug = "https://essential-addons.com/elementor/image-comparison";
 let heading = "Image Comparison";
 
 test.describe("Image Comparison", () => {

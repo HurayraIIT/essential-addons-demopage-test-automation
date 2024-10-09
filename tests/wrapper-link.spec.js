@@ -2,7 +2,7 @@
 
 import { test, expect } from "../global-setup";
 
-let slug = "/wrapper-link";
+let slug = "https://essential-addons.com/elementor/wrapper-link";
 let heading = "EA Wrapper Link";
 
 // test.describe("EA Wrapper Link", () => {

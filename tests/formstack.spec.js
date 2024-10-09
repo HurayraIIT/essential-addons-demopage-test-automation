@@ -2,7 +2,7 @@
 
 import { test, expect } from "../global-setup";
 
-let slug = "/formstack";
+let slug = "https://essential-addons.com/elementor/formstack";
 let heading = "Formstack";
 
 // test.describe("Formstack", () => {

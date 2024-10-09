@@ -2,7 +2,7 @@
 
 import { test, expect } from "../global-setup";
 
-let slug = "/mailchimp";
+let slug = "https://essential-addons.com/elementor/mailchimp";
 let heading = "MailChimp";
 
 // test.describe("MailChimp", () => {

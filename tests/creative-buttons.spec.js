@@ -2,7 +2,7 @@
 
 import { test, expect } from "../global-setup";
 
-let slug = "/creative-buttons";
+let slug = "https://essential-addons.com/elementor/creative-buttons";
 let heading = "Creative Buttons";
 
 // test.describe("Creative Buttons", () => {

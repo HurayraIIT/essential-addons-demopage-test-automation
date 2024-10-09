@@ -2,7 +2,7 @@
 
 import { test, expect } from "../global-setup";
 
-let slug = "/testimonial-slider";
+let slug = "https://essential-addons.com/elementor/testimonial-slider";
 let heading = "Testimonial Slider";
 
 // test.describe("Testimonial Slider", () => {

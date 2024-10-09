@@ -2,7 +2,7 @@
 
 import { test, expect } from "../global-setup";
 
-let slug = "/scroll-to-top";
+let slug = "https://essential-addons.com/elementor/scroll-to-top";
 let heading = "Scroll to Top";
 
 test.describe("Scroll to Top", () => {

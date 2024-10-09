@@ -2,7 +2,7 @@
 
 import { test, expect } from "../global-setup";
 
-let slug = "/post-timeline";
+let slug = "https://essential-addons.com/elementor/post-timeline";
 let heading = "Post Timeline";
 
 // test.describe("Post Timeline", () => {

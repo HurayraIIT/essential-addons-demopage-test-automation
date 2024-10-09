@@ -2,7 +2,7 @@
 
 import { test, expect } from "../global-setup";
 
-let slug = "/post-grid";
+let slug = "https://essential-addons.com/elementor/post-grid";
 let heading = "Post Grid";
 
 // test.describe("Post Grid", () => {

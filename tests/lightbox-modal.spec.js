@@ -2,7 +2,7 @@
 
 import { test, expect } from "../global-setup";
 
-let slug = "/lightbox-modal";
+let slug = "https://essential-addons.com/elementor/lightbox-modal";
 let heading = "Lightbox & Modal";
 
 // test.describe("Lightbox & Modal", () => {

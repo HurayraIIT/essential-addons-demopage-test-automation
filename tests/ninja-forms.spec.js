@@ -2,7 +2,7 @@
 
 import { test, expect } from "../global-setup";
 
-let slug = "/ninja-forms";
+let slug = "https://essential-addons.com/elementor/ninja-forms";
 let heading = "Ninja Forms";
 
 // test.describe("Ninja Forms", () => {

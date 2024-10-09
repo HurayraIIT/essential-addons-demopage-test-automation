@@ -2,7 +2,7 @@
 
 import { test, expect } from "../global-setup";
 
-let slug = "/fancy-text";
+let slug = "https://essential-addons.com/elementor/fancy-text";
 let heading = "Fancy Text";
 
 // test.describe("Fancy Test", () => {

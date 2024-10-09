@@ -2,7 +2,7 @@
 
 import { test, expect } from "../global-setup";
 
-let slug = "/interactive-circle";
+let slug = "https://essential-addons.com/elementor/interactive-circle";
 let heading = "Interactive Circle";
 
 test.describe("Interactive Circle", () => {
