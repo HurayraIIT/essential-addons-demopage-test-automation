@@ -2,7 +2,7 @@
 
 import { test, expect } from "../global-setup";
 
-let slug = "/one-page-nav";
+let slug = "https://essential-addons.com/elementor/one-page-nav";
 let heading = "One Page Navigation";
 
 test.describe("One Page Navigation", () => {

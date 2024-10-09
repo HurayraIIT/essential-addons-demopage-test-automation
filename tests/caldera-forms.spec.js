@@ -2,7 +2,7 @@
 
 import { test, expect } from "../global-setup";
 
-let slug = "/caldera-forms";
+let slug = "https://essential-addons.com/elementor/caldera-forms";
 let heading = "Caldera Forms";
 
 test.describe("Caldera Forms", () => {

@@ -2,7 +2,7 @@
 
 import { test, expect } from "../global-setup";
 
-let slug = "/svg-draw";
+let slug = "https://essential-addons.com/elementor/svg-draw";
 let heading = "SVG Draw";
 
 // test.describe("SVG Draw", () => {

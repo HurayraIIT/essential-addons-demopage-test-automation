@@ -2,7 +2,7 @@
 
 import { test, expect } from "../global-setup";
 
-let slug = "/instagram-feed";
+let slug = "https://essential-addons.com/elementor/instagram-feed";
 let heading = "Instagram Feed";
 
 // test.describe("Instagram Feed", () => {

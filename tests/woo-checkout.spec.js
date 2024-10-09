@@ -4,7 +4,7 @@
 // import { test, expect } from "../global-setup";
 //
 
-// let slug = "/woo-checkout";
+// let slug = "https://essential-addons.com/elementor/woo-checkout";
 // let heading = "Woo Checkout";
 
 // test.describe("Woo Checkout - Default", () => {

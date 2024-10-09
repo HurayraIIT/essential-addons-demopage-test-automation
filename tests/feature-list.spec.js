@@ -2,7 +2,7 @@
 
 import { test, expect } from "../global-setup";
 
-let slug = "/feature-list";
+let slug = "https://essential-addons.com/elementor/feature-list";
 let heading = "Feature List";
 
 test.describe("Feature List", () => {

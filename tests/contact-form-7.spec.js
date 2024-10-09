@@ -2,7 +2,7 @@
 
 import { test, expect } from "../global-setup";
 
-let slug = "/contact-form-7";
+let slug = "https://essential-addons.com/elementor/contact-form-7";
 let heading = "Contact Form 7";
 
 test.describe("Contact Form 7", () => {

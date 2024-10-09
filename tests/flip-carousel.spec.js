@@ -2,7 +2,7 @@
 
 import { test, expect } from "../global-setup";
 
-let slug = "/flip-carousel";
+let slug = "https://essential-addons.com/elementor/flip-carousel";
 let heading = "Flip Carousel";
 
 // test.describe("Flip Carousel", () => {

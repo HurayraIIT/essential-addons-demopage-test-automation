@@ -2,7 +2,7 @@
 
 import { test, expect } from "../global-setup";
 
-let slug = "/twitter-feed-carousel";
+let slug = "https://essential-addons.com/elementor/twitter-feed-carousel";
 let heading = "Twitter Feed Carousel";
 
 // test.describe("Twitter Feed Carousel", () => {

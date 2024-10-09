@@ -2,7 +2,7 @@
 
 import { test, expect } from "../global-setup";
 
-let slug = "/betterdocs-search-form";
+let slug = "https://essential-addons.com/elementor/betterdocs-search-form";
 let heading = "BetterDocs Search Form";
 
 test.describe("BetterDocs Search Form", () => {

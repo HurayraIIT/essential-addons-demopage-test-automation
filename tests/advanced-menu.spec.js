@@ -2,7 +2,7 @@
 
 import { test, expect } from "../global-setup";
 
-let slug = "/advanced-menu";
+let slug = "https://essential-addons.com/elementor/advanced-menu";
 let heading = "Advanced Menu";
 
 test.describe("Advanced Menu - Style Default Skin & Horizontal Layout", () => {

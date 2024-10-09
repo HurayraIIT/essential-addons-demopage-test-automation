@@ -2,7 +2,7 @@
 
 import { test, expect } from "../global-setup";
 
-let slug = "/image-hotspots";
+let slug = "https://essential-addons.com/elementor/image-hotspots";
 let heading = "Image Hotspot";
 
 test.describe("Filterable Gallery", () => {

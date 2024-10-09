@@ -2,7 +2,7 @@
 
 import { test, expect } from "../global-setup";
 
-let slug = "/offcanvas-content";
+let slug = "https://essential-addons.com/elementor/offcanvas-content";
 let heading = "Offcanvas";
 
 // test.describe("Offcanvas", () => {

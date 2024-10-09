@@ -2,7 +2,7 @@
 
 import { test, expect } from "../global-setup";
 
-let slug = "/nft-gallery";
+let slug = "https://essential-addons.com/elementor/nft-gallery";
 let heading = "NFT Gallery";
 
 // test.describe("NFT Gallery", () => {

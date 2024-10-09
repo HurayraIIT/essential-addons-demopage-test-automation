@@ -2,7 +2,7 @@
 
 import { test, expect } from "../global-setup";
 
-let slug = "/reading-progress";
+let slug = "https://essential-addons.com/elementor/reading-progress";
 let heading = "Reading Progress Bar";
 
 test.describe("Reading Progress Bar", () => {

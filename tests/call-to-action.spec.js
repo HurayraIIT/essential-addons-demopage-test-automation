@@ -2,7 +2,7 @@
 
 import { test, expect } from "../global-setup";
 
-let slug = "/call-to-action";
+let slug = "https://essential-addons.com/elementor/call-to-action";
 let heading = "Call To Action";
 
 // test.describe("Call To Action", () => {

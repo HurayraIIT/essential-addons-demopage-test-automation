@@ -2,7 +2,7 @@
 
 import { test, expect } from "../global-setup";
 
-let slug = "/protected-content";
+let slug = "https://essential-addons.com/elementor/protected-content";
 let heading = "Protected Content";
 
 // test.describe("Protected Content", () => {

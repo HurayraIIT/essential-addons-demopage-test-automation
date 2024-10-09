@@ -2,7 +2,7 @@
 
 import { test, expect } from "../global-setup";
 
-let slug = "/content-toggle";
+let slug = "https://essential-addons.com/elementor/content-toggle";
 let heading = "Content Toggle";
 
 // test.describe("Content Toggle", () => {
