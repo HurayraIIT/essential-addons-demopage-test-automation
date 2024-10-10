@@ -2,7 +2,7 @@
 
 import { test, expect } from "../global-setup";
 
-let slug = "/advanced-data-table";
+let slug = "https://essential-addons.com/elementor/advanced-data-table";
 let heading = "Advanced Data Table";
 
 test.describe("Advanced Data Table Style 01", () => {

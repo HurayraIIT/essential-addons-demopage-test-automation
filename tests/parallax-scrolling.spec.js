@@ -2,7 +2,7 @@
 
 import { test, expect } from "../global-setup";
 
-let slug = "/parallax-scrolling";
+let slug = "https://essential-addons.com/elementor/parallax-scrolling";
 let heading = "Parallax Effect";
 
 test.describe("Parallax Effect - Scroll & Zoom Parallax Effect", () => {

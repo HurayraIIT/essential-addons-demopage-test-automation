@@ -2,7 +2,7 @@
 
 import { test, expect } from "../global-setup";
 
-let slug = "/dual-color-headline";
+let slug = "https://essential-addons.com/elementor/dual-color-headline";
 let heading = "Dual Color Heading";
 
 // test.describe("Dual Color Heading", () => {

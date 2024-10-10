@@ -2,7 +2,7 @@
 
 import { test, expect } from "../global-setup";
 
-let slug = "/woo-product-gallery";
+let slug = "https://essential-addons.com/elementor/woo-product-gallery";
 let heading = "Woo Product Gallery";
 
 // test.describe("Woo Product Gallery", () => {

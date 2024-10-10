@@ -2,7 +2,7 @@
 
 import { test, expect } from "../global-setup";
 
-let slug = "/gravity-forms";
+let slug = "https://essential-addons.com/elementor/gravity-forms";
 let heading = "Gravity Forms";
 
 // test.describe("Gravity Forms", () => {

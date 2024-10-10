@@ -2,7 +2,7 @@
 
 import { test, expect } from "../global-setup";
 
-let slug = "/countdown";
+let slug = "https://essential-addons.com/elementor/countdown";
 let heading = "Countdown";
 
 test.describe("Countdown", () => {

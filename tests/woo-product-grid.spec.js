@@ -4,7 +4,7 @@
 // import { test, expect } from "../global-setup";
 //
 
-// let slug = "/woo-product-grid";
+// let slug = "https://essential-addons.com/elementor/woo-product-grid";
 // let heading = "Woo Product Grid";
 
 // test.describe("Woo Product Grid", () => {

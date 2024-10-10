@@ -2,7 +2,7 @@
 
 import { test, expect } from "../global-setup";
 
-let slug = "/advanced-tooltip";
+let slug = "https://essential-addons.com/elementor/advanced-tooltip";
 let heading = "Advanced Tooltip";
 
 test.describe("Advanced Tooltips Style 01", () => {

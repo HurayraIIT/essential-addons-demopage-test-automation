@@ -2,7 +2,7 @@
 
 import { test, expect } from "../global-setup";
 
-let slug = "/typeform";
+let slug = "https://essential-addons.com/elementor/typeform";
 let heading = "TypeForm";
 
 // test.describe("TypeForm", () => {

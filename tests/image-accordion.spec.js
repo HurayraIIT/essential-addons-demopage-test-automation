@@ -2,7 +2,7 @@
 
 import { test, expect } from "../global-setup";
 
-let slug = "/image-accordion";
+let slug = "https://essential-addons.com/elementor/image-accordion";
 let heading = "Image Accordion";
 
 // test.describe("Image Accordion", () => {

@@ -2,7 +2,7 @@
 
 import { test, expect } from "../global-setup";
 
-let slug = "/wpforms";
+let slug = "https://essential-addons.com/elementor/wpforms";
 let heading = "WPForms";
 
 // test.describe("WPForms", () => {

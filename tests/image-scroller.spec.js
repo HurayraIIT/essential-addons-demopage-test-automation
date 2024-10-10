@@ -2,7 +2,7 @@
 
 import { test, expect } from "../global-setup";
 
-let slug = "/image-scroller";
+let slug = "https://essential-addons.com/elementor/image-scroller";
 let heading = "Image Scroller";
 
 test.describe("Image Scroller", () => {

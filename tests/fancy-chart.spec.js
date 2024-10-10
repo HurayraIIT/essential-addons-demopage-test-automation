@@ -2,7 +2,7 @@
 
 import { test, expect } from "../global-setup";
 
-let slug = "/fancy-chart";
+let slug = "https://essential-addons.com/elementor/fancy-chart";
 let heading = "Fancy Chart";
 
 // test.describe("Fancy Chart", () => {

@@ -2,7 +2,7 @@
 
 import { test, expect } from "../global-setup";
 
-let slug = "/cross-domain-copy-paste";
+let slug = "https://essential-addons.com/elementor/cross-domain-copy-paste";
 let heading = "Cross-Domain Copy Paste";
 
 // test.describe("Cross-Domain Copy Paste", () => {

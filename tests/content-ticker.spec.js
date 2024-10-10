@@ -2,7 +2,7 @@
 
 import { test, expect } from "../global-setup";
 
-let slug = "/content-ticker";
+let slug = "https://essential-addons.com/elementor/content-ticker";
 let heading = "Content Ticker";
 
 test.describe("Content Ticker", () => {

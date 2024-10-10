@@ -2,7 +2,7 @@
 
 import { test, expect } from "../global-setup";
 
-let slug = "/betterdocs-category-box";
+let slug = "https://essential-addons.com/elementor/betterdocs-category-box";
 let heading = "BetterDocs Category Box";
 
 test.describe("BetterDocs Category Box", () => {

@@ -2,7 +2,7 @@
 
 import { test, expect } from "../global-setup";
 
-let slug = "/advanced-google-map";
+let slug = "https://essential-addons.com/elementor/advanced-google-map";
 let heading = "Advanced Google Map";
 
 test.describe("Advanced Google Map - Basic Map With Marker & Standard Theme", () => {

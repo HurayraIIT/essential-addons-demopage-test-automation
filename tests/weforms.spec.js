@@ -2,7 +2,7 @@
 
 import { test, expect } from "../global-setup";
 
-let slug = "/weforms";
+let slug = "https://essential-addons.com/elementor/weforms";
 let heading = "weForms";
 
 // test.describe("weForms", () => {

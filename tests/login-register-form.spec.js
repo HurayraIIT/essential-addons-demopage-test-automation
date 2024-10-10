@@ -2,7 +2,7 @@
 
 import { test, expect } from "../global-setup";
 
-let slug = "/login-register-form";
+let slug = "https://essential-addons.com/elementor/login-register-form";
 let heading = "Login Register Form";
 
 // test.describe("Login Register Form", () => {

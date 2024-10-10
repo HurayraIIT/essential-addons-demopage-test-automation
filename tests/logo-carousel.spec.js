@@ -2,7 +2,7 @@
 
 import { test, expect } from "../global-setup";
 
-let slug = "/logo-carousel";
+let slug = "https://essential-addons.com/elementor/logo-carousel";
 let heading = "Logo Carousel";
 
 // test.describe("Logo Carousel", () => {

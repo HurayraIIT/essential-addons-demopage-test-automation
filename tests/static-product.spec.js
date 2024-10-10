@@ -2,7 +2,7 @@
 
 import { test, expect } from "../global-setup";
 
-let slug = "/static-product";
+let slug = "https://essential-addons.com/elementor/static-product";
 let heading = "Static Product";
 
 // test.describe("Static Product", () => {

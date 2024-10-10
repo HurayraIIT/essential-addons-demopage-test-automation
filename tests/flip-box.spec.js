@@ -2,7 +2,7 @@
 
 import { test, expect } from "../global-setup";
 
-let slug = "/flip-box";
+let slug = "https://essential-addons.com/elementor/flip-box";
 let heading = "Flip Box";
 
 // test.describe("Flip Box", () => {

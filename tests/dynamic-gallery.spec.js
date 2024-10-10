@@ -2,7 +2,7 @@
 
 import { test, expect } from "../global-setup";
 
-let slug = "/dynamic-gallery";
+let slug = "https://essential-addons.com/elementor/dynamic-gallery";
 let heading = "Dynamic Gallery";
 
 // test.describe("Dynamic Gallery", () => {

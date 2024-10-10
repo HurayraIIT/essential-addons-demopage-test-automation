@@ -2,7 +2,7 @@
 
 import { test, expect } from "../global-setup";
 
-let slug = "/content-timeline";
+let slug = "https://essential-addons.com/elementor/content-timeline";
 let heading = "Content Timeline";
 
 test.describe("Content Timeline", () => {

@@ -2,7 +2,7 @@
 
 import { test, expect } from "../global-setup";
 
-let slug = "/learndash-course-list";
+let slug = "https://essential-addons.com/elementor/learndash-course-list";
 let heading = "LearnDash Course List";
 
 // test.describe("LearnDash Course List", () => {

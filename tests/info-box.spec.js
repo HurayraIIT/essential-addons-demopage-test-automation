@@ -2,7 +2,7 @@
 
 import { test, expect } from "../global-setup";
 
-let slug = "/info-box";
+let slug = "https://essential-addons.com/elementor/info-box";
 let heading = "Info Box";
 
 test.describe("Info Box", () => {

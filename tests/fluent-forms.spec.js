@@ -2,7 +2,7 @@
 
 import { test, expect } from "../global-setup";
 
-let slug = "/fluent-forms";
+let slug = "https://essential-addons.com/elementor/fluent-forms";
 let heading = "Fluent Forms";
 
 // test.describe("Fluent Forms", () => {

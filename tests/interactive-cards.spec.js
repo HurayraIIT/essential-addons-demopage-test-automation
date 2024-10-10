@@ -2,7 +2,7 @@
 
 import { test, expect } from "../global-setup";
 
-let slug = "/interactive-cards";
+let slug = "https://essential-addons.com/elementor/interactive-cards";
 let heading = "Interactive Cards";
 
 test.describe("Interactive Cards", () => {

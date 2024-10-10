@@ -2,7 +2,7 @@
 
 import { test, expect } from "../global-setup";
 
-let slug = "/table";
+let slug = "https://essential-addons.com/elementor/table";
 let heading = "Data Table";
 
 // test.describe("Data Table", () => {
