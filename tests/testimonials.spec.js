@@ -126,8 +126,8 @@ test.describe("Testimonials https://qa1.site/go/jc1787", () => {
     await expect(testimonial_loc.locator(".eael-testimonial-text")).toHaveCSS("margin", "1px 149px");
 
     // Rating assertions
-    await expect(rating_loc.locator("li").nth(1).locator("i")).toHaveCSS("color", "rgb(216, 216, 216)");
     await expect(rating_loc.locator("li").nth(0).locator("i")).toHaveCSS("color", "rgb(255, 45, 255)");
+    await expect(rating_loc.locator("li").nth(1).locator("i")).toHaveCSS("color", "rgb(216, 216, 216)");
     await expect(rating_loc.locator("li").nth(2).locator("i")).toHaveCSS("color", "rgb(216, 216, 216)");
     await expect(rating_loc.locator("li").nth(3).locator("i")).toHaveCSS("color", "rgb(216, 216, 216)");
     await expect(rating_loc.locator("li").nth(4).locator("i")).toHaveCSS("color", "rgb(216, 216, 216)");
