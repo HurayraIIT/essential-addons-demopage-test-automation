@@ -76,7 +76,7 @@ test.describe("Info Box", () => {
   });
 });
 
-test.describe("Info Bpx Test 2", () => {
+test.describe("Info Box Test Shahrear", () => {
   //import { test, expect } from '@playwright/test';
 
 test('infobox interaction test', async ({ page }) => {
