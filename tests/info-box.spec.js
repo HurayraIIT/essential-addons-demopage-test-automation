@@ -75,3 +75,7 @@ test.describe("Info Box", () => {
     await expect(widget_4_content).toBeVisible();
   });
 });
+
+test.describe("Info Bpx Test 2", () => {
+  // 
+});
