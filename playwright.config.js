@@ -37,7 +37,7 @@ export default defineConfig({
     baseURL: process.env.BASE_URL,
     testIdAttribute: "data-id",
 
-    screenshot: "on",
+    //screenshot: "on",
     trace: "on-first-retry",
     video: "on-first-retry",
 
