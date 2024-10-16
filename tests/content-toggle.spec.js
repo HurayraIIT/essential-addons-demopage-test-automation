@@ -87,11 +87,76 @@ test.describe("Content Toggle https://qa1.site/go/pb4317", () => {
     // Border radius 11px
   });
 
-  // test("Test Style Tab > Label", async ({ page }) => {
-  //   //
+  test("Test Style Tab > Label", async ({ page }) => {
+    // Position right top
+    await expect(toggle_loc.locator(".eael-toggle-switch-inner")).toHaveCSS("align-items", "flex-start");
+    await expect(toggle_loc.locator(".eael-toggle-switch-inner")).toHaveCSS("text-align", "start");
 
-  //   // Perform toggle
-  //   await toggle_loc.locator(".eael-toggle-switch-rectangle").click();
-  //   await page.waitForTimeout(500);
-  // });
+    // Primary
+    let primary_loc = toggle_loc.getByText("Primary 241016");
+    // Color #ff0000
+    // Activa text color  #00ff00
+    await expect(primary_loc).toHaveCSS("color", "rgb(0, 255, 0)");
+    await expect(primary_loc).toHaveCSS("font-family", /Times New Roman/);
+    await expect(primary_loc).toHaveCSS("font-size", "24px");
+    await expect(primary_loc).toHaveCSS("font-weight", "400");
+    await expect(primary_loc).toHaveCSS("text-transform", "uppercase");
+    await expect(primary_loc).toHaveCSS("font-style", "italic");
+    await expect(primary_loc).toHaveCSS("text-decoration", "underline solid rgb(0, 255, 0)");
+    await expect(primary_loc).toHaveCSS("line-height", "24px");
+    await expect(primary_loc).toHaveCSS("letter-spacing", "2.4px");
+    await expect(primary_loc).toHaveCSS("word-spacing", "4px");
+
+    // Secondary
+    let secondary_loc = toggle_loc.getByText("Secondary 241016");
+    // Color #0000ff
+    // Activa text color  #00ff00
+    await expect(secondary_loc).toHaveCSS("color", "rgb(0, 0, 255)");
+    await expect(secondary_loc).toHaveCSS("font-family", /Verdana/);
+    await expect(secondary_loc).toHaveCSS("font-size", "25px");
+    await expect(secondary_loc).toHaveCSS("font-weight", "500");
+    await expect(secondary_loc).toHaveCSS("text-transform", "lowercase");
+    await expect(secondary_loc).toHaveCSS("font-style", "italic");
+    await expect(secondary_loc).toHaveCSS("text-decoration", "overline solid rgb(0, 0, 255)");
+    await expect(secondary_loc).toHaveCSS("line-height", "25px");
+    await expect(secondary_loc).toHaveCSS("letter-spacing", "2.5px");
+    await expect(secondary_loc).toHaveCSS("word-spacing", "5px");
+
+    // Perform toggle
+    await toggle_loc.locator(".eael-toggle-switch-rectangle").click();
+    await page.waitForTimeout(500);
+
+    // Colors should be changed
+    await expect(primary_loc).toHaveCSS("color", "rgb(255, 0, 0)");
+    await expect(secondary_loc).toHaveCSS("color", "rgb(0, 255, 0)");
+  });
+
+  test("Test Style Tab > Content", async ({ page }) => {
+    // Perform toggle
+    await toggle_loc.locator(".eael-toggle-switch-rectangle").click();
+    await page.waitForTimeout(500);
+
+    let text_loc = toggle_loc.getByText("Secondary Content 241016");
+
+    // alignment should be right
+    await expect(toggle_loc.locator(".eael-toggle-content-wrap")).toHaveCSS("text-align", "right");
+    await expect(toggle_loc.locator(".eael-toggle-primary-wrap")).toHaveCSS("text-align", "right");
+    await expect(toggle_loc.locator(".eael-toggle-secondary-wrap")).toHaveCSS("text-align", "right");
+    await expect(text_loc).toHaveCSS("text-align", "right");
+
+    // Text Color Should be blue
+    await expect(text_loc).toHaveCSS("color", "rgb(0, 0, 255)");
+    await expect(text_loc).toHaveCSS("font-family", /Helvetica/);
+    await expect(text_loc).toHaveCSS("font-size", "21px");
+    await expect(text_loc).toHaveCSS("font-weight", "700");
+    await expect(text_loc).toHaveCSS("text-transform", "uppercase");
+    await expect(text_loc).toHaveCSS("font-style", "italic");
+    await expect(toggle_loc.locator(".eael-toggle-content-wrap")).toHaveCSS(
+      "text-decoration",
+      "underline solid rgb(0, 0, 255)"
+    );
+    await expect(text_loc).toHaveCSS("line-height", "21px");
+    await expect(text_loc).toHaveCSS("letter-spacing", "2.1px");
+    await expect(text_loc).toHaveCSS("word-spacing", "1px");
+  });
 });
