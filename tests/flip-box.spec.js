@@ -14,7 +14,6 @@ test.describe("Flip Box https://qa1.site/go/kt7580", () => {
     await page.waitForLoadState("networkidle");
     await page.getByRole("heading", { name: heading, exact: true }).scrollIntoViewIfNeeded();
     await expect(page.getByRole("heading", { name: heading, exact: true })).toBeVisible();
-    await page.getByRole("heading", { name: heading, exact: true }).click();
 
     box01 = page.locator(".elementor-element-ef2686c");
     box02 = page.locator(".elementor-element-45d2693");
@@ -47,29 +46,39 @@ test.describe("Flip Box https://qa1.site/go/kt7580", () => {
     await expect(box02.locator(".elementor-widget-container")).toHaveCSS("height", "302px");
   });
 
-  // test("Test Content Tab > Link", async ({ page }) => {
-  //   await page
-  //     .getByRole("heading", { name: "Flip Box Hurayra 241014 Content > Link", exact: true })
-  //     .scrollIntoViewIfNeeded();
+  // TODO: Incomplete Test
+  test("Test Content Tab > Link", async ({ page }) => {
+    await page
+      .getByRole("heading", { name: "Flip Box Hurayra 241014 Content > Link", exact: true })
+      .scrollIntoViewIfNeeded();
 
-  //   // Link Type - Box
-  //   await expect(
-  //     page.locator(".elementor-element-7cd8202").locator("a.eael-elements-flip-box-flip-card")
-  //   ).toHaveAttribute("href", /click-me/);
+    // Link Type - Box
+    await expect(
+      page.locator(".elementor-element-7cd8202").locator("a.eael-elements-flip-box-flip-card")
+    ).toHaveAttribute("href", /click-me/);
 
-  //   // Link Type - title
-  //   // Link Type - Button
-  // });
+    // Link Type - title
+    // Link Type - Button
+  });
 
   test("Test Style Tab > Flip Box Style", async ({ page }) => {
-    // Front background color 5c8b6d
-    // Back background Color e30f23
-    // Content Padding 11 10 9 8
-    // Border type dashed
-    // Border width 5px
-    // border Color 020101
-    // Border radius 21px
-    // Box Shadow
+    let box01_front = box01.locator(".eael-elements-flip-box-front-container");
+    await expect(box01_front).toHaveCSS("background-color", "rgb(92, 139, 109)");
+    await expect(box01_front).toHaveCSS("padding", "11px 10px 9px 8px");
+    await expect(box01_front).toHaveCSS("border-style", "dashed");
+    await expect(box01_front).toHaveCSS("border-width", "5px");
+    await expect(box01_front).toHaveCSS("border-radius", "21px");
+    await expect(box01_front).toHaveCSS("border-color", "rgb(2, 1, 1)");
+    await expect(box01_front).toHaveCSS("box-shadow", "rgba(36, 82, 183, 0.57) 1px 2px 13px 4px");
+
+    let box01_back = box01.locator(".eael-elements-flip-box-rear-container");
+    await expect(box01_back).toHaveCSS("background-color", "rgb(227, 15, 35)");
+    await expect(box01_back).toHaveCSS("padding", "11px 10px 9px 8px");
+    await expect(box01_back).toHaveCSS("border-style", "dashed");
+    await expect(box01_back).toHaveCSS("border-width", "5px");
+    await expect(box01_back).toHaveCSS("border-radius", "21px");
+    await expect(box01_back).toHaveCSS("border-color", "rgb(2, 1, 1)");
+    await expect(box01_back).toHaveCSS("box-shadow", "rgba(36, 82, 183, 0.57) 1px 2px 13px 4px");
   });
 
   test("Test Style Tab > Icon Style", async ({ page }) => {
