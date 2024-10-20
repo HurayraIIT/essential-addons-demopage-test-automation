@@ -36,10 +36,7 @@ test.describe("Scroll to Top", () => {
     await expect(button).toHaveCSS("color", "rgb(77, 77, 77)");
     await expect(button).toHaveCSS("background-color", "rgb(125, 13, 213)");
     await expect(button).toHaveCSS("align-items", "center");
-    await expect(button).toHaveCSS("border-bottom-left-radius", "10px");
-    await expect(button).toHaveCSS("border-bottom-right-radius", "10px");
-    await expect(button).toHaveCSS("border-top-left-radius", "10px");
-    await expect(button).toHaveCSS("border-top-right-radius", "10px");
+    await expect(button).toHaveCSS("border-radius", "10px");
     await expect(button).toHaveCSS("bottom", "96px");
     await expect(button).toHaveCSS("box-sizing", "border-box");
     await expect(button).toHaveCSS("font-size", "16px");
