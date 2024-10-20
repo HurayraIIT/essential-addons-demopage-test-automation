@@ -77,25 +77,13 @@ test.describe("Creative Buttons https://qa1.site/go/mqz31010", () => {
     // Background color green
     await expect(button_loc.locator("a")).toHaveCSS("background-color", "rgb(0, 255, 0)");
     // Border type solid
-    await expect(button_loc.locator("a")).toHaveCSS("border-top-style", "solid");
-    await expect(button_loc.locator("a")).toHaveCSS("border-right-style", "solid");
-    await expect(button_loc.locator("a")).toHaveCSS("border-bottom-style", "solid");
-    await expect(button_loc.locator("a")).toHaveCSS("border-left-style", "solid");
+    await expect(button_loc.locator("a")).toHaveCSS("border-style", "solid");
     // Border width 11 12 13 14
-    await expect(button_loc.locator("a")).toHaveCSS("border-top-width", "11px");
-    await expect(button_loc.locator("a")).toHaveCSS("border-right-width", "12px");
-    await expect(button_loc.locator("a")).toHaveCSS("border-bottom-width", "13px");
-    await expect(button_loc.locator("a")).toHaveCSS("border-left-width", "14px");
+    await expect(button_loc.locator("a")).toHaveCSS("border-width", "11px 12px 13px 14px");
     // Border color #222222
-    await expect(button_loc.locator("a")).toHaveCSS("border-top-color", "rgb(0, 0, 204)");
-    await expect(button_loc.locator("a")).toHaveCSS("border-right-color", "rgb(0, 0, 204)");
-    await expect(button_loc.locator("a")).toHaveCSS("border-bottom-color", "rgb(0, 0, 204)");
-    await expect(button_loc.locator("a")).toHaveCSS("border-left-color", "rgb(0, 0, 204)");
+    await expect(button_loc.locator("a")).toHaveCSS("border-color", "rgb(0, 0, 204)");
     // Border radius 12
-    await expect(button_loc.locator("a")).toHaveCSS("border-top-right-radius", "12px");
-    await expect(button_loc.locator("a")).toHaveCSS("border-bottom-right-radius", "12px");
-    await expect(button_loc.locator("a")).toHaveCSS("border-bottom-left-radius", "12px");
-    await expect(button_loc.locator("a")).toHaveCSS("border-top-left-radius", "12px");
+    await expect(button_loc.locator("a")).toHaveCSS("border-radius", "12px");
     // Box shadow 11 12 13 14, position outline
     await expect(button_loc.locator("a")).toHaveCSS("box-shadow", "rgba(0, 0, 0, 0.5) 11px 12px 13px 14px");
     // Secondary on hover

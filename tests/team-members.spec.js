@@ -62,25 +62,13 @@ test.describe("Team Member https://qa1.site/go/3x13103", () => {
     await expect(image_loc).toHaveCSS("padding-bottom", "3px");
     await expect(image_loc).toHaveCSS("padding-left", "4px");
     // border type solid
-    await expect(image_loc).toHaveCSS("border-top-style", "solid");
-    await expect(image_loc).toHaveCSS("border-right-style", "solid");
-    await expect(image_loc).toHaveCSS("border-bottom-style", "solid");
-    await expect(image_loc).toHaveCSS("border-left-style", "solid");
+    await expect(image_loc).toHaveCSS("border-style", "solid");
     // border width 5 6 7 8
-    await expect(image_loc).toHaveCSS("border-top-width", "5px");
-    await expect(image_loc).toHaveCSS("border-right-width", "6px");
-    await expect(image_loc).toHaveCSS("border-bottom-width", "7px");
-    await expect(image_loc).toHaveCSS("border-left-width", "8px");
+    await expect(image_loc).toHaveCSS("border-width", "5px 6px 7px 8px");
     // border color #020202
-    await expect(image_loc).toHaveCSS("border-top-color", "rgb(2, 2, 2)");
-    await expect(image_loc).toHaveCSS("border-right-color", "rgb(2, 2, 2)");
-    await expect(image_loc).toHaveCSS("border-bottom-color", "rgb(2, 2, 2)");
-    await expect(image_loc).toHaveCSS("border-left-color", "rgb(2, 2, 2)");
+    await expect(image_loc).toHaveCSS("border-color", "rgb(2, 2, 2)");
     // rounded avatar
-    await expect(image_loc).toHaveCSS("border-top-right-radius", "50%");
-    await expect(image_loc).toHaveCSS("border-bottom-right-radius", "50%");
-    await expect(image_loc).toHaveCSS("border-bottom-left-radius", "50%");
-    await expect(image_loc).toHaveCSS("border-top-left-radius", "50%");
+    await expect(image_loc).toHaveCSS("border-radius", "50%");
   });
 
   test("Test Style > Color & Typography", async ({ page }) => {
@@ -182,28 +170,16 @@ test.describe("Team Member https://qa1.site/go/3x13103", () => {
     // background color
     await expect(link_loc).toHaveCSS("background-color", "rgb(255, 255, 0)");
     // border type dotted
-    await expect(link_loc).toHaveCSS("border-top-style", "dotted");
-    await expect(link_loc).toHaveCSS("border-right-style", "dotted");
-    await expect(link_loc).toHaveCSS("border-bottom-style", "dotted");
-    await expect(link_loc).toHaveCSS("border-left-style", "dotted");
+    await expect(link_loc).toHaveCSS("border-style", "dotted");
 
     // border width 1 2 3 4
-    await expect(link_loc).toHaveCSS("border-top-width", "1px");
-    await expect(link_loc).toHaveCSS("border-right-width", "2px");
-    await expect(link_loc).toHaveCSS("border-bottom-width", "3px");
-    await expect(link_loc).toHaveCSS("border-left-width", "4px");
+    await expect(link_loc).toHaveCSS("border-width", "1px 2px 3px 4px");
 
     // border color red
-    await expect(link_loc).toHaveCSS("border-top-color", "rgb(255, 0, 0)");
-    await expect(link_loc).toHaveCSS("border-right-color", "rgb(255, 0, 0)");
-    await expect(link_loc).toHaveCSS("border-bottom-color", "rgb(255, 0, 0)");
-    await expect(link_loc).toHaveCSS("border-left-color", "rgb(255, 0, 0)");
+    await expect(link_loc).toHaveCSS("border-color", "rgb(255, 0, 0)");
 
     // border radius 11
-    await expect(link_loc).toHaveCSS("border-top-right-radius", "11px");
-    await expect(link_loc).toHaveCSS("border-top-left-radius", "11px");
-    await expect(link_loc).toHaveCSS("border-bottom-right-radius", "11px");
-    await expect(link_loc).toHaveCSS("border-bottom-left-radius", "11px");
+    await expect(link_loc).toHaveCSS("border-radius", "11px");
 
     // hover
     await svg_loc.hover();
@@ -212,9 +188,6 @@ test.describe("Team Member https://qa1.site/go/3x13103", () => {
     // hover background green
     await expect(link_loc).toHaveCSS("background-color", "rgb(0, 255, 0)");
     // hover border blue
-    await expect(link_loc).toHaveCSS("border-top-color", "rgb(0, 0, 255)");
-    await expect(link_loc).toHaveCSS("border-right-color", "rgb(0, 0, 255)");
-    await expect(link_loc).toHaveCSS("border-bottom-color", "rgb(0, 0, 255)");
-    await expect(link_loc).toHaveCSS("border-left-color", "rgb(0, 0, 255)");
+    await expect(link_loc).toHaveCSS("border-color", "rgb(0, 0, 255)");
   });
 });
