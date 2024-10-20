@@ -54,10 +54,7 @@ test.describe("Info Box", () => {
     await expect(widget_1_content).toHaveCSS("font-weight", "600");
     await expect(widget_1_content).toHaveCSS("text-align", "center");
     await expect(widget_1_content).toHaveCSS("line-height", "24px");
-    await expect(widget_1_content).toHaveCSS("margin-top", "18px");
-    await expect(widget_1_content).toHaveCSS("margin-bottom", "18px");
-    await expect(widget_1_content).toHaveCSS("margin-left", "0px");
-    await expect(widget_1_content).toHaveCSS("margin-right", "0px");
+    await expect(widget_1_content).toHaveCSS("margin", "18px 0px");
 
     // Verify widget_2 content and style
     await expect(widget_2).toBeVisible();
