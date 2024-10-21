@@ -2,24 +2,18 @@
 
 import { test, expect } from "../global-setup";
 
-let slug = "https://essential-addons.com/elementor/offcanvas-content";
-let heading = "Offcanvas";
+let slug = "/content-elements/offcanvas/";
+let heading = "Offcanvas Heading 241021 Automation";
 
-// test.describe("Offcanvas", () => {
-//   // Setup
-//   test.beforeEach(async ({ page }) => {
-//     await page.goto(slug);
-//     await expect.soft(page.getByRole("heading", { name: heading, exact: true })).toBeVisible();
-//     await expect(page.getByRole("link", { name: "Documentation" })).toBeVisible();
-//     await expect(page.getByRole("link", { name: "Documentation" })).toHaveAttribute(
-//       "href",
-//       /docs\/content-elements\/essential-addons-elementor-offcanvas/
-//     );
-//   });
+test.describe("Offcanvas https://qa1.site/go/q7i345", () => {
+  test.beforeEach(async ({ page }) => {
+    await page.goto(slug);
+    await page.waitForLoadState("networkidle");
+    await page.getByRole("heading", { name: heading, exact: true }).scrollIntoViewIfNeeded();
+    await expect(page.getByRole("heading", { name: heading, exact: true })).toBeVisible();
+  });
 
-//   test("Test Section: Configure Offcanvas Settings & Style", async ({ page }) => {
-//     await page.getByRole("heading", { name: "Configure Offcanvas Settings & Style" }).scrollIntoViewIfNeeded();
-//     await expect(page.getByRole("heading", { name: "Configure Offcanvas Settings & Style" })).toBeVisible();
-//     await expect(page.getByText("Choose your preferred ‘Content Type’, add button")).toBeVisible();
-//   });
-// });
+  test("Test Content Tab", async ({ page }) => {
+    //
+  });
+});
