@@ -23,8 +23,7 @@ export default defineConfig({
             meta: [
               {
                 key: "Essential Addons Demo - Test Results",
-                value:
-                  "<https://hurayraiit.github.io/essential-addons-demopage-test-automation/ | 📂 Click Here!>",
+                value: "<https://hurayraiit.github.io/essential-addons-demopage-test-automation/ | 📂 Click Here!>",
               },
             ],
           },
@@ -50,5 +49,13 @@ export default defineConfig({
       name: "chromium",
       use: { ...devices["Desktop Chrome"], ...test },
     },
+    // {
+    //   name: "firefox",
+    //   use: { ...devices["Desktop Firefox"] },
+    // },
+    // {
+    //   name: "webkit",
+    //   use: { ...devices["Desktop Safari"] },
+    // },
   ],
 });
