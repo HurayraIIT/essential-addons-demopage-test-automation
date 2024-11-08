@@ -24,9 +24,26 @@ test.describe("Woo Product Grid - Default Preset", () => {
     item2 = widget.locator("ul.products > li").nth(2);
   });
 
-  // test("Test Contents", async ({ page }) => {
-  //   //
-  // });
+  test("Test Contents", async ({ page }) => {
+    await expect(page.locator('ul').filter({ hasText: 'Sale241107 Out of stock241107' })).toBeVisible();
+    await expect(page.getByRole('link', { name: 'Out of stock241107' })).toBeVisible();
+    await expect(page.getByText('Sale241107').first()).toBeVisible();
+    await expect(page.getByRole('link', { name: 'Out of stock241107' })).toBeVisible();
+    await expect(page.getByText('Hurayra Automation 241107 DONOTDELETE').first()).toBeVisible();
+    await expect(page.getByRole('link', { name: 'Hurayra Automation Product 00', exact: true })).toBeVisible();
+    await expect(page.getByText('Rated 1.00 out of').first()).toBeVisible();
+    await expect(page.locator('li').filter({ hasText: 'Sale241107 Out of stock241107' }).getByLabel('Rated 1.00 out of')).toBeVisible();
+    await expect(page.getByText('100.00৳ Original price was:')).toBeVisible();
+    await expect(page.getByText('100.00৳', { exact: true })).toBeVisible();
+    await expect(page.getByText('90.00৳', { exact: true })).toBeVisible();
+    await expect(page.getByRole('link', { name: 'Read more about “Hurayra' })).toBeVisible();
+    await expect(page.getByTitle('Compare').first()).toBeVisible();
+    await expect(page.getByText('Hurayra Automation 241107 DONOTDELETE Hurayra Automation Product 00Rated 1.00')).toBeVisible();
+    await expect(page.getByLabel('Read more about “Hurayra').first()).toBeHidden();
+    await page.getByRole("link", { name: "Out of stock241107" }).hover();
+    await page.waitForTimeout(500);
+    await expect(page.getByLabel("Read more about “Hurayra").first()).toBeVisible();
+  });
 
   test("Test Style Tab -> Products", async ({ page }) => {
     // alignment center
