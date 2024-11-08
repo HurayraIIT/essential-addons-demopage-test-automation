@@ -131,9 +131,54 @@ test.describe("Woo Product Grid - Default Preset", () => {
     await expect.soft(starRating).toHaveCSS("word-spacing", "3px");
   });
 
-  // test("Test Style Tab -> Button Styles", async ({ page }) => {
-  //   //
-  // });
+  test("Test Style Tab -> Button Styles", async ({ page }) => {
+    // Button padding 15px
+    // Radius 14px
+    // Button color #ff0000
+    // Background #00ffff
+    // Border type double
+    // border width 3px
+    // Border color #0000ff
+    // Hover button color #00ff00
+    // Hover background color #0000ff
+    // Hover border color #00ffff
+
+    // Font Family Verdana
+    // Size 15px
+    // Weight 500
+    // Transform capitalize
+    // Style italic
+    // Decoration Underline
+    // Line height 15px
+    // Letter Spacing 1.5
+    // Word Spacing 5px
+
+    let button = item2.getByRole("link", { name: "Add to cart: “Hurayra Automation Product 02”" });
+    await expect.soft(button).toHaveCSS("padding", "15px");
+    await expect.soft(button).toHaveCSS("border-radius", "14px");
+    await expect.soft(button).toHaveCSS("color", "rgb(255, 0, 0)");
+    await expect.soft(button).toHaveCSS("background-color", "rgb(0, 255, 255)");
+    await expect.soft(button).toHaveCSS("border-style", "double");
+    await expect.soft(button).toHaveCSS("border-width", "3px");
+    await expect.soft(button).toHaveCSS("border-color", "rgb(0, 0, 255)");
+
+    await button.hover();
+    await page.waitForTimeout(500);
+
+    await expect.soft(button).toHaveCSS("color", "rgb(0, 255, 0)");
+    await expect.soft(button).toHaveCSS("background-color", "rgb(0, 0, 255)");
+    await expect.soft(button).toHaveCSS("border-color", "rgb(0, 255, 255)");
+
+    await expect.soft(button).toHaveCSS("font-family", /Verdana/);
+    await expect.soft(button).toHaveCSS("font-size", "15px");
+    await expect.soft(button).toHaveCSS("font-weight", "500");
+    await expect.soft(button).toHaveCSS("text-transform", "capitalize");
+    await expect.soft(button).toHaveCSS("font-style", "italic");
+    await expect.soft(button).toHaveCSS("text-decoration", "underline solid rgb(0, 255, 0)");
+    await expect.soft(button).toHaveCSS("line-height", "15px");
+    await expect.soft(button).toHaveCSS("letter-spacing", "1.5px");
+    await expect.soft(button).toHaveCSS("word-spacing", "5px");
+  });
 
   // test("Test Style Tab -> Sale Badge Style", async ({ page }) => {
   //   //
