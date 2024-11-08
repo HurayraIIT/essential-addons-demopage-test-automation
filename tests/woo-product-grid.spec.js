@@ -1,71 +1,153 @@
-// "use strict";
+"use strict";
 
-//
-// import { test, expect } from "../global-setup";
-//
+import { test, expect } from "../global-setup";
 
-// let slug = "https://essential-addons.com/elementor/woo-product-grid";
-// let heading = "Woo Product Grid";
+let slug = "/woocommerce-elements/woo-product-grid/";
 
-// test.describe("Woo Product Grid", () => {
-//   test.beforeEach(async ({ page }) => {
-//     await page.goto(slug);
-//     await expect(page.getByRole("heading", { name: heading, exact: true })).toBeVisible();
-//     await expect(page.getByRole("link", { name: "Documentation" })).toBeVisible();
-//     await expect(page.getByRole("link", { name: "Documentation" })).toHaveAttribute(
-//       "href",
-//       /docs\/dynamic-content-elements\/woocommerce-product-grid/
-//     );
-//   });
+test.describe("Woo Product Grid - Default Preset", () => {
+  let heading = "Hurayra Automation 241107 Default Preset";
+  let widget = null;
+  let item0 = null;
+  let item1 = null;
+  let item2 = null;
 
-//   test("Test Preset 1", async ({ page, browserName }) => {
-//     const selector = ".elementor-element-7b2risg"; // Replace with your actual selector
-//     await page.waitForSelector(selector);
-//     await page.locator(selector).scrollIntoViewIfNeeded();
+  test.beforeEach(async ({ page }) => {
+    await page.goto(slug);
+    await page.waitForLoadState("networkidle");
+    await page.getByRole("heading", { name: heading, exact: true }).scrollIntoViewIfNeeded();
+    await expect.soft(page.getByRole("heading", { name: heading, exact: true })).toBeVisible();
+    await page.getByRole("heading", { name: heading, exact: true }).click();
 
-//     const filePath = path.join(
-//       __dirname,
-//       `../snapshots/${slug.substring(1)}-${selector.substring(1)}-${browserName}.json`
-//     );
+    widget = page.getByTestId("e0fdb4d").locator(".elementor-widget-container");
+    item0 = widget.locator("ul.products > li").nth(0);
+    item1 = widget.locator("ul.products > li").nth(1);
+    item2 = widget.locator("ul.products > li").nth(2);
+  });
 
-//     const nodeStructure = await page.evaluate(evaluateNodeStructure, selector);
-//     saveStructure(nodeStructure, filePath);
+  // test("Test Contents", async ({ page }) => {
+  //   //
+  // });
 
-//     const existingNodeStructure = getStructure(filePath);
-//     expect(nodeStructure).toEqual(existingNodeStructure);
-//   });
+  test("Test Style Tab -> Products", async ({ page }) => {
+    // alignment center
+    // content background color #fefefe
+    // padding 3px
+    // Border type dotted
+    // Border width 2px
+    // Border color #00ff00 normal, #0000ff hover
+    // Box Shadow 1 2 13 4
+    // Border radius 4px
 
-//   test("Test Preset 2", async ({ page, browserName }) => {
-//     const selector = ".elementor-element-2a8ceca"; // Replace with your actual selector
-//     await page.waitForSelector(selector);
-//     await page.locator(selector).scrollIntoViewIfNeeded();
+    await expect.soft(item1).toHaveCSS("text-align", "center");
+    await expect.soft(item1).toHaveCSS("background-color", "rgb(254, 254, 254)");
+    await expect.soft(item1).toHaveCSS("padding", "3px");
+    await expect.soft(item1).toHaveCSS("border-style", "dotted");
+    await expect.soft(item1).toHaveCSS("border-width", "2px");
+    await expect.soft(item1).toHaveCSS("border-color", "rgb(0, 255, 0)");
+    await item1.hover();
+    await page.waitForTimeout(500);
+    await expect.soft(item1).toHaveCSS("border-color", "rgb(0, 0, 255)");
+    await expect.soft(item1).toHaveCSS("box-shadow", "rgba(0, 0, 0, 0.5) 1px 2px 13px 4px");
+    await expect.soft(item1).toHaveCSS("border-radius", "4px");
+  });
 
-//     const filePath = path.join(
-//       __dirname,
-//       `../snapshots/${slug.substring(1)}-${selector.substring(1)}-${browserName}.json`
-//     );
+  test("Test Style Tab -> Color & typography", async ({ page }) => {
+    // Product title color #ff0000
+    // Product Title Typography
+    // Font Family Tahoma
+    // Size 11px
+    // Weight 500
+    // Transform Uppercase
+    // Style Normal
+    // Decoration Underline
+    // Line height 11px
+    // Letter Spacing 1.1
+    // Word Spacing 1px
 
-//     const nodeStructure = await page.evaluate(evaluateNodeStructure, selector);
-//     saveStructure(nodeStructure, filePath);
+    let title = item2.getByRole("heading", { name: "Hurayra Automation Product 02", exact: true });
+    await expect.soft(title).toHaveCSS("color", "rgb(255, 0, 0)");
+    await expect.soft(title).toHaveCSS("font-family", /Tahoma/);
+    await expect.soft(title).toHaveCSS("font-size", "11px");
+    await expect.soft(title).toHaveCSS("font-weight", "500");
+    await expect.soft(title).toHaveCSS("text-transform", "uppercase");
+    await expect.soft(title).toHaveCSS("font-style", "normal");
+    await expect.soft(title).toHaveCSS("text-decoration", "underline solid rgb(255, 0, 0)");
+    await expect.soft(title).toHaveCSS("line-height", "11px");
+    await expect.soft(title).toHaveCSS("letter-spacing", "1.1px");
+    await expect.soft(title).toHaveCSS("word-spacing", "1px");
 
-//     const existingNodeStructure = getStructure(filePath);
-//     expect(nodeStructure).toEqual(existingNodeStructure);
-//   });
+    // Product Price Color #00ff00
+    // Product sale price color #00ffff
+    // Produc Price Typography
+    // Font Family Verdana
+    // Size 12px
+    // Weight 600
+    // Transform lowercase
+    // Style italic
+    // Decoration Overline
+    // Line height 12px
+    // Letter Spacing 1.2
+    // Word Spacing 2px
 
-//   test("Test Preset 3", async ({ page, browserName }) => {
-//     const selector = ".elementor-element-0y97pyy"; // Replace with your actual selector
-//     await page.waitForSelector(selector);
-//     await page.locator(selector).scrollIntoViewIfNeeded();
+    let priceSection = item2.locator("span.price");
+    let priceBefore = item2.getByText("102.00৳", { exact: true });
+    let priceAfter = item2.getByText("92.00৳", { exact: true });
+    
+    await expect.soft(priceBefore).toHaveCSS("color", "rgb(0, 255, 0)");
+    await expect.soft(priceAfter).toHaveCSS("color", "rgb(0, 255, 255)");
+    
+    await expect.soft(priceSection).toHaveCSS("font-family", /Verdana/);
+    await expect.soft(priceSection).toHaveCSS("font-size", "12px");
+    await expect.soft(priceSection).toHaveCSS("font-weight", "600");
+    await expect.soft(priceSection).toHaveCSS("text-transform", "lowercase");
+    await expect.soft(priceSection).toHaveCSS("font-style", "italic");
+    await expect.soft(priceSection).toHaveCSS("text-decoration", "overline solid rgb(0, 255, 0)");
+    await expect.soft(priceSection).toHaveCSS("line-height", "12px");
+    await expect.soft(priceSection).toHaveCSS("letter-spacing", "1.2px");
+    await expect.soft(priceSection).toHaveCSS("word-spacing", "2px");
 
-//     const filePath = path.join(
-//       __dirname,
-//       `../snapshots/${slug.substring(1)}-${selector.substring(1)}-${browserName}.json`
-//     );
+    // Star rating color #0000ff
+    // Produc Price Typography
+    // Font Family Helvetica
+    // Size 13px
+    // Weight 700
+    // Transform Capitalize
+    // Style oblique
+    // Decoration line through
+    // Line height 13px
+    // Letter Spacing 1.3
+    // Word Spacing 3px
 
-//     const nodeStructure = await page.evaluate(evaluateNodeStructure, selector);
-//     saveStructure(nodeStructure, filePath);
+    let starRating = item2.locator("div.star-rating");
+    await expect.soft(starRating).toHaveCSS("color", "rgb(54, 65, 81)");
+    await expect.soft(starRating).toHaveCSS("font-family", /Helvetica/);
+    await expect.soft(starRating).toHaveCSS("font-size", "13px");
+    await expect.soft(starRating).toHaveCSS("font-weight", "700");
+    await expect.soft(starRating).toHaveCSS("text-transform", "capitalize");
+    await expect.soft(starRating).toHaveCSS("font-style", "italic");
+    await expect.soft(starRating).toHaveCSS("text-decoration", "line-through solid rgb(54, 65, 81)");
+    await expect.soft(starRating).toHaveCSS("line-height", "13px");
+    await expect.soft(starRating).toHaveCSS("letter-spacing", "1.3px");
+    await expect.soft(starRating).toHaveCSS("word-spacing", "3px");
+  });
 
-//     const existingNodeStructure = getStructure(filePath);
-//     expect(nodeStructure).toEqual(existingNodeStructure);
-//   });
-// });
+  // test("Test Style Tab -> Button Styles", async ({ page }) => {
+  //   //
+  // });
+
+  // test("Test Style Tab -> Sale Badge Style", async ({ page }) => {
+  //   //
+  // });
+
+  // test("Test Style Tab -> Pagination", async ({ page }) => {
+  //   //
+  // });
+
+  // test("Test Style Tab -> Popup", async ({ page }) => {
+  //   //
+  // });
+
+  // test("Test Style Tab -> Compare Button", async ({ page }) => {
+  //   //
+  // });
+});
