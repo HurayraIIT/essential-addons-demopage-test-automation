@@ -180,9 +180,55 @@ test.describe("Woo Product Grid - Default Preset", () => {
     await expect.soft(button).toHaveCSS("word-spacing", "5px");
   });
 
-  // test("Test Style Tab -> Sale Badge Style", async ({ page }) => {
-  //   //
-  // });
+  test("Test Style Tab -> Sale Badge Style", async ({ page }) => {
+    // Sale Badge Color #ff0000
+    // Sale Badge Background #00ff00
+    // Font Family Arial
+    // Size 13px
+    // Weight 300
+    // Transform uppercase
+    // Style italic
+    // Decoration Underline
+    // Line height 13px
+    // Letter Spacing 1.3
+    // Word Spacing 3px
+    let saleBadge = item0.getByText("Sale241107");
+    await expect.soft(saleBadge).toHaveCSS("color", "rgb(255, 0, 0)");
+    await expect.soft(saleBadge).toHaveCSS("background-color", "rgb(0, 255, 0)");
+    await expect.soft(saleBadge).toHaveCSS("font-family", /Arial/);
+    await expect.soft(saleBadge).toHaveCSS("font-size", "13px");
+    await expect.soft(saleBadge).toHaveCSS("font-weight", "300");
+    await expect.soft(saleBadge).toHaveCSS("text-transform", "uppercase");
+    await expect.soft(saleBadge).toHaveCSS("font-style", "italic");
+    await expect.soft(saleBadge).toHaveCSS("text-decoration", "underline solid rgb(255, 0, 0)");
+    await expect.soft(saleBadge).toHaveCSS("line-height", "13px");
+    await expect.soft(saleBadge).toHaveCSS("letter-spacing", "1.3px");
+    await expect.soft(saleBadge).toHaveCSS("word-spacing", "3px");
+
+    // Stock out badge color #0000ff
+    // Stock out badge background #ffff00
+    // Font Family Tahoma
+    // Size 14px
+    // Weight 400
+    // Transform lowercase
+    // Style normal
+    // Decoration line though
+    // Line height 14px
+    // Letter Spacing 1.4
+    // Word Spacing 4px
+    let stockOutBadge = item0.getByText("Out of stock241107");
+    await expect.soft(stockOutBadge).toHaveCSS("color", "rgb(0, 0, 255)");
+    await expect.soft(stockOutBadge).toHaveCSS("background-color", "rgb(255, 255, 0)");
+    await expect.soft(stockOutBadge).toHaveCSS("font-family", /Tahoma/);
+    await expect.soft(stockOutBadge).toHaveCSS("font-size", "14px");
+    await expect.soft(stockOutBadge).toHaveCSS("font-weight", "400");
+    await expect.soft(stockOutBadge).toHaveCSS("text-transform", "lowercase");
+    await expect.soft(stockOutBadge).toHaveCSS("font-style", "normal");
+    await expect.soft(stockOutBadge).toHaveCSS("text-decoration", "line-through solid rgb(0, 0, 255)");
+    await expect.soft(stockOutBadge).toHaveCSS("line-height", "14px");
+    await expect.soft(stockOutBadge).toHaveCSS("letter-spacing", "1.4px");
+    await expect.soft(stockOutBadge).toHaveCSS("word-spacing", "4px");
+  });
 
   // test("Test Style Tab -> Pagination", async ({ page }) => {
   //   //
