@@ -230,9 +230,65 @@ test.describe("Woo Product Grid - Default Preset", () => {
     await expect.soft(stockOutBadge).toHaveCSS("word-spacing", "4px");
   });
 
-  // test("Test Style Tab -> Pagination", async ({ page }) => {
-  //   //
-  // });
+  test("Test Style Tab -> Pagination", async ({ page }) => {
+    // alignment right
+    // Top spacing 16px
+    // Font Times New Roman
+    // Size 17px
+    // Weight 700
+    // Line height 17px
+    // Letter spacing 1.7px
+    // Word spacing 7px
+
+    let paginationButton1 = widget.locator("a.page-numbers").getByText("1");
+    let paginationButton2 = widget.locator("a.page-numbers").getByText("2");
+    let paginationButtonNext = widget.locator("a.page-numbers").getByText("->");
+
+    await expect.soft(widget.locator("nav.eael-woo-pagination")).toHaveCSS("text-align", "right");
+    await expect.soft(widget.locator("nav.eael-woo-pagination")).toHaveCSS("margin-top", "16px");
+    await expect.soft(paginationButton1).toHaveCSS("font-family", /Times New Roman/);
+    await expect.soft(paginationButton1).toHaveCSS("font-size", "17px");
+    // await expect.soft(paginationButton1).toHaveCSS("font-weight", "700");
+    await expect.soft(paginationButton1).toHaveCSS("line-height", "17px");
+    await expect.soft(paginationButton1).toHaveCSS("letter-spacing", "1.7px");
+    await expect.soft(paginationButton1).toHaveCSS("word-spacing", "7px");
+
+    //// Normal
+    // Text Color red
+    // Background Color green
+    // Border type solid
+    // Border width 7px
+    // Border Color blue
+    // Border Radius 17px
+    await expect.soft(paginationButton2).toHaveCSS("color", "rgb(255, 0, 0)");
+    await expect.soft(paginationButton2).toHaveCSS("background-color", "rgb(0, 255, 0)");
+    await expect.soft(paginationButton2).toHaveCSS("border-style", "solid");
+    await expect.soft(paginationButton2).toHaveCSS("border-width", "7px");
+    await expect.soft(paginationButton2).toHaveCSS("border-color", "rgb(0, 0, 255)");
+    await expect.soft(paginationButton2).toHaveCSS("border-radius", "17px");
+
+    //// Hover
+    // Text color #ffff00
+    // Background color #00ffff
+    // Border color #ff00ff
+    await paginationButton2.hover();
+    await page.waitForTimeout(500);
+    await expect.soft(paginationButton2).toHaveCSS("color", "rgb(255, 255, 0)");
+    await expect.soft(paginationButton2).toHaveCSS("background-color", "rgb(0, 255, 255)");
+    await expect.soft(paginationButton2).toHaveCSS("border-color", "rgb(255, 0, 255)");
+
+    //// Active
+    // Text color #000000
+    // Background color #ffffff
+    // Border color #ffff00
+    await paginationButtonNext.click();
+    await page.waitForTimeout(1000);
+    await expect.soft(paginationButton2).toHaveCSS("color", "rgb(0, 0, 0)");
+    await expect.soft(paginationButton2).toHaveCSS("background-color", "rgb(255, 255, 255)");
+    await expect.soft(paginationButton2).toHaveCSS("border-color", "rgb(255, 255, 0)");
+
+    // Loader color #ffff00
+  });
 
   // test("Test Style Tab -> Popup", async ({ page }) => {
   //   //
