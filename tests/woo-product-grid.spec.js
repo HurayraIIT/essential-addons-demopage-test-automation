@@ -306,12 +306,4 @@ test.describe("Woo Product Grid - Default Preset", () => {
 
     // Loader color #ffff00
   });
-
-  // test("Test Style Tab -> Popup", async ({ page }) => {
-  //   //
-  // });
-
-  // test("Test Style Tab -> Compare Button", async ({ page }) => {
-  //   //
-  // });
 });

@@ -52,15 +52,9 @@ test.describe("Team Member https://qa1.site/go/3x13103", () => {
     // image height 301px
     await expect(image_loc).toHaveCSS("height", "301px");
     // margin 2 3 4 5
-    await expect(image_loc).toHaveCSS("margin-top", "2px");
-    await expect(image_loc).toHaveCSS("margin-right", "3px");
-    await expect(image_loc).toHaveCSS("margin-bottom", "4px");
-    await expect(image_loc).toHaveCSS("margin-left", "5px");
+    await expect(image_loc).toHaveCSS("margin", "2px 3px 4px 5px");
     // padding 1 2 3 4
-    await expect(image_loc).toHaveCSS("padding-top", "1px");
-    await expect(image_loc).toHaveCSS("padding-right", "2px");
-    await expect(image_loc).toHaveCSS("padding-bottom", "3px");
-    await expect(image_loc).toHaveCSS("padding-left", "4px");
+    await expect(image_loc).toHaveCSS("padding", "1px 2px 3px 4px");
     // border type solid
     await expect(image_loc).toHaveCSS("border-style", "solid");
     // border width 5 6 7 8
@@ -154,16 +148,10 @@ test.describe("Team Member https://qa1.site/go/3x13103", () => {
 
     // icon margin 2 3 4 5 -> can;t find it, overlapped with distance??
     // icon padding 1 2 3 4
-    await expect(link_loc).toHaveCSS("padding-top", "1px");
-    await expect(link_loc).toHaveCSS("padding-right", "2px");
-    await expect(link_loc).toHaveCSS("padding-bottom", "3px");
-    await expect(link_loc).toHaveCSS("padding-left", "4px");
+    await expect(link_loc).toHaveCSS("padding", "1px 2px 3px 4px");
 
     // icon distance 3 4 5 6
-    await expect(social01_loc.locator("li").nth(0)).toHaveCSS("margin-top", "3px");
-    await expect(social01_loc.locator("li").nth(0)).toHaveCSS("margin-right", "4px");
-    await expect(social01_loc.locator("li").nth(0)).toHaveCSS("margin-bottom", "5px");
-    await expect(social01_loc.locator("li").nth(0)).toHaveCSS("margin-left", "6px");
+    await expect(social01_loc.locator("li").nth(0)).toHaveCSS("margin", "3px 4px 5px 6px");
 
     // icon color ff00ff
     await expect(svg_loc).toHaveCSS("color", "rgb(255, 0, 255)");

@@ -2,10 +2,10 @@
 
 import { test, expect } from "../global-setup";
 
-let slug = "https://essential-addons.com/elementor/advanced-accordion";
-let heading = "Advanced Accordion";
+test.describe("Advanced Accordion - Live Demo Page - 73d0d346", () => {
+  let slug = "https://essential-addons.com/elementor/advanced-accordion";
+  let heading = "Advanced Accordion";
 
-test.describe("Advanced Accordion - 73d0d346", () => {
   let accordion1 = "";
   let item1 = "";
   let item2 = "";
