@@ -38,6 +38,7 @@ let slug = "/dynamic-content-elements/content-timeline/";
 
 test.describe("Content Timeline - Default Preset", () => {
   let heading = "Hurayra Automation 241111 Default Preset";
+  let widget;
 
   test.beforeEach(async ({ page }) => {
     await page.goto(slug);
@@ -45,6 +46,8 @@ test.describe("Content Timeline - Default Preset", () => {
     await page.getByRole("heading", { name: heading, exact: true }).scrollIntoViewIfNeeded();
     await expect.soft(page.getByRole("heading", { name: heading, exact: true })).toBeVisible();
     await page.getByRole("heading", { name: heading, exact: true }).click();
+
+    widget = page.getByTestId("3ba7298");
   });
 
   test("Test Contents", async ({ page }) => {
@@ -60,19 +63,82 @@ test.describe("Content Timeline - Default Preset", () => {
   });
 
   test("Test Style Tab > Timeline", async ({ page }) => {
-    //
+    // Line Size 6px
+    // Position From Left 3px
+    // Inactive Line Color red
+    // Active line color green
+
+    let line = widget.locator("div.eael-content-timeline-line").nth(0);
+    await expect.soft(line).toHaveCSS("width", "6px");
+    await expect.soft(line).toHaveCSS("margin-left", "-3px");
+    await expect.soft(line).toHaveCSS("background-color", "rgb(255, 0, 0)");
+    await expect.soft(line.locator("div")).toHaveCSS("background-color", "rgb(0, 255, 0)");
   });
 
   test("Test Style Tab > Card", async ({ page }) => {
-    //
+    // Card Background Color yellow
+    // Padding 21px
+    // Margin 12px
+    // Border type double
+    // Border Width 3px
+    // Border color red
+    // Border radius 12px
+    // Box shadow 1 2 13 4
+
+    let card = widget.locator("div.eael-content-timeline-content").nth(0);
+    await expect.soft(card).toHaveCSS("background-color", "rgb(255, 255, 0)");
+    await expect.soft(card).toHaveCSS("padding", "21px");
+    await expect.soft(card).toHaveCSS("margin", "12px");
+    await expect.soft(card).toHaveCSS("border-style", "double");
+    await expect.soft(card).toHaveCSS("border-width", "3px");
+    await expect.soft(card).toHaveCSS("border-color", "rgb(255, 0, 0)");
+    await expect.soft(card).toHaveCSS("border-radius", "12px");
+    await expect.soft(card).toHaveCSS("box-shadow", "rgba(0, 0, 0, 0.5) 1px 2px 13px 4px");
   });
 
-  test("Test Style Tab > Caret", async ({ page }) => {
-    //
-  });
+  // TODO: need to solve for ::before pseudo-element
+  // test("Test Style Tab > Caret", async ({ page }) => {
+  //   // Caret Size 16px
+  //   // Caret Position 31px
+  //   // Caret Color Blue
+
+  //   await expect.soft(widget.locator("div.eael-content-timeline-content:before")).toHaveCSS("top", "31px");
+  // });
 
   test("Test Style Tab > Bullet", async ({ page }) => {
-    //
+    let bullet = await widget.locator("div.eael-content-timeline-img").nth(1);
+    let icon = await bullet.locator("svg");
+
+    // Bullet Size 41px
+    // Icon size 15px
+    // Position From Top 21px
+    // Position From Left 22px
+    // Bullet Border Width 4px
+    await expect.soft(bullet).toHaveCSS("height", "41px");
+    await expect.soft(bullet).toHaveCSS("width", "41px");
+    await expect.soft(icon).toHaveCSS("height", "15px");
+    await expect.soft(icon).toHaveCSS("width", "15px");
+    await expect.soft(bullet).toHaveCSS("margin-top", "21px");
+    await expect.soft(bullet).toHaveCSS("margin-left", "-22px");
+    await expect.soft(bullet).toHaveCSS("border-width", "4px");
+
+    // Bullet Color red
+    // Bullet Border Color green
+    // Bullet Font Color blue
+    await expect.soft(bullet).toHaveCSS("background-color", "rgb(255, 0, 0)");
+    await expect.soft(bullet).toHaveCSS("border-color", "rgb(0, 255, 0)");
+    await expect.soft(icon).toHaveCSS("fill", "rgb(0, 0, 255)");
+
+    // Active State(Highlighted)
+    // Bullet Color 00ffff
+    // Bullet Border Color ff00ff
+    // Bullet Font Color ffff00
+
+    await page.getByText("Hurayra Automation Product 02").scrollIntoViewIfNeeded();
+    await page.waitForTimeout(500);
+    await expect.soft(bullet).toHaveCSS("background-color", "rgb(0, 255, 255)");
+    await expect.soft(bullet).toHaveCSS("border-color", "rgb(255, 0, 255)");
+    await expect.soft(icon).toHaveCSS("fill", "rgb(255, 255, 0)");
   });
 
   test("Test Style Tab > Color & Typography", async ({ page }) => {
