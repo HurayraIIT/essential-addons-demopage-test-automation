@@ -51,16 +51,40 @@ test.describe("Content Timeline - Default Preset", () => {
   });
 
   test("Test Contents", async ({ page }) => {
-    //
+    await expect(page.getByText("November 8, 2020")).toBeVisible();
+    await expect(page.getByText("November 9, 2020")).toBeVisible();
+    await expect(page.getByText("November 10, 2020")).toBeVisible();
+    await expect(page.getByRole("link", { name: "Hurayra Automation Product 01" })).toBeVisible();
+    await expect(page.getByRole("link", { name: "Hurayra Automation Product 02" })).toBeVisible();
+    await expect(page.getByRole("link", { name: "Hurayra Automation Product 03" })).toBeVisible();
+    await expect(page.getByRole("link", { name: "Read More241111" }).first()).toBeVisible();
+    await expect(page.getByRole("link", { name: "Read More241111" }).nth(1)).toBeVisible();
+    await expect(page.getByRole("link", { name: "Read More241111" }).nth(2)).toBeVisible();
+    await expect(page.getByText("Hurayra Automation 241107>>>").first()).toBeVisible();
+    await expect(page.getByText("Hurayra Automation 241107>>>").nth(1)).toBeVisible();
+    await expect(page.getByText("Hurayra Automation 241107>>>").nth(2)).toBeVisible();
   });
 
   test("Test Content Tab > Layout Settings", async ({ page }) => {
-    //
+    await expect(widget.locator("div#eael-content-timeline-3ba7298")).toHaveAttribute(
+      "data-slide_to_scroll",
+      '{"desktop":1,"mobile":1,"tablet":1}'
+    );
+    await expect(widget.locator("div#eael-content-timeline-3ba7298")).toHaveClass(/content-timeline-layout-center/);
+    await expect(widget.locator("div.eael-content-timeline-img svg").first()).toHaveClass("e-font-icon-svg e-fas-plus-square");
+    await expect(widget.locator("h3.eael-timeline-title").first()).toContainText("Hurayra Automation Product 01");
+    await expect(widget.locator("div.eael-content-timeline-content img").first()).toHaveCSS("height", "150px")
+    await expect(widget.locator("div.eael-content-timeline-content img").first()).toHaveCSS("width", "150px")
+    await expect(widget.locator("div.eael-content-timeline-content img").first()).toHaveAttribute(
+      "src",
+      "https://eael.site/wp-content/uploads/2024/10/image-01-150x150.png"
+    );
   });
 
-  test("Test Content Tab > Links", async ({ page }) => {
-    //
-  });
+  // TODO: Write tests after issues are fixed in master
+  // test("Test Content Tab > Links", async ({ page }) => {
+  //   //
+  // });
 
   test("Test Style Tab > Timeline", async ({ page }) => {
     // Line Size 6px
