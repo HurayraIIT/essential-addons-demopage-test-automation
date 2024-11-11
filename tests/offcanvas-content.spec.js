@@ -197,15 +197,15 @@ test.describe("Offcanvas https://qa1.site/go/q7i345", () => {
     await expect.soft(toggleButtonSvg).toHaveCSS("line-height", "31px");
 
     // Border related
-    await expect(toggleButton).toHaveCSS("border-style", "solid");
-    await expect(toggleButton).toHaveCSS("border-width", "11px");
-    await expect(toggleButton).toHaveCSS("border-radius", "12px");
-    await expect(toggleButton).toHaveCSS("border-color", "rgb(0, 255, 0)");
+    await expect.soft(toggleButton).toHaveCSS("border-style", "solid");
+    await expect.soft(toggleButton).toHaveCSS("border-width", "11px");
+    await expect.soft(toggleButton).toHaveCSS("border-radius", "12px");
+    await expect.soft(toggleButton).toHaveCSS("border-color", "rgb(0, 255, 0)");
 
     // Button Related
-    await expect(toggleButton).toHaveCSS("box-shadow", "rgba(0, 0, 0, 0.5) 1px 2px 13px 4px inset");
-    await expect(toggleButton).toHaveCSS("padding", "13px 14px 15px 16px");
-    await expect(toggleButton).toHaveCSS("background-color", "rgb(0, 255, 255)");
+    await expect.soft(toggleButton).toHaveCSS("box-shadow", "rgba(0, 0, 0, 0.5) 1px 2px 13px 4px inset");
+    await expect.soft(toggleButton).toHaveCSS("padding", "13px 14px 15px 16px");
+    await expect.soft(toggleButton).toHaveCSS("background-color", "rgb(0, 255, 255)");
 
     // Text color red
     // Text font-family "arial"
@@ -228,9 +228,7 @@ test.describe("Offcanvas https://qa1.site/go/q7i345", () => {
     await expect.soft(toggleButtonText).toHaveCSS("letter-spacing", "2.1px");
     await expect.soft(toggleButtonText).toHaveCSS("word-spacing", "1px");
 
-    // Hover 
+    // Hover
     await toggleButton.hover();
-
-    
   });
 });

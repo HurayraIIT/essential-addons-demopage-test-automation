@@ -8,29 +8,31 @@ test.describe("Content Timeline Live Demo Page Tests", () => {
     let heading = "Content Timeline";
 
     await page.goto(slug);
-    await expect(page.getByRole("heading", { name: heading, exact: true })).toBeVisible();
+    await expect.soft(page.getByRole("heading", { name: heading, exact: true })).toBeVisible();
   });
 
   test("Test Section: Center Layout With Custom Source", async ({ page }) => {
     await page.getByRole("heading", { name: "Center Layout With Custom Source" }).scrollIntoViewIfNeeded();
-    await expect(page.getByRole("heading", { name: "Center Layout With Custom Source" })).toBeVisible();
-    await expect(
-      page.getByText(
-        "Choose custom source from ‘Timeline Content’ and style each section of it to make it look standout"
+    await expect.soft(page.getByRole("heading", { name: "Center Layout With Custom Source" })).toBeVisible();
+    await expect
+      .soft(
+        page.getByText(
+          "Choose custom source from ‘Timeline Content’ and style each section of it to make it look standout"
+        )
       )
-    ).toBeVisible();
+      .toBeVisible();
 
     const widget = page.locator(
       ".elementor-element-72c859bb > .elementor-widget-container > #eael-content-timeline-72c859bb"
     );
-    await expect(widget).toHaveAttribute("data-slide_to_scroll", '{"desktop":1,"mobile":1,"tablet":1}');
+    await expect.soft(widget).toHaveAttribute("data-slide_to_scroll", '{"desktop":1,"mobile":1,"tablet":1}');
 
-    await expect(page.locator(".eael-content-timeline-img").first()).toBeVisible();
-    await expect(page.locator(".eael-content-timeline-inner").first()).toBeVisible();
-    await expect(page.locator("div:nth-child(2) > .eael-content-timeline-img").first()).toBeVisible();
-    await expect(page.locator("div:nth-child(2) > .eael-content-timeline-line").first()).toBeVisible();
-    await expect(page.locator("div:nth-child(3) > .eael-content-timeline-img").first()).toBeVisible();
-    await expect(page.locator("div:nth-child(4) > .eael-content-timeline-img").first()).toBeVisible();
+    await expect.soft(page.locator(".eael-content-timeline-img").first()).toBeVisible();
+    await expect.soft(page.locator(".eael-content-timeline-inner").first()).toBeVisible();
+    await expect.soft(page.locator("div:nth-child(2) > .eael-content-timeline-img").first()).toBeVisible();
+    await expect.soft(page.locator("div:nth-child(2) > .eael-content-timeline-line").first()).toBeVisible();
+    await expect.soft(page.locator("div:nth-child(3) > .eael-content-timeline-img").first()).toBeVisible();
+    await expect.soft(page.locator("div:nth-child(4) > .eael-content-timeline-img").first()).toBeVisible();
   });
 });
 
@@ -51,34 +53,36 @@ test.describe("Content Timeline - Default Preset", () => {
   });
 
   test("Test Contents", async ({ page }) => {
-    await expect(page.getByText("November 8, 2020")).toBeVisible();
-    await expect(page.getByText("November 9, 2020")).toBeVisible();
-    await expect(page.getByText("November 10, 2020")).toBeVisible();
-    await expect(page.getByRole("link", { name: "Hurayra Automation Product 01" })).toBeVisible();
-    await expect(page.getByRole("link", { name: "Hurayra Automation Product 02" })).toBeVisible();
-    await expect(page.getByRole("link", { name: "Hurayra Automation Product 03" })).toBeVisible();
-    await expect(page.getByRole("link", { name: "Read More241111" }).first()).toBeVisible();
-    await expect(page.getByRole("link", { name: "Read More241111" }).nth(1)).toBeVisible();
-    await expect(page.getByRole("link", { name: "Read More241111" }).nth(2)).toBeVisible();
-    await expect(page.getByText("Hurayra Automation 241107>>>").first()).toBeVisible();
-    await expect(page.getByText("Hurayra Automation 241107>>>").nth(1)).toBeVisible();
-    await expect(page.getByText("Hurayra Automation 241107>>>").nth(2)).toBeVisible();
+    await expect.soft(page.getByText("November 8, 2020")).toBeVisible();
+    await expect.soft(page.getByText("November 9, 2020")).toBeVisible();
+    await expect.soft(page.getByText("November 10, 2020")).toBeVisible();
+    await expect.soft(page.getByRole("link", { name: "Hurayra Automation Product 01" })).toBeVisible();
+    await expect.soft(page.getByRole("link", { name: "Hurayra Automation Product 02" })).toBeVisible();
+    await expect.soft(page.getByRole("link", { name: "Hurayra Automation Product 03" })).toBeVisible();
+    await expect.soft(page.getByRole("link", { name: "Read More241111" }).first()).toBeVisible();
+    await expect.soft(page.getByRole("link", { name: "Read More241111" }).nth(1)).toBeVisible();
+    await expect.soft(page.getByRole("link", { name: "Read More241111" }).nth(2)).toBeVisible();
+    await expect.soft(page.getByText("Hurayra Automation 241107>>>").first()).toBeVisible();
+    await expect.soft(page.getByText("Hurayra Automation 241107>>>").nth(1)).toBeVisible();
+    await expect.soft(page.getByText("Hurayra Automation 241107>>>").nth(2)).toBeVisible();
   });
 
   test("Test Content Tab > Layout Settings", async ({ page }) => {
-    await expect(widget.locator("div#eael-content-timeline-3ba7298")).toHaveAttribute(
-      "data-slide_to_scroll",
-      '{"desktop":1,"mobile":1,"tablet":1}'
-    );
-    await expect(widget.locator("div#eael-content-timeline-3ba7298")).toHaveClass(/content-timeline-layout-center/);
-    await expect(widget.locator("div.eael-content-timeline-img svg").first()).toHaveClass("e-font-icon-svg e-fas-plus-square");
-    await expect(widget.locator("h3.eael-timeline-title").first()).toContainText("Hurayra Automation Product 01");
-    await expect(widget.locator("div.eael-content-timeline-content img").first()).toHaveCSS("height", "150px")
-    await expect(widget.locator("div.eael-content-timeline-content img").first()).toHaveCSS("width", "150px")
-    await expect(widget.locator("div.eael-content-timeline-content img").first()).toHaveAttribute(
-      "src",
-      "https://eael.site/wp-content/uploads/2024/10/image-01-150x150.png"
-    );
+    await expect
+      .soft(widget.locator("div#eael-content-timeline-3ba7298"))
+      .toHaveAttribute("data-slide_to_scroll", '{"desktop":1,"mobile":1,"tablet":1}');
+    await expect
+      .soft(widget.locator("div#eael-content-timeline-3ba7298"))
+      .toHaveClass(/content-timeline-layout-center/);
+    await expect
+      .soft(widget.locator("div.eael-content-timeline-img svg").first())
+      .toHaveClass("e-font-icon-svg e-fas-plus-square");
+    await expect.soft(widget.locator("h3.eael-timeline-title").first()).toContainText("Hurayra Automation Product 01");
+    await expect.soft(widget.locator("div.eael-content-timeline-content img").first()).toHaveCSS("height", "150px");
+    await expect.soft(widget.locator("div.eael-content-timeline-content img").first()).toHaveCSS("width", "150px");
+    await expect
+      .soft(widget.locator("div.eael-content-timeline-content img").first())
+      .toHaveAttribute("src", "https://eael.site/wp-content/uploads/2024/10/image-01-150x150.png");
   });
 
   // TODO: Write tests after issues are fixed in master

@@ -19,12 +19,10 @@ test.describe("Dual Color Headline https://qa1.site/go/a8d1026", () => {
 
   test("Test Content Tab", async ({ page }) => {
     // Icon should be visible and Icon should be star
-    await expect.soft(dch_root.locator("span.eael-dch-svg-icon svg")).toHaveClass(
-      "e-font-icon-svg e-fas-star"
-    );
+    await expect.soft(dch_root.locator("span.eael-dch-svg-icon svg")).toHaveClass("e-font-icon-svg e-fas-star");
     // Separator should be visible, Separator type should be line
-    expect(dch_root.locator("div.eael-dch-separator-wrap span.separator-one")).toBeVisible();
-    expect(dch_root.locator("div.eael-dch-separator-wrap span.separator-two")).toBeVisible();
+    expect.soft(dch_root.locator("div.eael-dch-separator-wrap span.separator-one")).toBeVisible();
+    expect.soft(dch_root.locator("div.eael-dch-separator-wrap span.separator-two")).toBeVisible();
     // Title tag should be H3, first part should be "First Part 241016", second part should be "Last Part 241016"
     await expect.soft(dch_root.locator("h3.title span:nth-child(1)")).toContainText("First Part 241016");
     await expect.soft(dch_root.locator("h3.title span:nth-child(2)")).toContainText("Last Part 241016");
@@ -39,9 +37,11 @@ test.describe("Dual Color Headline https://qa1.site/go/a8d1026", () => {
     // Seprator position should be before title
     const separator = await dch_root.locator("div.eael-dch-separator-wrap");
     const title = await dch_root.locator("h3.title");
-    const separatorIndex = await separator.evaluate((node) => Array.prototype.indexOf.call(node.parentNode.children, node));
+    const separatorIndex = await separator.evaluate((node) =>
+      Array.prototype.indexOf.call(node.parentNode.children, node)
+    );
     const titleIndex = await title.evaluate((node) => Array.prototype.indexOf.call(node.parentNode.children, node));
-    expect(separatorIndex).toBeLessThan(titleIndex);
+    expect.soft(separatorIndex).toBeLessThan(titleIndex);
   });
 
   test("Test Style Tab > Dual Heading Style & Icon Style", async ({ page }) => {
