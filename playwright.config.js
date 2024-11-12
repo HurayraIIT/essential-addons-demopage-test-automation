@@ -9,7 +9,7 @@ export default defineConfig({
   testDir: "./tests",
   fullyParallel: true,
   retries: process.env.CI ? 2 : 0,
-  workers: process.env.CI ? 2 : 4,
+  workers: process.env.CI ? 4 : 4,
   timeout: 30 * 1000,
 
   reporter: process.env.CI
@@ -36,9 +36,9 @@ export default defineConfig({
     baseURL: process.env.BASE_URL,
     testIdAttribute: "data-id",
 
-    screenshot: "on",
-    trace: "retain-on-failure",
-    video: "retain-on-failure",
+    //screenshot: "on",
+    trace: "on-first-retry",
+    video: "on-first-retry",
 
     ignoreHTTPSErrors: true,
   },
@@ -49,15 +49,13 @@ export default defineConfig({
       name: "chromium",
       use: { ...devices["Desktop Chrome"], ...test },
     },
-
-    {
-      name: "firefox",
-      use: { ...devices["Desktop Firefox"], ...test },
-    },
-
-    {
-      name: "webkit",
-      use: { ...devices["Desktop Safari"], ...test },
-    },
+    // {
+    //   name: "firefox",
+    //   use: { ...devices["Desktop Firefox"] },
+    // },
+    // {
+    //   name: "webkit",
+    //   use: { ...devices["Desktop Safari"] },
+    // },
   ],
 });

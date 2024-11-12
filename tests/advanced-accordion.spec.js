@@ -1,10 +1,11 @@
 "use strict";
+
 import { test, expect } from "../global-setup";
 
-let slug = "/advanced-accordion";
-let heading = "Advanced Accordion";
+test.describe("Advanced Accordion - Live Demo Page - 73d0d346", () => {
+  let slug = "https://essential-addons.com/elementor/advanced-accordion";
+  let heading = "Advanced Accordion";
 
-test.describe("Advanced Accordion - 73d0d346", () => {
   let accordion1 = "";
   let item1 = "";
   let item2 = "";
@@ -31,8 +32,10 @@ test.describe("Advanced Accordion - 73d0d346", () => {
   test.beforeEach(async ({ page }) => {
     await page.goto(slug);
     await expect.soft(page.getByRole("heading", { name: heading, exact: true })).toBeVisible();
-    await expect(page.getByRole("link", { name: "Documentation" })).toBeVisible();
-    await expect(page.getByRole("link", { name: "Documentation" })).toHaveAttribute("href", /docs\/advanced-accordion/);
+    await expect.soft(page.getByRole("link", { name: "Documentation" })).toBeVisible();
+    await expect
+      .soft(page.getByRole("link", { name: "Documentation" }))
+      .toHaveAttribute("href", /docs\/advanced-accordion/);
 
     accordion1 = page.getByTestId("73d0d346");
     await accordion1.scrollIntoViewIfNeeded();
@@ -60,56 +63,57 @@ test.describe("Advanced Accordion - 73d0d346", () => {
   });
 
   test("Accordion Sections Should Load and first item should be open by default", async ({ page }) => {
-    await expect(accordion1).toBeVisible();
+    await expect.soft(accordion1).toBeVisible();
 
     // Item 1 is opened by default
-    await expect(item1_icon_closed).toBeHidden();
-    await expect(item1_icon_opened).toBeVisible();
-    await expect(item1_title).toBeVisible();
-    await expect(item1_angle).toBeVisible();
-    await expect(item1_content).toBeVisible();
+    await expect.soft(item1_icon_closed).toBeHidden();
+    await expect.soft(item1_icon_opened).toBeVisible();
+    await expect.soft(item1_title).toBeVisible();
+    await expect.soft(item1_angle).toBeVisible();
+    await expect.soft(item1_content).toBeVisible();
 
     // Item 2 is closed
-    await expect(item2_icon_closed).toBeVisible();
-    await expect(item2_icon_opened).toBeHidden();
-    await expect(item2_title).toBeVisible();
-    await expect(item2_angle).toBeVisible();
-    await expect(item2_content).toBeHidden();
+    await expect.soft(item2_icon_closed).toBeVisible();
+    await expect.soft(item2_icon_opened).toBeHidden();
+    await expect.soft(item2_title).toBeVisible();
+    await expect.soft(item2_angle).toBeVisible();
+    await expect.soft(item2_content).toBeHidden();
 
     // Item 3 is closed
-    await expect(item3_icon_closed).toBeVisible();
-    await expect(item3_icon_opened).toBeHidden();
-    await expect(item3_title).toBeVisible();
-    await expect(item3_angle).toBeVisible();
-    await expect(item3_content).toBeHidden();
+    await expect.soft(item3_icon_closed).toBeVisible();
+    await expect.soft(item3_icon_opened).toBeHidden();
+    await expect.soft(item3_title).toBeVisible();
+    await expect.soft(item3_angle).toBeVisible();
+    await expect.soft(item3_content).toBeHidden();
   });
 
   test("Accordion Expand/Shrink Should Work", async ({ page }) => {
-    await expect(accordion1).toBeVisible();
+    await expect.soft(accordion1).toBeVisible();
+    await page.waitForTimeout(500);
 
     // Click Item 2
     await item2_title.click();
     await page.waitForTimeout(300);
 
     // Item 1 should be closed
-    await expect(item1_icon_closed).toBeVisible();
-    await expect(item1_icon_opened).toBeHidden();
-    await expect(item1_title).toBeVisible();
-    await expect(item1_angle).toBeVisible();
-    await expect(item1_content).toBeHidden();
+    await expect.soft(item1_icon_closed).toBeVisible();
+    await expect.soft(item1_icon_opened).toBeHidden();
+    await expect.soft(item1_title).toBeVisible();
+    await expect.soft(item1_angle).toBeVisible();
+    await expect.soft(item1_content).toBeHidden();
 
     // Item 2 should be opened
-    await expect(item2_icon_closed).toBeHidden();
-    await expect(item2_icon_opened).toBeVisible();
-    await expect(item2_title).toBeVisible();
-    await expect(item2_angle).toBeVisible();
-    await expect(item2_content).toBeVisible();
+    await expect.soft(item2_icon_closed).toBeHidden();
+    await expect.soft(item2_icon_opened).toBeVisible();
+    await expect.soft(item2_title).toBeVisible();
+    await expect.soft(item2_angle).toBeVisible();
+    await expect.soft(item2_content).toBeVisible();
 
     // Item 3 should be closed
-    await expect(item3_icon_closed).toBeVisible();
-    await expect(item3_icon_opened).toBeHidden();
-    await expect(item3_title).toBeVisible();
-    await expect(item3_angle).toBeVisible();
-    await expect(item3_content).toBeHidden();
+    await expect.soft(item3_icon_closed).toBeVisible();
+    await expect.soft(item3_icon_opened).toBeHidden();
+    await expect.soft(item3_title).toBeVisible();
+    await expect.soft(item3_angle).toBeVisible();
+    await expect.soft(item3_content).toBeHidden();
   });
 });

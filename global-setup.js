@@ -33,8 +33,9 @@ export const test = base.extend({
     page.goto = async (url, options = {}) => {
       options.waitUntil = "domcontentloaded";
 
-      // Adding query param to bypass server cache
-      url += "?foo=bar";
+      // Adding a random string as query param to avoid caching
+      let randomParam = Math.random().toString(36).substring(2);
+      url += `?${randomParam}=${randomParam}`;
 
       return await originalGoto(url, options);
     };

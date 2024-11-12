@@ -1,7 +1,8 @@
 "use strict";
+
 import { test, expect } from "../global-setup";
 
-let slug = "/particle-effect";
+let slug = "https://essential-addons.com/elementor/particle-effect";
 let heading = "Particles";
 
 test.describe("Particles - EA Particles Default Style 01", () => {
@@ -10,12 +11,11 @@ test.describe("Particles - EA Particles Default Style 01", () => {
 
   test.beforeEach(async ({ page }) => {
     await page.goto(slug);
-    await expect(page.getByRole("heading", { name: heading, exact: true })).toBeVisible();
-    await expect(page.getByRole("link", { name: "Documentation" })).toBeVisible();
-    await expect(page.getByRole("link", { name: "Documentation" })).toHaveAttribute(
-      "href",
-      /docs\/extensions\/particles/
-    );
+    await expect.soft(page.getByRole("heading", { name: heading, exact: true })).toBeVisible();
+    await expect.soft(page.getByRole("link", { name: "Documentation" })).toBeVisible();
+    await expect
+      .soft(page.getByRole("link", { name: "Documentation" }))
+      .toHaveAttribute("href", /docs\/extensions\/particles/);
 
     section = page.locator("#eael-section-particles-55c455f8");
     canvas = section.locator(".particles-js-canvas-el");
@@ -25,23 +25,23 @@ test.describe("Particles - EA Particles Default Style 01", () => {
   test("All sections should be present", async ({ page }) => {
     test.slow();
 
-    await expect(section).toBeVisible();
-    await expect(canvas).toBeVisible();
+    await expect.soft(section).toBeVisible();
+    await expect.soft(canvas).toBeVisible();
 
     // Validate section attributes
-    await expect(section).toHaveAttribute("data-particle_enable", "true");
-    await expect(section).toHaveAttribute("data-eael_ptheme_source", "presets");
-    await expect(section).toHaveAttribute("data-preset_theme", "default");
-    await expect(section).toHaveAttribute("data-particle_opacity", "0.5");
-    await expect(section).toHaveAttribute("data-particle_speed", "6");
-    await expect(section).toHaveAttribute("data-id", "55c455f8");
-    await expect(canvas).toHaveAttribute("style", "width: 100%; height: 100%;");
+    await expect.soft(section).toHaveAttribute("data-particle_enable", "true");
+    await expect.soft(section).toHaveAttribute("data-eael_ptheme_source", "presets");
+    await expect.soft(section).toHaveAttribute("data-preset_theme", "default");
+    await expect.soft(section).toHaveAttribute("data-particle_opacity", "0.5");
+    await expect.soft(section).toHaveAttribute("data-particle_speed", "6");
+    await expect.soft(section).toHaveAttribute("data-id", "55c455f8");
+    await expect.soft(canvas).toHaveAttribute("style", "width: 100%; height: 100%;");
   });
 
   test("Validate Section Style", async ({ page }) => {
     test.slow();
 
-    await expect(section).toHaveAttribute(
+    await expect.soft(section).toHaveAttribute(
       "data-custom_style",
       `{
   "particles": {
