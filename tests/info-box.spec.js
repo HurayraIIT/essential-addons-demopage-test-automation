@@ -2,6 +2,84 @@
 
 import { test, expect } from "../global-setup";
 
+let slug = "/content-elements/info-box/";
+
+test.describe("Infobox With Image", () => {
+  let heading = "Hurayra Automation 241112 Infobox Image";
+
+  let widget;
+  let title;
+  let content;
+  let button;
+  let image;
+
+  test.beforeEach(async ({ page }) => {
+    await page.goto(slug);
+    await page.waitForLoadState("networkidle");
+    let headingLocator = page.getByRole("heading", { name: heading, exact: true });
+    await headingLocator.scrollIntoViewIfNeeded();
+    await expect.soft(headingLocator).toBeVisible();
+    await headingLocator.click();
+
+    widget = page.getByTestId("02774e1");
+    title = page.getByText("Infobox Title 241112");
+    content = page.getByText("Infobox content 241112");
+    button = widget.locator("div.infobox-button");
+    image = widget.locator("div.infobox-icon img");
+  });
+
+  test("Test Content Tab", async ({ page }) => {
+    // image-0 should be present
+    await expect(widget.locator("div.infobox-icon img")).toHaveAttribute("src", /image-00\.png/);
+    // title tag should be h3
+    await expect(widget.locator("h3.title")).toHaveText("Infobox Title 241112");
+    // content alignment left
+    await expect(widget.locator("div.infobox-content")).toHaveCSS("text-align", "left");
+    // content height 151px
+    await expect(widget.locator("div.infobox-content")).toHaveCSS("height", "151px");
+    // link url should be https://eael.site/click-me/ and should have nofollow
+    await expect(button.locator("a")).toHaveAttribute("href", /click-me/);
+    await expect(button.locator("a")).toHaveAttribute("rel", "nofollow");
+    // icon should be grin
+    // icon position should be after content
+    await expect(button.locator("svg.eael_infobox_button_icon_right")).toHaveClass(/e-far-grin-squint/);
+    // icon spacing should be 11px
+    await expect(button.locator("svg.eael_infobox_button_icon_right")).toHaveCSS("margin-left", "11px");
+  });
+
+  test("Test Style Tab > Image Style", async ({ page }) => {
+    // background color red
+    // padding 9px
+    // border type dotted
+    // border width 2px
+    // border color green
+    // image shape circle
+    // width 101px
+    // height 102px
+    // margin 11px
+
+    await expect(image).toHaveCSS("background-color", "rgb(255, 0, 0)");
+    await expect(image).toHaveCSS("padding", "9px");
+    await expect(image).toHaveCSS("border-style", "dotted");
+    await expect(image).toHaveCSS("border-width", "2px");
+    await expect(image).toHaveCSS("border-color", "rgb(0, 255, 0)");
+    await expect(image).toHaveCSS("border-radius", "50%");
+    await expect(image).toHaveCSS("width", "101px");
+    await expect(image).toHaveCSS("height", "102px");
+    await expect(image.locator("..")).toHaveCSS("margin", "11px");
+
+    // TODO: assertions for hover styles
+  });
+
+  // test("Test Style Tab > Button Styles", async ({ page }) => {
+  //   //
+  // });
+
+  // test("Test Style Tab > Color & typography", async ({ page }) => {
+  //   //
+  // });
+});
+
 test.describe("Info Box Live Demo Page Tests", () => {
   let slug = "https://essential-addons.com/elementor/info-box";
   let heading = "Info Box";
