@@ -2,10 +2,9 @@
 
 import { test, expect } from "../global-setup";
 
-let slug = "https://essential-addons.com/elementor/info-box";
-let heading = "Info Box";
-
-test.describe("Info Box", () => {
+test.describe("Info Box Live Demo Page Tests", () => {
+  let slug = "https://essential-addons.com/elementor/info-box";
+  let heading = "Info Box";
   // Setup
   test.beforeEach(async ({ page }) => {
     await page.goto(slug);

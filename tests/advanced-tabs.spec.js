@@ -2,10 +2,9 @@
 
 import { test, expect } from "../global-setup";
 
-let slug = "https://essential-addons.com/elementor/advanced-tabs";
-let heading = "Advanced Tabs";
-
 test.describe("Advanced Tabs - Use Horizontal Layout of Tabs", () => {
+  let slug = "https://essential-addons.com/elementor/advanced-tabs";
+  let heading = "Advanced Tabs";
   let advtab = "";
 
   let advtab_nav = "";
