@@ -111,14 +111,14 @@ test.describe("Woo Product List - Preset 1", () => {
     await expect.soft(progressBar).toHaveCSS("border-radius", "12px");
 
     // Static Buttons
-      // Add to cart: 
-      // Margin 5px
-      // Padding 21 21 21 41
-      // Border Radius 16px
-      // Border Type double
-      // Border width 3px
-      // Border color red
-      // Box Shadow 2 3 14 5
+    // Add to cart:
+    // Margin 5px
+    // Padding 21 21 21 41
+    // Border Radius 16px
+    // Border Type double
+    // Border width 3px
+    // Border color red
+    // Box Shadow 2 3 14 5
     let footer = widget.locator("div.eael-product-list-content-footer").nth(1);
     let addToCartButton = footer.locator("a.add_to_cart_button");
     await expect.soft(addToCartButton).toHaveCSS("margin", "5px");
@@ -128,15 +128,14 @@ test.describe("Woo Product List - Preset 1", () => {
     await expect.soft(addToCartButton).toHaveCSS("border-width", "3px");
     await expect.soft(addToCartButton).toHaveCSS("border-color", "rgb(255, 0, 0)");
 
-
-      // View Products: 
-      // Margin 6px
-      // Padding 22px
-      // Border Radius 17px
-      // Border Type dotted
-      // Border width 4px
-      // Border color green
-      // Box Shadow 1 2 13 4
+    // View Products:
+    // Margin 6px
+    // Padding 22px
+    // Border Radius 17px
+    // Border Type dotted
+    // Border width 4px
+    // Border color green
+    // Box Shadow 1 2 13 4
     let viewProductsButton = footer.getByText("View Product241113");
     await expect.soft(viewProductsButton).toHaveCSS("margin", "6px");
     await expect.soft(viewProductsButton).toHaveCSS("padding", "22px");
@@ -215,8 +214,117 @@ test.describe("Woo Product List - Preset 1", () => {
     await expect.soft(loadMoreButton.locator("..")).toHaveCSS("border-color", "rgb(0, 0, 255)");
   });
 
-  // test("Test Style Tab > Color & Typography", async ({ page }) => {
-  //   //
+  // test.fixme("Test Style Tab > Color & Typography", async ({ page }) => {
+  //   // test.step("Content Header", async () => {
+  //   //   test.step("Badge", async () => {
+  //   //     // test.step("Sale", async () => {
+  //   //     //   // color red
+  //   //     //   // background blue
+  //   //     //   // Badge Size 101px
+  //   //     //   //// Typography Styles
+  //   //     //   // Font Family Verdana
+  //   //     //   // Font Size 13px
+  //   //     //   // Font Weight 300
+  //   //     //   // Transform Uppercase
+  //   //     //   // Style normal
+  //   //     //   // Text Decoration Underline
+  //   //     //   // Line Height 13px
+  //   //     //   // Letter Spacing 1.3
+  //   //     //   // Word Spacing 3px
+
+  //   //     //   let saleBadge = widget.getByText("Sale241113").first();
+  //   //     //   await expect.soft(saleBadge).toHaveCSS("color", "rgb(255, 0, 0)");
+  //   //     //   await expect.soft(saleBadge).toHaveCSS("background-color", "rgb(0, 0, 255)");
+  //   //     //   //await expect.soft(saleBadge).toHaveCSS("padding", "0px 10px");
+  //   //     //   await expect.soft(saleBadge).toHaveCSS("font-family", /Verdana/);
+  //   //     //   await expect.soft(saleBadge).toHaveCSS("font-size", "13px");
+  //   //     //   await expect.soft(saleBadge).toHaveCSS("font-weight", "300");
+  //   //     //   await expect.soft(saleBadge).toHaveCSS("text-transform", "uppercase");
+  //   //     //   await expect.soft(saleBadge).toHaveCSS("font-style", "normal");
+  //   //     //   await expect.soft(saleBadge).toHaveCSS("text-decoration", "underline solid rgb(255, 0, 0)");
+  //   //     //   await expect.soft(saleBadge).toHaveCSS("line-height", "13px");
+  //   //     //   await expect.soft(saleBadge).toHaveCSS("letter-spacing", "1.3px");
+  //   //     //   await expect.soft(saleBadge).toHaveCSS("word-spacing", "3px");
+  //   //     // });
+  //   //     test.step("Stock Out", async () => {
+  //   //       // color yellow
+  //   //       // background green
+  //   //       // Badge Size 101px
+  //   //       //// Typography Styles
+  //   //       // Font Family Tahoma
+  //   //       // Font Size 14px
+  //   //       // Font Weight 400
+  //   //       // Transform lowercase
+  //   //       // Style italic
+  //   //       // Text Decoration overline
+  //   //       // Line Height 14px
+  //   //       // Letter Spacing 1.4
+  //   //       // Word Spacing 4px
+
+  //   //       let stockOutBadge = widget.getByText("Stock Out241113");
+  //   //       await expect.soft(stockOutBadge).toHaveCSS("color", "rgb(255, 255, 0)");
+  //   //       await expect.soft(stockOutBadge).toHaveCSS("background-color", "rgb(0, 255, 0)");
+  //   //       //await expect.soft(stockOutBadge).toHaveCSS("padding", "0px 10px");
+  //   //       await expect.soft(stockOutBadge).toHaveCSS("font-family", /Tahoma/);
+  //   //       await expect.soft(stockOutBadge).toHaveCSS("font-size", "14px");
+  //   //       await expect.soft(stockOutBadge).toHaveCSS("font-weight", "400");
+  //   //       await expect.soft(stockOutBadge).toHaveCSS("text-transform", "lowercase");
+  //   //       await expect.soft(stockOutBadge).toHaveCSS("font-style", "italic");
+  //   //       await expect.soft(stockOutBadge).toHaveCSS("text-decoration", "overline solid rgb(255, 255, 0)");
+  //   //       await expect.soft(stockOutBadge).toHaveCSS("line-height", "14px");
+  //   //       await expect.soft(stockOutBadge).toHaveCSS("letter-spacing", "1.4px");
+  //   //       await expect.soft(stockOutBadge).toHaveCSS("word-spacing", "4px");
+  //   //     });
+  //   //   });
+
+  //   //   // test.step("Star Rating", async () => {
+  //   //   //   //
+  //   //   // });
+
+  //   //   // test.step("Review Count", async () => {
+  //   //   //   //
+  //   //   // });
+
+  //   //   // test.step("Category", async () => {
+  //   //   //   //
+  //   //   // });
+  //   // });
+
+  //   // test.step("Content Body", async () => {
+  //   //   test.step("Title", async () => {
+  //   //     //
+  //   //   });
+
+  //   //   test.step("Excerpt", async () => {
+  //   //     //
+  //   //   });
+
+  //   //   test.step("Regular Price", async () => {
+  //   //     //
+  //   //   });
+
+  //   //   test.step("Sale Price", async () => {
+  //   //     //
+  //   //   });
+  //   // });
+
+  //   // test.step("Content Footer", async () => {
+  //   //   test.step("Total Sold", async () => {
+  //   //     //
+  //   //   });
+
+  //   //   test.step("Add To Cart", async () => {
+  //   //     //
+  //   //   });
+
+  //   //   test.step("Quick View", async () => {
+  //   //     //
+  //   //   });
+
+  //   //   test.step("On Hover Buttons", async () => {
+  //   //     //
+  //   //   });
+  //   // });
   // });
 
   // test("Test Style Tab > Popup", async ({ page }) => {
