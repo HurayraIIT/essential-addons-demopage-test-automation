@@ -85,10 +85,14 @@ test.describe("Content Timeline - Default Preset", () => {
       .toHaveAttribute("src", "https://eael.site/wp-content/uploads/2024/10/image-01-150x150.png");
   });
 
-  // TODO: Write tests after issues are fixed in master
-  // test("Test Content Tab > Links", async ({ page }) => {
-  //   //
-  // });
+  test("Test Content Tab > Links", async ({ page }) => {
+    await expect.soft(widget.getByText("Hurayra Automation Product 02")).toHaveAttribute("target", "_blank");
+    await expect.soft(widget.getByText("Hurayra Automation Product 02")).toHaveAttribute("rel", "nofollow");
+    await expect.soft(widget.getByText("Read More241111").nth(1)).toHaveAttribute("target", "_blank");
+    await expect.soft(widget.getByText("Read More241111").nth(1)).toHaveAttribute("rel", "nofollow");
+    await expect.soft(widget.locator("img").nth(1).locator("..")).toHaveAttribute("target", "_blank");
+    await expect.soft(widget.locator("img").nth(1).locator("..")).toHaveAttribute("rel", "nofollow");
+  });
 
   test("Test Style Tab > Timeline", async ({ page }) => {
     // Line Size 6px
