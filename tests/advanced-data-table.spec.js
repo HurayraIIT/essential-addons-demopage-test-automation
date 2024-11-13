@@ -2,10 +2,10 @@
 
 import { test, expect } from "../global-setup";
 
-let slug = "https://essential-addons.com/elementor/advanced-data-table";
-let heading = "Advanced Data Table";
-
 test.describe("Advanced Data Table Style 01", () => {
+  let slug = "https://essential-addons.com/elementor/advanced-data-table";
+  let heading = "Advanced Data Table";
+
   test.beforeEach(async ({ page }) => {
     await page.goto(slug);
     await expect.soft(page.getByRole("heading", { name: heading, exact: true })).toBeVisible();

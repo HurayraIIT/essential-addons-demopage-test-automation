@@ -265,7 +265,7 @@ test.describe("Woo Product Grid - Default Preset", () => {
     await expect.soft(widget.locator("nav.eael-woo-pagination")).toHaveCSS("margin-top", "16px");
     await expect.soft(paginationButton1).toHaveCSS("font-family", /Times New Roman/);
     await expect.soft(paginationButton1).toHaveCSS("font-size", "17px");
-    // await expect.soft(paginationButton1).toHaveCSS("font-weight", "700");
+    await expect.soft(paginationButton1).toHaveCSS("font-weight", "700");
     await expect.soft(paginationButton1).toHaveCSS("line-height", "17px");
     await expect.soft(paginationButton1).toHaveCSS("letter-spacing", "1.7px");
     await expect.soft(paginationButton1).toHaveCSS("word-spacing", "7px");
@@ -307,23 +307,50 @@ test.describe("Woo Product Grid - Default Preset", () => {
     // Loader color #ffff00
   });
 
-  // test("Test Style Tab -> Compare Button", async ({ page }) => {
-  //   // Padding 13px
-  //   // Radius 31px
-  //   // Button Color Normal red, hover blue
-  //   // Background color normal green, hover black
-  //   // Border color normal red, hover white
-  //   // Border type dashed
-  //   // Border width 3px
-  //   // Typography
-  //   // Font Family Tahoma
-  //   // Size 13px
-  //   // Weight 300
-  //   // Transform lowercase
-  //   // Style italic
-  //   // Decoration overline
-  //   // Line height 13px
-  //   // Letter Spacing 1.3
-  //   // Word Spacing 3px
-  // });
+  test("Test Style Tab -> Compare Button", async ({ page }) => {
+    // Padding 13px
+    // Radius 31px
+    // Button Color Normal red, hover blue
+    // Background color normal green, hover black
+    // Border color normal red, hover white
+    // Border type dashed
+    // Border width 3px
+    // Typography
+    // Font Family Tahoma
+    // Size 13px
+    // Weight 300
+    // Transform lowercase
+    // Style italic
+    // Decoration overline
+    // Line height 13px
+    // Letter Spacing 1.3
+    // Word Spacing 3px
+
+    let compareLink = item0.locator("a.eael-wc-compare");
+
+    await expect.soft(compareLink).toHaveCSS("padding", "13px");
+    await expect.soft(compareLink).toHaveCSS("border-radius", "31px");
+    await expect.soft(compareLink).toHaveCSS("color", "rgb(255, 0, 0)");
+    await expect.soft(compareLink).toHaveCSS("background-color", "rgb(0, 255, 0)");
+    await expect.soft(compareLink).toHaveCSS("border-color", "rgb(255, 0, 0)");
+    await expect.soft(compareLink).toHaveCSS("border-style", "dashed");
+    await expect.soft(compareLink).toHaveCSS("border-width", "3px");
+
+    await expect.soft(compareLink).toHaveCSS("font-family", /Tahoma/);
+    await expect.soft(compareLink).toHaveCSS("font-size", "13px");
+    await expect.soft(compareLink).toHaveCSS("font-weight", "300");
+    await expect.soft(compareLink).toHaveCSS("text-transform", "lowercase");
+    await expect.soft(compareLink).toHaveCSS("font-style", "italic");
+    await expect.soft(compareLink).toHaveCSS("text-decoration", "overline solid rgb(255, 0, 0)");
+    await expect.soft(compareLink).toHaveCSS("line-height", "13px");
+    await expect.soft(compareLink).toHaveCSS("letter-spacing", "1.3px");
+    await expect.soft(compareLink).toHaveCSS("word-spacing", "3px");
+
+    await compareLink.hover();
+    await page.waitForTimeout(500);
+
+    await expect.soft(compareLink).toHaveCSS("color", "rgb(0, 0, 255)");
+    await expect.soft(compareLink).toHaveCSS("background-color", "rgb(0, 0, 0)");
+    await expect.soft(compareLink).toHaveCSS("border-color", "rgb(255, 255, 255)");
+  });
 });
