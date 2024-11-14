@@ -64,4 +64,31 @@ test.describe("Simple Menu", () => {
         await expect.soft(menuLocator.getByRole('link',{name:'Home'})).toHaveCSS('font-weight','600');
         await expect.soft(menuLocator.getByRole('link',{name:'Docs'})).toHaveCSS('color','rgb(255, 251, 251)');
     });
+
+    // Preset 3
+    test("Style Default Skin & Horizontal Layout | Preset 3", async ({ page }) => {
+        presetID = page.locator('#simpleMenu3');
+        // Ensure the basic preset menu is visible
+        await expect.soft(presetID).toBeVisible();
+        await expect.soft(presetID).toHaveClass(/elementor-widget-eael-simple-menu/);
+
+        // Validate speacific css applyed or not
+        const preset1Element = presetID.locator('.preset-3');
+        await expect.soft(preset1Element).toHaveCSS('background-color', 'rgb(0, 0, 0)');
+        await expect.soft(preset1Element).toHaveCSS('border', '2px solid rgb(247, 8, 8)');
+
+        // Validate the menu is visible
+        const menuLocator = presetID.locator("#menu-header-menu-2");
+        await expect(menuLocator).toBeVisible(); 
+
+        // Validate specific links in the menu
+        await expect.soft(menuLocator.getByRole("link", { name: "Home" })).toBeVisible();
+        await expect.soft(menuLocator.getByRole("link", { name: "All Items" })).toBeVisible();
+        
+        //Validate speacific css applyed or not
+        await expect.soft(menuLocator.getByRole('link',{name:'Home'})).toHaveCSS('font-family','Rye, sans-serif');
+        await expect.soft(menuLocator.getByRole('link',{name:'Demos'})).toHaveCSS('font-size','18px');
+        await expect.soft(menuLocator.getByRole('link',{name:'Home'})).toHaveCSS('font-weight','600');
+        await expect.soft(menuLocator.getByRole('link',{name:'Docs'})).toHaveCSS('color','rgb(255, 251, 251)');
+    });
 });
