@@ -214,118 +214,160 @@ test.describe("Woo Product List - Preset 1", () => {
     await expect.soft(loadMoreButton.locator("..")).toHaveCSS("border-color", "rgb(0, 0, 255)");
   });
 
-  // test.fixme("Test Style Tab > Color & Typography", async ({ page }) => {
-  //   // test.step("Content Header", async () => {
-  //   //   test.step("Badge", async () => {
-  //   //     // test.step("Sale", async () => {
-  //   //     //   // color red
-  //   //     //   // background blue
-  //   //     //   // Badge Size 101px
-  //   //     //   //// Typography Styles
-  //   //     //   // Font Family Verdana
-  //   //     //   // Font Size 13px
-  //   //     //   // Font Weight 300
-  //   //     //   // Transform Uppercase
-  //   //     //   // Style normal
-  //   //     //   // Text Decoration Underline
-  //   //     //   // Line Height 13px
-  //   //     //   // Letter Spacing 1.3
-  //   //     //   // Word Spacing 3px
+  test("Test Style Tab > Color & Typography > Content Header", async ({ page }) => {
+    //// Sale Badge
+    // color red, background blue, font Verdana, weight 300
+    let saleBadge = widget.getByText("Sale241113").first();
+    await expect.soft(saleBadge).toHaveCSS("color", "rgb(255, 0, 0)");
+    await expect
+      .soft(widget.locator("div.eael-product-list-badge-bg").nth(1).locator("path"))
+      .toHaveCSS("fill", "rgb(0, 0, 255)");
+    await expect.soft(saleBadge).toHaveCSS("font-family", /Verdana/);
+    //await expect.soft(saleBadge).toHaveCSS("font-weight", "300");
 
-  //   //     //   let saleBadge = widget.getByText("Sale241113").first();
-  //   //     //   await expect.soft(saleBadge).toHaveCSS("color", "rgb(255, 0, 0)");
-  //   //     //   await expect.soft(saleBadge).toHaveCSS("background-color", "rgb(0, 0, 255)");
-  //   //     //   //await expect.soft(saleBadge).toHaveCSS("padding", "0px 10px");
-  //   //     //   await expect.soft(saleBadge).toHaveCSS("font-family", /Verdana/);
-  //   //     //   await expect.soft(saleBadge).toHaveCSS("font-size", "13px");
-  //   //     //   await expect.soft(saleBadge).toHaveCSS("font-weight", "300");
-  //   //     //   await expect.soft(saleBadge).toHaveCSS("text-transform", "uppercase");
-  //   //     //   await expect.soft(saleBadge).toHaveCSS("font-style", "normal");
-  //   //     //   await expect.soft(saleBadge).toHaveCSS("text-decoration", "underline solid rgb(255, 0, 0)");
-  //   //     //   await expect.soft(saleBadge).toHaveCSS("line-height", "13px");
-  //   //     //   await expect.soft(saleBadge).toHaveCSS("letter-spacing", "1.3px");
-  //   //     //   await expect.soft(saleBadge).toHaveCSS("word-spacing", "3px");
-  //   //     // });
-  //   //     test.step("Stock Out", async () => {
-  //   //       // color yellow
-  //   //       // background green
-  //   //       // Badge Size 101px
-  //   //       //// Typography Styles
-  //   //       // Font Family Tahoma
-  //   //       // Font Size 14px
-  //   //       // Font Weight 400
-  //   //       // Transform lowercase
-  //   //       // Style italic
-  //   //       // Text Decoration overline
-  //   //       // Line Height 14px
-  //   //       // Letter Spacing 1.4
-  //   //       // Word Spacing 4px
+    //// Stock Out Badge
+    // Color yellow, background green, font Tahoma, weight 400
+    let stockOutBadge = widget.getByText("Stock Out241113");
+    await expect.soft(stockOutBadge).toHaveCSS("color", "rgb(255, 255, 0)");
+    await expect
+      .soft(widget.locator("div.eael-product-list-badge-bg").nth(0).locator("path"))
+      .toHaveCSS("fill", "rgb(0, 255, 0)");
+    await expect.soft(stockOutBadge).toHaveCSS("font-family", /Tahoma/);
+    //await expect.soft(stockOutBadge).toHaveCSS("font-weight", "400");
 
-  //   //       let stockOutBadge = widget.getByText("Stock Out241113");
-  //   //       await expect.soft(stockOutBadge).toHaveCSS("color", "rgb(255, 255, 0)");
-  //   //       await expect.soft(stockOutBadge).toHaveCSS("background-color", "rgb(0, 255, 0)");
-  //   //       //await expect.soft(stockOutBadge).toHaveCSS("padding", "0px 10px");
-  //   //       await expect.soft(stockOutBadge).toHaveCSS("font-family", /Tahoma/);
-  //   //       await expect.soft(stockOutBadge).toHaveCSS("font-size", "14px");
-  //   //       await expect.soft(stockOutBadge).toHaveCSS("font-weight", "400");
-  //   //       await expect.soft(stockOutBadge).toHaveCSS("text-transform", "lowercase");
-  //   //       await expect.soft(stockOutBadge).toHaveCSS("font-style", "italic");
-  //   //       await expect.soft(stockOutBadge).toHaveCSS("text-decoration", "overline solid rgb(255, 255, 0)");
-  //   //       await expect.soft(stockOutBadge).toHaveCSS("line-height", "14px");
-  //   //       await expect.soft(stockOutBadge).toHaveCSS("letter-spacing", "1.4px");
-  //   //       await expect.soft(stockOutBadge).toHaveCSS("word-spacing", "4px");
-  //   //     });
-  //   //   });
+    //// Star rating
+    // color red, icon size 16px
+    let starRating = widget.locator("div.star-rating").first();
+    await expect.soft(starRating).toHaveCSS("font-size", "16px");
 
-  //   //   // test.step("Star Rating", async () => {
-  //   //   //   //
-  //   //   // });
+    //// Review count
+    // color black, font size 21, weight 400
+    let reviewCount = widget.locator("a.eael-product-list-review-count").first();
+    await expect.soft(reviewCount).toHaveCSS("color", "rgb(0, 0, 0)");
+    await expect.soft(reviewCount).toHaveCSS("font-size", "21px");
+    await expect.soft(reviewCount).toHaveCSS("font-weight", "400");
 
-  //   //   // test.step("Review Count", async () => {
-  //   //   //   //
-  //   //   // });
+    //// Category
+    // color #ff00ff, font Helvetica, size 13px, weight 300
+    let category = widget.getByText("Hurayra Automation 241107 DONOTDELETE").first();
+    await expect.soft(category).toHaveCSS("color", "rgb(255, 0, 255)");
+    await expect.soft(category).toHaveCSS("font-family", /Helvetica/);
+    await expect.soft(category).toHaveCSS("font-size", "13px");
+    await expect.soft(category).toHaveCSS("font-weight", "300");
+  });
 
-  //   //   // test.step("Category", async () => {
-  //   //   //   //
-  //   //   // });
-  //   // });
+  test("Test Style Tab > Color & Typography > Content Body", async ({ page }) => {
+    //// Title
+    // color ff00ff, font Tahoma, size 22px, weight 600, hover color green
+    let title = widget.getByText("Hurayra Automation Product 00");
+    await expect.soft(title).toHaveCSS("color", "rgb(255, 0, 255)");
+    await expect.soft(title).toHaveCSS("font-family", /Tahoma/);
+    await expect.soft(title).toHaveCSS("font-size", "22px");
+    await expect.soft(title).toHaveCSS("font-weight", "600");
+    await title.hover();
+    await page.waitForTimeout(500);
+    await expect.soft(title).toHaveCSS("color", "rgb(0, 255, 0)");
 
-  //   // test.step("Content Body", async () => {
-  //   //   test.step("Title", async () => {
-  //   //     //
-  //   //   });
+    //// Excerpt
+    // color blue, font Helvetica, size 17px, weight 900
+    let excerpt = widget.getByText("Hurayra Automation 241107...>").first();
+    await expect.soft(excerpt).toHaveCSS("color", "rgb(0, 0, 255)");
+    await expect.soft(excerpt).toHaveCSS("font-family", /Helvetica/);
+    await expect.soft(excerpt).toHaveCSS("font-size", "17px");
+    await expect.soft(excerpt).toHaveCSS("font-weight", "900");
 
-  //   //   test.step("Excerpt", async () => {
-  //   //     //
-  //   //   });
+    //// Regular Price
+    // color white, font Arial, size 14px, weight 400
+    let regularPrice = widget.locator("span.woocommerce-Price-amount").getByText("100.00৳");
+    await expect.soft(regularPrice).toHaveCSS("color", "rgb(255, 255, 255)");
+    await expect.soft(regularPrice).toHaveCSS("font-family", /Arial/);
+    await expect.soft(regularPrice).toHaveCSS("font-size", "14px");
+    await expect.soft(regularPrice).toHaveCSS("font-weight", "400");
 
-  //   //   test.step("Regular Price", async () => {
-  //   //     //
-  //   //   });
+    //// Sale Price
+    // color black, font Tahoma, size 23px, weight 300
+    let salePrice = widget.locator("span.woocommerce-Price-amount").getByText("90.00৳");
+    await expect.soft(salePrice).toHaveCSS("color", "rgb(0, 0, 0)");
+    await expect.soft(salePrice).toHaveCSS("font-family", /Tahoma/);
+    await expect.soft(salePrice).toHaveCSS("font-size", "23px");
+    await expect.soft(salePrice).toHaveCSS("font-weight", "300");
+  });
 
-  //   //   test.step("Sale Price", async () => {
-  //   //     //
-  //   //   });
-  //   // });
+  test("Test Style Tab > Color & Typography > Content Footer", async ({ page }) => {
+    //// Total Sold
+    // text color red, count color green, progress outer blue, progress inner white, font Verdana, size 16px, weight 600
+    let totalSoldText = widget.getByText("Total Sold241113:").nth(1);
+    let totalSoldCount = widget.getByText("Total Sold241113:").nth(1).getByText("1");
+    await expect.soft(totalSoldText).toHaveCSS("color", "rgb(255, 0, 0)");
+    await expect.soft(totalSoldCount).toHaveCSS("color", "rgb(0, 255, 0)");
 
-  //   // test.step("Content Footer", async () => {
-  //   //   test.step("Total Sold", async () => {
-  //   //     //
-  //   //   });
+    //// Remaining
+    // text color ff00ff, count color yellow, font Verdana, size 16px, weight 600
+    let remainingText = widget.getByText("Remaining241113:").nth(0);
+    let remainingCount = widget.getByText("Remaining241113:").nth(0).getByText("101");
+    await expect.soft(remainingText).toHaveCSS("color", "rgb(255, 0, 255)");
+    await expect.soft(remainingCount).toHaveCSS("color", "rgb(255, 255, 0)");
 
-  //   //   test.step("Add To Cart", async () => {
-  //   //     //
-  //   //   });
+    //// Add to cart
+    // color black, background white, font Arial, size 13px, weight 300, hover color white, hover background black
+    let addToCartButton = widget.locator("p.eael-product-list-add-to-cart-button").getByText("Buy Now241113").first();
+    await expect.soft(addToCartButton).toHaveCSS("color", "rgb(0, 0, 0)");
+    await expect.soft(addToCartButton).toHaveCSS("background-color", "rgb(255, 255, 255)");
+    await expect.soft(addToCartButton).toHaveCSS("font-family", /Arial/);
+    await expect.soft(addToCartButton).toHaveCSS("font-size", "13px");
+    await expect.soft(addToCartButton).toHaveCSS("font-weight", "300");
+    await addToCartButton.hover();
+    await page.waitForTimeout(500);
+    await expect.soft(addToCartButton).toHaveCSS("color", "rgb(255, 255, 255)");
+    await expect.soft(addToCartButton).toHaveCSS("background-color", "rgb(0, 0, 0)");
 
-  //   //   test.step("Quick View", async () => {
-  //   //     //
-  //   //   });
+    //// Quick view
+    // color red, background green, font Arial, size 16px, weight 600, hover color blue, hover background white
+    let quickViewButton = widget
+      .locator("p.eael-product-list-quick-view-button")
+      .getByText("View Product241113")
+      .first();
+    await expect.soft(quickViewButton).toHaveCSS("color", "rgb(255, 0, 0)");
+    await expect.soft(quickViewButton).toHaveCSS("background-color", "rgb(0, 255, 0)");
+    await expect.soft(quickViewButton).toHaveCSS("font-family", /Arial/);
+    await expect.soft(quickViewButton).toHaveCSS("font-size", "16px");
+    await expect.soft(quickViewButton).toHaveCSS("font-weight", "600");
+    await quickViewButton.hover();
+    await page.waitForTimeout(500);
+    await expect.soft(quickViewButton).toHaveCSS("color", "rgb(0, 0, 255)");
+    await expect.soft(quickViewButton).toHaveCSS("background-color", "rgb(255, 255, 255)");
+  });
 
-  //   //   test.step("On Hover Buttons", async () => {
-  //   //     //
-  //   //   });
-  //   // });
-  // });
+  test("Test Style Tab > Color & Typography > On Hover Buttons", async ({ page }) => {
+    //// On hover buttons
+    // color yellow, background black, font size 21px, hover color black, hover background yellow
+    let onHoverSection = widget.locator("ul.eael-product-list-buttons-on-hover").nth(1);
+
+    let addToCart = onHoverSection.locator("li.eael-product-list-add-to-cart-button");
+    let quickView = onHoverSection.locator("li.eael-product-list-quick-view-button");
+    let link = onHoverSection.locator("li.eael-product-list-link-button");
+
+    await expect.soft(addToCart).not.toBeVisible();
+    await expect.soft(quickView).not.toBeVisible();
+    await expect.soft(link).not.toBeVisible();
+
+    await widget.locator("div.eael-product-list-image-wrap").nth(1).hover();
+    await page.waitForTimeout(500);
+
+    await expect.soft(addToCart).toBeVisible();
+    await expect.soft(quickView).toBeVisible();
+    await expect.soft(link).toBeVisible();
+
+    await expect.soft(addToCart.locator("a")).toHaveCSS("background-color", "rgb(0, 0, 0)");
+
+    await expect.soft(quickView.locator("a")).toHaveCSS("background-color", "rgb(0, 0, 0)");
+    await expect.soft(quickView.locator("i.fa-eye")).toHaveCSS("color", "rgb(255, 255, 0)");
+    await expect.soft(quickView.locator("i.fa-eye")).toHaveCSS("font-size", "21px");
+
+    await expect.soft(link.locator("a")).toHaveCSS("background-color", "rgb(0, 0, 0)");
+    await expect.soft(link.locator("i.fa-link")).toHaveCSS("color", "rgb(255, 255, 0)");
+    await expect.soft(link.locator("i.fa-link")).toHaveCSS("font-size", "21px");
+  });
 
   // test("Test Style Tab > Popup", async ({ page }) => {
   //   //
