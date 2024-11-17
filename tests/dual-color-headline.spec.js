@@ -13,6 +13,7 @@ test.describe("Dual Color Headline https://qa1.site/go/a8d1026", () => {
     await page.waitForLoadState("networkidle");
     await page.getByRole("heading", { name: heading, exact: true }).scrollIntoViewIfNeeded();
     await expect.soft(page.getByRole("heading", { name: heading, exact: true })).toBeVisible();
+    await page.getByRole("heading", { name: heading, exact: true }).click();
 
     dch_root = page.locator(".elementor-element-f55d484 .eael-dual-header");
   });
@@ -96,7 +97,7 @@ test.describe("Dual Color Headline https://qa1.site/go/a8d1026", () => {
     await expect.soft(title).toHaveCSS("letter-spacing", "3.3px");
     await expect.soft(title).toHaveCSS("word-spacing", "3px");
 
-    const subtext = await page.getByText("Sub heading 241016");
+    const subtext = page.getByText("Sub heading 241016");
     // sub title color #ff00ff
     // title color #ff0000
     // Font family verdana

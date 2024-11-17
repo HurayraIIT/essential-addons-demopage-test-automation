@@ -29,6 +29,7 @@ test.describe("Tooltip https://qa1.site/go/u3m9108", () => {
     await expect.soft(icon_tooltip.getByRole("link")).toHaveAttribute("href", /.*click-me/);
     // Tooltip content is "First Tooltip content 241020"
     await icon_tooltip.getByRole("link").hover();
+    await page.waitForTimeout(500);
     await expect.soft(icon_tooltip.getByRole("tooltip", { name: "First Tooltip content 241020" })).toBeVisible();
     // Hover direction is right
     await expect
