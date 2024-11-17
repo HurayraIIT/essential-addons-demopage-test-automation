@@ -23,14 +23,58 @@ test.describe("Woo Product Collections - All Types", () => {
   });
 
   test("Test Contents", async ({ page }) => {
-    await expect(page.getByRole('link', { name: 'Sale241117-cat' })).toBeVisible();
-    await expect(page.getByRole('link', { name: 'Sale241117-tag' })).toBeVisible();
-    await expect(page.getByRole('link', { name: 'Sale241117-attr' })).toBeVisible();
+    await expect.soft(page.getByRole("link", { name: "Sale241117-cat" })).toBeVisible();
+    await expect.soft(page.getByRole("link", { name: "Sale241117-tag" })).toBeVisible();
+    await expect.soft(page.getByRole("link", { name: "Sale241117-attr" })).toBeVisible();
+
+    await expect.soft(widget1.locator("img.eael-woo-collections-bg")).toHaveAttribute("src", /image-00/);
+    await expect.soft(widget2.locator("img.eael-woo-collections-bg")).toHaveAttribute("src", /image-01/);
+    await expect.soft(widget3.locator("img.eael-woo-collections-bg")).toHaveAttribute("src", /image-02/);
+
+    await expect.soft(widget1.locator("a")).toHaveAttribute("href", /product-category\/hurayra-automation-241107-donotdelete/);
+    await expect.soft(widget2.locator("a")).toHaveAttribute("href", /product-tag\/hurayra-automation-241107/);
+    await expect.soft(widget3.locator("a")).toHaveAttribute("href", /hurayra-donotdelete-241117\/term-1-241117-donotdelete/);
   });
 
-//   test("Test Style Tab > General > Default Layout", async ({ page }) => {
-//     //
-//   });
+  test("Test Style Tab > General > Default Layout", async ({ page }) => {
+    // Layout Style
+    // Overlay Padding 23px
+    // Border radius 24px
+    // Border type dotted
+    // border width 5px
+    // Border color green
+    // Shadow 2 3 14 5
+
+    let layout = widget2.locator("div.eael-woo-collections-layout-");
+    let overlay = widget2.locator("div.eael-woo-collections-overlay-center");
+    await expect.soft(overlay).toHaveCSS("padding", "23px");
+    await expect.soft(layout).toHaveCSS("border-radius", "24px");
+    await expect.soft(layout).toHaveCSS("border-style", "dotted");
+    await expect.soft(layout).toHaveCSS("border-width", "5px");
+    await expect.soft(layout).toHaveCSS("border-color", "rgb(0, 255, 0)");
+    await expect.soft(layout).toHaveCSS("box-shadow", "rgba(0, 0, 0, 0.5) 2px 3px 14px 5px");
+
+    // thumbnail style
+    // Overlay spacing 6px
+    // overlay background rgba(255, 0, 0, 0.5)
+    // Overlay background hover rgba(0, 0, 255, 0.5)
+    // Border radius 7px
+    // Horizontal align center
+    // vertical align middle
+    // image hover effect blur
+    await expect.soft(overlay).toHaveCSS("margin", "6px");
+    await expect.soft(overlay).toHaveCSS("background-color", "rgba(255, 0, 0, 0.5)");
+    await expect.soft(overlay).toHaveCSS("border-radius", "7px");
+    await expect.soft(overlay).toHaveCSS("justify-content", "center");
+    await expect.soft(overlay).toHaveCSS("text-align", "center");
+    await expect.soft(overlay).toHaveCSS("position", "absolute");
+    await expect.soft(layout.locator("img")).toHaveClass(/eael-woo-collections-bg-hover-blur/);
+
+    await overlay.hover();
+    await page.waitForTimeout(500);
+
+    await expect.soft(overlay).toHaveCSS("background-color", "rgba(0, 0, 255, 0.5)");
+  });
 
   test("Test Style Tab > General > Layout 2", async ({ page }) => {
     //// Layout Style
@@ -51,7 +95,7 @@ test.describe("Woo Product Collections - All Types", () => {
     await expect.soft(layout).toHaveCSS("border-width", "4px");
     await expect.soft(layout).toHaveCSS("border-color", "rgb(255, 0, 0)");
     await expect.soft(layout).toHaveCSS("box-shadow", "rgba(0, 0, 0, 0.5) 1px 2px 13px 4px");
-    
+
     //// Thumbnail style
     // Border radius 15px
     // Horizontal align right
