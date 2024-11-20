@@ -47,7 +47,6 @@ export default defineConfig({
     video: process.env.CI ? "retain-on-failure" : "off",
 
     ignoreHTTPSErrors: true,
-    headless: !!process.env.CI,
   },
 
   /* Configure projects for major browsers */
