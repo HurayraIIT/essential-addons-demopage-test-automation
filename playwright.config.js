@@ -8,9 +8,15 @@ config();
 export default defineConfig({
   testDir: "./tests",
   fullyParallel: true,
-  retries: process.env.CI ? 2 : 0,
+  retries: process.env.CI ? 1 : 0,
   workers: process.env.CI ? 4 : 4,
   timeout: 30 * 1000,
+
+  expect: {
+    timeout: 5_000,
+    toMatchSnapshot: { maxDiffPixelRatio: 0.03 },
+    toHaveScreenshot: { maxDiffPixelRatio: 0.03 },
+  },
 
   reporter: process.env.CI
     ? [
@@ -37,10 +43,11 @@ export default defineConfig({
     testIdAttribute: "data-id",
 
     //screenshot: "on",
-    trace: "on-first-retry",
-    video: "on-first-retry",
+    trace: "retain-on-failure",
+    video: process.env.CI ? "retain-on-failure" : "off",
 
     ignoreHTTPSErrors: true,
+    headless: !!process.env.CI,
   },
 
   /* Configure projects for major browsers */
@@ -49,13 +56,5 @@ export default defineConfig({
       name: "chromium",
       use: { ...devices["Desktop Chrome"], ...test },
     },
-    // {
-    //   name: "firefox",
-    //   use: { ...devices["Desktop Firefox"] },
-    // },
-    // {
-    //   name: "webkit",
-    //   use: { ...devices["Desktop Safari"] },
-    // },
   ],
 });
