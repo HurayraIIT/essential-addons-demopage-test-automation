@@ -5,7 +5,7 @@ import { test, expect } from "../global-setup";
 let slug = "/content-elements/creative-buttons/";
 let heading = "Creative Buttons 241009";
 
-test.describe("Creative Buttons https://qa1.site/go/mqz31010", () => {
+test.describe("Creative Buttons", () => {
   let button_id = "#button-241009";
   let button_loc = null;
   test.beforeEach(async ({ page }) => {

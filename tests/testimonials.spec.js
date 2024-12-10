@@ -5,7 +5,7 @@ import { test, expect } from "../global-setup";
 let slug = "/content-elements/testimonials/";
 let heading = "Hurayra Testimonial Automation 241010";
 
-test.describe("Testimonials https://qa1.site/go/jc1787", () => {
+test.describe("Testimonials", () => {
   let testimonial_loc = null;
 
   test.beforeEach(async ({ page }) => {

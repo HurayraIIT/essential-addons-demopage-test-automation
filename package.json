@@ -8,7 +8,7 @@
   "author": "Abu Hurayra",
   "license": "ISC",
   "devDependencies": {
-    "@playwright/test": "^1.48.0",
+    "@playwright/test": "^1.49.1",
     "@types/node": "^20.14.6"
   },
   "dependencies": {

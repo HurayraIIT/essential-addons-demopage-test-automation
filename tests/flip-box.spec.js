@@ -5,7 +5,7 @@ import { test, expect } from "../global-setup";
 let slug = "/content-elements/flip-box/";
 let heading = "Flip Box Hurayra 241014 Content > Settings";
 
-test.describe("Flip Box https://qa1.site/go/kt7580", () => {
+test.describe("Flip Box", () => {
   let box01 = null;
   let box02 = null;
 
