@@ -35,7 +35,7 @@ export const test = base.extend({
 
       // Adding a random string as query param to avoid caching
       let randomParam = Math.random().toString(36).substring(2);
-      url += `?${randomParam}=${randomParam}`;
+      // url += `?${randomParam}=${randomParam}`;
 
       return await originalGoto(url, options);
     };

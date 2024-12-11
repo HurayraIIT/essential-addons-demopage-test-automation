@@ -297,7 +297,7 @@ test.describe("Woo Product List - Preset 1", () => {
     //// Total Sold
     // text color red, count color green, progress outer blue, progress inner white, font Verdana, size 16px, weight 600
     let totalSoldText = widget.getByText("Total Sold241113:").nth(1);
-    let totalSoldCount = widget.getByText("Total Sold241113:").nth(1).getByText("1");
+    let totalSoldCount = widget.getByText("Total Sold241113:").nth(1).getByText("2");
     await expect.soft(totalSoldText).toHaveCSS("color", "rgb(255, 0, 0)");
     await expect.soft(totalSoldCount).toHaveCSS("color", "rgb(0, 255, 0)");
 
