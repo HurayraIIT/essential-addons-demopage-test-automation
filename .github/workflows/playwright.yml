@@ -32,6 +32,8 @@ jobs:
         run: |
           echo "BASE_URL=${{ secrets.BASE_URL }}" >> .env
           echo "SLACK_WEBHOOK_URL=${{ secrets.SLACK_WEBHOOK_URL }}" >> .env
+          echo "CUSTOMER_EMAIL=${{ secrets.CUSTOMER_EMAIL }}" >> .env
+          echo "CUSTOMER_PASSWORD=${{ secrets.CUSTOMER_PASSWORD }}" >> .env
 
       - name: Run Playwright tests
         run: npx playwright test
