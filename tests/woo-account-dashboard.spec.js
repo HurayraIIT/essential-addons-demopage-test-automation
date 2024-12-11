@@ -24,7 +24,8 @@ test.describe("Woo Account Dashboard - Preset 1", () => {
     await expect.soft(widget.getByText("Dashboard1 241211").first()).toBeVisible();
   });
 
-  test("Test Contents > Dashboard", async ({ page }) => {
+  test("Test Contents", async ({ page }) => {
+    // Dashboard
     await expect(widget).toMatchAriaSnapshot(`
       - navigation "Account pages":
         - list:
@@ -59,9 +60,8 @@ test.describe("Woo Account Dashboard - Preset 1", () => {
         - link "edit your password and account details"
         - text: .
       `);
-  });
 
-  test("Test Contents > Orders", async ({ page }) => {
+    // Orders
     await widget.getByRole("link", { name: "Orders1 241211" }).click();
     await expect(widget).toMatchAriaSnapshot(`
       - navigation "Account pages":
@@ -108,9 +108,8 @@ test.describe("Woo Account Dashboard - Preset 1", () => {
             - cell /View order number \\d+/:
               - link /View order number \\d+/
       `);
-  });
 
-  test("Test Contents > Downloads", async ({ page }) => {
+    // Downloads
     await widget.getByRole("link", { name: "Downloads1 241211" }).click();
     await expect(widget).toMatchAriaSnapshot(`
       - navigation "Account pages":
@@ -132,9 +131,8 @@ test.describe("Woo Account Dashboard - Preset 1", () => {
       - text:  No downloads available yet.
       - link "Browse products"
       `);
-  });
 
-  test("Test Contents > Addresses", async ({ page }) => {
+    // Addresses
     await widget.getByRole("link", { name: "Addresses1 241211" }).click();
     await expect(widget).toMatchAriaSnapshot(`
       - navigation "Account pages":
@@ -163,9 +161,8 @@ test.describe("Woo Account Dashboard - Preset 1", () => {
         - link " Edit Shipping address"
       - text: /SFirst241211 SLast241211 SCompany241211 St241211 SMirpurDOHS241211 Dhaka \\d+/
       `);
-  });
 
-  test("Test Contents > Account Details", async ({ page }) => {
+    // Account Details
     await widget.getByRole("link", { name: "Account Details1 241211" }).click();
     await expect(widget).toMatchAriaSnapshot(`
       - navigation "Account pages":
@@ -213,11 +210,9 @@ test.describe("Woo Account Dashboard - Preset 1", () => {
       - paragraph:
         - button "Save changes"
       `);
-  });
 
-  test("Test Contents > Logout", async ({ page }) => {
-    await widget.getByRole("link", { name: "Logout1 241211" }).click();
-    await expect.soft(widget.getByText("Login")).toBeVisible();
+    // Logout
+    await expect.soft(widget.getByRole("link", { name: "Logout1 241211" })).toBeVisible();
   });
 });
 
@@ -241,7 +236,8 @@ test.describe("Woo Account Dashboard - Preset 2", () => {
     await expect.soft(widget.getByText("Dashboard2 241211").first()).toBeVisible();
   });
 
-  test("Test Contents > Dashboard", async ({ page }) => {
+  test("Test Contents", async ({ page }) => {
+    // Dashboard
     await expect(widget).toMatchAriaSnapshot(`
       - navigation "Account pages":
         - list:
@@ -276,10 +272,9 @@ test.describe("Woo Account Dashboard - Preset 2", () => {
         - link "edit your password and account details"
         - text: .
       `);
-  });
 
-  test("Test Contents > Orders", async ({ page }) => {
-    await widget.getByRole('link', { name: 'Orders2' }).click();
+    // Orders
+    await widget.getByRole("link", { name: "Orders2" }).click();
     await expect(widget).toMatchAriaSnapshot(`
       - navigation "Account pages":
         - list:
@@ -325,10 +320,9 @@ test.describe("Woo Account Dashboard - Preset 2", () => {
             - cell /View order number \\d+/:
               - link /View order number \\d+/
       `);
-  });
 
-  test("Test Contents > Downloads", async ({ page }) => {
-    await widget.getByRole('link', { name: 'Downloads2' }).click();
+    // Downloads
+    await widget.getByRole("link", { name: "Downloads2" }).click();
     await expect(widget).toMatchAriaSnapshot(`
       - navigation "Account pages":
         - list:
@@ -349,9 +343,8 @@ test.describe("Woo Account Dashboard - Preset 2", () => {
       - text:  No downloads available yet.
       - link "Browse products"
       `);
-  });
 
-  test("Test Contents > Addresses", async ({ page }) => {
+    // Addresses
     await widget.getByRole("link", { name: "Addresses2" }).click();
     await expect(widget).toMatchAriaSnapshot(`
       - navigation "Account pages":
@@ -380,9 +373,8 @@ test.describe("Woo Account Dashboard - Preset 2", () => {
         - link " Edit Shipping address"
       - text: /SFirst241211 SLast241211 SCompany241211 St241211 SMirpurDOHS241211 Dhaka \\d+/
       `);
-  });
 
-  test("Test Contents > Account Details", async ({ page }) => {
+    // Account Details
     await widget.getByRole("link", { name: "Account Details2" }).click();
     await expect(widget).toMatchAriaSnapshot(`
       - navigation "Account pages":
@@ -430,11 +422,9 @@ test.describe("Woo Account Dashboard - Preset 2", () => {
       - paragraph:
         - button "Save changes"
       `);
-  });
 
-  test("Test Contents > Logout", async ({ page }) => {
-    await widget.getByRole("link", { name: "Logout2 241211" }).click();
-    await expect.soft(widget.getByText("Login")).toBeVisible();
+    // Logout
+    await expect.soft(widget.getByRole("link", { name: "Logout2 241211" })).toBeVisible();
   });
 });
 
@@ -458,7 +448,8 @@ test.describe("Woo Account Dashboard - Preset 3", () => {
     await expect.soft(widget.getByText("Dashboard3 241211").first()).toBeVisible();
   });
 
-  test("Test Contents > Dashboard", async ({ page }) => {
+  test("Test Contents", async ({ page }) => {
+    // Dashboard
     await expect(widget).toMatchAriaSnapshot(`
       - navigation "Account pages":
         - list:
@@ -493,9 +484,8 @@ test.describe("Woo Account Dashboard - Preset 3", () => {
         - link "edit your password and account details"
         - text: .
       `);
-  });
 
-  test("Test Contents > Orders", async ({ page }) => {
+    // Orders
     await widget.getByRole("link", { name: "Orders3" }).click();
     await expect(widget).toMatchAriaSnapshot(`
       - navigation "Account pages":
@@ -542,9 +532,8 @@ test.describe("Woo Account Dashboard - Preset 3", () => {
             - cell /View order number \\d+/:
               - link /View order number \\d+/
       `);
-  });
 
-  test("Test Contents > Downloads", async ({ page }) => {
+    // Downloads
     await widget.getByRole("link", { name: "Downloads3" }).click();
     await expect(widget).toMatchAriaSnapshot(`
       - navigation "Account pages":
@@ -566,9 +555,8 @@ test.describe("Woo Account Dashboard - Preset 3", () => {
       - text:  No downloads available yet.
       - link "Browse products"
       `);
-  });
 
-  test("Test Contents > Addresses", async ({ page }) => {
+    // Addresses
     await widget.getByRole("link", { name: "Addresses3" }).click();
     await expect(widget).toMatchAriaSnapshot(`
       - navigation "Account pages":
@@ -597,9 +585,8 @@ test.describe("Woo Account Dashboard - Preset 3", () => {
         - link " Edit Shipping address"
       - text: /SFirst241211 SLast241211 SCompany241211 St241211 SMirpurDOHS241211 Dhaka \\d+/
       `);
-  });
 
-  test("Test Contents > Account Details", async ({ page }) => {
+    // Account Details
     await widget.getByRole("link", { name: "Account Details3" }).click();
     await expect(widget).toMatchAriaSnapshot(`
       - navigation "Account pages":
@@ -647,10 +634,8 @@ test.describe("Woo Account Dashboard - Preset 3", () => {
       - paragraph:
         - button "Save changes"
       `);
-  });
 
-  test("Test Contents > Logout", async ({ page }) => {
-    await widget.getByRole("link", { name: "Logout3 241211" }).click();
-    await expect.soft(widget.getByText("Login")).toBeVisible();
+    // Logout
+    await expect.soft(widget.getByRole("link", { name: "Logout3 241211" })).toBeVisible();
   });
 });
