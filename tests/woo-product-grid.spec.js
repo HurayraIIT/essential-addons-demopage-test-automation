@@ -1032,3 +1032,286 @@ test.describe("Woo Product Grid - List Preset 1", () => {
       `);
   });
 });
+
+test.describe("Woo Product Grid - List Preset 2", () => {
+  let heading = "Hurayra Automation 241212 List Preset Two";
+  let widget;
+
+  test.beforeEach(async ({ page }) => {
+    await page.goto(slug);
+    await page.waitForLoadState("networkidle");
+    let headingLocator = page.getByRole("heading", { name: heading, exact: true });
+    await headingLocator.scrollIntoViewIfNeeded();
+    await expect.soft(headingLocator).toBeVisible();
+    await headingLocator.click();
+
+    widget = page.getByTestId("86bae14");
+  });
+
+  test("Test Contents", async ({ page }) => {
+    await expect(widget).toMatchAriaSnapshot(`
+      - list:
+        - listitem:
+          - text: Out of stock241212 LPTWO
+          - link /Hurayra Automation Product \\d+/:
+            - heading /Hurayra Automation Product \\d+/ [level=2]
+          - paragraph: /Hurayra Automation \\d+\\.\\.\\.LPTWO/
+          - deletion: /\\d+\\.\\d+৳/
+          - text: "/Original price was: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - insertion: /\\d+\\.\\d+৳/
+          - text: "/Current price is: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - list:
+            - listitem: 
+            - listitem:
+              - link /Read more about “Hurayra Automation Product \\d+”/
+            - listitem: 
+        - listitem:
+          - text: Sale241212 LPTWO
+          - link /Hurayra Automation Product \\d+/:
+            - heading /Hurayra Automation Product \\d+/ [level=2]
+          - paragraph: /Hurayra Automation \\d+\\.\\.\\.LPTWO/
+          - deletion: /\\d+\\.\\d+৳/
+          - text: "/Original price was: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - insertion: /\\d+\\.\\d+৳/
+          - text: "/Current price is: \\\\d+\\\\.\\\\d+৳ \\\\. 2 Sold LPTWO/"
+          - list:
+            - listitem: 
+            - listitem:
+              - 'link /Add to cart: “Hurayra Automation Product \\d+”/'
+            - listitem: 
+        - listitem:
+          - text: Sale241212 LPTWO
+          - link /Hurayra Automation Product \\d+/:
+            - heading /Hurayra Automation Product \\d+/ [level=2]
+          - paragraph: /Hurayra Automation \\d+\\.\\.\\.LPTWO/
+          - deletion: /\\d+\\.\\d+৳/
+          - text: "/Original price was: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - insertion: /\\d+\\.\\d+৳/
+          - text: "/Current price is: \\\\d+\\\\.\\\\d+৳ \\\\. 4 Sold LPTWO/"
+          - list:
+            - listitem: 
+            - listitem:
+              - 'link /Add to cart: “Hurayra Automation Product \\d+”/'
+            - listitem: 
+        - listitem:
+          - text: Sale241212 LPTWO
+          - link /Hurayra Automation Product \\d+/:
+            - heading /Hurayra Automation Product \\d+/ [level=2]
+          - paragraph: /Hurayra Automation \\d+\\.\\.\\.LPTWO/
+          - deletion: /\\d+\\.\\d+৳/
+          - text: "/Original price was: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - insertion: /\\d+\\.\\d+৳/
+          - text: "/Current price is: \\\\d+\\\\.\\\\d+৳ \\\\. 3 Sold LPTWO/"
+          - list:
+            - listitem: 
+            - listitem:
+              - 'link /Add to cart: “Hurayra Automation Product \\d+”/'
+            - listitem: 
+        - listitem:
+          - text: Sale241212 LPTWO
+          - link /Hurayra Automation Product \\d+/:
+            - heading /Hurayra Automation Product \\d+/ [level=2]
+          - paragraph: /Hurayra Automation \\d+\\.\\.\\.LPTWO/
+          - deletion: /\\d+\\.\\d+৳/
+          - text: "/Original price was: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - insertion: /\\d+\\.\\d+৳/
+          - text: "/Current price is: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - list:
+            - listitem: 
+            - listitem:
+              - 'link /Add to cart: “Hurayra Automation Product \\d+”/'
+            - listitem: 
+      - navigation:
+        - list:
+          - listitem:
+            - link "1"
+          - listitem:
+            - link "2"
+          - listitem:
+            - link "LPTWO->"
+      `);
+  });
+});
+
+test.describe("Woo Product Grid - List Preset 3", () => {
+  let heading = "Hurayra Automation 241212 List Preset Three";
+  let widget;
+
+  test.beforeEach(async ({ page }) => {
+    await page.goto(slug);
+    await page.waitForLoadState("networkidle");
+    let headingLocator = page.getByRole("heading", { name: heading, exact: true });
+    await headingLocator.scrollIntoViewIfNeeded();
+    await expect.soft(headingLocator).toBeVisible();
+    await headingLocator.click();
+
+    widget = page.getByTestId("2292dd5");
+  });
+
+  test("Test Contents", async ({ page }) => {
+    await expect(widget).toMatchAriaSnapshot(`
+      - list:
+        - listitem:
+          - text: "/Out of stock241212 LPTH Original price was: \\\\d+\\\\.\\\\d+৳ \\\\. Current price is: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - link /Hurayra Automation Product \\d+/:
+            - heading /Hurayra Automation Product \\d+/ [level=3]
+          - paragraph: /Hurayra Automation \\d+ Product \\d+/
+          - list:
+            - listitem: 
+            - listitem:
+              - link /Read more about “Hurayra Automation Product \\d+”/
+            - listitem: 
+        - listitem:
+          - text: "/Sale241212 LPTH Original price was: \\\\d+\\\\.\\\\d+৳ \\\\. Current price is: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - link /Hurayra Automation Product \\d+/:
+            - heading /Hurayra Automation Product \\d+/ [level=3]
+          - paragraph: /Hurayra Automation \\d+ Product \\d+/
+          - text: 2 Sold LPTH
+          - list:
+            - listitem: 
+            - listitem:
+              - 'link /Add to cart: “Hurayra Automation Product \\d+”/'
+            - listitem: 
+        - listitem:
+          - text: "/Sale241212 LPTH Original price was: \\\\d+\\\\.\\\\d+৳ \\\\. Current price is: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - link /Hurayra Automation Product \\d+/:
+            - heading /Hurayra Automation Product \\d+/ [level=3]
+          - paragraph: /Hurayra Automation \\d+ Product \\d+/
+          - text: 4 Sold LPTH
+          - list:
+            - listitem: 
+            - listitem:
+              - 'link /Add to cart: “Hurayra Automation Product \\d+”/'
+            - listitem: 
+        - listitem:
+          - text: "/Sale241212 LPTH Original price was: \\\\d+\\\\.\\\\d+৳ \\\\. Current price is: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - link /Hurayra Automation Product \\d+/:
+            - heading /Hurayra Automation Product \\d+/ [level=3]
+          - paragraph: /Hurayra Automation \\d+ Product \\d+/
+          - text: 3 Sold LPTH
+          - list:
+            - listitem: 
+            - listitem:
+              - 'link /Add to cart: “Hurayra Automation Product \\d+”/'
+            - listitem: 
+        - listitem:
+          - text: "/Sale241212 LPTH Original price was: \\\\d+\\\\.\\\\d+৳ \\\\. Current price is: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - link /Hurayra Automation Product \\d+/:
+            - heading /Hurayra Automation Product \\d+/ [level=3]
+          - paragraph: /Hurayra Automation \\d+ Product \\d+/
+          - list:
+            - listitem: 
+            - listitem:
+              - 'link /Add to cart: “Hurayra Automation Product \\d+”/'
+            - listitem: 
+      - navigation:
+        - list:
+          - listitem:
+            - link "1"
+          - listitem:
+            - link "2"
+          - listitem:
+            - link "LPTH->"
+      `);
+  });
+});
+
+test.describe("Woo Product Grid - List Preset 4", () => {
+  let heading = "Hurayra Automation 241212 List Preset Four";
+  let widget;
+
+  test.beforeEach(async ({ page }) => {
+    await page.goto(slug);
+    await page.waitForLoadState("networkidle");
+    let headingLocator = page.getByRole("heading", { name: heading, exact: true });
+    await headingLocator.scrollIntoViewIfNeeded();
+    await expect.soft(headingLocator).toBeVisible();
+    await headingLocator.click();
+
+    widget = page.getByTestId("f74136f");
+  });
+
+  test("Test Contents", async ({ page }) => {
+    await expect(widget).toMatchAriaSnapshot(`
+      - list:
+        - listitem:
+          - text: Out of stock241212 LPFR
+          - link /Hurayra Automation Product \\d+/:
+            - heading /Hurayra Automation Product \\d+/ [level=4]
+          - paragraph: /Hurayra Automation \\d+\\.\\.\\.LPFR/
+          - deletion: /\\d+\\.\\d+৳/
+          - text: "/Original price was: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - insertion: /\\d+\\.\\d+৳/
+          - text: "/Current price is: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - list:
+            - listitem: 
+            - listitem:
+              - link /Read more about “Hurayra Automation Product \\d+”/
+            - listitem: 
+        - listitem:
+          - text: Sale241212 LPFR
+          - link /Hurayra Automation Product \\d+/:
+            - heading /Hurayra Automation Product \\d+/ [level=4]
+          - paragraph: /Hurayra Automation \\d+\\.\\.\\.LPFR/
+          - deletion: /\\d+\\.\\d+৳/
+          - text: "/Original price was: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - insertion: /\\d+\\.\\d+৳/
+          - text: "/Current price is: \\\\d+\\\\.\\\\d+৳ \\\\. 2 Sold LPFR/"
+          - list:
+            - listitem: 
+            - listitem:
+              - 'link /Add to cart: “Hurayra Automation Product \\d+”/'
+            - listitem: 
+        - listitem:
+          - text: Sale241212 LPFR
+          - link /Hurayra Automation Product \\d+/:
+            - heading /Hurayra Automation Product \\d+/ [level=4]
+          - paragraph: /Hurayra Automation \\d+\\.\\.\\.LPFR/
+          - deletion: /\\d+\\.\\d+৳/
+          - text: "/Original price was: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - insertion: /\\d+\\.\\d+৳/
+          - text: "/Current price is: \\\\d+\\\\.\\\\d+৳ \\\\. 4 Sold LPFR/"
+          - list:
+            - listitem: 
+            - listitem:
+              - 'link /Add to cart: “Hurayra Automation Product \\d+”/'
+            - listitem: 
+        - listitem:
+          - text: Sale241212 LPFR
+          - link /Hurayra Automation Product \\d+/:
+            - heading /Hurayra Automation Product \\d+/ [level=4]
+          - paragraph: /Hurayra Automation \\d+\\.\\.\\.LPFR/
+          - deletion: /\\d+\\.\\d+৳/
+          - text: "/Original price was: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - insertion: /\\d+\\.\\d+৳/
+          - text: "/Current price is: \\\\d+\\\\.\\\\d+৳ \\\\. 3 Sold LPFR/"
+          - list:
+            - listitem: 
+            - listitem:
+              - 'link /Add to cart: “Hurayra Automation Product \\d+”/'
+            - listitem: 
+        - listitem:
+          - text: Sale241212 LPFR
+          - link /Hurayra Automation Product \\d+/:
+            - heading /Hurayra Automation Product \\d+/ [level=4]
+          - paragraph: /Hurayra Automation \\d+\\.\\.\\.LPFR/
+          - deletion: /\\d+\\.\\d+৳/
+          - text: "/Original price was: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - insertion: /\\d+\\.\\d+৳/
+          - text: "/Current price is: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - list:
+            - listitem: 
+            - listitem:
+              - 'link /Add to cart: “Hurayra Automation Product \\d+”/'
+            - listitem: 
+      - navigation:
+        - list:
+          - listitem:
+            - link "1"
+          - listitem:
+            - link "2"
+          - listitem:
+            - link "LPFR->"
+      `);
+  });
+});
