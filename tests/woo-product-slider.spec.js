@@ -1,0 +1,907 @@
+"use strict";
+
+import { test, expect } from "../global-setup";
+
+let slug = "/woocommerce-elements/woo-product-slider/";
+
+test.describe("Woo Product Slider - Preset 1", () => {
+  let heading = "Hurayra Automation 241117 Preset One";
+  let widget;
+
+  test.beforeEach(async ({ page }) => {
+    await page.goto(slug);
+    await page.waitForLoadState("networkidle");
+    let headingLocator = page.getByRole("heading", { name: heading, exact: true });
+    await headingLocator.scrollIntoViewIfNeeded();
+    await expect.soft(headingLocator).toBeVisible();
+    await headingLocator.click();
+
+    widget = page.getByTestId("f3cb245");
+  });
+
+  test("Test Contents", async ({ page }) => {
+    await expect(widget).toMatchAriaSnapshot(`
+      - list:
+        - group "2 / 4":
+          - list:
+            - listitem:
+              - link /Hurayra Automation \\d+ DONOTDELETE/
+          - heading /Hurayra Automation Product \\d+/ [level=1]
+          - text:   Rated
+          - strong: /\\d+\\.\\d+/
+          - text: out of 5 based on  1 customer rating
+          - paragraph: /Hurayra Automation \\d+ Product\\.\\.\\.>/
+          - deletion: /\\d+\\.\\d+৳/
+          - text: "/Original price was: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - insertion: /\\d+\\.\\d+৳/
+          - text: "/Current price is: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - list:
+            - listitem:
+              - 'link /Add to cart: “Hurayra Automation Product \\d+”/'
+            - listitem: 
+            - listitem "Details":
+              - link ""
+          - text: Sale PONE
+        - group "3 / 4":
+          - list:
+            - listitem:
+              - link /Hurayra Automation \\d+ DONOTDELETE/
+          - heading /Hurayra Automation Product \\d+/ [level=1]
+          - text:   Rated
+          - strong: /\\d+\\.\\d+/
+          - text: out of 5 based on  1 customer rating
+          - paragraph: /Hurayra Automation \\d+ Product\\.\\.\\.>/
+          - deletion: /\\d+\\.\\d+৳/
+          - text: "/Original price was: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - insertion: /\\d+\\.\\d+৳/
+          - text: "/Current price is: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - list:
+            - listitem:
+              - 'link /Add to cart: “Hurayra Automation Product \\d+”/'
+            - listitem: 
+            - listitem "Details":
+              - link ""
+          - text: Sale PONE
+        - group "4 / 4":
+          - list:
+            - listitem:
+              - link /Hurayra Automation \\d+ DONOTDELETE/
+          - heading /Hurayra Automation Product \\d+/ [level=1]
+          - text:   Rated
+          - strong: /\\d+\\.\\d+/
+          - text: out of 5 based on  1 customer rating
+          - paragraph: /Hurayra Automation \\d+ Product\\.\\.\\.>/
+          - deletion: /\\d+\\.\\d+৳/
+          - text: "/Original price was: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - insertion: /\\d+\\.\\d+৳/
+          - text: "/Current price is: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - list:
+            - listitem:
+              - 'link /Add to cart: “Hurayra Automation Product \\d+”/'
+            - listitem: 
+            - listitem "Details":
+              - link ""
+          - text: Sale PONE
+        - group "1 / 4":
+          - list:
+            - listitem:
+              - link /Hurayra Automation \\d+ DONOTDELETE/
+          - heading /Hurayra Automation Product \\d+/ [level=1]
+          - text:   Rated
+          - strong: /\\d+\\.\\d+/
+          - text: out of 5 based on  1 customer rating
+          - paragraph: /Hurayra Automation \\d+ Product\\.\\.\\.>/
+          - deletion: /\\d+\\.\\d+৳/
+          - text: "/Original price was: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - insertion: /\\d+\\.\\d+৳/
+          - text: "/Current price is: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - list:
+            - listitem: 
+            - listitem "Details":
+              - link ""
+          - text: Stock Out PONE
+        - group "2 / 4":
+          - list:
+            - listitem:
+              - link /Hurayra Automation \\d+ DONOTDELETE/
+          - heading /Hurayra Automation Product \\d+/ [level=1]
+          - text:   Rated
+          - strong: /\\d+\\.\\d+/
+          - text: out of 5 based on  1 customer rating
+          - paragraph: /Hurayra Automation \\d+ Product\\.\\.\\.>/
+          - deletion: /\\d+\\.\\d+৳/
+          - text: "/Original price was: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - insertion: /\\d+\\.\\d+৳/
+          - text: "/Current price is: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - list:
+            - listitem:
+              - 'link /Add to cart: “Hurayra Automation Product \\d+”/'
+            - listitem: 
+            - listitem "Details":
+              - link ""
+          - text: Sale PONE
+        - group "3 / 4":
+          - list:
+            - listitem:
+              - link /Hurayra Automation \\d+ DONOTDELETE/
+          - heading /Hurayra Automation Product \\d+/ [level=1]
+          - text:   Rated
+          - strong: /\\d+\\.\\d+/
+          - text: out of 5 based on  1 customer rating
+          - paragraph: /Hurayra Automation \\d+ Product\\.\\.\\.>/
+          - deletion: /\\d+\\.\\d+৳/
+          - text: "/Original price was: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - insertion: /\\d+\\.\\d+৳/
+          - text: "/Current price is: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - list:
+            - listitem:
+              - 'link /Add to cart: “Hurayra Automation Product \\d+”/'
+            - listitem: 
+            - listitem "Details":
+              - link ""
+          - text: Sale PONE
+        - group "4 / 4":
+          - list:
+            - listitem:
+              - link /Hurayra Automation \\d+ DONOTDELETE/
+          - heading /Hurayra Automation Product \\d+/ [level=1]
+          - text:   Rated
+          - strong: /\\d+\\.\\d+/
+          - text: out of 5 based on  1 customer rating
+          - paragraph: /Hurayra Automation \\d+ Product\\.\\.\\.>/
+          - deletion: /\\d+\\.\\d+৳/
+          - text: "/Original price was: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - insertion: /\\d+\\.\\d+৳/
+          - text: "/Current price is: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - list:
+            - listitem:
+              - 'link /Add to cart: “Hurayra Automation Product \\d+”/'
+            - listitem: 
+            - listitem "Details":
+              - link ""
+          - text: Sale PONE
+        - group "1 / 4":
+          - list:
+            - listitem:
+              - link /Hurayra Automation \\d+ DONOTDELETE/
+          - heading /Hurayra Automation Product \\d+/ [level=1]
+          - text:   Rated
+          - strong: /\\d+\\.\\d+/
+          - text: out of 5 based on  1 customer rating
+          - paragraph: /Hurayra Automation \\d+ Product\\.\\.\\.>/
+          - deletion: /\\d+\\.\\d+৳/
+          - text: "/Original price was: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - insertion: /\\d+\\.\\d+৳/
+          - text: "/Current price is: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - list:
+            - listitem: 
+            - listitem "Details":
+              - link ""
+          - text: Stock Out PONE
+        - group "2 / 4":
+          - list:
+            - listitem:
+              - link /Hurayra Automation \\d+ DONOTDELETE/
+          - heading /Hurayra Automation Product \\d+/ [level=1]
+          - text:   Rated
+          - strong: /\\d+\\.\\d+/
+          - text: out of 5 based on  1 customer rating
+          - paragraph: /Hurayra Automation \\d+ Product\\.\\.\\.>/
+          - deletion: /\\d+\\.\\d+৳/
+          - text: "/Original price was: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - insertion: /\\d+\\.\\d+৳/
+          - text: "/Current price is: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - list:
+            - listitem:
+              - 'link /Add to cart: “Hurayra Automation Product \\d+”/'
+            - listitem: 
+            - listitem "Details":
+              - link ""
+          - text: Sale PONE
+        - group "3 / 4":
+          - list:
+            - listitem:
+              - link /Hurayra Automation \\d+ DONOTDELETE/
+          - heading /Hurayra Automation Product \\d+/ [level=1]
+          - text:   Rated
+          - strong: /\\d+\\.\\d+/
+          - text: out of 5 based on  1 customer rating
+          - paragraph: /Hurayra Automation \\d+ Product\\.\\.\\.>/
+          - deletion: /\\d+\\.\\d+৳/
+          - text: "/Original price was: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - insertion: /\\d+\\.\\d+৳/
+          - text: "/Current price is: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - list:
+            - listitem:
+              - 'link /Add to cart: “Hurayra Automation Product \\d+”/'
+            - listitem: 
+            - listitem "Details":
+              - link ""
+          - text: Sale PONE
+      - group "2 / 4":
+        - img
+      - group "3 / 4":
+        - img
+      - group "4 / 4":
+        - img
+      - group "1 / 4":
+        - img
+      - group "2 / 4":
+        - img
+      - group "3 / 4":
+        - img
+      - group "4 / 4":
+        - img
+      - group "1 / 4":
+        - img
+      - group "2 / 4":
+        - img
+      - group "3 / 4":
+        - img
+      - button "Next slide"
+      - button "Previous slide"
+      `);
+  });
+});
+
+test.describe("Woo Product Slider - Preset 2", () => {
+  let heading = "Hurayra Automation 241117 Preset Two";
+  let widget;
+
+  test.beforeEach(async ({ page }) => {
+    await page.goto(slug);
+    await page.waitForLoadState("networkidle");
+    let headingLocator = page.getByRole("heading", { name: heading, exact: true });
+    await headingLocator.scrollIntoViewIfNeeded();
+    await expect.soft(headingLocator).toBeVisible();
+    await headingLocator.click();
+
+    widget = page.getByTestId("306d1d1");
+  });
+
+  test("Test Contents", async ({ page }) => {
+    await expect(widget).toMatchAriaSnapshot(`
+      - list:
+        - group "2 / 4":
+          - list:
+            - listitem:
+              - link /Hurayra Automation \\d+ DONOTDELETE/
+          - heading /Hurayra Automation Product \\d+/ [level=2]
+          - text:   Rated
+          - strong: /\\d+\\.\\d+/
+          - text: out of 5 based on  1 customer rating
+          - paragraph: /Hurayra Automation \\d+ Product\\.\\.\\.>/
+          - deletion: /\\d+\\.\\d+৳/
+          - text: "/Original price was: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - insertion: /\\d+\\.\\d+৳/
+          - text: "/Current price is: \\\\d+\\\\.\\\\d+৳ \\\\. Sale PTWO/"
+          - list:
+            - listitem:
+              - 'link /Add to cart: “Hurayra Automation Product \\d+”/'
+            - listitem: 
+            - listitem "Details":
+              - link ""
+        - group "3 / 4":
+          - list:
+            - listitem:
+              - link /Hurayra Automation \\d+ DONOTDELETE/
+          - heading /Hurayra Automation Product \\d+/ [level=2]
+          - text:   Rated
+          - strong: /\\d+\\.\\d+/
+          - text: out of 5 based on  1 customer rating
+          - paragraph: /Hurayra Automation \\d+ Product\\.\\.\\.>/
+          - deletion: /\\d+\\.\\d+৳/
+          - text: "/Original price was: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - insertion: /\\d+\\.\\d+৳/
+          - text: "/Current price is: \\\\d+\\\\.\\\\d+৳ \\\\. Sale PTWO/"
+          - list:
+            - listitem:
+              - 'link /Add to cart: “Hurayra Automation Product \\d+”/'
+            - listitem: 
+            - listitem "Details":
+              - link ""
+        - group "4 / 4":
+          - list:
+            - listitem:
+              - link /Hurayra Automation \\d+ DONOTDELETE/
+          - heading /Hurayra Automation Product \\d+/ [level=2]
+          - text:   Rated
+          - strong: /\\d+\\.\\d+/
+          - text: out of 5 based on  1 customer rating
+          - paragraph: /Hurayra Automation \\d+ Product\\.\\.\\.>/
+          - deletion: /\\d+\\.\\d+৳/
+          - text: "/Original price was: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - insertion: /\\d+\\.\\d+৳/
+          - text: "/Current price is: \\\\d+\\\\.\\\\d+৳ \\\\. Sale PTWO/"
+          - list:
+            - listitem:
+              - 'link /Add to cart: “Hurayra Automation Product \\d+”/'
+            - listitem: 
+            - listitem "Details":
+              - link ""
+        - group "1 / 4":
+          - list:
+            - listitem:
+              - link /Hurayra Automation \\d+ DONOTDELETE/
+          - heading /Hurayra Automation Product \\d+/ [level=2]
+          - text:   Rated
+          - strong: /\\d+\\.\\d+/
+          - text: out of 5 based on  1 customer rating
+          - paragraph: /Hurayra Automation \\d+ Product\\.\\.\\.>/
+          - deletion: /\\d+\\.\\d+৳/
+          - text: "/Original price was: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - insertion: /\\d+\\.\\d+৳/
+          - text: "/Current price is: \\\\d+\\\\.\\\\d+৳ \\\\. Sale PTWO/"
+          - list:
+            - listitem:
+              - 'link /Add to cart: “Hurayra Automation Product \\d+”/'
+            - listitem: 
+            - listitem "Details":
+              - link ""
+        - group "2 / 4":
+          - list:
+            - listitem:
+              - link /Hurayra Automation \\d+ DONOTDELETE/
+          - heading /Hurayra Automation Product \\d+/ [level=2]
+          - text:   Rated
+          - strong: /\\d+\\.\\d+/
+          - text: out of 5 based on  1 customer rating
+          - paragraph: /Hurayra Automation \\d+ Product\\.\\.\\.>/
+          - deletion: /\\d+\\.\\d+৳/
+          - text: "/Original price was: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - insertion: /\\d+\\.\\d+৳/
+          - text: "/Current price is: \\\\d+\\\\.\\\\d+৳ \\\\. Sale PTWO/"
+          - list:
+            - listitem:
+              - 'link /Add to cart: “Hurayra Automation Product \\d+”/'
+            - listitem: 
+            - listitem "Details":
+              - link ""
+        - group "3 / 4":
+          - list:
+            - listitem:
+              - link /Hurayra Automation \\d+ DONOTDELETE/
+          - heading /Hurayra Automation Product \\d+/ [level=2]
+          - text:   Rated
+          - strong: /\\d+\\.\\d+/
+          - text: out of 5 based on  1 customer rating
+          - paragraph: /Hurayra Automation \\d+ Product\\.\\.\\.>/
+          - deletion: /\\d+\\.\\d+৳/
+          - text: "/Original price was: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - insertion: /\\d+\\.\\d+৳/
+          - text: "/Current price is: \\\\d+\\\\.\\\\d+৳ \\\\. Sale PTWO/"
+          - list:
+            - listitem:
+              - 'link /Add to cart: “Hurayra Automation Product \\d+”/'
+            - listitem: 
+            - listitem "Details":
+              - link ""
+        - group "4 / 4":
+          - list:
+            - listitem:
+              - link /Hurayra Automation \\d+ DONOTDELETE/
+          - heading /Hurayra Automation Product \\d+/ [level=2]
+          - text:   Rated
+          - strong: /\\d+\\.\\d+/
+          - text: out of 5 based on  1 customer rating
+          - paragraph: /Hurayra Automation \\d+ Product\\.\\.\\.>/
+          - deletion: /\\d+\\.\\d+৳/
+          - text: "/Original price was: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - insertion: /\\d+\\.\\d+৳/
+          - text: "/Current price is: \\\\d+\\\\.\\\\d+৳ \\\\. Sale PTWO/"
+          - list:
+            - listitem:
+              - 'link /Add to cart: “Hurayra Automation Product \\d+”/'
+            - listitem: 
+            - listitem "Details":
+              - link ""
+        - group "1 / 4":
+          - list:
+            - listitem:
+              - link /Hurayra Automation \\d+ DONOTDELETE/
+          - heading /Hurayra Automation Product \\d+/ [level=2]
+          - text:   Rated
+          - strong: /\\d+\\.\\d+/
+          - text: out of 5 based on  1 customer rating
+          - paragraph: /Hurayra Automation \\d+ Product\\.\\.\\.>/
+          - deletion: /\\d+\\.\\d+৳/
+          - text: "/Original price was: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - insertion: /\\d+\\.\\d+৳/
+          - text: "/Current price is: \\\\d+\\\\.\\\\d+৳ \\\\. Sale PTWO/"
+          - list:
+            - listitem:
+              - 'link /Add to cart: “Hurayra Automation Product \\d+”/'
+            - listitem: 
+            - listitem "Details":
+              - link ""
+        - group "2 / 4":
+          - list:
+            - listitem:
+              - link /Hurayra Automation \\d+ DONOTDELETE/
+          - heading /Hurayra Automation Product \\d+/ [level=2]
+          - text:   Rated
+          - strong: /\\d+\\.\\d+/
+          - text: out of 5 based on  1 customer rating
+          - paragraph: /Hurayra Automation \\d+ Product\\.\\.\\.>/
+          - deletion: /\\d+\\.\\d+৳/
+          - text: "/Original price was: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - insertion: /\\d+\\.\\d+৳/
+          - text: "/Current price is: \\\\d+\\\\.\\\\d+৳ \\\\. Sale PTWO/"
+          - list:
+            - listitem:
+              - 'link /Add to cart: “Hurayra Automation Product \\d+”/'
+            - listitem: 
+            - listitem "Details":
+              - link ""
+        - group "3 / 4":
+          - list:
+            - listitem:
+              - link /Hurayra Automation \\d+ DONOTDELETE/
+          - heading /Hurayra Automation Product \\d+/ [level=2]
+          - text:   Rated
+          - strong: /\\d+\\.\\d+/
+          - text: out of 5 based on  1 customer rating
+          - paragraph: /Hurayra Automation \\d+ Product\\.\\.\\.>/
+          - deletion: /\\d+\\.\\d+৳/
+          - text: "/Original price was: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - insertion: /\\d+\\.\\d+৳/
+          - text: "/Current price is: \\\\d+\\\\.\\\\d+৳ \\\\. Sale PTWO/"
+          - list:
+            - listitem:
+              - 'link /Add to cart: “Hurayra Automation Product \\d+”/'
+            - listitem: 
+            - listitem "Details":
+              - link ""
+      - group "2 / 4":
+        - img
+      - group "3 / 4":
+        - img
+      - group "4 / 4":
+        - img
+      - group "1 / 4":
+        - img
+      - group "2 / 4":
+        - img
+      - group "3 / 4":
+        - img
+      - group "4 / 4":
+        - img
+      - group "1 / 4":
+        - img
+      - group "2 / 4":
+        - img
+      - group "3 / 4":
+        - img
+      - button "Next slide"
+      - button "Previous slide"
+      `);
+  });
+});
+
+test.describe("Woo Product Slider - Preset 3", () => {
+  let heading = "Hurayra Automation 241117 Preset Three";
+  let widget;
+
+  test.beforeEach(async ({ page }) => {
+    await page.goto(slug);
+    await page.waitForLoadState("networkidle");
+    let headingLocator = page.getByRole("heading", { name: heading, exact: true });
+    await headingLocator.scrollIntoViewIfNeeded();
+    await expect.soft(headingLocator).toBeVisible();
+    await headingLocator.click();
+
+    widget = page.getByTestId("81c14f0");
+  });
+
+  test("Test Contents", async ({ page }) => {
+    await expect(widget).toMatchAriaSnapshot(`
+      - list:
+        - group "2 / 4":
+          - text: Sale PTHR
+          - list:
+            - listitem:
+              - link /Hurayra Automation \\d+ DONOTDELETE/
+          - deletion: /\\d+\\.\\d+৳/
+          - text: "/Original price was: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - insertion: /\\d+\\.\\d+৳/
+          - text: "/Current price is: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - heading "Hurayra Automation Product" [level=3]
+          - paragraph: /Hurayra Automation \\d+\\.\\.\\.>>/
+          - text:   Rated
+          - strong: /\\d+\\.\\d+/
+          - text: out of 5 based on  1 customer rating
+          - list:
+            - listitem: 
+            - listitem "Details":
+              - link ""
+          - 'link /Add to cart: “Hurayra Automation Product \\d+”/'
+        - group "3 / 4":
+          - text: Sale PTHR
+          - list:
+            - listitem:
+              - link /Hurayra Automation \\d+ DONOTDELETE/
+          - deletion: /\\d+\\.\\d+৳/
+          - text: "/Original price was: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - insertion: /\\d+\\.\\d+৳/
+          - text: "/Current price is: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - heading "Hurayra Automation Product" [level=3]
+          - paragraph: /Hurayra Automation \\d+\\.\\.\\.>>/
+          - text:   Rated
+          - strong: /\\d+\\.\\d+/
+          - text: out of 5 based on  1 customer rating
+          - list:
+            - listitem: 
+            - listitem "Details":
+              - link ""
+          - 'link /Add to cart: “Hurayra Automation Product \\d+”/'
+        - group "4 / 4":
+          - text: Sale PTHR
+          - list:
+            - listitem:
+              - link /Hurayra Automation \\d+ DONOTDELETE/
+          - deletion: /\\d+\\.\\d+৳/
+          - text: "/Original price was: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - insertion: /\\d+\\.\\d+৳/
+          - text: "/Current price is: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - heading "Hurayra Automation Product" [level=3]
+          - paragraph: /Hurayra Automation \\d+\\.\\.\\.>>/
+          - text:   Rated
+          - strong: /\\d+\\.\\d+/
+          - text: out of 5 based on  1 customer rating
+          - list:
+            - listitem: 
+            - listitem "Details":
+              - link ""
+          - 'link /Add to cart: “Hurayra Automation Product \\d+”/'
+        - group "1 / 4":
+          - text: Sale PTHR
+          - list:
+            - listitem:
+              - link /Hurayra Automation \\d+ DONOTDELETE/
+          - deletion: /\\d+\\.\\d+৳/
+          - text: "/Original price was: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - insertion: /\\d+\\.\\d+৳/
+          - text: "/Current price is: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - heading "Hurayra Automation Product" [level=3]
+          - paragraph: /Hurayra Automation \\d+\\.\\.\\.>>/
+          - text:   Rated
+          - strong: /\\d+\\.\\d+/
+          - text: out of 5 based on  1 customer rating
+          - list:
+            - listitem: 
+            - listitem "Details":
+              - link ""
+          - 'link /Add to cart: “Hurayra Automation Product \\d+”/'
+        - group "2 / 4":
+          - text: Sale PTHR
+          - list:
+            - listitem:
+              - link /Hurayra Automation \\d+ DONOTDELETE/
+          - deletion: /\\d+\\.\\d+৳/
+          - text: "/Original price was: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - insertion: /\\d+\\.\\d+৳/
+          - text: "/Current price is: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - heading "Hurayra Automation Product" [level=3]
+          - paragraph: /Hurayra Automation \\d+\\.\\.\\.>>/
+          - text:   Rated
+          - strong: /\\d+\\.\\d+/
+          - text: out of 5 based on  1 customer rating
+          - list:
+            - listitem: 
+            - listitem "Details":
+              - link ""
+          - 'link /Add to cart: “Hurayra Automation Product \\d+”/'
+        - group "3 / 4":
+          - text: Sale PTHR
+          - list:
+            - listitem:
+              - link /Hurayra Automation \\d+ DONOTDELETE/
+          - deletion: /\\d+\\.\\d+৳/
+          - text: "/Original price was: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - insertion: /\\d+\\.\\d+৳/
+          - text: "/Current price is: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - heading "Hurayra Automation Product" [level=3]
+          - paragraph: /Hurayra Automation \\d+\\.\\.\\.>>/
+          - text:   Rated
+          - strong: /\\d+\\.\\d+/
+          - text: out of 5 based on  1 customer rating
+          - list:
+            - listitem: 
+            - listitem "Details":
+              - link ""
+          - 'link /Add to cart: “Hurayra Automation Product \\d+”/'
+        - group "4 / 4":
+          - text: Sale PTHR
+          - list:
+            - listitem:
+              - link /Hurayra Automation \\d+ DONOTDELETE/
+          - deletion: /\\d+\\.\\d+৳/
+          - text: "/Original price was: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - insertion: /\\d+\\.\\d+৳/
+          - text: "/Current price is: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - heading "Hurayra Automation Product" [level=3]
+          - paragraph: /Hurayra Automation \\d+\\.\\.\\.>>/
+          - text:   Rated
+          - strong: /\\d+\\.\\d+/
+          - text: out of 5 based on  1 customer rating
+          - list:
+            - listitem: 
+            - listitem "Details":
+              - link ""
+          - 'link /Add to cart: “Hurayra Automation Product \\d+”/'
+        - group "1 / 4":
+          - text: Sale PTHR
+          - list:
+            - listitem:
+              - link /Hurayra Automation \\d+ DONOTDELETE/
+          - deletion: /\\d+\\.\\d+৳/
+          - text: "/Original price was: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - insertion: /\\d+\\.\\d+৳/
+          - text: "/Current price is: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - heading "Hurayra Automation Product" [level=3]
+          - paragraph: /Hurayra Automation \\d+\\.\\.\\.>>/
+          - text:   Rated
+          - strong: /\\d+\\.\\d+/
+          - text: out of 5 based on  1 customer rating
+          - list:
+            - listitem: 
+            - listitem "Details":
+              - link ""
+          - 'link /Add to cart: “Hurayra Automation Product \\d+”/'
+        - group "2 / 4":
+          - text: Sale PTHR
+          - list:
+            - listitem:
+              - link /Hurayra Automation \\d+ DONOTDELETE/
+          - deletion: /\\d+\\.\\d+৳/
+          - text: "/Original price was: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - insertion: /\\d+\\.\\d+৳/
+          - text: "/Current price is: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - heading "Hurayra Automation Product" [level=3]
+          - paragraph: /Hurayra Automation \\d+\\.\\.\\.>>/
+          - text:   Rated
+          - strong: /\\d+\\.\\d+/
+          - text: out of 5 based on  1 customer rating
+          - list:
+            - listitem: 
+            - listitem "Details":
+              - link ""
+          - 'link /Add to cart: “Hurayra Automation Product \\d+”/'
+        - group "3 / 4":
+          - text: Sale PTHR
+          - list:
+            - listitem:
+              - link /Hurayra Automation \\d+ DONOTDELETE/
+          - deletion: /\\d+\\.\\d+৳/
+          - text: "/Original price was: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - insertion: /\\d+\\.\\d+৳/
+          - text: "/Current price is: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - heading "Hurayra Automation Product" [level=3]
+          - paragraph: /Hurayra Automation \\d+\\.\\.\\.>>/
+          - text:   Rated
+          - strong: /\\d+\\.\\d+/
+          - text: out of 5 based on  1 customer rating
+          - list:
+            - listitem: 
+            - listitem "Details":
+              - link ""
+          - 'link /Add to cart: “Hurayra Automation Product \\d+”/'
+      - group "2 / 4":
+        - img
+      - group "3 / 4":
+        - img
+      - group "4 / 4":
+        - img
+      - group "1 / 4":
+        - img
+      - group "2 / 4":
+        - img
+      - group "3 / 4":
+        - img
+      - group "4 / 4":
+        - img
+      - group "1 / 4":
+        - img
+      - group "2 / 4":
+        - img
+      - group "3 / 4":
+        - img
+      - button "Next slide"
+      - button "Previous slide"
+      `);
+  });
+});
+
+test.describe("Woo Product Slider - Preset 4", () => {
+  let heading = "Hurayra Automation 241117 Preset Four";
+  let widget;
+
+  test.beforeEach(async ({ page }) => {
+    await page.goto(slug);
+    await page.waitForLoadState("networkidle");
+    let headingLocator = page.getByRole("heading", { name: heading, exact: true });
+    await headingLocator.scrollIntoViewIfNeeded();
+    await expect.soft(headingLocator).toBeVisible();
+    await headingLocator.click();
+
+    widget = page.getByTestId("62840c6");
+  });
+
+  test("Test Contents", async ({ page }) => {
+    await expect(widget).toMatchAriaSnapshot(`
+      - list:
+        - group "2 / 4":
+          - list:
+            - listitem:
+              - link /Hurayra Automation \\d+ DONOTDELETE/
+          - heading /Hurayra Automation Product \\d+/ [level=4]
+          - text:   Rated
+          - strong: /\\d+\\.\\d+/
+          - text: out of 5 based on  1 customer rating
+          - deletion: /\\d+\\.\\d+৳/
+          - text: "/Original price was: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - insertion: /\\d+\\.\\d+৳/
+          - text: "/Current price is: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - paragraph: /Hurayra Automation \\d+ Product-->/
+          - 'link /Add to cart: “Hurayra Automation Product \\d+”/'
+          - text: Sale PFR!
+        - group "3 / 4":
+          - list:
+            - listitem:
+              - link /Hurayra Automation \\d+ DONOTDELETE/
+          - heading /Hurayra Automation Product \\d+/ [level=4]
+          - text:   Rated
+          - strong: /\\d+\\.\\d+/
+          - text: out of 5 based on  1 customer rating
+          - deletion: /\\d+\\.\\d+৳/
+          - text: "/Original price was: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - insertion: /\\d+\\.\\d+৳/
+          - text: "/Current price is: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - paragraph: /Hurayra Automation \\d+ Product-->/
+          - 'link /Add to cart: “Hurayra Automation Product \\d+”/'
+          - text: Sale PFR!
+        - group "4 / 4":
+          - list:
+            - listitem:
+              - link /Hurayra Automation \\d+ DONOTDELETE/
+          - heading /Hurayra Automation Product \\d+/ [level=4]
+          - text:   Rated
+          - strong: /\\d+\\.\\d+/
+          - text: out of 5 based on  1 customer rating
+          - deletion: /\\d+\\.\\d+৳/
+          - text: "/Original price was: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - insertion: /\\d+\\.\\d+৳/
+          - text: "/Current price is: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - paragraph: /Hurayra Automation \\d+ Product-->/
+          - 'link /Add to cart: “Hurayra Automation Product \\d+”/'
+          - text: Sale PFR!
+        - group "1 / 4":
+          - list:
+            - listitem:
+              - link /Hurayra Automation \\d+ DONOTDELETE/
+          - heading /Hurayra Automation Product \\d+/ [level=4]
+          - text:   Rated
+          - strong: /\\d+\\.\\d+/
+          - text: out of 5 based on  1 customer rating
+          - deletion: /\\d+\\.\\d+৳/
+          - text: "/Original price was: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - insertion: /\\d+\\.\\d+৳/
+          - text: "/Current price is: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - paragraph: /Hurayra Automation \\d+ Product-->/
+          - link /Read more about “Hurayra Automation Product \\d+”/
+          - text: Stock Out PFR!
+        - group "2 / 4":
+          - list:
+            - listitem:
+              - link /Hurayra Automation \\d+ DONOTDELETE/
+          - heading /Hurayra Automation Product \\d+/ [level=4]
+          - text:   Rated
+          - strong: /\\d+\\.\\d+/
+          - text: out of 5 based on  1 customer rating
+          - deletion: /\\d+\\.\\d+৳/
+          - text: "/Original price was: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - insertion: /\\d+\\.\\d+৳/
+          - text: "/Current price is: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - paragraph: /Hurayra Automation \\d+ Product-->/
+          - 'link /Add to cart: “Hurayra Automation Product \\d+”/'
+          - text: Sale PFR!
+        - group "3 / 4":
+          - list:
+            - listitem:
+              - link /Hurayra Automation \\d+ DONOTDELETE/
+          - heading /Hurayra Automation Product \\d+/ [level=4]
+          - text:   Rated
+          - strong: /\\d+\\.\\d+/
+          - text: out of 5 based on  1 customer rating
+          - deletion: /\\d+\\.\\d+৳/
+          - text: "/Original price was: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - insertion: /\\d+\\.\\d+৳/
+          - text: "/Current price is: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - paragraph: /Hurayra Automation \\d+ Product-->/
+          - 'link /Add to cart: “Hurayra Automation Product \\d+”/'
+          - text: Sale PFR!
+        - group "4 / 4":
+          - list:
+            - listitem:
+              - link /Hurayra Automation \\d+ DONOTDELETE/
+          - heading /Hurayra Automation Product \\d+/ [level=4]
+          - text:   Rated
+          - strong: /\\d+\\.\\d+/
+          - text: out of 5 based on  1 customer rating
+          - deletion: /\\d+\\.\\d+৳/
+          - text: "/Original price was: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - insertion: /\\d+\\.\\d+৳/
+          - text: "/Current price is: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - paragraph: /Hurayra Automation \\d+ Product-->/
+          - 'link /Add to cart: “Hurayra Automation Product \\d+”/'
+          - text: Sale PFR!
+        - group "1 / 4":
+          - list:
+            - listitem:
+              - link /Hurayra Automation \\d+ DONOTDELETE/
+          - heading /Hurayra Automation Product \\d+/ [level=4]
+          - text:   Rated
+          - strong: /\\d+\\.\\d+/
+          - text: out of 5 based on  1 customer rating
+          - deletion: /\\d+\\.\\d+৳/
+          - text: "/Original price was: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - insertion: /\\d+\\.\\d+৳/
+          - text: "/Current price is: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - paragraph: /Hurayra Automation \\d+ Product-->/
+          - link /Read more about “Hurayra Automation Product \\d+”/
+          - text: Stock Out PFR!
+        - group "2 / 4":
+          - list:
+            - listitem:
+              - link /Hurayra Automation \\d+ DONOTDELETE/
+          - heading /Hurayra Automation Product \\d+/ [level=4]
+          - text:   Rated
+          - strong: /\\d+\\.\\d+/
+          - text: out of 5 based on  1 customer rating
+          - deletion: /\\d+\\.\\d+৳/
+          - text: "/Original price was: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - insertion: /\\d+\\.\\d+৳/
+          - text: "/Current price is: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - paragraph: /Hurayra Automation \\d+ Product-->/
+          - 'link /Add to cart: “Hurayra Automation Product \\d+”/'
+          - text: Sale PFR!
+        - group "3 / 4":
+          - list:
+            - listitem:
+              - link /Hurayra Automation \\d+ DONOTDELETE/
+          - heading /Hurayra Automation Product \\d+/ [level=4]
+          - text:   Rated
+          - strong: /\\d+\\.\\d+/
+          - text: out of 5 based on  1 customer rating
+          - deletion: /\\d+\\.\\d+৳/
+          - text: "/Original price was: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - insertion: /\\d+\\.\\d+৳/
+          - text: "/Current price is: \\\\d+\\\\.\\\\d+৳ \\\\./"
+          - paragraph: /Hurayra Automation \\d+ Product-->/
+          - 'link /Add to cart: “Hurayra Automation Product \\d+”/'
+          - text: Sale PFR!
+      - group "2 / 4":
+        - img
+      - group "3 / 4":
+        - img
+      - group "4 / 4":
+        - img
+      - group "1 / 4":
+        - img
+      - group "2 / 4":
+        - img
+      - group "3 / 4":
+        - img
+      - group "4 / 4":
+        - img
+      - group "1 / 4":
+        - img
+      - group "2 / 4":
+        - img
+      - group "3 / 4":
+        - img
+      - button "Next slide"
+      - button "Previous slide"
+      `);
+  });
+});
