@@ -19,9 +19,67 @@ test.describe("Woo Product List - Preset 1", () => {
     widget = page.getByTestId("310fdd2");
   });
 
-  // test("Test Contents", async ({ page }) => {
-  //   //
-  // });
+  test("Test Contents", async ({ page }) => {
+    await expect(widget).toMatchAriaSnapshot(`
+      - img
+      - paragraph:
+        - strong: Stock Out241113
+      - link /Hurayra Automation Product \\d+/:
+        - img /Hurayra Automation Product \\d+/
+      - text:   Rated
+      - strong: /\\d+\\.\\d+/
+      - text: out of 5 based on  1 customer rating
+      - link "(1)"
+      - paragraph: / Hurayra Automation \\d+ DONOTDELETE/
+      - heading /Hurayra Automation Product \\d+/ [level=1]:
+        - link /Hurayra Automation Product \\d+/
+      - text: /Hurayra Automation \\d+\\.\\.\\.>/
+      - 'heading /Original price was: \\d+\\.\\d+৳ \\. Current price is: \\d+\\.\\d+৳ \\./ [level=3]': "/Original price was: \\\\d+\\\\.\\\\d+৳ \\\\. Current price is: \\\\d+\\\\.\\\\d+৳ \\\\./"
+      - 'heading "Total Sold241113: 0" [level=4]'
+      - paragraph:
+        - link /Read more about “Hurayra Automation Product \\d+”/
+      - paragraph: View Product241113
+      - img
+      - paragraph:
+        - strong: Sale241113
+      - link /Hurayra Automation Product \\d+/:
+        - img /Hurayra Automation Product \\d+/
+      - text:   Rated
+      - strong: /\\d+\\.\\d+/
+      - text: out of 5 based on  1 customer rating
+      - link "(1)"
+      - paragraph: / Hurayra Automation \\d+ DONOTDELETE/
+      - heading /Hurayra Automation Product \\d+/ [level=1]:
+        - link /Hurayra Automation Product \\d+/
+      - text: /Hurayra Automation \\d+\\.\\.\\.>/
+      - 'heading /Original price was: \\d+\\.\\d+৳ \\. Current price is: \\d+\\.\\d+৳ \\./ [level=3]': "/Original price was: \\\\d+\\\\.\\\\d+৳ \\\\. Current price is: \\\\d+\\\\.\\\\d+৳ \\\\./"
+      - 'heading "Total Sold241113: 2" [level=4]'
+      - 'heading /Remaining241113: \\d+/ [level=4]'
+      - paragraph:
+        - 'link /Add to cart: “Hurayra Automation Product \\d+”/'
+      - paragraph: View Product241113
+      - img
+      - paragraph:
+        - strong: Sale241113
+      - link /Hurayra Automation Product \\d+/:
+        - img /Hurayra Automation Product \\d+/
+      - text:   Rated
+      - strong: /\\d+\\.\\d+/
+      - text: out of 5 based on  1 customer rating
+      - link "(1)"
+      - paragraph: / Hurayra Automation \\d+ DONOTDELETE/
+      - heading /Hurayra Automation Product \\d+/ [level=1]:
+        - link /Hurayra Automation Product \\d+/
+      - text: /Hurayra Automation \\d+\\.\\.\\.>/
+      - 'heading /Original price was: \\d+\\.\\d+৳ \\. Current price is: \\d+\\.\\d+৳ \\./ [level=3]': "/Original price was: \\\\d+\\\\.\\\\d+৳ \\\\. Current price is: \\\\d+\\\\.\\\\d+৳ \\\\./"
+      - 'heading "Total Sold241113: 4" [level=4]'
+      - 'heading /Remaining241113: \\d+/ [level=4]'
+      - paragraph:
+        - 'link /Add to cart: “Hurayra Automation Product \\d+”/'
+      - paragraph: View Product241113
+      - button "Load More241113"
+      `);
+  });
 
   test("Test Style Tab > Container", async ({ page }) => {
     // Margin 12px
