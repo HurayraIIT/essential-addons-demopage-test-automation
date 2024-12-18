@@ -89,24 +89,24 @@ test.describe("Woo Account Dashboard - Preset 1", () => {
             - columnheader "Total"
             - columnheader "Actions"
         - rowgroup:
-          - row /View order number \\d+ December \\d+, \\d+ Processing \\d+\\.\\d+৳  for 3 items View order number \\d+/:
+          - row /View order number \\d+ December \\d+, \\d+ Processing \\d+\\.\\d+৳  for 3 items View order \\d+/:
             - rowheader /View order number \\d+/:
               - link /View order number \\d+/
             - cell /December \\d+, \\d+/:
               - time: /December \\d+, \\d+/
             - cell "Processing"
             - cell /\\d+\\.\\d+৳  for 3 items/
-            - cell /View order number \\d+/:
-              - link /View order number \\d+/
-          - row /View order number \\d+ December \\d+, \\d+ Cancelled \\d+\\.\\d+৳  for 3 items View order number \\d+/:
+            - cell /View order \\d+/:
+              - link /View order \\d+/
+          - row /View order number \\d+ December \\d+, \\d+ Cancelled \\d+\\.\\d+৳  for 3 items View order \\d+/:
             - rowheader /View order number \\d+/:
               - link /View order number \\d+/
             - cell /December \\d+, \\d+/:
               - time: /December \\d+, \\d+/
             - cell "Cancelled"
             - cell /\\d+\\.\\d+৳  for 3 items/
-            - cell /View order number \\d+/:
-              - link /View order number \\d+/
+            - cell /View order \\d+/:
+              - link /View order \\d+/
       `);
 
     // Downloads
@@ -301,24 +301,24 @@ test.describe("Woo Account Dashboard - Preset 2", () => {
             - columnheader "Total"
             - columnheader "Actions"
         - rowgroup:
-          - row /View order number \\d+ December \\d+, \\d+ Processing \\d+\\.\\d+৳  for 3 items View order number \\d+/:
+          - row /View order number \\d+ December \\d+, \\d+ Processing \\d+\\.\\d+৳  for 3 items View order \\d+/:
             - rowheader /View order number \\d+/:
               - link /View order number \\d+/
             - cell /December \\d+, \\d+/:
               - time: /December \\d+, \\d+/
             - cell "Processing"
             - cell /\\d+\\.\\d+৳  for 3 items/
-            - cell /View order number \\d+/:
-              - link /View order number \\d+/
-          - row /View order number \\d+ December \\d+, \\d+ Cancelled \\d+\\.\\d+৳  for 3 items View order number \\d+/:
+            - cell /View order \\d+/:
+              - link /View order \\d+/
+          - row /View order number \\d+ December \\d+, \\d+ Cancelled \\d+\\.\\d+৳  for 3 items View order \\d+/:
             - rowheader /View order number \\d+/:
               - link /View order number \\d+/
             - cell /December \\d+, \\d+/:
               - time: /December \\d+, \\d+/
             - cell "Cancelled"
             - cell /\\d+\\.\\d+৳  for 3 items/
-            - cell /View order number \\d+/:
-              - link /View order number \\d+/
+            - cell /View order \\d+/:
+              - link /View order \\d+/
       `);
 
     // Downloads
@@ -513,24 +513,24 @@ test.describe("Woo Account Dashboard - Preset 3", () => {
             - columnheader "Total"
             - columnheader "Actions"
         - rowgroup:
-          - row /View order number \\d+ December \\d+, \\d+ Processing \\d+\\.\\d+৳  for 3 items View order number \\d+/:
+          - row /View order number \\d+ December \\d+, \\d+ Processing \\d+\\.\\d+৳  for 3 items View order \\d+/:
             - rowheader /View order number \\d+/:
               - link /View order number \\d+/
             - cell /December \\d+, \\d+/:
               - time: /December \\d+, \\d+/
             - cell "Processing"
             - cell /\\d+\\.\\d+৳  for 3 items/
-            - cell /View order number \\d+/:
-              - link /View order number \\d+/
-          - row /View order number \\d+ December \\d+, \\d+ Cancelled \\d+\\.\\d+৳  for 3 items View order number \\d+/:
+            - cell /View order \\d+/:
+              - link /View order \\d+/
+          - row /View order number \\d+ December \\d+, \\d+ Cancelled \\d+\\.\\d+৳  for 3 items View order \\d+/:
             - rowheader /View order number \\d+/:
               - link /View order number \\d+/
             - cell /December \\d+, \\d+/:
               - time: /December \\d+, \\d+/
             - cell "Cancelled"
             - cell /\\d+\\.\\d+৳  for 3 items/
-            - cell /View order number \\d+/:
-              - link /View order number \\d+/
+            - cell /View order \\d+/:
+              - link /View order \\d+/
       `);
 
     // Downloads
