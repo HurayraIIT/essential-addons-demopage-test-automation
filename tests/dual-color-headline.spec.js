@@ -5,7 +5,7 @@ import { test, expect } from "../global-setup";
 let slug = "/content-elements/dual-color-heading/";
 let heading = "Dual Color Heading 241016 Automation";
 
-test.describe("Dual Color Headline https://qa1.site/go/a8d1026", () => {
+test.describe("Dual Color Headline", () => {
   let dch_root = null;
 
   test.beforeEach(async ({ page }) => {
