@@ -40,7 +40,7 @@ test.describe("Woo Product Slider - Preset 1", () => {
               - 'link /Add to cart: “Hurayra Automation Product \\d+”/'
             - listitem: 
             - listitem "Details":
-              - link ""
+              - link /view_details_\\d+/
           - text: Sale PONE
         - group "3 / 4":
           - list:
@@ -60,7 +60,7 @@ test.describe("Woo Product Slider - Preset 1", () => {
               - 'link /Add to cart: “Hurayra Automation Product \\d+”/'
             - listitem: 
             - listitem "Details":
-              - link ""
+              - link /view_details_\\d+/
           - text: Sale PONE
         - group "4 / 4":
           - list:
@@ -80,7 +80,7 @@ test.describe("Woo Product Slider - Preset 1", () => {
               - 'link /Add to cart: “Hurayra Automation Product \\d+”/'
             - listitem: 
             - listitem "Details":
-              - link ""
+              - link /view_details_\\d+/
           - text: Sale PONE
         - group "1 / 4":
           - list:
@@ -98,7 +98,7 @@ test.describe("Woo Product Slider - Preset 1", () => {
           - list:
             - listitem: 
             - listitem "Details":
-              - link ""
+              - link /view_details_\\d+/
           - text: Stock Out PONE
         - group "2 / 4":
           - list:
@@ -118,7 +118,7 @@ test.describe("Woo Product Slider - Preset 1", () => {
               - 'link /Add to cart: “Hurayra Automation Product \\d+”/'
             - listitem: 
             - listitem "Details":
-              - link ""
+              - link /view_details_\\d+/
           - text: Sale PONE
         - group "3 / 4":
           - list:
@@ -138,7 +138,7 @@ test.describe("Woo Product Slider - Preset 1", () => {
               - 'link /Add to cart: “Hurayra Automation Product \\d+”/'
             - listitem: 
             - listitem "Details":
-              - link ""
+              - link /view_details_\\d+/
           - text: Sale PONE
         - group "4 / 4":
           - list:
@@ -158,7 +158,7 @@ test.describe("Woo Product Slider - Preset 1", () => {
               - 'link /Add to cart: “Hurayra Automation Product \\d+”/'
             - listitem: 
             - listitem "Details":
-              - link ""
+              - link /view_details_\\d+/
           - text: Sale PONE
         - group "1 / 4":
           - list:
@@ -176,7 +176,7 @@ test.describe("Woo Product Slider - Preset 1", () => {
           - list:
             - listitem: 
             - listitem "Details":
-              - link ""
+              - link /view_details_\\d+/
           - text: Stock Out PONE
         - group "2 / 4":
           - list:
@@ -196,7 +196,7 @@ test.describe("Woo Product Slider - Preset 1", () => {
               - 'link /Add to cart: “Hurayra Automation Product \\d+”/'
             - listitem: 
             - listitem "Details":
-              - link ""
+              - link /view_details_\\d+/
           - text: Sale PONE
         - group "3 / 4":
           - list:
@@ -216,7 +216,7 @@ test.describe("Woo Product Slider - Preset 1", () => {
               - 'link /Add to cart: “Hurayra Automation Product \\d+”/'
             - listitem: 
             - listitem "Details":
-              - link ""
+              - link /view_details_\\d+/
           - text: Sale PONE
       - group "2 / 4":
         - img
@@ -280,7 +280,7 @@ test.describe("Woo Product Slider - Preset 2", () => {
               - 'link /Add to cart: “Hurayra Automation Product \\d+”/'
             - listitem: 
             - listitem "Details":
-              - link ""
+              - link /view_details_\\d+/
         - group "3 / 4":
           - list:
             - listitem:
@@ -299,7 +299,7 @@ test.describe("Woo Product Slider - Preset 2", () => {
               - 'link /Add to cart: “Hurayra Automation Product \\d+”/'
             - listitem: 
             - listitem "Details":
-              - link ""
+              - link /view_details_\\d+/
         - group "4 / 4":
           - list:
             - listitem:
@@ -318,7 +318,7 @@ test.describe("Woo Product Slider - Preset 2", () => {
               - 'link /Add to cart: “Hurayra Automation Product \\d+”/'
             - listitem: 
             - listitem "Details":
-              - link ""
+              - link /view_details_\\d+/
         - group "1 / 4":
           - list:
             - listitem:
@@ -337,7 +337,7 @@ test.describe("Woo Product Slider - Preset 2", () => {
               - 'link /Add to cart: “Hurayra Automation Product \\d+”/'
             - listitem: 
             - listitem "Details":
-              - link ""
+              - link /view_details_\\d+/
         - group "2 / 4":
           - list:
             - listitem:
@@ -356,7 +356,7 @@ test.describe("Woo Product Slider - Preset 2", () => {
               - 'link /Add to cart: “Hurayra Automation Product \\d+”/'
             - listitem: 
             - listitem "Details":
-              - link ""
+              - link /view_details_\\d+/
         - group "3 / 4":
           - list:
             - listitem:
@@ -375,7 +375,7 @@ test.describe("Woo Product Slider - Preset 2", () => {
               - 'link /Add to cart: “Hurayra Automation Product \\d+”/'
             - listitem: 
             - listitem "Details":
-              - link ""
+              - link /view_details_\\d+/
         - group "4 / 4":
           - list:
             - listitem:
@@ -394,7 +394,7 @@ test.describe("Woo Product Slider - Preset 2", () => {
               - 'link /Add to cart: “Hurayra Automation Product \\d+”/'
             - listitem: 
             - listitem "Details":
-              - link ""
+              - link /view_details_\\d+/
         - group "1 / 4":
           - list:
             - listitem:
@@ -413,7 +413,7 @@ test.describe("Woo Product Slider - Preset 2", () => {
               - 'link /Add to cart: “Hurayra Automation Product \\d+”/'
             - listitem: 
             - listitem "Details":
-              - link ""
+              - link /view_details_\\d+/
         - group "2 / 4":
           - list:
             - listitem:
@@ -432,7 +432,7 @@ test.describe("Woo Product Slider - Preset 2", () => {
               - 'link /Add to cart: “Hurayra Automation Product \\d+”/'
             - listitem: 
             - listitem "Details":
-              - link ""
+              - link /view_details_\\d+/
         - group "3 / 4":
           - list:
             - listitem:
@@ -451,7 +451,7 @@ test.describe("Woo Product Slider - Preset 2", () => {
               - 'link /Add to cart: “Hurayra Automation Product \\d+”/'
             - listitem: 
             - listitem "Details":
-              - link ""
+              - link /view_details_\\d+/
       - group "2 / 4":
         - img
       - group "3 / 4":
@@ -513,7 +513,7 @@ test.describe("Woo Product Slider - Preset 3", () => {
           - list:
             - listitem: 
             - listitem "Details":
-              - link ""
+              - link /view_details_\\d+/
           - 'link /Add to cart: “Hurayra Automation Product \\d+”/'
         - group "3 / 4":
           - text: Sale PTHR
@@ -532,7 +532,7 @@ test.describe("Woo Product Slider - Preset 3", () => {
           - list:
             - listitem: 
             - listitem "Details":
-              - link ""
+              - link /view_details_\\d+/
           - 'link /Add to cart: “Hurayra Automation Product \\d+”/'
         - group "4 / 4":
           - text: Sale PTHR
@@ -551,7 +551,7 @@ test.describe("Woo Product Slider - Preset 3", () => {
           - list:
             - listitem: 
             - listitem "Details":
-              - link ""
+              - link /view_details_\\d+/
           - 'link /Add to cart: “Hurayra Automation Product \\d+”/'
         - group "1 / 4":
           - text: Sale PTHR
@@ -570,7 +570,7 @@ test.describe("Woo Product Slider - Preset 3", () => {
           - list:
             - listitem: 
             - listitem "Details":
-              - link ""
+              - link /view_details_\\d+/
           - 'link /Add to cart: “Hurayra Automation Product \\d+”/'
         - group "2 / 4":
           - text: Sale PTHR
@@ -589,7 +589,7 @@ test.describe("Woo Product Slider - Preset 3", () => {
           - list:
             - listitem: 
             - listitem "Details":
-              - link ""
+              - link /view_details_\\d+/
           - 'link /Add to cart: “Hurayra Automation Product \\d+”/'
         - group "3 / 4":
           - text: Sale PTHR
@@ -608,7 +608,7 @@ test.describe("Woo Product Slider - Preset 3", () => {
           - list:
             - listitem: 
             - listitem "Details":
-              - link ""
+              - link /view_details_\\d+/
           - 'link /Add to cart: “Hurayra Automation Product \\d+”/'
         - group "4 / 4":
           - text: Sale PTHR
@@ -627,7 +627,7 @@ test.describe("Woo Product Slider - Preset 3", () => {
           - list:
             - listitem: 
             - listitem "Details":
-              - link ""
+              - link /view_details_\\d+/
           - 'link /Add to cart: “Hurayra Automation Product \\d+”/'
         - group "1 / 4":
           - text: Sale PTHR
@@ -646,7 +646,7 @@ test.describe("Woo Product Slider - Preset 3", () => {
           - list:
             - listitem: 
             - listitem "Details":
-              - link ""
+              - link /view_details_\\d+/
           - 'link /Add to cart: “Hurayra Automation Product \\d+”/'
         - group "2 / 4":
           - text: Sale PTHR
@@ -665,7 +665,7 @@ test.describe("Woo Product Slider - Preset 3", () => {
           - list:
             - listitem: 
             - listitem "Details":
-              - link ""
+              - link /view_details_\\d+/
           - 'link /Add to cart: “Hurayra Automation Product \\d+”/'
         - group "3 / 4":
           - text: Sale PTHR
@@ -684,7 +684,7 @@ test.describe("Woo Product Slider - Preset 3", () => {
           - list:
             - listitem: 
             - listitem "Details":
-              - link ""
+              - link /view_details_\\d+/
           - 'link /Add to cart: “Hurayra Automation Product \\d+”/'
       - group "2 / 4":
         - img
