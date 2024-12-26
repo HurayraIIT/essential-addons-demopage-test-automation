@@ -2,10 +2,10 @@
 
 import { test, expect } from "../global-setup";
 
-let slug = "https://essential-addons.com/elementor/interactive-cards";
-let heading = "Interactive Cards";
+test.describe("Interactive Cards - Live Demo Page", () => {
+  let slug = "https://essential-addons.com/elementor/interactive-cards";
+  let heading = "Interactive Cards";
 
-test.describe("Interactive Cards", () => {
   // Page Heading
   test.beforeEach(async ({ page }) => {
     await page.goto(slug);

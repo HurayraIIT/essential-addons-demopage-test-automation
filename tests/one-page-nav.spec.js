@@ -2,10 +2,10 @@
 
 import { test, expect } from "../global-setup";
 
-let slug = "https://essential-addons.com/elementor/one-page-nav";
-let heading = "One Page Navigation";
+test.describe("One Page Navigation - Live Demo Page", () => {
+  let slug = "https://essential-addons.com/elementor/one-page-nav";
+  let heading = "One Page Navigation";
 
-test.describe("One Page Navigation", () => {
   // Page Heading
   test.beforeEach(async ({ page }) => {
     await page.goto(slug);

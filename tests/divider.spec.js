@@ -2,10 +2,10 @@
 
 import { test, expect } from "../global-setup";
 
-let slug = "https://essential-addons.com/elementor/divider";
-let heading = "Divider";
+test.describe("Divider - Live Demo Page", () => {
+  let slug = "https://essential-addons.com/elementor/divider";
+  let heading = "Divider";
 
-test.describe("Divider", () => {
   // Setup
   test.beforeEach(async ({ page }) => {
     await page.goto(slug);

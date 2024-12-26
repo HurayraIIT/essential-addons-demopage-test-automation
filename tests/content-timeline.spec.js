@@ -2,40 +2,6 @@
 
 import { test, expect } from "../global-setup";
 
-test.describe("Content Timeline Live Demo Page Tests", () => {
-  test.beforeEach(async ({ page }) => {
-    let slug = "https://essential-addons.com/elementor/content-timeline";
-    let heading = "Content Timeline";
-
-    await page.goto(slug);
-    await expect.soft(page.getByRole("heading", { name: heading, exact: true })).toBeVisible();
-  });
-
-  test("Test Section: Center Layout With Custom Source", async ({ page }) => {
-    await page.getByRole("heading", { name: "Center Layout With Custom Source" }).scrollIntoViewIfNeeded();
-    await expect.soft(page.getByRole("heading", { name: "Center Layout With Custom Source" })).toBeVisible();
-    await expect
-      .soft(
-        page.getByText(
-          "Choose custom source from ‘Timeline Content’ and style each section of it to make it look standout"
-        )
-      )
-      .toBeVisible();
-
-    const widget = page.locator(
-      ".elementor-element-72c859bb > .elementor-widget-container > #eael-content-timeline-72c859bb"
-    );
-    await expect.soft(widget).toHaveAttribute("data-slide_to_scroll", '{"desktop":1,"mobile":1,"tablet":1}');
-
-    await expect.soft(page.locator(".eael-content-timeline-img").first()).toBeVisible();
-    await expect.soft(page.locator(".eael-content-timeline-inner").first()).toBeVisible();
-    await expect.soft(page.locator("div:nth-child(2) > .eael-content-timeline-img").first()).toBeVisible();
-    await expect.soft(page.locator("div:nth-child(2) > .eael-content-timeline-line").first()).toBeVisible();
-    await expect.soft(page.locator("div:nth-child(3) > .eael-content-timeline-img").first()).toBeVisible();
-    await expect.soft(page.locator("div:nth-child(4) > .eael-content-timeline-img").first()).toBeVisible();
-  });
-});
-
 let slug = "/dynamic-content-elements/content-timeline/";
 
 test.describe("Content Timeline - Default Preset", () => {
@@ -302,5 +268,39 @@ test.describe("Content Timeline - Default Preset", () => {
     await expect.soft(readMoreButton).toHaveCSS("color", "rgb(255, 0, 0)");
     await expect.soft(readMoreButton).toHaveCSS("background-color", "rgb(0, 255, 0)");
     await expect.soft(readMoreButton).toHaveCSS("border-color", "rgb(0, 0, 255)");
+  });
+});
+
+test.describe("Content Timeline - Live Demo Page", () => {
+  test.beforeEach(async ({ page }) => {
+    let slug = "https://essential-addons.com/elementor/content-timeline";
+    let heading = "Content Timeline";
+
+    await page.goto(slug);
+    await expect.soft(page.getByRole("heading", { name: heading, exact: true })).toBeVisible();
+  });
+
+  test("Test Section: Center Layout With Custom Source", async ({ page }) => {
+    await page.getByRole("heading", { name: "Center Layout With Custom Source" }).scrollIntoViewIfNeeded();
+    await expect.soft(page.getByRole("heading", { name: "Center Layout With Custom Source" })).toBeVisible();
+    await expect
+      .soft(
+        page.getByText(
+          "Choose custom source from ‘Timeline Content’ and style each section of it to make it look standout"
+        )
+      )
+      .toBeVisible();
+
+    const widget = page.locator(
+      ".elementor-element-72c859bb > .elementor-widget-container > #eael-content-timeline-72c859bb"
+    );
+    await expect.soft(widget).toHaveAttribute("data-slide_to_scroll", '{"desktop":1,"mobile":1,"tablet":1}');
+
+    await expect.soft(page.locator(".eael-content-timeline-img").first()).toBeVisible();
+    await expect.soft(page.locator(".eael-content-timeline-inner").first()).toBeVisible();
+    await expect.soft(page.locator("div:nth-child(2) > .eael-content-timeline-img").first()).toBeVisible();
+    await expect.soft(page.locator("div:nth-child(2) > .eael-content-timeline-line").first()).toBeVisible();
+    await expect.soft(page.locator("div:nth-child(3) > .eael-content-timeline-img").first()).toBeVisible();
+    await expect.soft(page.locator("div:nth-child(4) > .eael-content-timeline-img").first()).toBeVisible();
   });
 });

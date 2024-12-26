@@ -2,10 +2,10 @@
 
 import { test, expect } from "../global-setup";
 
-let slug = "https://essential-addons.com/elementor/particle-effect";
-let heading = "Particles";
+test.describe("Particles - EA Particles Default Style 01 - Live Demo Page", () => {
+  let slug = "https://essential-addons.com/elementor/particle-effect";
+  let heading = "Particles";
 
-test.describe("Particles - EA Particles Default Style 01", () => {
   let section = "";
   let canvas = "";
 

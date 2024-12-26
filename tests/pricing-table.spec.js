@@ -173,7 +173,7 @@ test.describe("Pricing Table - Preset 5", () => {
   });
 });
 
-test.describe("Pricing Table Live Demo Page", () => {
+test.describe("Pricing Table - Live Demo Page", () => {
   let slug = "https://essential-addons.com/elementor/pricing-table";
   let heading = "Pricing Table";
   // Page Heading

@@ -2,10 +2,10 @@
 
 import { test, expect } from "../global-setup";
 
-let slug = "https://essential-addons.com/elementor/interactive-circle";
-let heading = "Interactive Circle";
+test.describe("Interactive Circle - Live Demo Page", () => {
+  let slug = "https://essential-addons.com/elementor/interactive-circle";
+  let heading = "Interactive Circle";
 
-test.describe("Interactive Circle", () => {
   // Page Heading
   test.beforeEach(async ({ page }) => {
     await page.goto(slug);

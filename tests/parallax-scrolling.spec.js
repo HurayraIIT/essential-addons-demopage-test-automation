@@ -2,10 +2,10 @@
 
 import { test, expect } from "../global-setup";
 
-let slug = "https://essential-addons.com/elementor/parallax-scrolling";
-let heading = "Parallax Effect";
+test.describe("Parallax Effect - Live Demo Page", () => {
+  let slug = "https://essential-addons.com/elementor/parallax-scrolling";
+  let heading = "Parallax Effect";
 
-test.describe("Parallax Effect - Scroll & Zoom Parallax Effect", () => {
   let section = "";
   let parallax_section = "";
 

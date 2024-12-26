@@ -2,10 +2,10 @@
 
 import { test, expect } from "../global-setup";
 
-let slug = "https://essential-addons.com/elementor/image-scroller";
-let heading = "Image Scroller";
+test.describe("Image Scroller - Live Demo Page", () => {
+  let slug = "https://essential-addons.com/elementor/image-scroller";
+  let heading = "Image Scroller";
 
-test.describe("Image Scroller", () => {
   // Page Heading
   test.beforeEach(async ({ page }) => {
     await page.goto(slug);
