@@ -2,10 +2,10 @@
 
 import { test, expect } from "../global-setup";
 
-let slug = "https://essential-addons.com/elementor/table-of-content";
-let heading = "Table of Contents";
+test.describe("Table of Contents - Live Demo Page", () => {
+  let slug = "https://essential-addons.com/elementor/table-of-content";
+  let heading = "Table of Contents";
 
-test.describe("Table of Contents", () => {
   let toc = "";
 
   test.beforeEach(async ({ page }) => {

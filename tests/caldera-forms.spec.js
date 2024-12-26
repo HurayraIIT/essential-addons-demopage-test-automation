@@ -2,10 +2,10 @@
 
 import { test, expect } from "../global-setup";
 
-let slug = "https://essential-addons.com/elementor/caldera-forms";
-let heading = "Caldera Forms";
+test.describe("Caldera Forms - Live Demo Page", () => {
+  let slug = "https://essential-addons.com/elementor/caldera-forms";
+  let heading = "Caldera Forms";
 
-test.describe("Caldera Forms", () => {
   test.beforeEach(async ({ page }) => {
     await page.goto(slug);
     // await expect.soft(page.getByRole("heading", { name: heading, exact: true })).toBeVisible();

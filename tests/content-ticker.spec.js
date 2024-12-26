@@ -2,10 +2,10 @@
 
 import { test, expect } from "../global-setup";
 
-let slug = "https://essential-addons.com/elementor/content-ticker";
-let heading = "Content Ticker";
+test.describe("Content Ticker - Live Demo Page", () => {
+  let slug = "https://essential-addons.com/elementor/content-ticker";
+  let heading = "Content Ticker";
 
-test.describe("Content Ticker", () => {
   test.beforeEach(async ({ page }) => {
     await page.goto(slug);
     await expect.soft(page.getByRole("heading", { name: heading, exact: true })).toBeVisible();

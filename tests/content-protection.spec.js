@@ -2,10 +2,10 @@
 
 import { test, expect } from "../global-setup";
 
-let slug = "https://essential-addons.com/elementor/content-protection";
-let heading = "Content Protection";
+test.describe("Content Protection - Password - Live demo page test", () => {
+  let slug = "https://essential-addons.com/elementor/content-protection";
+  let heading = "Content Protection";
 
-test.describe("Content Protection - Password", () => {
   let root = "";
   let protected_section = "";
 

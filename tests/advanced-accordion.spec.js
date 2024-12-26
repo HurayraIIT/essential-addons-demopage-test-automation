@@ -2,6 +2,113 @@
 
 import { test, expect } from "../global-setup";
 
+let slug = "/content-elements/advanced-accordion/";
+
+test.describe("Advanced Accordion - Accordion", () => {
+  let heading = "Hurayra Automation 241223 Accordion";
+  let widget;
+
+  test.beforeEach(async ({ page }) => {
+    await page.goto(slug);
+    await page.waitForLoadState("networkidle");
+    let headingLocator = page.getByRole("heading", { name: heading, exact: true });
+    await headingLocator.scrollIntoViewIfNeeded();
+    await expect.soft(headingLocator).toBeVisible();
+    await headingLocator.click();
+
+    widget = page.getByTestId("49209db");
+  });
+
+  test("Test Contents", async ({ page }) => {
+    await expect(widget).toMatchAriaSnapshot(`
+      - heading "Accordion Tab Title One" [level=2]
+      - paragraph: Accordion Tab Content One
+      - paragraph
+      - heading "Accordion Tab Title Two" [level=2]
+      - heading "Accordion Tab Title Three" [level=2]
+    `);
+
+    await page.getByRole("heading", { name: "Accordion Tab Title Two" }).click();
+    await expect(widget).toMatchAriaSnapshot(`
+      - heading "Accordion Tab Title One" [level=2]
+      - heading "Accordion Tab Title Two" [level=2]
+      - paragraph: Accordion Tab Content Two
+      - paragraph
+      - paragraph
+      - heading "Accordion Tab Title Three" [level=2]
+    `);
+
+    await page.getByRole("heading", { name: "Accordion Tab Title Three" }).click();
+    await expect(widget).toMatchAriaSnapshot(`
+      - heading "Accordion Tab Title One" [level=2]
+      - heading "Accordion Tab Title Two" [level=2]
+      - heading "Accordion Tab Title Three" [level=2]
+      - paragraph: Accordion Tab Content Three
+      - paragraph
+    `);
+
+    await page.getByRole("heading", { name: "Accordion Tab Title Three" }).click();
+    await expect(widget).toMatchAriaSnapshot(`
+      - heading "Accordion Tab Title One" [level=2]
+      - heading "Accordion Tab Title Two" [level=2]
+      - heading "Accordion Tab Title Three" [level=2]
+    `);
+  });
+});
+
+test.describe("Advanced Accordion - Toggle", () => {
+  let heading = "Hurayra Automation 241223 Toggle";
+  let widget;
+
+  test.beforeEach(async ({ page }) => {
+    await page.goto(slug);
+    await page.waitForLoadState("networkidle");
+    let headingLocator = page.getByRole("heading", { name: heading, exact: true });
+    await headingLocator.scrollIntoViewIfNeeded();
+    await expect.soft(headingLocator).toBeVisible();
+    await headingLocator.click();
+
+    widget = page.getByTestId("dc96970");
+  });
+
+  test("Test Contents", async ({ page }) => {
+    await expect(widget).toMatchAriaSnapshot(`
+      - text: Toggle Tab Title One Toggle Tab Title Two
+      - paragraph: Toggle Tab Content Two
+      - text: Toggle Tab Title Three
+    `);
+
+    await page.getByText("Toggle Tab Title One").click();
+    await expect(widget).toMatchAriaSnapshot(`
+      - text: Toggle Tab Title One
+      - paragraph: Toggle Tab Content One
+      - paragraph
+      - text: Toggle Tab Title Two
+      - paragraph: Toggle Tab Content Two
+      - text: Toggle Tab Title Three
+    `);
+
+    await page.getByText("Toggle Tab Title Three").click();
+    await expect(widget).toMatchAriaSnapshot(`
+      - text: Toggle Tab Title One
+      - paragraph: Toggle Tab Content One
+      - paragraph
+      - text: Toggle Tab Title Two
+      - paragraph: Toggle Tab Content Two
+      - text: Toggle Tab Title Three
+      - paragraph: Toggle Tab Content Three
+      - paragraph
+    `);
+
+    await page.getByText("Toggle Tab Title One").click();
+    await page.getByText("Toggle Tab Title Two").click();
+    await page.getByText("Toggle Tab Title Three").click();
+    await expect(widget).toMatchAriaSnapshot(`
+      - text: Toggle Tab Title One Toggle Tab Title Two Toggle Tab Title Three
+    `);
+  });
+});
+
 test.describe("Advanced Accordion - Live Demo Page - 73d0d346", () => {
   let slug = "https://essential-addons.com/elementor/advanced-accordion";
   let heading = "Advanced Accordion";

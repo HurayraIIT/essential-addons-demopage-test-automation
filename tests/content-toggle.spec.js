@@ -5,7 +5,7 @@ import { test, expect } from "../global-setup";
 let slug = "/content-elements/toggle/";
 let heading = "Content Toggle Hurayra Automation 241016";
 
-test.describe("Content Toggle https://qa1.site/go/pb4317", () => {
+test.describe("Content Toggle", () => {
   let toggle_loc = null;
 
   test.beforeEach(async ({ page }) => {

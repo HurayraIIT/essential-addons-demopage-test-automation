@@ -5,7 +5,7 @@ import { test, expect } from "../global-setup";
 let slug = "/content-elements/tooltip/";
 let heading = "Tooltip Heading 241020 Automation";
 
-test.describe("Tooltip https://qa1.site/go/u3m9108", () => {
+test.describe("Tooltip", () => {
   let icon_tooltip = null;
   test.beforeEach(async ({ page }) => {
     await page.goto(slug);

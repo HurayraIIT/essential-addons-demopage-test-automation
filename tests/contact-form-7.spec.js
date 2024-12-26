@@ -2,10 +2,10 @@
 
 import { test, expect } from "../global-setup";
 
-let slug = "https://essential-addons.com/elementor/contact-form-7";
-let heading = "Contact Form 7";
+test.describe("Contact Form 7 - Live Demo Page", () => {
+  let slug = "https://essential-addons.com/elementor/contact-form-7";
+  let heading = "Contact Form 7";
 
-test.describe("Contact Form 7", () => {
   test.beforeEach(async ({ page }) => {
     await page.goto(slug);
     await expect.soft(page.getByRole("heading", { name: heading, exact: true })).toBeVisible();

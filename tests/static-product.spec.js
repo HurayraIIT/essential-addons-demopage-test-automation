@@ -1,5 +1,6 @@
 "use strict";
 import { test, expect } from "../global-setup";
+
 let slug = "/content-elements/static-product/";
 
 test.describe("Static Product Preset - 1", () => {

@@ -2,10 +2,10 @@
 
 import { test, expect } from "../global-setup";
 
-let slug = "https://essential-addons.com/elementor/image-hotspots";
-let heading = "Image Hotspot";
+test.describe("Filterable Gallery - Live Demo Page", () => {
+  let slug = "https://essential-addons.com/elementor/image-hotspots";
+  let heading = "Image Hotspot";
 
-test.describe("Filterable Gallery", () => {
   // Page Heading
   test.beforeEach(async ({ page }) => {
     await page.goto(slug);

@@ -2,10 +2,10 @@
 
 import { test, expect } from "../global-setup";
 
-let slug = "https://essential-addons.com/elementor/image-comparison";
-let heading = "Image Comparison";
+test.describe("Image Comparison - Live Demo Page", () => {
+  let slug = "https://essential-addons.com/elementor/image-comparison";
+  let heading = "Image Comparison";
 
-test.describe("Image Comparison", () => {
   // Setup
   test.beforeEach(async ({ page }) => {
     await page.goto(slug);
