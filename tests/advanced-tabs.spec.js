@@ -27,7 +27,30 @@ test.describe("Advanced Tabs - Horizontal", () => {
           - img
         - tab "Horizontal Tab Title Three"
       - paragraph: Horizontal Tab Content Two
-      `);
+    `);
+
+    await page.getByText("Horizontal Tab Title One").click();
+    await expect(widget).toMatchAriaSnapshot(`
+      - tablist:
+        - tab "Horizontal Tab Title One" [expanded] [selected]
+        - tab "Horizontal Tab Title Two":
+          - img
+        - tab "Horizontal Tab Title Three"
+      - paragraph: Horizontal Tab Content One
+      - paragraph
+    `);
+
+    await page.getByText("Horizontal Tab Title Three").click();
+    await expect(widget).toMatchAriaSnapshot(`
+      - tablist:
+        - tab "Horizontal Tab Title One"
+        - tab "Horizontal Tab Title Two":
+          - img
+        - tab "Horizontal Tab Title Three" [expanded] [selected]
+      - paragraph: Horizontal Tab Content Three
+      - paragraph
+      - paragraph
+    `);
   });
 });
 
@@ -60,7 +83,37 @@ test.describe("Advanced Tabs - Vertical", () => {
       - paragraph
       - paragraph
       - paragraph
-      `);
+    `);
+
+    await page.getByRole("tab", { name: "Vertical Tab Title Two" }).click();
+    await expect(widget).toMatchAriaSnapshot(`
+      - tablist:
+        - tab "Vertical Tab Title One":
+          - heading "Vertical Tab Title One" [level=2]
+        - tab "Vertical Tab Title Two" [expanded] [selected]:
+          - img
+          - heading "Vertical Tab Title Two" [level=5]
+        - tab "Vertical Tab Title Three":
+          - paragraph: Vertical Tab Title Three
+      - paragraph: Vertical Tab Content Two
+      - paragraph
+      - paragraph
+    `);
+
+    await page.getByRole("tab", { name: "Vertical Tab Title Three" }).click();
+    await expect(widget).toMatchAriaSnapshot(`
+      - tablist:
+        - tab "Vertical Tab Title One":
+          - heading "Vertical Tab Title One" [level=2]
+        - tab "Vertical Tab Title Two":
+          - img
+          - heading "Vertical Tab Title Two" [level=5]
+        - tab "Vertical Tab Title Three" [expanded] [selected]:
+          - paragraph: Vertical Tab Title Three
+      - paragraph: Vertical Tab Content Three
+      - paragraph
+      - paragraph
+    `);
   });
 });
 
