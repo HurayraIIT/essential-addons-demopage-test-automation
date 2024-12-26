@@ -2,6 +2,78 @@
 
 import { test, expect } from "../global-setup";
 
+let slug = "/content-elements/feature-list/";
+
+test.describe("Feature List - Vertical", () => {
+  let heading = "Feature List 241226 Vertical";
+  let widget;
+
+  test.beforeEach(async ({ page }) => {
+    await page.goto(slug);
+    await page.waitForLoadState("networkidle");
+    let headingLocator = page.getByRole("heading", { name: heading, exact: true });
+    await headingLocator.scrollIntoViewIfNeeded();
+    await expect.soft(headingLocator).toBeVisible();
+    await headingLocator.click();
+
+    widget = page.getByTestId("06efc21");
+  });
+
+  test("Test Contents", async ({ page }) => {
+    await expect(widget).toMatchAriaSnapshot(`
+      - list:
+        - listitem:
+          - link
+          - heading "Vertical Item One" [level=1]:
+            - link "Vertical Item One"
+          - paragraph: Vertical Item Content One
+        - listitem:
+          - heading "Vertical Item Two" [level=1]
+          - paragraph: Vertical Item Content Two
+        - listitem:
+          - link
+          - heading "Vertical Item Three" [level=1]:
+            - link "Vertical Item Three"
+          - paragraph: Vertical Item Content Three
+    `);
+  });
+});
+
+test.describe("Feature List - Horizontal", () => {
+  let heading = "Feature List 241226 Horizontal";
+  let widget;
+
+  test.beforeEach(async ({ page }) => {
+    await page.goto(slug);
+    await page.waitForLoadState("networkidle");
+    let headingLocator = page.getByRole("heading", { name: heading, exact: true });
+    await headingLocator.scrollIntoViewIfNeeded();
+    await expect.soft(headingLocator).toBeVisible();
+    await headingLocator.click();
+
+    widget = page.getByTestId("f8b8ccf");
+  });
+
+  test("Test Contents", async ({ page }) => {
+    await expect(widget).toMatchAriaSnapshot(`
+      - list:
+        - listitem:
+          - link
+          - heading "Horizontal Item One" [level=3]:
+            - link "Horizontal Item One"
+          - paragraph: Horizontal Item Content One
+        - listitem:
+          - heading "Horizontal Item Two" [level=3]
+          - paragraph: Horizontal Item Content Two
+        - listitem:
+          - link
+          - heading "Horizontal Item Three" [level=3]:
+            - link "Horizontal Item Three"
+          - paragraph: Horizontal Item Content Three
+    `);
+  });
+});
+
 test.describe("Feature List - Live Demo Page", () => {
   let slug = "https://essential-addons.com/elementor/feature-list";
   let heading = "Feature List";
