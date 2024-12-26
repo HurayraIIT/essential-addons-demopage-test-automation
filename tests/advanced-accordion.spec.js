@@ -26,7 +26,33 @@ test.describe("Advanced Accordion - Accordion", () => {
       - paragraph
       - heading "Accordion Tab Title Two" [level=2]
       - heading "Accordion Tab Title Three" [level=2]
-      `);
+    `);
+
+    await page.getByRole("heading", { name: "Accordion Tab Title Two" }).click();
+    await expect(widget).toMatchAriaSnapshot(`
+      - heading "Accordion Tab Title One" [level=2]
+      - heading "Accordion Tab Title Two" [level=2]
+      - paragraph: Accordion Tab Content Two
+      - paragraph
+      - paragraph
+      - heading "Accordion Tab Title Three" [level=2]
+    `);
+
+    await page.getByRole("heading", { name: "Accordion Tab Title Three" }).click();
+    await expect(widget).toMatchAriaSnapshot(`
+      - heading "Accordion Tab Title One" [level=2]
+      - heading "Accordion Tab Title Two" [level=2]
+      - heading "Accordion Tab Title Three" [level=2]
+      - paragraph: Accordion Tab Content Three
+      - paragraph
+    `);
+
+    await page.getByRole("heading", { name: "Accordion Tab Title Three" }).click();
+    await expect(widget).toMatchAriaSnapshot(`
+      - heading "Accordion Tab Title One" [level=2]
+      - heading "Accordion Tab Title Two" [level=2]
+      - heading "Accordion Tab Title Three" [level=2]
+    `);
   });
 });
 
@@ -50,7 +76,36 @@ test.describe("Advanced Accordion - Toggle", () => {
       - text: Toggle Tab Title One Toggle Tab Title Two
       - paragraph: Toggle Tab Content Two
       - text: Toggle Tab Title Three
-      `);
+    `);
+
+    await page.getByText("Toggle Tab Title One").click();
+    await expect(widget).toMatchAriaSnapshot(`
+      - text: Toggle Tab Title One
+      - paragraph: Toggle Tab Content One
+      - paragraph
+      - text: Toggle Tab Title Two
+      - paragraph: Toggle Tab Content Two
+      - text: Toggle Tab Title Three
+    `);
+
+    await page.getByText("Toggle Tab Title Three").click();
+    await expect(widget).toMatchAriaSnapshot(`
+      - text: Toggle Tab Title One
+      - paragraph: Toggle Tab Content One
+      - paragraph
+      - text: Toggle Tab Title Two
+      - paragraph: Toggle Tab Content Two
+      - text: Toggle Tab Title Three
+      - paragraph: Toggle Tab Content Three
+      - paragraph
+    `);
+
+    await page.getByText("Toggle Tab Title One").click();
+    await page.getByText("Toggle Tab Title Two").click();
+    await page.getByText("Toggle Tab Title Three").click();
+    await expect(widget).toMatchAriaSnapshot(`
+      - text: Toggle Tab Title One Toggle Tab Title Two Toggle Tab Title Three
+    `);
   });
 });
 
