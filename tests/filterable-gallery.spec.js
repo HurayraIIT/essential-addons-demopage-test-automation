@@ -1,5 +1,6 @@
 "use strict";
 
+import exp from "constants";
 import { test, expect } from "../global-setup";
 
 let slug = "creative-elements/filterable-gallery";
@@ -41,6 +42,29 @@ test.describe("Filterable Gallery", () => {
     await expect.soft(page.getByText("Grid Style: Grid | Layout: Overlay")).toBeVisible();
     await expect.soft(gridOverlayLocator).toBeVisible();
     await expect.soft(gridOverlayLocator).toHaveClass(/elementor-widget-eael-filterable-gallery/);
+
+    // Check Controls
+    await expect.soft(gridOverlayLocator.locator(".eael-filter-gallery-control")).toBeVisible();
+    await expect.soft(gridOverlayLocator.locator(".eael-filter-gallery-control")).toHaveClass("eael-filter-gallery-control");
+    await expect.soft(gridOverlayLocator.locator(".eael-filter-gallery-control").locator('li')).toHaveCount(5);
+    await expect.soft(gridOverlayLocator.locator(".eael-filter-gallery-control").locator('li').nth(0)).toHaveClass("control all-control  active ");
+    await expect.soft(gridOverlayLocator.locator(".eael-filter-gallery-control").locator('li').nth(1)).toHaveId("A1B2C3");
+    await expect.soft(gridOverlayLocator.locator(".eael-filter-gallery-control").locator('li').nth(2)).toHaveId("D4E5F6");
+    await expect.soft(gridOverlayLocator.locator(".eael-filter-gallery-control").locator('li').nth(3)).toHaveId("G7H8I9");
+    await expect.soft(gridOverlayLocator.locator(".eael-filter-gallery-control").locator('li').nth(4)).toHaveId("J10K11L12");
+
+    // Perform Filter using Controls (A1B2C3, D4E5F6, G7H8I9, J10K11L12) and Check Current Active Controls Contents
+    await gridOverlayLocator.locator(".eael-filter-gallery-control").scrollIntoViewIfNeeded();
+    await gridOverlayLocator.locator(".eael-filter-gallery-control").locator('li').nth(1).click();
+    await expect.soft(gridOverlayLocator.locator(".eael-filter-gallery-control").locator('li').nth(1)).toHaveClass("control active");
+    await gridOverlayLocator.locator(".eael-filter-gallery-control").locator('li').nth(2).click();
+    await expect.soft(gridOverlayLocator.locator(".eael-filter-gallery-control").locator('li').nth(2)).toHaveClass("control active");
+    await gridOverlayLocator.locator(".eael-filter-gallery-control").locator('li').nth(3).click();
+    await expect.soft(gridOverlayLocator.locator(".eael-filter-gallery-control").locator('li').nth(3)).toHaveClass("control active");
+    await gridOverlayLocator.locator(".eael-filter-gallery-control").locator('li').nth(4).click();
+    await expect.soft(gridOverlayLocator.locator(".eael-filter-gallery-control").locator('li').nth(4)).toHaveClass("control active");
+    await gridOverlayLocator.locator(".eael-filter-gallery-control").locator('li').nth(0).click();
+
   });
 
   // Grid Style: Grid | Layout: Card
