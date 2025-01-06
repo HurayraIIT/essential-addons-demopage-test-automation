@@ -1,6 +1,5 @@
 "use strict";
 
-import exp from "constants";
 import { test, expect } from "../global-setup";
 
 let slug = "creative-elements/filterable-gallery";
