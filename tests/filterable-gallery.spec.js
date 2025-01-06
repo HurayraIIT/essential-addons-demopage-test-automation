@@ -54,14 +54,28 @@ test.describe("Filterable Gallery", () => {
 
     // Perform Filter using Controls (A1B2C3, D4E5F6, G7H8I9, J10K11L12) and Check Current Active Controls Contents
     await gridOverlayLocator.locator(".eael-filter-gallery-control").scrollIntoViewIfNeeded();
+
     await gridOverlayLocator.locator(".eael-filter-gallery-control").locator('li').nth(1).click();
     await expect.soft(gridOverlayLocator.locator(".eael-filter-gallery-control").locator('li').nth(1)).toHaveClass("control active");
+    await expect.soft(gridOverlayLocator.locator(".eael-filter-gallery-control").locator('li').nth(2)).not.toHaveClass("control active");
+    await expect.soft(gridOverlayLocator.locator(".eael-filterable-gallery-item-wrap eael-cf-d4e5f6")).not.toBeVisible();
+
     await gridOverlayLocator.locator(".eael-filter-gallery-control").locator('li').nth(2).click();
     await expect.soft(gridOverlayLocator.locator(".eael-filter-gallery-control").locator('li').nth(2)).toHaveClass("control active");
+    await expect.soft(gridOverlayLocator.locator(".eael-filter-gallery-control").locator('li').nth(1)).not.toHaveClass("control active");
+    await expect.soft(gridOverlayLocator.locator(".eael-filterable-gallery-item-wrap eael-cf-g7h8i9")).not.toBeVisible();
+
+
     await gridOverlayLocator.locator(".eael-filter-gallery-control").locator('li').nth(3).click();
     await expect.soft(gridOverlayLocator.locator(".eael-filter-gallery-control").locator('li').nth(3)).toHaveClass("control active");
+    await expect.soft(gridOverlayLocator.locator(".eael-filter-gallery-control").locator('li').nth(2)).not.toHaveClass("control active");
+    await expect.soft(gridOverlayLocator.locator(".eael-filterable-gallery-item-wrap eael-cf-j10k11l12")).not.toBeVisible();
+
     await gridOverlayLocator.locator(".eael-filter-gallery-control").locator('li').nth(4).click();
     await expect.soft(gridOverlayLocator.locator(".eael-filter-gallery-control").locator('li').nth(4)).toHaveClass("control active");
+    await expect.soft(gridOverlayLocator.locator(".eael-filter-gallery-control").locator('li').nth(3)).not.toHaveClass("control active");
+    await expect.soft(gridOverlayLocator.locator(".eael-filterable-gallery-item-wrap eael-cf-a1b2c3")).not.toBeVisible();
+
     await gridOverlayLocator.locator(".eael-filter-gallery-control").locator('li').nth(0).click();
 
   });
