@@ -198,6 +198,10 @@ test.describe("Filterable Gallery", () => {
     await expect.soft(gridOverlayLocator.getByText('Content of Grid Overlay Item 12.')).toBeVisible();
     await expect(galleryItem12.locator('img')).toHaveAttribute('src', /12\.png/);
 
+    await expect(galleryItem1).toBeVisible();
+    await galleryItem1.click();
+    await page.waitForTimeout(1000);
+    await page.keyboard.press('Escape');
   });
 
   // Grid Style: Grid | Layout: Card
