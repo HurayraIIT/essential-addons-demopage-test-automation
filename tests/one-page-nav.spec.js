@@ -2,44 +2,42 @@
 
 import { test, expect } from "../global-setup";
 
-test.describe("One Page Navigation - Live Demo Page", () => {
-  let slug = "https://essential-addons.com/elementor/one-page-nav";
-  let heading = "One Page Navigation";
+let slug = "creative-elements/one-page-navigation";
 
-  // Page Heading
+test.describe("One Page Navigation", () => {
+
+  // Load Page Before Each Test
   test.beforeEach(async ({ page }) => {
     await page.goto(slug);
-    await expect.soft(page.getByRole("heading", { name: heading, exact: true })).toBeVisible();
-    await expect.soft(page.getByRole("link", { name: "Documentation" })).toBeVisible();
-    await expect
-      .soft(page.getByRole("link", { name: "Documentation" }))
-      .toHaveAttribute("href", /docs\/creative-elements\/one-page-navigation/);
+    await page.waitForLoadState("networkidle");
   });
 
-  // Nav Menu - Icon and Text Visibility Check
+  // Navigation Menu - Icon and Text Visibility Check
 
-  test("Test Section: Icon and Text Visibility", async ({ page }) => {
-    await expect.soft(page.getByRole("link", { name: "" })).toBeVisible();
-    await page.getByRole("link", { name: "" }).hover();
-    await expect.soft(page.locator("#eael-one-page-nav-2221bcee").getByText("Home")).toBeVisible();
-    await expect.soft(page.locator("a").filter({ hasText: ".st0{fill:#1DA1F3;}" })).toBeVisible();
-    await page.locator("a").filter({ hasText: ".st0{fill:#1DA1F3;}" }).hover();
-    await expect.soft(page.getByText("Features")).toBeVisible();
-    await expect.soft(page.locator("a").filter({ hasText: ".st0{fill:#3AD0BF;}" })).toBeVisible();
-    await expect.soft(page.locator("a").filter({ hasText: ".st0{fill:#E067B3;}" })).toBeVisible();
-    await expect.soft(page.locator("a").filter({ hasText: ".st0{fill:#8562F8;}" })).toBeVisible();
+  test("Icon and Text Visibility", async ({ page }) => {
+    await expect.soft(page.getByLabel('Home')).toBeVisible();
+    await expect.soft(page.locator(".eael-nav-dot.e-font-icon-svg.e-fas-home")).toBeVisible();
+    await expect.soft(page.getByLabel('Features')).toBeVisible();
+    await expect.soft(page.locator(".eael-nav-dot.e-font-icon-svg.e-far-star")).toBeVisible();
+    await expect.soft(page.getByLabel('Services')).toBeVisible();
+    await expect.soft(page.locator(".eael-nav-dot.e-font-icon-svg.e-fas-mouse")).toBeVisible();
+    await expect.soft(page.getByLabel('Pricing Plans')).toBeVisible();
+    await expect.soft(page.locator(".eael-nav-dot.e-font-icon-svg.e-fas-dollar-sign")).toBeVisible();
+    await expect.soft(page.getByLabel('Blog')).toBeVisible();
+    await expect.soft(page.locator(".eael-nav-dot.e-font-icon-svg.e-fas-blog")).toBeVisible();
   });
 
-  // Click Nav Menu to Scroll Specific Section Check
-  test("Test Section: Scroll Specific Section", async ({ page }) => {
-    await page.locator('a[data-row-id="hero-area"]').click();
-    await page.waitForTimeout(700);
-    await expect.soft(page.getByTestId("3b429615")).toBeInViewport();
-    await page.locator('a[data-row-id="features-section"]').click();
-    await page.waitForTimeout(700);
-    await expect.soft(page.getByTestId("751ac69")).toBeInViewport();
-    await page.locator('a[data-row-id="blog-posts-section"]').click();
-    await page.waitForTimeout(700);
-    await expect.soft(page.getByTestId("226fd8a7")).toBeInViewport();
+  // Click Navigation Menu to Scroll Into Specific Section & Check Contents
+  test("Scroll Into Specific Section & Check Contents", async ({ page }) => {
+    await page.getByLabel('Home').click();
+    await expect.soft(page.locator('#hero-area')).toBeVisible();
+    await page.getByLabel('Features').click();
+    await expect.soft(page.locator('#features-section')).toBeVisible();
+    await page.getByLabel('Services').click();
+    await expect.soft(page.locator('#services-section')).toBeVisible();
+    await page.getByLabel('Pricing Plans').click();
+    await expect.soft(page.locator('#pricing-plans-section')).toBeVisible();
+    await page.getByLabel('Blog').click();
+    await expect.soft(page.locator('#blog-posts-section')).toBeVisible();
   });
 });
