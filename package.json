@@ -8,11 +8,11 @@
   "author": "Abu Hurayra",
   "license": "ISC",
   "devDependencies": {
-    "@playwright/test": "^1.49.1",
+    "@playwright/test": "^1.50.1",
     "@types/node": "^20.14.6"
   },
   "dependencies": {
-    "dotenv": "^16.4.5",
+    "dotenv": "^16.4.7",
     "playwright-slack-report": "^1.1.81"
   }
 }
