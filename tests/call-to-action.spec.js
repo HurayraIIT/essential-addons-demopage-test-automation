@@ -1,6 +1,6 @@
 "use strict";
 
-import { test, expect } from "../global-setup";
+import { expect, test } from "../global-setup";
 
 let slug = "marketing-elements/call-to-action";
 
@@ -73,7 +73,7 @@ test.describe("Call To Action", () => {
     await expect.soft(basicPreset1Locator.getByRole("link", { name: /Explore BasicPreset1/ })).toBeEnabled();
     await expect
       .soft(basicPreset1Locator.getByRole("link", { name: /Explore BasicPreset1/ }))
-      .toHaveClass("cta-button  effect-2");
+      .toHaveClass("cta-button cta-preset-1  effect-2");
     await expect
       .soft(basicPreset1Locator.getByRole("link", { name: /Explore BasicPreset1/ }))
       .toHaveCSS("box-shadow", "rgba(27, 33, 45, 0.72) 4px 4px 0px 0px");
@@ -124,7 +124,7 @@ test.describe("Call To Action", () => {
     await expect.soft(basicPreset2Locator.getByRole("link", { name: /BasicPreset2/ })).toBeEnabled();
     await expect
       .soft(basicPreset2Locator.getByRole("link", { name: /BasicPreset2/ }))
-      .toHaveClass("cta-button cta-btn-preset-2 effect-1");
+      .toHaveClass("cta-button cta-preset-2 cta-btn-preset-2 effect-1");
     await expect
       .soft(basicPreset2Locator.getByRole("link", { name: /BasicPreset2/ }))
       .toHaveCSS("box-shadow", "rgba(27, 33, 45, 0.72) 4px 4px 0px 0px");
@@ -173,7 +173,7 @@ test.describe("Call To Action", () => {
     await expect.soft(flexGridPreset1Locator.getByRole("link", { name: /FlexGridPreset1/ })).toBeEnabled();
     await expect
       .soft(flexGridPreset1Locator.getByRole("link", { name: /FlexGridPreset1/ }))
-      .toHaveClass("cta-button  effect-2");
+      .toHaveClass("cta-button cta-preset-1  effect-2");
     await expect
       .soft(flexGridPreset1Locator.getByRole("link", { name: /FlexGridPreset1/ }))
       .toHaveCSS("box-shadow", "rgba(27, 33, 45, 0.72) 4px 4px 0px 0px");
@@ -223,7 +223,7 @@ test.describe("Call To Action", () => {
     await expect.soft(flexGridPreset2Locator.getByRole("link", { name: /FlexGridPreset2/ })).toBeEnabled();
     await expect
       .soft(flexGridPreset2Locator.getByRole("link", { name: /FlexGridPreset2/ }))
-      .toHaveClass("cta-button cta-btn-preset-1 effect-2");
+      .toHaveClass("cta-button cta-preset-2 cta-btn-preset-1 effect-2");
     await expect.soft(flexGridPreset2Locator.getByRole("link", { name: /FlexGridPreset2/ })).toBeVisible();
     await expect
       .soft(flexGridPreset2Locator.getByRole("link", { name: /FlexGridPreset2/ }))
@@ -275,7 +275,7 @@ test.describe("Call To Action", () => {
     await expect.soft(flexGridIconPreset1Locator.getByRole("link", { name: /FlexGridIconPreset1/ })).toBeEnabled();
     await expect
       .soft(flexGridIconPreset1Locator.getByRole("link", { name: /FlexGridIconPreset1/ }))
-      .toHaveClass("cta-button  effect-2");
+      .toHaveClass("cta-button cta-preset-1  effect-2");
     await expect
       .soft(flexGridIconPreset1Locator.getByRole("link", { name: /FlexGridIconPreset1/ }))
       .toHaveCSS("box-shadow", "rgba(27, 33, 45, 0.72) 4px 4px 0px 0px");
@@ -326,7 +326,7 @@ test.describe("Call To Action", () => {
     await expect.soft(flexGridIconPreset2Locator.getByRole("link", { name: /FlexGridIconPreset2/ })).toBeEnabled();
     await expect
       .soft(flexGridIconPreset2Locator.getByRole("link", { name: /FlexGridIconPreset2/ }))
-      .toHaveClass("cta-button cta-btn-preset-2 effect-2");
+      .toHaveClass("cta-button cta-preset-2 cta-btn-preset-2 effect-2");
     await expect
       .soft(flexGridIconPreset2Locator.getByRole("link", { name: /FlexGridIconPreset2/ }))
       .toHaveCSS("box-shadow", "rgba(27, 33, 45, 0.72) 4px 4px 0px 0px");
