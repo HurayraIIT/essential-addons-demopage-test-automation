@@ -1044,7 +1044,7 @@ test.describe("Advanced Menu - Skin Seven", () => {
   });
 });
 
-test.describe("Advanced Menu - Style Default Skin & Horizontal Layout", () => {
+test.describe("Advanced Menu - Live Demo Page", () => {
   let slug = "https://essential-addons.com/elementor/advanced-menu";
   let heading = "Advanced Menu";
   let menu = "";
