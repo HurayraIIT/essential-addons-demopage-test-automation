@@ -28,8 +28,8 @@ export default defineConfig({
             maxNumberOfFailuresToShow: 0,
             meta: [
               {
-                key: "Essential Addons Demo - Test Results",
-                value: "<https://hurayraiit.github.io/essential-addons-demopage-test-automation/ | 📂 Click Here!>",
+                key: ":ea-n: Essential Addons Demo - Test Results",
+                value: "<https://ea-report.hurayraiit.com/ | 📂 Click Here!>",
               },
             ],
           },
