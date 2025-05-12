@@ -10,7 +10,7 @@ class WooAccountDashboardPage {
   constructor(page) {
     this.page = page;
     this.url = 'https://eael.wpqa.site/woocommerce-elements/woo-account-dashboard/';
-    
+
     // Preset 1 Locators
     this.preset1Heading = this.page.getByRole('heading', { name: 'Preset 1' });
     this.preset1Navigation = {
@@ -21,7 +21,7 @@ class WooAccountDashboardPage {
       accountDetails: this.page.getByRole('link', { name: ' Account Details' }).first(),
       logout: this.page.getByRole('link', { name: ' Logout' }).first()
     };
-    
+
     // Preset 2 Locators
     this.preset2Heading = this.page.getByRole('heading', { name: 'Preset 2' });
     this.preset2Navigation = {
@@ -32,7 +32,7 @@ class WooAccountDashboardPage {
       accountDetails: this.page.getByRole('link', { name: 'Account Details', exact: true }),
       logout: this.page.getByRole('link', { name: 'Logout', exact: true })
     };
-    
+
     // Preset 3 Locators
     this.preset3Heading = this.page.getByRole('heading', { name: 'Preset 3' });
     this.preset3Navigation = {
@@ -43,7 +43,7 @@ class WooAccountDashboardPage {
       accountDetails: this.page.getByRole('link', { name: ' Account Details' }).nth(1),
       logout: this.page.getByRole('link', { name: ' Logout' }).nth(1)
     };
-    
+
     // User Information Locators
     this.userNameHeadings = this.page.getByRole('heading', { name: 'ACustomerF ACustomerL' });
     this.welcomeTexts = this.page.getByText('Welcome,');
@@ -210,4 +210,4 @@ class WooAccountDashboardPage {
   }
 }
 
-module.exports = WooAccountDashboardPage;
+export default WooAccountDashboardPage;

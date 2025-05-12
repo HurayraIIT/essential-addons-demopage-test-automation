@@ -496,4 +496,4 @@ class WooProductListPage {
   }
 }
 
-module.exports = WooProductListPage;
+export default WooProductListPage;
