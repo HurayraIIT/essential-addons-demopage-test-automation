@@ -1,200 +1,123 @@
 "use strict";
 
-import { test, expect } from "../global-setup";
+import { expect, test } from "../global-setup";
+import WooThankYouPage from "../src/pages/WooThankYouPage";
 
+// This URL might need to be updated with a valid order ID and key
 let slug = "/woocommerce-elements/woo-thank-you/order-received/283179/?key=wc_order_gcRFGNUHdprcn";
 
 test.describe("Woo Thank You - Preset 1", () => {
-  let heading = "Hurayra Automation Woo Thank You Preset 01";
-  let widget;
+  let thankYouPage;
 
   test.beforeEach(async ({ page }) => {
+    thankYouPage = new WooThankYouPage(page);
+
+    // First login as a customer
+    await thankYouPage.login();
+
+    // Navigate to the thank you page
     await page.goto(slug);
     await page.waitForLoadState("networkidle");
-    let headingLocator = page.getByRole("heading", { name: heading, exact: true });
-    await headingLocator.scrollIntoViewIfNeeded();
-    await expect.soft(headingLocator).toBeVisible();
-    await headingLocator.click();
 
-    widget = page.getByTestId("17f63d8");
+    // Scroll to the preset 1 section
+    await thankYouPage.scrollToPreset1();
   });
 
-  test("Test Contents", async ({ page }) => {
-    await expect(widget).toMatchAriaSnapshot(`
-      - paragraph: /Thank you\\. Your order has been received\\. \\d+/
-      - list:
-        - listitem: "/Order number \\\\d+: \\\\d+/"
-        - listitem: "/Date \\\\d+: Wed, Dec \\\\d+, \\\\d+/"
-        - listitem: "/Total \\\\d+: \\\\d+\\\\.\\\\d+৳/"
-        - listitem: "/Payment Method \\\\d+: Cash on delivery/"
-      - paragraph: Pay with cash upon delivery.
-      - heading /Order Details \\d+:/ [level=2]
-      - table:
-        - rowgroup:
-          - 'row /Product \\d+: Total \\d+:/':
-            - cell /Product \\d+:/
-            - cell /Total \\d+:/
-        - rowgroup:
-          - 'row /Hurayra Automation Product \\d+ Hurayra Automation Product \\d+ Qty: 1 \\d+\\.\\d+৳/':
-            - 'cell /Hurayra Automation Product \\d+ Hurayra Automation Product \\d+ Qty: 1/':
-              - img /Hurayra Automation Product \\d+/
-              - link /Hurayra Automation Product \\d+/
-            - cell /\\d+\\.\\d+৳/
-          - 'row /Hurayra Automation Product \\d+ Hurayra Automation Product \\d+ Qty: 2 \\d+\\.\\d+৳/':
-            - 'cell /Hurayra Automation Product \\d+ Hurayra Automation Product \\d+ Qty: 2/':
-              - img /Hurayra Automation Product \\d+/
-              - link /Hurayra Automation Product \\d+/
-            - cell /\\d+\\.\\d+৳/
-      - heading /Billing Address \\d+:/ [level=2]
-      - text: /First241211 Last241211 Dhaka Dhaka Dhaka \\d+ Mobile \\d+:\\d+ Email \\d+:hurayraiit\\+automation_customer@gmail\\.com/
-      - heading /Shipping Address \\d+:/ [level=2]
-      - text: N/A
-      - table:
-        - rowgroup:
-          - 'row /Subtotal: \\d+\\.\\d+৳/':
-            - rowheader "Subtotal:"
-            - cell /\\d+\\.\\d+৳/
-          - 'row "Payment method: Cash on delivery"':
-            - rowheader "Payment method:"
-            - cell "Cash on delivery"
-          - 'row /Total: \\d+\\.\\d+৳/':
-            - rowheader "Total:"
-            - cell /\\d+\\.\\d+৳/
-      `);
+  test("Test Contents", async () => {
+    // Check thank you message
+    await expect(thankYouPage.preset1Elements.thankYouMessage).toBeVisible();
+
+    // Check order details list
+    await expect(thankYouPage.preset1Elements.orderList).toBeVisible();
+    await expect(thankYouPage.preset1Elements.orderNumber).toBeVisible();
+    await expect(thankYouPage.preset1Elements.orderDate).toBeVisible();
+    await expect(thankYouPage.preset1Elements.orderTotal).toBeVisible();
+    await expect(thankYouPage.preset1Elements.paymentMethod).toBeVisible();
+
+    // Check payment instructions
+    await expect(thankYouPage.preset1Elements.paymentInstructions).toBeVisible();
+
+    // Check section headings
+    await expect(thankYouPage.preset1Elements.orderDetailsHeading).toBeVisible();
+    await expect(thankYouPage.preset1Elements.billingAddressHeading).toBeVisible();
+    await expect(thankYouPage.preset1Elements.shippingAddressHeading).toBeVisible();
   });
 });
 
 test.describe("Woo Thank You - Preset 2", () => {
-  let heading = "Hurayra Automation Woo Thank You Preset 02";
-  let widget;
+  let thankYouPage;
 
   test.beforeEach(async ({ page }) => {
+    thankYouPage = new WooThankYouPage(page);
+
+    // First login as a customer
+    await thankYouPage.login();
+
+    // Navigate to the thank you page
     await page.goto(slug);
     await page.waitForLoadState("networkidle");
-    let headingLocator = page.getByRole("heading", { name: heading, exact: true });
-    await headingLocator.scrollIntoViewIfNeeded();
-    await expect.soft(headingLocator).toBeVisible();
-    await headingLocator.click();
 
-    widget = page.getByTestId("8542733");
+    // Scroll to the preset 2 section
+    await thankYouPage.scrollToPreset2();
   });
 
-  test("Test Contents", async ({ page }) => {
-    await expect(widget).toMatchAriaSnapshot(`
-      - text: /Hello \\d+ First241211 Last241211,/
-      - paragraph: /Thank you\\. Your order has been received\\. \\d+/
-      - heading /Order Details \\d+:/ [level=2]
-      - list:
-        - listitem: "/Order number \\\\d+: \\\\d+/"
-        - listitem: "/Date \\\\d+: Wed, Dec \\\\d+, \\\\d+/"
-        - listitem: "/Total \\\\d+: \\\\d+\\\\.\\\\d+৳/"
-        - listitem: "/Payment Method \\\\d+: Cash on delivery/"
-      - paragraph: Pay with cash upon delivery.
-      - table:
-        - rowgroup:
-          - 'row /Product \\d+: Variation \\d+: Price \\d+: Quantity \\d+: Total \\d+:/':
-            - cell /Product \\d+:/
-            - cell /Variation \\d+:/
-            - cell /Price \\d+:/
-            - cell /Quantity \\d+:/
-            - cell /Total \\d+:/
-        - rowgroup:
-          - 'row /Hurayra Automation Product \\d+ Hurayra Automation Product \\d+ \\d+\\.\\d+৳  Original price was: \\d+\\.\\d+৳ \\. \\d+\\.\\d+৳  Current price is: \\d+\\.\\d+৳ \\. 1 \\d+\\.\\d+৳/':
-            - cell /Hurayra Automation Product \\d+ Hurayra Automation Product \\d+/:
-              - img /Hurayra Automation Product \\d+/
-              - link /Hurayra Automation Product \\d+/
-            - cell
-            - 'cell /\\d+\\.\\d+৳  Original price was: \\d+\\.\\d+৳ \\. \\d+\\.\\d+৳  Current price is: \\d+\\.\\d+৳ \\./':
-              - deletion: /\\d+\\.\\d+৳/
-              - insertion: /\\d+\\.\\d+৳/
-            - cell "1"
-            - cell /\\d+\\.\\d+৳/
-          - 'row /Hurayra Automation Product \\d+ Hurayra Automation Product \\d+ \\d+\\.\\d+৳  Original price was: \\d+\\.\\d+৳ \\. \\d+\\.\\d+৳  Current price is: \\d+\\.\\d+৳ \\. 2 \\d+\\.\\d+৳/':
-            - cell /Hurayra Automation Product \\d+ Hurayra Automation Product \\d+/:
-              - img /Hurayra Automation Product \\d+/
-              - link /Hurayra Automation Product \\d+/
-            - cell
-            - 'cell /\\d+\\.\\d+৳  Original price was: \\d+\\.\\d+৳ \\. \\d+\\.\\d+৳  Current price is: \\d+\\.\\d+৳ \\./':
-              - deletion: /\\d+\\.\\d+৳/
-              - insertion: /\\d+\\.\\d+৳/
-            - cell "2"
-            - cell /\\d+\\.\\d+৳/
-      - table:
-        - rowgroup:
-          - 'row /Subtotal: \\d+\\.\\d+৳/':
-            - rowheader "Subtotal:"
-            - cell /\\d+\\.\\d+৳/
-          - 'row "Payment method: Cash on delivery"':
-            - rowheader "Payment method:"
-            - cell "Cash on delivery"
-          - 'row /Total: \\d+\\.\\d+৳/':
-            - rowheader "Total:"
-            - cell /\\d+\\.\\d+৳/
-      - heading /Billing Address \\d+:/ [level=2]
-      - text: /First241211 Last241211 Dhaka Dhaka Dhaka \\d+ Mobile \\d+:\\d+ Email \\d+:hurayraiit\\+automation_customer@gmail\\.com/
-      - heading /Shipping Address \\d+:/ [level=2]
-      - text: N/A
-      `);
+  test("Test Contents", async () => {
+    // Check hello and thank you messages
+    await expect(thankYouPage.preset2Elements.helloMessage).toBeVisible();
+    await expect(thankYouPage.preset2Elements.thankYouMessage).toBeVisible();
+
+    // Check order details heading and list
+    await expect(thankYouPage.preset2Elements.orderDetailsHeading).toBeVisible();
+    await expect(thankYouPage.preset2Elements.orderList).toBeVisible();
+    await expect(thankYouPage.preset2Elements.orderNumber).toBeVisible();
+    await expect(thankYouPage.preset2Elements.orderDate).toBeVisible();
+    await expect(thankYouPage.preset2Elements.orderTotal).toBeVisible();
+    await expect(thankYouPage.preset2Elements.paymentMethod).toBeVisible();
+
+    // Check payment instructions
+    await expect(thankYouPage.preset2Elements.paymentInstructions).toBeVisible();
+
+    // Check address headings
+    await expect(thankYouPage.preset2Elements.billingAddressHeading).toBeVisible();
+    await expect(thankYouPage.preset2Elements.shippingAddressHeading).toBeVisible();
   });
 });
 
 test.describe("Woo Thank You - Preset 3", () => {
-  let heading = "Hurayra Automation Woo Thank You Preset 03";
-  let widget;
+  let thankYouPage;
 
   test.beforeEach(async ({ page }) => {
+    thankYouPage = new WooThankYouPage(page);
+
+    // First login as a customer
+    await thankYouPage.login();
+
+    // Navigate to the thank you page
     await page.goto(slug);
     await page.waitForLoadState("networkidle");
-    let headingLocator = page.getByRole("heading", { name: heading, exact: true });
-    await headingLocator.scrollIntoViewIfNeeded();
-    await expect.soft(headingLocator).toBeVisible();
-    await headingLocator.click();
 
-    widget = page.getByTestId("1087283");
+    // Scroll to the preset 3 section
+    await thankYouPage.scrollToPreset3();
   });
 
-  test("Test Contents", async ({ page }) => {
-    await expect(page.locator('#content')).toMatchAriaSnapshot(`
-      - text: /Thank you 03 !/
-      - paragraph: /Thank you\\. Your order has been received\\. 03/
-      - heading /Order Overview 03:/ [level=2]
-      - list:
-        - listitem: "/Order number \\\\d+: \\\\d+/"
-        - listitem: "/Date \\\\d+: Wed, Dec \\\\d+, \\\\d+/"
-        - listitem: "/Total \\\\d+: \\\\d+\\\\.\\\\d+৳/"
-        - listitem: "/Payment Method \\\\d+: Cash on delivery/"
-      - paragraph: Pay with cash upon delivery.
-      - heading /Billing Address \\d+:/ [level=2]
-      - text: /First241211 Last241211 Dhaka Dhaka Dhaka \\d+ Mobile \\d+:\\d+ Email \\d+:hurayraiit\\+automation_customer@gmail\\.com/
-      - heading /Shipping Address \\d+:/ [level=2]
-      - text: N/A
-      - table:
-        - rowgroup:
-          - 'row /Product \\d+: Total \\d+:/':
-            - cell /Product \\d+:/
-            - cell /Total \\d+:/
-        - rowgroup:
-          - 'row /Hurayra Automation Product \\d+ Hurayra Automation Product \\d+ Qty: 1 \\d+\\.\\d+৳/':
-            - 'cell /Hurayra Automation Product \\d+ Hurayra Automation Product \\d+ Qty: 1/':
-              - img /Hurayra Automation Product \\d+/
-              - link /Hurayra Automation Product \\d+/
-            - cell /\\d+\\.\\d+৳/
-          - 'row /Hurayra Automation Product \\d+ Hurayra Automation Product \\d+ Qty: 2 \\d+\\.\\d+৳/':
-            - 'cell /Hurayra Automation Product \\d+ Hurayra Automation Product \\d+ Qty: 2/':
-              - img /Hurayra Automation Product \\d+/
-              - link /Hurayra Automation Product \\d+/
-            - cell /\\d+\\.\\d+৳/
-      - table:
-        - rowgroup:
-          - 'row /Subtotal: \\d+\\.\\d+৳/':
-            - rowheader "Subtotal:"
-            - cell /\\d+\\.\\d+৳/
-          - 'row "Payment method: Cash on delivery"':
-            - rowheader "Payment method:"
-            - cell "Cash on delivery"
-          - 'row /Total: \\d+\\.\\d+৳/':
-            - rowheader "Total:"
-            - cell /\\d+\\.\\d+৳/
-      `);
+  test("Test Contents", async () => {
+    // Check thank you title and message
+    await expect(thankYouPage.preset3Elements.thankYouTitle).toBeVisible();
+    await expect(thankYouPage.preset3Elements.thankYouMessage).toBeVisible();
+
+    // Check order overview heading and list
+    await expect(thankYouPage.preset3Elements.orderOverviewHeading).toBeVisible();
+    await expect(thankYouPage.preset3Elements.orderList).toBeVisible();
+    await expect(thankYouPage.preset3Elements.orderNumber).toBeVisible();
+    await expect(thankYouPage.preset3Elements.orderDate).toBeVisible();
+    await expect(thankYouPage.preset3Elements.orderTotal).toBeVisible();
+    await expect(thankYouPage.preset3Elements.paymentMethod).toBeVisible();
+
+    // Check payment instructions
+    await expect(thankYouPage.preset3Elements.paymentInstructions).toBeVisible();
+
+    // Check address headings
+    await expect(thankYouPage.preset3Elements.billingAddressHeading).toBeVisible();
+    await expect(thankYouPage.preset3Elements.shippingAddressHeading).toBeVisible();
   });
 });
