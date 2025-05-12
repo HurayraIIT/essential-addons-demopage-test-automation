@@ -1,0 +1,81 @@
+{
+  "cartState": {
+    "style1Empty": false,
+    "style2Empty": false
+  },
+  "wrapperClasses": {
+    "style1": "eael-woo-cart-wrapper eael-woo-default eael-auto-update ",
+    "style2": "eael-woo-cart-wrapper eael-woo-style-2 eael-auto-update  has-table-left-content has-table-right-content"
+  },
+  "style1": {
+    "wrapper": {
+      "display": "block",
+      "position": "static",
+      "width": "1140px",
+      "margin": "0px",
+      "padding": "0px",
+      "backgroundColor": "rgb(249, 251, 255)",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen-Sans, Ubuntu, Cantarell, \"Helvetica Neue\", sans-serif",
+      "fontSize": "16px",
+      "color": "rgb(54, 65, 81)"
+    },
+    "table": {
+      "display": "table",
+      "width": "1140px",
+      "borderCollapse": "separate",
+      "margin": "0px",
+      "textAlign": "left"
+    },
+    "tableHeader": {
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "color": "rgb(54, 65, 81)",
+      "fontWeight": "400",
+      "fontSize": "16px",
+      "textAlign": "left"
+    },
+    "tableRow": {
+      "borderBottom": "0px none rgb(54, 65, 81)",
+      "padding": "0px",
+      "verticalAlign": "middle"
+    },
+    "productImage": {
+      "width": "62px",
+      "height": "62px",
+      "maxWidth": "100%",
+      "borderRadius": "50%"
+    },
+    "button": {
+      "backgroundColor": "rgb(101, 87, 255)",
+      "color": "rgb(255, 255, 255)",
+      "padding": "10px 40px",
+      "borderRadius": "5px",
+      "fontSize": "18px",
+      "fontWeight": "500"
+    }
+  },
+  "style2": {
+    "wrapper": {
+      "display": "block",
+      "position": "static",
+      "width": "1140px",
+      "margin": "0px",
+      "padding": "0px",
+      "backgroundColor": "rgb(250, 250, 250)",
+      "borderRadius": "0px",
+      "boxShadow": "none",
+      "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen-Sans, Ubuntu, Cantarell, \"Helvetica Neue\", sans-serif",
+      "fontSize": "16px",
+      "color": "rgb(54, 65, 81)"
+    },
+    "button": {
+      "backgroundColor": "rgb(49, 47, 75)",
+      "color": "rgb(255, 255, 255)",
+      "padding": "7px 40px",
+      "borderRadius": "5px",
+      "fontSize": "15px",
+      "fontWeight": "600"
+    }
+  }
+}

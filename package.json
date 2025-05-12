@@ -3,7 +3,14 @@
   "version": "1.0.0",
   "description": "Testing the Essential Addons For Elementor Demo Pages Using Playwright",
   "main": "index.js",
-  "scripts": {},
+  "type": "module",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:woo-cart": "npx playwright test tests/woo-cart.spec.js",
+    "test:woo-cart-styles": "npx playwright test tests/woo-cart-styles.spec.js",
+    "generate:style-baseline": "node scripts/generate-style-baseline.js",
+    "test:regenerate-baseline": "REGENERATE_BASELINE=true npx playwright test tests/woo-cart-styles.spec.js"
+  },
   "keywords": [],
   "author": "Abu Hurayra",
   "license": "ISC",
