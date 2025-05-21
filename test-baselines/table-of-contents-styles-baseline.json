@@ -1,0 +1,91 @@
+{
+  "container": {
+    "display": "none",
+    "position": "static",
+    "width": "auto",
+    "margin": "0px",
+    "padding": "0px",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px 5px 5px 0px",
+    "boxShadow": "none",
+    "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen-Sans, Ubuntu, Cantarell, \"Helvetica Neue\", sans-serif",
+    "fontSize": "16px",
+    "color": "rgb(54, 65, 81)"
+  },
+  "header": {
+    "display": "none",
+    "position": "relative",
+    "width": "auto",
+    "margin": "0px",
+    "padding": "12px 30px",
+    "backgroundColor": "rgb(97, 206, 112)",
+    "borderRadius": "0px 5px 0px 0px",
+    "boxShadow": "none",
+    "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen-Sans, Ubuntu, Cantarell, \"Helvetica Neue\", sans-serif",
+    "fontSize": "16px",
+    "color": "rgb(54, 65, 81)"
+  },
+  "title": {
+    "display": "block",
+    "position": "static",
+    "width": "auto",
+    "margin": "0px",
+    "padding": "0px",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen-Sans, Ubuntu, Cantarell, \"Helvetica Neue\", sans-serif",
+    "fontSize": "18px",
+    "color": "rgb(255, 255, 255)",
+    "fontWeight": "400"
+  },
+  "toggleButton": {
+    "display": "inline-block",
+    "position": "relative",
+    "width": "auto",
+    "height": "auto",
+    "margin": "0px",
+    "padding": "10px 20px",
+    "backgroundColor": "rgb(97, 206, 112)",
+    "borderRadius": "3px",
+    "boxShadow": "rgba(0, 0, 0, 0.05) 0px 1px 2px 0px",
+    "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen-Sans, Ubuntu, Cantarell, \"Helvetica Neue\", sans-serif",
+    "fontSize": "12.8px",
+    "color": "rgb(255, 255, 255)"
+  },
+  "body": {
+    "display": "none",
+    "position": "static",
+    "width": "auto",
+    "margin": "0px",
+    "padding": "12px 30px",
+    "backgroundColor": "rgb(255, 246, 243)",
+    "borderRadius": "0px 0px 5px",
+    "boxShadow": "none",
+    "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen-Sans, Ubuntu, Cantarell, \"Helvetica Neue\", sans-serif",
+    "fontSize": "16px",
+    "color": "rgb(54, 65, 81)"
+  },
+  "list": {
+    "display": "block",
+    "position": "static",
+    "width": "auto",
+    "margin": "0px",
+    "padding": "0px",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "listStyleType": "none",
+    "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen-Sans, Ubuntu, Cantarell, \"Helvetica Neue\", sans-serif",
+    "fontSize": "16px",
+    "color": "rgb(54, 65, 81)"
+  },
+  "items": {
+    "display": "list-item",
+    "position": "static",
+    "width": "auto",
+    "margin": "0px",
+    "padding": "8px 0px",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen-Sans, Ubuntu, Cantarell, \"Helvetica Neue\", sans-serif",
+    "fontSize": "16px",
+    "color": "rgb(112, 112, 112)",
+    "lineHeight": "26.4px"
+  }
+}
