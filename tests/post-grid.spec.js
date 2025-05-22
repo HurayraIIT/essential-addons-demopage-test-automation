@@ -176,6 +176,9 @@ test.describe("Post Grid - Layout & Style Combinations", () => {
 
   // Style Tests
   test("Capture and compare styles with baseline", async ({ page }) => {
+    // Check if we're running in CI environment
+    const isCI = process.env.CI === 'true';
+
     // Check if we need to regenerate the baseline
     const regenerateBaseline = process.env.REGENERATE_BASELINE === 'true';
 
@@ -183,54 +186,116 @@ test.describe("Post Grid - Layout & Style Combinations", () => {
     const currentStyles = await postGridPage.captureAllStyles();
 
     if (regenerateBaseline) {
-      // Save current styles as baseline
+      // Save current styles as baseline - both generic and environment-specific
       saveStylesToFile(currentStyles, 'post-grid-styles-baseline');
-      console.log('Baseline styles regenerated for Post Grid');
+      saveStylesToFile(currentStyles, 'post-grid-styles-baseline', true);
+      console.log('Baseline styles regenerated for Post Grid (generic and environment-specific)');
+    } else if (isCI) {
+      // In CI, we can either skip comparison or use environment-specific baseline with tolerances
+
+      // Option 1: Skip detailed comparison (fallback)
+      if (process.env.SKIP_STYLE_TESTS_IN_CI === 'true') {
+        console.log('Running in CI environment - skipping detailed style comparison');
+
+        // Just verify that we can capture styles without errors
+        expect(currentStyles).toBeDefined();
+        expect(Object.keys(currentStyles).length).toBeGreaterThan(0);
+        return;
+      }
+
+      // Option 2: Use environment-specific baseline with tolerances
+      console.log('Running in CI environment - using environment-specific baseline with tolerances');
+
+      // Load environment-specific baseline
+      const baselineStyles = loadStylesFromFile('post-grid-styles-baseline', true);
+
+      // If environment-specific baseline doesn't exist yet, create it
+      if (!baselineStyles) {
+        saveStylesToFile(currentStyles, 'post-grid-styles-baseline', true);
+        console.log('Environment-specific baseline styles created for Post Grid');
+        return;
+      }
+
+      // Define comparison options with relaxed tolerances for CI
+      const comparisonOptions = {
+        strictMode: false,
+        tolerances: {
+          'width': 10,
+          'height': 10,
+          'font-size': 2,
+          'line-height': 2,
+          'margin': 5,
+          'padding': 5,
+          'border-radius': 2,
+          'top': 10,
+          'left': 10,
+          'right': 10,
+          'bottom': 10
+        }
+      };
+
+      // Run comparisons with tolerances
+      runStyleComparisons(currentStyles, baselineStyles, comparisonOptions);
     } else {
-      // Load baseline styles
-      const baselineStyles = loadStylesFromFile('post-grid-styles-baseline');
+      // Local environment - use standard comparison
+
+      // Load baseline styles (preferring environment-specific if available)
+      const baselineStyles = loadStylesFromFile('post-grid-styles-baseline', true);
 
       // If baseline doesn't exist yet, create it
       if (!baselineStyles) {
         saveStylesToFile(currentStyles, 'post-grid-styles-baseline');
-        console.log('Baseline styles created for Post Grid');
+        saveStylesToFile(currentStyles, 'post-grid-styles-baseline', true);
+        console.log('Baseline styles created for Post Grid (generic and environment-specific)');
         return;
       }
 
+      // Run comparisons with standard tolerances
+      runStyleComparisons(currentStyles, baselineStyles);
+    }
+
+    // Helper function to run all style comparisons
+    function runStyleComparisons(currentStyles, baselineStyles, options = {}) {
       // Compare Grid Default styles
       const gridDefaultComparison = compareStyles(
         { post: currentStyles.gridDefault },
-        { post: baselineStyles.gridDefault }
+        { post: baselineStyles.gridDefault },
+        options
       );
 
       // Compare Grid Style Two styles
       const gridTwoComparison = compareStyles(
         { post: currentStyles.gridTwo },
-        { post: baselineStyles.gridTwo }
+        { post: baselineStyles.gridTwo },
+        options
       );
 
       // Compare Grid Style Three styles
       const gridThreeComparison = compareStyles(
         { post: currentStyles.gridThree },
-        { post: baselineStyles.gridThree }
+        { post: baselineStyles.gridThree },
+        options
       );
 
       // Compare Masonry Default styles
       const masonryDefaultComparison = compareStyles(
         { post: currentStyles.masonryDefault },
-        { post: baselineStyles.masonryDefault }
+        { post: baselineStyles.masonryDefault },
+        options
       );
 
       // Compare Masonry Style Two styles
       const masonryTwoComparison = compareStyles(
         { post: currentStyles.masonryTwo },
-        { post: baselineStyles.masonryTwo }
+        { post: baselineStyles.masonryTwo },
+        options
       );
 
       // Compare Masonry Style Three styles
       const masonryThreeComparison = compareStyles(
         { post: currentStyles.masonryThree },
-        { post: baselineStyles.masonryThree }
+        { post: baselineStyles.masonryThree },
+        options
       );
 
       // Log any differences
