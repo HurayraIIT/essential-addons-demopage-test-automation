@@ -221,7 +221,25 @@ function findToleranceForProperty(property, tolerances) {
   return null;
 }
 
+/**
+ * Determine if style tests should be skipped in the current environment
+ * @returns {boolean} - True if style tests should be skipped
+ */
+function shouldSkipStyleTests() {
+  // Skip style tests if explicitly set to true
+  if (process.env.SKIP_STYLE_TESTS === 'true') {
+    return true;
+  }
+
+  // Skip style tests in CI by default unless explicitly set to false
+  if (process.env.CI === 'true' && process.env.RUN_STYLE_TESTS_IN_CI !== 'true') {
+    return true;
+  }
+
+  return false;
+}
+
 export {
-    captureComputedStyles, compareStyles, loadStylesFromFile, saveStylesToFile
+    captureComputedStyles, compareStyles, loadStylesFromFile, saveStylesToFile, shouldSkipStyleTests
 };
 

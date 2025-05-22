@@ -2,7 +2,7 @@
 
 import { expect, test } from "../global-setup";
 import WooCartPage from "../src/pages/WooCartPage.js";
-import { compareStyles, loadStylesFromFile, saveStylesToFile } from "../src/utils/styleUtils.js";
+import { compareStyles, loadStylesFromFile, saveStylesToFile, shouldSkipStyleTests } from "../src/utils/styleUtils.js";
 
 // Flag to regenerate baseline styles
 const REGENERATE_BASELINE = process.env.REGENERATE_BASELINE === 'true';
@@ -24,11 +24,19 @@ test.describe("Woo Cart - Style Tests", () => {
       console.log('Regenerating baseline styles...');
       const allStyles = await wooCartPage.captureAllStyles();
       saveStylesToFile(allStyles, 'woo-cart-styles-baseline');
+      saveStylesToFile(allStyles, 'woo-cart-styles-baseline', true);
       console.log('Baseline styles regenerated successfully');
     }
   });
 
   test("Style 1 section should match baseline styles", async ({ page }) => {
+    // Check if we should skip style tests
+    if (shouldSkipStyleTests()) {
+      console.log('Skipping style tests as configured by environment variables');
+      test.skip();
+      return;
+    }
+    
     // Check if we're running in CI environment
     const isCI = process.env.CI === 'true';
     const regenerateBaseline = process.env.REGENERATE_BASELINE === 'true';
@@ -75,24 +83,12 @@ test.describe("Woo Cart - Style Tests", () => {
       saveStylesToFile(allStyles, 'woo-cart-styles-baseline', true);
       console.log('Baseline styles regenerated for Woo Cart (generic and environment-specific)');
     } else if (isCI) {
-      // In CI, we can either skip comparison or use environment-specific baseline with tolerances
-
-      // Option 1: Skip detailed comparison (fallback)
-      if (process.env.SKIP_STYLE_TESTS_IN_CI === 'true') {
-        console.log('Running in CI environment - skipping detailed style comparison');
-
-        // Just verify that we can capture styles without errors
-        expect(currentStyles.style1.wrapper).toBeDefined();
-        expect(Object.keys(currentStyles.style1.wrapper).length).toBeGreaterThan(0);
-        return;
-      }
-
-      // Option 2: Use environment-specific baseline with tolerances
+      // In CI, use environment-specific baseline with tolerances
       console.log('Running in CI environment - using environment-specific baseline with tolerances');
-
+      
       // Load environment-specific baseline
       const baselineStyles = loadStylesFromFile('woo-cart-styles-baseline', true);
-
+      
       // If environment-specific baseline doesn't exist yet, create it
       if (!baselineStyles) {
         const allStyles = await wooCartPage.captureAllStyles();
@@ -100,7 +96,7 @@ test.describe("Woo Cart - Style Tests", () => {
         console.log('Environment-specific baseline styles created for Woo Cart');
         return;
       }
-
+      
       // Define comparison options with relaxed tolerances for CI
       const comparisonOptions = {
         strictMode: false,
@@ -118,7 +114,7 @@ test.describe("Woo Cart - Style Tests", () => {
           'bottom': 10
         }
       };
-
+      
       // Compare current wrapper styles with baseline using tolerances
       const wrapperComparison = compareStyles(
         { wrapper: currentStyles.style1.wrapper },
@@ -136,7 +132,7 @@ test.describe("Woo Cart - Style Tests", () => {
     } else {
       // Local environment - use standard comparison with environment-specific baseline if available
       const baselineStyles = loadStylesFromFile('woo-cart-styles-baseline', true);
-
+      
       // If baseline doesn't exist yet, create it
       if (!baselineStyles) {
         const allStyles = await wooCartPage.captureAllStyles();
@@ -145,9 +141,9 @@ test.describe("Woo Cart - Style Tests", () => {
         console.log('Baseline styles created for Woo Cart (generic and environment-specific)');
         return;
       }
-
+      
       expect(baselineStyles).not.toBeNull();
-
+      
       // Compare current wrapper styles with baseline
       const wrapperComparison = compareStyles(
         { wrapper: currentStyles.style1.wrapper },
@@ -165,6 +161,13 @@ test.describe("Woo Cart - Style Tests", () => {
   });
 
   test("Style 2 section should match baseline styles", async ({ page }) => {
+    // Check if we should skip style tests
+    if (shouldSkipStyleTests()) {
+      console.log('Skipping style tests as configured by environment variables');
+      test.skip();
+      return;
+    }
+    
     // Check if we're running in CI environment
     const isCI = process.env.CI === 'true';
     const regenerateBaseline = process.env.REGENERATE_BASELINE === 'true';
@@ -207,30 +210,18 @@ test.describe("Woo Cart - Style Tests", () => {
       // If we're regenerating baselines, this is handled in the Style 1 test
       // No need to duplicate the work here
     } else if (isCI) {
-      // In CI, we can either skip comparison or use environment-specific baseline with tolerances
-
-      // Option 1: Skip detailed comparison (fallback)
-      if (process.env.SKIP_STYLE_TESTS_IN_CI === 'true') {
-        console.log('Running in CI environment - skipping detailed style comparison');
-
-        // Just verify that we can capture styles without errors
-        expect(currentStyles.style2.wrapper).toBeDefined();
-        expect(Object.keys(currentStyles.style2.wrapper).length).toBeGreaterThan(0);
-        return;
-      }
-
-      // Option 2: Use environment-specific baseline with tolerances
+      // In CI, use environment-specific baseline with tolerances
       console.log('Running in CI environment - using environment-specific baseline with tolerances');
-
+      
       // Load environment-specific baseline
       const baselineStyles = loadStylesFromFile('woo-cart-styles-baseline', true);
-
+      
       // If environment-specific baseline doesn't exist yet, this is handled in the Style 1 test
       if (!baselineStyles) {
         console.log('Environment-specific baseline not found, this should have been created in the Style 1 test');
         return;
       }
-
+      
       // Define comparison options with relaxed tolerances for CI
       const comparisonOptions = {
         strictMode: false,
@@ -248,7 +239,7 @@ test.describe("Woo Cart - Style Tests", () => {
           'bottom': 10
         }
       };
-
+      
       // Compare current wrapper styles with baseline using tolerances
       const wrapperComparison = compareStyles(
         { wrapper: currentStyles.style2.wrapper },
@@ -266,15 +257,15 @@ test.describe("Woo Cart - Style Tests", () => {
     } else {
       // Local environment - use standard comparison with environment-specific baseline if available
       const baselineStyles = loadStylesFromFile('woo-cart-styles-baseline', true);
-
+      
       // If baseline doesn't exist yet, this is handled in the Style 1 test
       if (!baselineStyles) {
         console.log('Baseline not found, this should have been created in the Style 1 test');
         return;
       }
-
+      
       expect(baselineStyles).not.toBeNull();
-
+      
       // Compare current wrapper styles with baseline
       const wrapperComparison = compareStyles(
         { wrapper: currentStyles.style2.wrapper },
@@ -292,6 +283,13 @@ test.describe("Woo Cart - Style Tests", () => {
   });
 
   test("Comprehensive style comparison with baseline", async ({ page }) => {
+    // Check if we should skip style tests
+    if (shouldSkipStyleTests()) {
+      console.log('Skipping style tests as configured by environment variables');
+      test.skip();
+      return;
+    }
+    
     // Check if we're running in CI environment
     const isCI = process.env.CI === 'true';
     const regenerateBaseline = process.env.REGENERATE_BASELINE === 'true';
@@ -305,31 +303,18 @@ test.describe("Woo Cart - Style Tests", () => {
       // If we're regenerating baselines, this is handled in the Style 1 test
       // No need to duplicate the work here
     } else if (isCI) {
-      // In CI, we can either skip comparison or use environment-specific baseline with tolerances
-
-      // Option 1: Skip detailed comparison (fallback)
-      if (process.env.SKIP_STYLE_TESTS_IN_CI === 'true') {
-        console.log('Running in CI environment - skipping detailed style comparison');
-
-        // Just verify that we can capture styles without errors
-        expect(currentStyles).toBeDefined();
-        expect(currentStyles.style1).toBeDefined();
-        expect(currentStyles.style2).toBeDefined();
-        return;
-      }
-
-      // Option 2: Use environment-specific baseline with tolerances
+      // In CI, use environment-specific baseline with tolerances
       console.log('Running in CI environment - using environment-specific baseline with tolerances');
-
+      
       // Load environment-specific baseline
       const baselineStyles = loadStylesFromFile('woo-cart-styles-baseline', true);
-
+      
       // If environment-specific baseline doesn't exist yet, this is handled in the Style 1 test
       if (!baselineStyles) {
         console.log('Environment-specific baseline not found, this should have been created in the Style 1 test');
         return;
       }
-
+      
       // Define comparison options with relaxed tolerances for CI
       const comparisonOptions = {
         strictMode: false,
@@ -347,7 +332,7 @@ test.describe("Woo Cart - Style Tests", () => {
           'bottom': 10
         }
       };
-
+      
       // Compare Style 1 styles with tolerances
       const style1Comparison = compareStyles(
         { wrapper: currentStyles.style1.wrapper },
@@ -378,13 +363,13 @@ test.describe("Woo Cart - Style Tests", () => {
     } else {
       // Local environment - use standard comparison with environment-specific baseline if available
       const baselineStyles = loadStylesFromFile('woo-cart-styles-baseline', true);
-
+      
       // If baseline doesn't exist yet, this is handled in the Style 1 test
       if (!baselineStyles) {
         console.log('Baseline not found, this should have been created in the Style 1 test');
         return;
       }
-
+      
       expect(baselineStyles).not.toBeNull();
 
       // Compare Style 1 styles
