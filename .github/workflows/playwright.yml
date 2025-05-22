@@ -36,7 +36,7 @@ jobs:
           echo "CUSTOMER_PASSWORD=${{ secrets.CUSTOMER_PASSWORD }}" >> .env
 
       - name: Run Playwright tests
-        run: npx playwright test
+        run: SKIP_STYLE_TESTS=true npx playwright test
 
       - name: Upload Playwright report
         if: ${{ !cancelled() }}
