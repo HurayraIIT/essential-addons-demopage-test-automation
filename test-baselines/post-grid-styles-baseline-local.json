@@ -1,0 +1,80 @@
+{
+  "gridDefault": {
+    "display": "block",
+    "position": "static",
+    "width": "290px",
+    "margin": "0px",
+    "padding": "10px",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "boxShadow": "none",
+    "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen-Sans, Ubuntu, Cantarell, \"Helvetica Neue\", sans-serif",
+    "fontSize": "16px",
+    "color": "rgb(54, 65, 81)"
+  },
+  "gridTwo": {
+    "display": "block",
+    "position": "static",
+    "width": "290px",
+    "margin": "0px",
+    "padding": "10px",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "boxShadow": "none",
+    "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen-Sans, Ubuntu, Cantarell, \"Helvetica Neue\", sans-serif",
+    "fontSize": "16px",
+    "color": "rgb(54, 65, 81)"
+  },
+  "gridThree": {
+    "display": "block",
+    "position": "static",
+    "width": "290px",
+    "margin": "0px",
+    "padding": "10px",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "boxShadow": "none",
+    "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen-Sans, Ubuntu, Cantarell, \"Helvetica Neue\", sans-serif",
+    "fontSize": "16px",
+    "color": "rgb(54, 65, 81)"
+  },
+  "masonryDefault": {
+    "display": "block",
+    "position": "static",
+    "width": "290px",
+    "margin": "0px",
+    "padding": "10px",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "boxShadow": "none",
+    "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen-Sans, Ubuntu, Cantarell, \"Helvetica Neue\", sans-serif",
+    "fontSize": "16px",
+    "color": "rgb(54, 65, 81)"
+  },
+  "masonryTwo": {
+    "display": "block",
+    "position": "static",
+    "width": "290px",
+    "margin": "0px",
+    "padding": "10px",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "boxShadow": "none",
+    "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen-Sans, Ubuntu, Cantarell, \"Helvetica Neue\", sans-serif",
+    "fontSize": "16px",
+    "color": "rgb(54, 65, 81)"
+  },
+  "masonryThree": {
+    "display": "block",
+    "position": "static",
+    "width": "290px",
+    "margin": "0px",
+    "padding": "10px",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "borderRadius": "0px",
+    "boxShadow": "none",
+    "fontFamily": "-apple-system, \"system-ui\", \"Segoe UI\", Roboto, Oxygen-Sans, Ubuntu, Cantarell, \"Helvetica Neue\", sans-serif",
+    "fontSize": "16px",
+    "color": "rgb(54, 65, 81)"
+  }
+}
