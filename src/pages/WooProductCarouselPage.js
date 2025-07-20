@@ -11,90 +11,90 @@ export default class WooProductCarouselPage {
     this.page = page;
     this.url = 'https://eael.wpqa.site/woocommerce-elements/woo-product-carousel/';
 
-    // Preset 1 Section
-    this.preset1Section = this.page.locator('.eael-woo-product-carousel-container.preset-1');
+    // Preset 1 Section - Use specific data-widget-id to avoid conflicts
+    this.preset1Section = this.page.locator('[data-widget-id="b5275d0"]');
     this.preset1Products = {
       ecoZenChair: {
-        container: this.preset1Section.locator('.eael-product-title:has-text("EcoZen Lounge Comfy Chair")'),
-        image: this.preset1Section.locator('img[alt="EcoZen Lounge Comfy Chair"]'),
-        price: this.preset1Section.locator('.eael-product-title:has-text("EcoZen Lounge Comfy Chair")').locator('xpath=../../..').locator('.eael-product-price'),
-        actionButton: this.preset1Section.locator('.add-to-cart a[aria-label*="EcoZen Lounge Comfy Chair"]'),
+        container: this.preset1Section.locator('.eael-product-title:has-text("EcoZen Lounge Comfy Chair")').first(),
+        image: this.preset1Section.locator('img[alt="EcoZen Lounge Comfy Chair"]').first(),
+        price: this.preset1Section.locator('.eael-product-title:has-text("EcoZen Lounge Comfy Chair")').locator('xpath=../../..').locator('.eael-product-price').first(),
+        actionButton: this.preset1Section.locator('a[aria-label*="Add to cart"]').first(),
       },
       saguaroChair: {
-        container: this.preset1Section.locator('.eael-product-title:has-text("Saguaro with Wooden stand")'),
-        image: this.preset1Section.locator('img[alt="Saguaro with Wooden stand"]'),
-        price: this.preset1Section.locator('.eael-product-title:has-text("Saguaro with Wooden stand")').locator('xpath=../../..').locator('.eael-product-price'),
-        actionButton: this.preset1Section.locator('.add-to-cart a[aria-label*="Saguaro with Wooden stand"]'),
+        container: this.preset1Section.locator('.eael-product-title:has-text("Saguaro with Wooden stand")').first(),
+        image: this.preset1Section.locator('img[alt="Saguaro with Wooden stand"]').first(),
+        price: this.preset1Section.locator('.eael-product-title:has-text("Saguaro with Wooden stand")').locator('xpath=../../..').locator('.eael-product-price').first(),
+        actionButton: this.preset1Section.locator('a[aria-label*="Add to cart"]').nth(1),
       },
       woodlandChair: {
-        container: this.preset1Section.locator('.eael-product-title:has-text("Woodland Bliss Lounge Chair")'),
-        image: this.preset1Section.locator('img[alt="Woodland Bliss Lounge Chair"]'),
-        price: this.preset1Section.locator('.eael-product-title:has-text("Woodland Bliss Lounge Chair")').locator('xpath=../../..').locator('.eael-product-price'),
-        actionButton: this.preset1Section.locator('.add-to-cart a[aria-label*="Woodland Bliss Lounge Chair"]'),
+        container: this.preset1Section.locator('.eael-product-title:has-text("Woodland Bliss Lounge Chair")').first(),
+        image: this.preset1Section.locator('img[alt="Woodland Bliss Lounge Chair"]').first(),
+        price: this.preset1Section.locator('.eael-product-title:has-text("Woodland Bliss Lounge Chair")').locator('xpath=../../..').locator('.eael-product-price').first(),
+        actionButton: this.preset1Section.locator('a[aria-label*="Add to cart"]').nth(2),
       },
       menSneakers: {
-        container: this.preset1Section.locator('.eael-product-title:has-text("Men Casual Sport Shoes Light Sneakers")'),
-        image: this.preset1Section.locator('img[alt="Men Casual Sport Shoes Light Sneakers"]'),
-        price: this.preset1Section.locator('.eael-product-title:has-text("Men Casual Sport Shoes Light Sneakers")').locator('xpath=../../..').locator('.eael-product-price'),
-        actionButton: this.preset1Section.locator('.add-to-cart a[aria-label*="Men Casual Sport Shoes Light Sneakers"]'),
+        container: this.preset1Section.locator('.eael-product-title:has-text("Men Casual Sport Shoes Light Sneakers")').first(),
+        image: this.preset1Section.locator('img[alt="Men Casual Sport Shoes Light Sneakers"]').first(),
+        price: this.preset1Section.locator('.eael-product-title:has-text("Men Casual Sport Shoes Light Sneakers")').locator('xpath=../../..').locator('.eael-product-price').first(),
+        actionButton: this.preset1Section.locator('a[aria-label*="Add to cart"]').nth(3),
       },
     };
 
-    // Preset 3 Section
-    this.preset3Section = this.page.locator('.eael-woo-product-carousel-container.preset-3');
+    // Preset 3 Section - Use specific data-widget-id to avoid conflicts (contains Hurayra Automation products)
+    this.preset3Section = this.page.locator('[data-widget-id="98be735"]');
     this.preset3Products = {
-      ecoZenChair: {
-        container: this.preset3Section.locator('.eael-product-title:has-text("EcoZen Lounge Comfy Chair")'),
-        image: this.preset3Section.locator('img[alt="EcoZen Lounge Comfy Chair"]'),
-        price: this.preset3Section.locator('.eael-product-title:has-text("EcoZen Lounge Comfy Chair")').locator('xpath=../../..').locator('.eael-product-price'),
-        actionButton: this.preset3Section.locator('.add-to-cart a[aria-label*="EcoZen Lounge Comfy Chair"]'),
+      product00: {
+        container: this.preset3Section.locator('.eael-product-title:has-text("Hurayra Automation Product 00")').first(),
+        image: this.preset3Section.locator('img[alt*="Hurayra Automation Product 00"]').first(),
+        price: this.preset3Section.locator('.eael-product-title:has-text("Hurayra Automation Product 00")').locator('xpath=../../..').locator('.eael-product-price').first(),
+        actionButton: this.preset3Section.locator('.eael-product-title:has-text("Hurayra Automation Product 00")').locator('xpath=../../..').locator('a[aria-label*="Add to cart"]').first(),
       },
-      saguaroChair: {
-        container: this.preset3Section.locator('.eael-product-title:has-text("Saguaro with Wooden stand")'),
-        image: this.preset3Section.locator('img[alt="Saguaro with Wooden stand"]'),
-        price: this.preset3Section.locator('.eael-product-title:has-text("Saguaro with Wooden stand")').locator('xpath=../../..').locator('.eael-product-price'),
-        actionButton: this.preset3Section.locator('.add-to-cart a[aria-label*="Saguaro with Wooden stand"]'),
+      product01: {
+        container: this.preset3Section.locator('.eael-product-title:has-text("Hurayra Automation Product 01")').first(),
+        image: this.preset3Section.locator('img[alt*="Hurayra Automation Product 01"]').first(),
+        price: this.preset3Section.locator('.eael-product-title:has-text("Hurayra Automation Product 01")').locator('xpath=../../..').locator('.eael-product-price').first(),
+        actionButton: this.preset3Section.locator('.eael-product-title:has-text("Hurayra Automation Product 01")').locator('xpath=../../..').locator('a[aria-label*="Add to cart"]').first(),
       },
-      woodlandChair: {
-        container: this.preset3Section.locator('.eael-product-title:has-text("Woodland Bliss Lounge Chair")'),
-        image: this.preset3Section.locator('img[alt="Woodland Bliss Lounge Chair"]'),
-        price: this.preset3Section.locator('.eael-product-title:has-text("Woodland Bliss Lounge Chair")').locator('xpath=../../..').locator('.eael-product-price'),
-        actionButton: this.preset3Section.locator('.add-to-cart a[aria-label*="Woodland Bliss Lounge Chair"]'),
+      product02: {
+        container: this.preset3Section.locator('.eael-product-title:has-text("Hurayra Automation Product 02")').first(),
+        image: this.preset3Section.locator('img[alt*="Hurayra Automation Product 02"]').first(),
+        price: this.preset3Section.locator('.eael-product-title:has-text("Hurayra Automation Product 02")').locator('xpath=../../..').locator('.eael-product-price').first(),
+        actionButton: this.preset3Section.locator('.eael-product-title:has-text("Hurayra Automation Product 02")').locator('xpath=../../..').locator('a[aria-label*="Add to cart"]').first(),
       },
-      menSneakers: {
-        container: this.preset3Section.locator('.eael-product-title:has-text("Men Casual Sport Shoes Light Sneakers")'),
-        image: this.preset3Section.locator('img[alt="Men Casual Sport Shoes Light Sneakers"]'),
-        price: this.preset3Section.locator('.eael-product-title:has-text("Men Casual Sport Shoes Light Sneakers")').locator('xpath=../../..').locator('.eael-product-price'),
-        actionButton: this.preset3Section.locator('.add-to-cart a[aria-label*="Men Casual Sport Shoes Light Sneakers"]'),
+      product03: {
+        container: this.preset3Section.locator('.eael-product-title:has-text("Hurayra Automation Product 03")').first(),
+        image: this.preset3Section.locator('img[alt*="Hurayra Automation Product 03"]').first(),
+        price: this.preset3Section.locator('.eael-product-title:has-text("Hurayra Automation Product 03")').locator('xpath=../../..').locator('.eael-product-price').first(),
+        actionButton: this.preset3Section.locator('.eael-product-title:has-text("Hurayra Automation Product 03")').locator('xpath=../../..').locator('a[aria-label*="Add to cart"]').first(),
       },
     };
 
-    // Preset 4 Section
-    this.preset4Section = this.page.locator('.eael-woo-product-carousel-container.preset-4');
+    // Preset 4 Section - Use specific data-widget-id to avoid conflicts (contains Hurayra Automation products)
+    this.preset4Section = this.page.locator('[data-widget-id="6af7aca"]');
     this.preset4Products = {
-      ecoZenChair: {
-        container: this.preset4Section.locator('.eael-product-title:has-text("EcoZen Lounge Comfy Chair")'),
-        image: this.preset4Section.locator('img[alt="EcoZen Lounge Comfy Chair"]'),
-        price: this.preset4Section.locator('.eael-product-title:has-text("EcoZen Lounge Comfy Chair")').locator('xpath=../../..').locator('.eael-product-price'),
-        actionButton: this.preset4Section.locator('.add-to-cart a[aria-label*="EcoZen Lounge Comfy Chair"]'),
+      product01: {
+        container: this.preset4Section.locator('.eael-product-title:has-text("Hurayra Automation Product 01")').first(),
+        image: this.preset4Section.locator('img[alt*="Hurayra Automation Product 01"]').first(),
+        price: this.preset4Section.locator('.eael-product-title:has-text("Hurayra Automation Product 01")').locator('xpath=../../..').locator('.eael-product-price').first(),
+        actionButton: this.preset4Section.locator('.eael-product-title:has-text("Hurayra Automation Product 01")').locator('xpath=../../..').locator('a[aria-label*="Add to cart"]').first(),
       },
-      saguaroChair: {
-        container: this.preset4Section.locator('.eael-product-title:has-text("Saguaro with Wooden stand")'),
-        image: this.preset4Section.locator('img[alt="Saguaro with Wooden stand"]'),
-        price: this.preset4Section.locator('.eael-product-title:has-text("Saguaro with Wooden stand")').locator('xpath=../../..').locator('.eael-product-price'),
-        actionButton: this.preset4Section.locator('.add-to-cart a[aria-label*="Saguaro with Wooden stand"]'),
+      product02: {
+        container: this.preset4Section.locator('.eael-product-title:has-text("Hurayra Automation Product 02")').first(),
+        image: this.preset4Section.locator('img[alt*="Hurayra Automation Product 02"]').first(),
+        price: this.preset4Section.locator('.eael-product-title:has-text("Hurayra Automation Product 02")').locator('xpath=../../..').locator('.eael-product-price').first(),
+        actionButton: this.preset4Section.locator('.eael-product-title:has-text("Hurayra Automation Product 02")').locator('xpath=../../..').locator('a[aria-label*="Add to cart"]').first(),
       },
-      woodlandChair: {
-        container: this.preset4Section.locator('.eael-product-title:has-text("Woodland Bliss Lounge Chair")'),
-        image: this.preset4Section.locator('img[alt="Woodland Bliss Lounge Chair"]'),
-        price: this.preset4Section.locator('.eael-product-title:has-text("Woodland Bliss Lounge Chair")').locator('xpath=../../..').locator('.eael-product-price'),
-        actionButton: this.preset4Section.locator('.add-to-cart a[aria-label*="Woodland Bliss Lounge Chair"]'),
+      product03: {
+        container: this.preset4Section.locator('.eael-product-title:has-text("Hurayra Automation Product 03")').first(),
+        image: this.preset4Section.locator('img[alt*="Hurayra Automation Product 03"]').first(),
+        price: this.preset4Section.locator('.eael-product-title:has-text("Hurayra Automation Product 03")').locator('xpath=../../..').locator('.eael-product-price').first(),
+        actionButton: this.preset4Section.locator('.eael-product-title:has-text("Hurayra Automation Product 03")').locator('xpath=../../..').locator('a[aria-label*="Add to cart"]').first(),
       },
-      menSneakers: {
-        container: this.preset4Section.locator('.eael-product-title:has-text("Men Casual Sport Shoes Light Sneakers")'),
-        image: this.preset4Section.locator('img[alt="Men Casual Sport Shoes Light Sneakers"]'),
-        price: this.preset4Section.locator('.eael-product-title:has-text("Men Casual Sport Shoes Light Sneakers")').locator('xpath=../../..').locator('.eael-product-price'),
-        actionButton: this.preset4Section.locator('.add-to-cart a[aria-label*="Men Casual Sport Shoes Light Sneakers"]'),
+      product04: {
+        container: this.preset4Section.locator('.eael-product-title:has-text("Hurayra Automation Product 04")').first(),
+        image: this.preset4Section.locator('img[alt*="Hurayra Automation Product 04"]').first(),
+        price: this.preset4Section.locator('.eael-product-title:has-text("Hurayra Automation Product 04")').locator('xpath=../../..').locator('.eael-product-price').first(),
+        actionButton: this.preset4Section.locator('.eael-product-title:has-text("Hurayra Automation Product 04")').locator('xpath=../../..').locator('a[aria-label*="Add to cart"]').first(),
       },
     };
 
@@ -109,33 +109,33 @@ export default class WooProductCarouselPage {
       preset => this.page.getByRole('heading', { name: preset, exact: true })
     );
     this.automationPresetProducts = [
-      // Preset One
+      // Preset One - Use specific data-widget-id
       {
-        product00: this.page.locator('section:has-text("Hurayra Automation 241212 Preset One") .eael-product-carousel-item:has-text("Hurayra Automation Product 00")'),
-        product01: this.page.locator('section:has-text("Hurayra Automation 241212 Preset One") .eael-product-carousel-item:has-text("Hurayra Automation Product 01")'),
-        product02: this.page.locator('section:has-text("Hurayra Automation 241212 Preset One") .eael-product-carousel-item:has-text("Hurayra Automation Product 02")'),
-        product03: this.page.locator('section:has-text("Hurayra Automation 241212 Preset One") .eael-product-carousel-item:has-text("Hurayra Automation Product 03")'),
+        product00: this.page.locator('[data-widget-id="4cd20f3"] .eael-product-carousel-item:has-text("Hurayra Automation Product 00")').first(),
+        product01: this.page.locator('[data-widget-id="4cd20f3"] .eael-product-carousel-item:has-text("Hurayra Automation Product 01")').first(),
+        product02: this.page.locator('[data-widget-id="4cd20f3"] .eael-product-carousel-item:has-text("Hurayra Automation Product 02")').first(),
+        product03: this.page.locator('[data-widget-id="4cd20f3"] .eael-product-carousel-item:has-text("Hurayra Automation Product 03")').first(),
       },
-      // Preset Two
+      // Preset Two - Use specific data-widget-id
       {
-        product04: this.page.locator('section:has-text("Hurayra Automation 241212 Preset Two") .eael-product-carousel-item:has-text("Hurayra Automation Product 04")'),
-        product03: this.page.locator('section:has-text("Hurayra Automation 241212 Preset Two") .eael-product-carousel-item:has-text("Hurayra Automation Product 03")'),
-        product02: this.page.locator('section:has-text("Hurayra Automation 241212 Preset Two") .eael-product-carousel-item:has-text("Hurayra Automation Product 02")'),
-        product01: this.page.locator('section:has-text("Hurayra Automation 241212 Preset Two") .eael-product-carousel-item:has-text("Hurayra Automation Product 01")'),
+        product04: this.page.locator('[data-widget-id="078d89d"] .eael-product-carousel-item:has-text("Hurayra Automation Product 04")').first(),
+        product03: this.page.locator('[data-widget-id="078d89d"] .eael-product-carousel-item:has-text("Hurayra Automation Product 03")').first(),
+        product02: this.page.locator('[data-widget-id="078d89d"] .eael-product-carousel-item:has-text("Hurayra Automation Product 02")').first(),
+        product01: this.page.locator('[data-widget-id="078d89d"] .eael-product-carousel-item:has-text("Hurayra Automation Product 01")').first(),
       },
-      // Preset Three
+      // Preset Three - Use specific data-widget-id
       {
-        product00: this.page.locator('section:has-text("Hurayra Automation 241212 Preset Three") .eael-product-carousel-item:has-text("Hurayra Automation Product 00")'),
-        product01: this.page.locator('section:has-text("Hurayra Automation 241212 Preset Three") .eael-product-carousel-item:has-text("Hurayra Automation Product 01")'),
-        product02: this.page.locator('section:has-text("Hurayra Automation 241212 Preset Three") .eael-product-carousel-item:has-text("Hurayra Automation Product 02")'),
-        product03: this.page.locator('section:has-text("Hurayra Automation 241212 Preset Three") .eael-product-carousel-item:has-text("Hurayra Automation Product 03")'),
+        product00: this.page.locator('[data-widget-id="98be735"] .eael-product-carousel-item:has-text("Hurayra Automation Product 00")').first(),
+        product01: this.page.locator('[data-widget-id="98be735"] .eael-product-carousel-item:has-text("Hurayra Automation Product 01")').first(),
+        product02: this.page.locator('[data-widget-id="98be735"] .eael-product-carousel-item:has-text("Hurayra Automation Product 02")').first(),
+        product03: this.page.locator('[data-widget-id="98be735"] .eael-product-carousel-item:has-text("Hurayra Automation Product 03")').first(),
       },
-      // Preset Four
+      // Preset Four - Use specific data-widget-id
       {
-        product04: this.page.locator('section:has-text("Hurayra Automation 241212 Preset Four") .eael-product-carousel-item:has-text("Hurayra Automation Product 04")'),
-        product03: this.page.locator('section:has-text("Hurayra Automation 241212 Preset Four") .eael-product-carousel-item:has-text("Hurayra Automation Product 03")'),
-        product02: this.page.locator('section:has-text("Hurayra Automation 241212 Preset Four") .eael-product-carousel-item:has-text("Hurayra Automation Product 02")'),
-        product01: this.page.locator('section:has-text("Hurayra Automation 241212 Preset Four") .eael-product-carousel-item:has-text("Hurayra Automation Product 01")'),
+        product04: this.page.locator('[data-widget-id="6af7aca"] .eael-product-carousel-item:has-text("Hurayra Automation Product 04")').first(),
+        product03: this.page.locator('[data-widget-id="6af7aca"] .eael-product-carousel-item:has-text("Hurayra Automation Product 03")').first(),
+        product02: this.page.locator('[data-widget-id="6af7aca"] .eael-product-carousel-item:has-text("Hurayra Automation Product 02")').first(),
+        product01: this.page.locator('[data-widget-id="6af7aca"] .eael-product-carousel-item:has-text("Hurayra Automation Product 01")').first(),
       },
     ];
   }
@@ -188,27 +188,27 @@ export default class WooProductCarouselPage {
   }
 
   async isPreset3ProductVisible(productName) {
-    if (productName === 'EcoZen Lounge Comfy Chair') {
-      return await this.preset3Products.ecoZenChair.container.isVisible();
-    } else if (productName === 'Saguaro with Wooden stand') {
-      return await this.preset3Products.saguaroChair.container.isVisible();
-    } else if (productName === 'Woodland Bliss Lounge Chair') {
-      return await this.preset3Products.woodlandChair.container.isVisible();
-    } else if (productName === 'Men Casual Sport Shoes Light Sneakers') {
-      return await this.preset3Products.menSneakers.container.isVisible();
+    if (productName === 'Hurayra Automation Product 00') {
+      return await this.preset3Products.product00.container.isVisible();
+    } else if (productName === 'Hurayra Automation Product 01') {
+      return await this.preset3Products.product01.container.isVisible();
+    } else if (productName === 'Hurayra Automation Product 02') {
+      return await this.preset3Products.product02.container.isVisible();
+    } else if (productName === 'Hurayra Automation Product 03') {
+      return await this.preset3Products.product03.container.isVisible();
     }
     return false;
   }
 
   async isPreset4ProductVisible(productName) {
-    if (productName === 'EcoZen Lounge Comfy Chair') {
-      return await this.preset4Products.ecoZenChair.container.isVisible();
-    } else if (productName === 'Saguaro with Wooden stand') {
-      return await this.preset4Products.saguaroChair.container.isVisible();
-    } else if (productName === 'Woodland Bliss Lounge Chair') {
-      return await this.preset4Products.woodlandChair.container.isVisible();
-    } else if (productName === 'Men Casual Sport Shoes Light Sneakers') {
-      return await this.preset4Products.menSneakers.container.isVisible();
+    if (productName === 'Hurayra Automation Product 01') {
+      return await this.preset4Products.product01.container.isVisible();
+    } else if (productName === 'Hurayra Automation Product 02') {
+      return await this.preset4Products.product02.container.isVisible();
+    } else if (productName === 'Hurayra Automation Product 03') {
+      return await this.preset4Products.product03.container.isVisible();
+    } else if (productName === 'Hurayra Automation Product 04') {
+      return await this.preset4Products.product04.container.isVisible();
     }
     return false;
   }
@@ -275,40 +275,40 @@ export default class WooProductCarouselPage {
   // Preset 3
   async isPreset3ProductImageVisible(productName) {
     const product = this.preset3Products;
-    if (productName === 'EcoZen Lounge Comfy Chair') {
-      return await product.ecoZenChair.image.isVisible();
-    } else if (productName === 'Saguaro with Wooden stand') {
-      return await product.saguaroChair.image.isVisible();
-    } else if (productName === 'Woodland Bliss Lounge Chair') {
-      return await product.woodlandChair.image.isVisible();
-    } else if (productName === 'Men Casual Sport Shoes Light Sneakers') {
-      return await product.menSneakers.image.isVisible();
+    if (productName === 'Hurayra Automation Product 00') {
+      return await product.product00.image.isVisible();
+    } else if (productName === 'Hurayra Automation Product 01') {
+      return await product.product01.image.isVisible();
+    } else if (productName === 'Hurayra Automation Product 02') {
+      return await product.product02.image.isVisible();
+    } else if (productName === 'Hurayra Automation Product 03') {
+      return await product.product03.image.isVisible();
     }
     return false;
   }
   async isPreset3ProductPriceVisible(productName) {
     const product = this.preset3Products;
-    if (productName === 'EcoZen Lounge Comfy Chair') {
-      return await product.ecoZenChair.price.isVisible();
-    } else if (productName === 'Saguaro with Wooden stand') {
-      return await product.saguaroChair.price.isVisible();
-    } else if (productName === 'Woodland Bliss Lounge Chair') {
-      return await product.woodlandChair.price.isVisible();
-    } else if (productName === 'Men Casual Sport Shoes Light Sneakers') {
-      return await product.menSneakers.price.isVisible();
+    if (productName === 'Hurayra Automation Product 00') {
+      return await product.product00.price.isVisible();
+    } else if (productName === 'Hurayra Automation Product 01') {
+      return await product.product01.price.isVisible();
+    } else if (productName === 'Hurayra Automation Product 02') {
+      return await product.product02.price.isVisible();
+    } else if (productName === 'Hurayra Automation Product 03') {
+      return await product.product03.price.isVisible();
     }
     return false;
   }
   async isPreset3ProductActionButtonVisible(productName) {
     const product = this.preset3Products;
-    if (productName === 'EcoZen Lounge Comfy Chair') {
-      return await product.ecoZenChair.actionButton.isVisible();
-    } else if (productName === 'Saguaro with Wooden stand') {
-      return await product.saguaroChair.actionButton.isVisible();
-    } else if (productName === 'Woodland Bliss Lounge Chair') {
-      return await product.woodlandChair.actionButton.isVisible();
-    } else if (productName === 'Men Casual Sport Shoes Light Sneakers') {
-      return await product.menSneakers.actionButton.isVisible();
+    if (productName === 'Hurayra Automation Product 00') {
+      return await product.product00.actionButton.isVisible();
+    } else if (productName === 'Hurayra Automation Product 01') {
+      return await product.product01.actionButton.isVisible();
+    } else if (productName === 'Hurayra Automation Product 02') {
+      return await product.product02.actionButton.isVisible();
+    } else if (productName === 'Hurayra Automation Product 03') {
+      return await product.product03.actionButton.isVisible();
     }
     return false;
   }
@@ -316,40 +316,40 @@ export default class WooProductCarouselPage {
   // Preset 4
   async isPreset4ProductImageVisible(productName) {
     const product = this.preset4Products;
-    if (productName === 'EcoZen Lounge Comfy Chair') {
-      return await product.ecoZenChair.image.isVisible();
-    } else if (productName === 'Saguaro with Wooden stand') {
-      return await product.saguaroChair.image.isVisible();
-    } else if (productName === 'Woodland Bliss Lounge Chair') {
-      return await product.woodlandChair.image.isVisible();
-    } else if (productName === 'Men Casual Sport Shoes Light Sneakers') {
-      return await product.menSneakers.image.isVisible();
+    if (productName === 'Hurayra Automation Product 01') {
+      return await product.product01.image.isVisible();
+    } else if (productName === 'Hurayra Automation Product 02') {
+      return await product.product02.image.isVisible();
+    } else if (productName === 'Hurayra Automation Product 03') {
+      return await product.product03.image.isVisible();
+    } else if (productName === 'Hurayra Automation Product 04') {
+      return await product.product04.image.isVisible();
     }
     return false;
   }
   async isPreset4ProductPriceVisible(productName) {
     const product = this.preset4Products;
-    if (productName === 'EcoZen Lounge Comfy Chair') {
-      return await product.ecoZenChair.price.isVisible();
-    } else if (productName === 'Saguaro with Wooden stand') {
-      return await product.saguaroChair.price.isVisible();
-    } else if (productName === 'Woodland Bliss Lounge Chair') {
-      return await product.woodlandChair.price.isVisible();
-    } else if (productName === 'Men Casual Sport Shoes Light Sneakers') {
-      return await product.menSneakers.price.isVisible();
+    if (productName === 'Hurayra Automation Product 01') {
+      return await product.product01.price.isVisible();
+    } else if (productName === 'Hurayra Automation Product 02') {
+      return await product.product02.price.isVisible();
+    } else if (productName === 'Hurayra Automation Product 03') {
+      return await product.product03.price.isVisible();
+    } else if (productName === 'Hurayra Automation Product 04') {
+      return await product.product04.price.isVisible();
     }
     return false;
   }
   async isPreset4ProductActionButtonVisible(productName) {
     const product = this.preset4Products;
-    if (productName === 'EcoZen Lounge Comfy Chair') {
-      return await product.ecoZenChair.actionButton.isVisible();
-    } else if (productName === 'Saguaro with Wooden stand') {
-      return await product.saguaroChair.actionButton.isVisible();
-    } else if (productName === 'Woodland Bliss Lounge Chair') {
-      return await product.woodlandChair.actionButton.isVisible();
-    } else if (productName === 'Men Casual Sport Shoes Light Sneakers') {
-      return await product.menSneakers.actionButton.isVisible();
+    if (productName === 'Hurayra Automation Product 01') {
+      return await product.product01.actionButton.isVisible();
+    } else if (productName === 'Hurayra Automation Product 02') {
+      return await product.product02.actionButton.isVisible();
+    } else if (productName === 'Hurayra Automation Product 03') {
+      return await product.product03.actionButton.isVisible();
+    } else if (productName === 'Hurayra Automation Product 04') {
+      return await product.product04.actionButton.isVisible();
     }
     return false;
   }
