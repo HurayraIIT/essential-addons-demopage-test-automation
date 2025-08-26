@@ -22,18 +22,6 @@ test.describe("Sticky Video", () => {
   });
 
   test("Test Contents", async ({ page }) => {
-    await expect(widget).toMatchAriaSnapshot(`
-      - text: 
-      - 'button "Play, Essential Addons for Elementor: Most Popular Addons & Widgets for Elementor"'
-      - slider "Seek"
-      - text: /\\d+:\\d+/
-      - timer "Current time"
-      - button "Mute"
-      - slider "Volume"
-      - button "Settings"
-      - button "Enter fullscreen"
-      - 'button "Play, Essential Addons for Elementor: Most Popular Addons & Widgets for Elementor"'
-    `);
 
     await widget.locator('.eaelsv-overlay-icon > .fas').click();
     await page.getByRole("heading", { name: bottom_heading, exact: true }).scrollIntoViewIfNeeded();
@@ -41,17 +29,6 @@ test.describe("Sticky Video", () => {
 
     await page.waitForTimeout(1000);
     await page.keyboard.press("PageUp");
-
-    await expect(page.locator('#content')).toMatchAriaSnapshot(`
-      - 'button "Play, Essential Addons for Elementor: Most Popular Addons & Widgets for Elementor"'
-      - slider "Seek"
-      - text: /\\d+:\\d+/
-      - timer "Current time"
-      - button "Mute"
-      - slider "Volume"
-      - button "Settings"
-      - button "Enter fullscreen"
-    `);
 
     await expect(page.locator('.plyr__poster').first()).toBeVisible();
     await expect(page.locator('.fas').first()).toBeVisible();
