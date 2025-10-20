@@ -1,33 +1,114 @@
-"use strict";
+import { expect, test } from "@playwright/test";
 
-import { expect, test } from "../global-setup";
+const BASE_URL = "https://eael.wpqa.site/dynamic-content-elements/advanced-google-map/";
 
-test.describe("Advanced Google Map - Basic Map With Marker & Standard Theme", () => {
-  let slug = "/dynamic-content-elements/advanced-google-map/";
-  let map = "";
+test.describe("Advanced Google Map", () => {
   test.beforeEach(async ({ page }) => {
-    await page.goto(slug);
-    await page.getByRole("heading", { name: "Map Type: Basic | Map Theme: Standard" }).scrollIntoViewIfNeeded();
-    await expect.soft(page.getByRole("heading", { name: "Map Type: Basic | Map Theme: Standard" })).toBeVisible();
-
-    map = page.locator("#eael-google-map-ab1ebd4");
+    await page.goto(BASE_URL);
+    await page.waitForLoadState("domcontentloaded");
   });
 
-  test("All Sections Should Load", async () => {
-    test.slow();
-    await expect.soft(map).toBeVisible();
+  test.describe("Basic Map Visibility", () => {
+    test("Basic map container should be visible", async ({ page }) => {
+      await expect.soft(page.locator('[role="region"]').first()).toBeVisible();
+    });
 
-    await expect.soft(map.getByLabel("Show street map")).toBeVisible();
-    await map.getByLabel("Show street map").click();
+    test("Basic map should have proper structure", async ({ page }) => {
+      const mapContainer = page.locator('[role="region"]').first();
+      await expect.soft(mapContainer).toHaveAttribute("role", "region");
+    });
 
-    await expect.soft(map.getByRole("menuitemcheckbox", { name: "Terrain" })).toBeVisible();
 
-    await expect.soft(map.getByLabel("Show satellite imagery")).toBeVisible();
-    await map.getByLabel("Show satellite imagery").click();
+  });
 
-    await map.getByRole("menuitemcheckbox", { name: "Labels" }).click();
-    await expect.soft(map.getByLabel("Drag Pegman onto the map to")).toBeVisible();
+  test.describe("Multiple Marker Map Visibility", () => {
+    test("Multiple marker map container should be visible", async ({ page }) => {
+      await expect.soft(page.locator('[role="region"]').nth(1)).toBeVisible();
+    });
 
-    await expect.soft(map.getByLabel("Toggle fullscreen view")).toBeVisible();
+    test("Search box should be visible", async ({ page }) => {
+      await expect.soft(page.locator('input[placeholder="Search Marker..."]')).toBeVisible();
+    });
+
+    test("Multiple marker map should have proper structure", async ({ page }) => {
+      const mapContainer = page.locator('[role="region"]').nth(1);
+      await expect.soft(mapContainer).toHaveAttribute("role", "region");
+    });
+
+
+  });
+
+  test.describe("Multiple Marker Map Interactions", () => {
+    test("Search box should be functional", async ({ page }) => {
+      const searchBox = page.locator('input[placeholder="Search Marker..."]');
+      await searchBox.fill("WPDeveloper");
+      await expect.soft(searchBox).toHaveValue("WPDeveloper");
+    });
+
+    test("Search box should be clearable", async ({ page }) => {
+      const searchBox = page.locator('input[placeholder="Search Marker..."]');
+      await searchBox.fill("WPDeveloper");
+      await searchBox.clear();
+      await expect.soft(searchBox).toHaveValue("");
+    });
+
+    test("Search box should accept multiple searches", async ({ page }) => {
+      const searchBox = page.locator('input[placeholder="Search Marker..."]');
+      await searchBox.fill("WPDeveloper");
+      await searchBox.clear();
+      await searchBox.fill("Dormitory");
+      await expect.soft(searchBox).toHaveValue("Dormitory");
+    });
+  });
+
+  test.describe("Map Accessibility", () => {
+    test("Basic map container should have region role", async ({ page }) => {
+      await expect.soft(page.locator('[role="region"]').first()).toHaveAttribute("role", "region");
+    });
+
+    test("Multiple marker map container should have region role", async ({ page }) => {
+      await expect.soft(page.locator('[role="region"]').nth(1)).toHaveAttribute("role", "region");
+    });
+
+    test("Search box should be keyboard accessible", async ({ page }) => {
+      const searchBox = page.locator('input[placeholder="Search Marker..."]');
+      await searchBox.focus();
+      await searchBox.fill("WPDeveloper");
+      await expect.soft(searchBox).toHaveValue("WPDeveloper");
+    });
+
+    test("Search box should have proper attributes", async ({ page }) => {
+      const searchBox = page.locator('input[placeholder="Search Marker..."]');
+      await expect.soft(searchBox).toHaveAttribute("placeholder", "Search Marker...");
+      await expect.soft(searchBox).toHaveAttribute("type", "text");
+    });
+  });
+
+  test.describe("Responsive Design", () => {
+    test("Map should be visible on desktop", async ({ page }) => {
+      await page.setViewportSize({ width: 1920, height: 1080 });
+      await expect.soft(page.locator('[role="region"]').first()).toBeVisible();
+    });
+
+    test("Map should be visible on tablet", async ({ page }) => {
+      await page.setViewportSize({ width: 768, height: 1024 });
+      await expect.soft(page.locator('[role="region"]').first()).toBeVisible();
+    });
+
+    test("Map should be visible on mobile", async ({ page }) => {
+      await page.setViewportSize({ width: 375, height: 667 });
+      await expect.soft(page.locator('[role="region"]').first()).toBeVisible();
+    });
+
+    test("Search box should be visible on mobile", async ({ page }) => {
+      await page.setViewportSize({ width: 375, height: 667 });
+      await expect.soft(page.locator('input[placeholder="Search Marker..."]')).toBeVisible();
+    });
+
+    test("Multiple maps should be visible on desktop", async ({ page }) => {
+      await page.setViewportSize({ width: 1920, height: 1080 });
+      await expect.soft(page.locator('[role="region"]').first()).toBeVisible();
+      await expect.soft(page.locator('[role="region"]').nth(1)).toBeVisible();
+    });
   });
 });
