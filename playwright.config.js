@@ -2,6 +2,7 @@
 import { defineConfig, devices } from '@playwright/test';
 import { config } from 'dotenv';
 import { test } from './global-setup';
+import { generateEnhancedLayout } from './scripts/slack-layout.js';
 
 config();
 
@@ -25,11 +26,13 @@ export default defineConfig({
           {
             slackWebHookUrl: process.env.SLACK_WEBHOOK_URL,
             sendResults: "always", // "always" , "on-failure", "off"
-            maxNumberOfFailuresToShow: 0,
+            layout: generateEnhancedLayout, // Use custom layout for enhanced formatting
+            showInThread: true, // Keep main channel clean, show failures in threads
+            maxNumberOfFailuresToShow: 5, // Limit to top 5 failures
             meta: [
               {
-                key: ":ea-n: Essential Addons Automation - Test Report",
-                value: "<https://ea-report.obayedmamur.com/ | 📂 Wait for 5 mins to see the report!>",
+                key: "Report",
+                value: "<https://ea-report.obayedmamur.com/ | 📂 View Full Report>",
               },
             ],
           },
